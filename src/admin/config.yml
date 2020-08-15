@@ -19,7 +19,7 @@ collections:
     slug: "{{date}}-{{slug}}"
     preview_path: "pages/{{slug}}"
     create: true
-    sortableFields: ['commit_date', 'title']
+    sortableFields: ['date','commit_date', 'title']
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
