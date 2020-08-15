@@ -45,7 +45,7 @@ Less than two weeks ago Respawn Entertainment, a studio that includes some of th
 
 <figure>
 
-![](https://mikeaparicio.com/img/apex-legends-selfie.jpg)
+![](/images/apex-legends-selfie.jpg)
 
 <figcaption>
 Characters from Apex Legends pose for a selfie before brutally murdering each other
@@ -68,8 +68,6 @@ Here's how a match of Fortnite or Apex Legends goes for me compared to how it go
 | Immediately murders 5-10 unsuspecting players before they know what hit them. | Runs around like an idiot hoping to find a weapon to defend himself against people who have limitless time to devote to the game. |
 | Gets to the middle of the circle and destroys people as they enter.           | Gets destroyed by the first player he encounters.                                                                                 |
 | Wins the match while making more money in 20 minutes than I make in a week.   | Sits in the lobby waiting to queue up for more humiliation.                                                                       |
-
-
 
 Unless you're highly skilled, you don't want to drop immediately next to other players during the initial scramble for loot. It's entirely possible to spend long stretches of time (5-10 minutes) without even seeing another player. And while this helps ramp up the tension, it doesn't help you get better at gunfights and it doesn't make for particularly compelling gameplay.
 
