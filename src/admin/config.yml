@@ -23,7 +23,7 @@ collections:
     view_filters:
       - label: "Posts this year"
         field: date
-        pattern: {{year}}
+        pattern: 2020
       - label: "Drafts"
         field: draft
         pattern: true
