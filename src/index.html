@@ -3,41 +3,39 @@ title: 'Mike Aparicio'
 layout: 'layouts/home.html'
 ---
 
-<main class="container">
-  <figure class="hero">
-    <svg><use xlink:href="#icon-ma-face"></use></svg>
-    <figcaption>
-      <p>Hi! I'm <strong>Mike Aparicio</strong>, a Chicago-based web developer interested in helping companies large and small improve collaboration between design and engineering through the use of design systems.</p>
-    </figcaption>
+<figure class="ma-hero ma-stack-24">
+  <svg><use xlink:href="#icon-ma-face"></use></svg>
+  <figcaption>
+    <p>Hi! I'm <strong>Mike Aparicio</strong>, a Chicago-based web developer interested in helping companies large and small improve collaboration between design and engineering through the use of design systems.</p>
+  </figcaption>
+</figure>
+
+<section class="writing">
+  <h2>Writing</h2>
+  
+  {% include "partials/components/last-three-posts.html" %}
+  
+  <p><a href="">More Posts</a></p>
+</section>
+
+<section class="working">
+  <h2>Working</h2>
+  <p>I have over 25 years experience making websites for individual entrepreneurs to large companies and everything in between. I'm currently the Senior Design Systems Engineer at <a href="">Provi</a>.</p>
+
+  <p><a href="">Read more</a> about the work I've done at Groupon, The American Association of Oral and Maxillofacial Surgeons and elsewhere.</p>
+</section>
+
+
+<section class="speaking">
+  <h2>Speaking</h2>
+  
+  <figure>
+    <img src="https://assets.codepen.io/281/2015-05-14-19-17-52-groupon_design_union_offsite_2015-dsc00864_17240564244_o.jpg" alt="Mike giving a talk on responsive design." class="full-bleed">
   </figure>
 
-  <section class="writing">
-    <h2>Writing</h2>
-    
-    {% include "partials/components/last-three-posts.html" %}
-    
-    <p><a href="">More Posts</a></p>
-  </section>
+  <p>I spoke with Dan Mall at Superfriendly on <a href="https://superfriendlydesign.systems/podcasts/get-it-out-of-your-system/mike-aparicio-groupon-communication/">Get It Out of Your System</a> about how communication is one of the biggest challenges in establishing a design system.</p>
 
-  <section class="working">
-    <h2>Working</h2>
-    <p>I have over 25 years experience making websites for individual entrepreneurs to large companies and everything in between. I'm currently the Senior Design Systems Engineer at <a href="">Provi</a>.</p>
+  <p>On the <a href="https://commandzpodcast.com/podcast/episodio-35-mike-aparicio-design-systems-more-than-just-a-library/">Command Z Podcast</a>, I talked to Layshi Curbelo about how design systems help improve collaboration between designers and engineers.</p>
 
-    <p><a href="">Read more</a> about the work I've done at Groupon, The American Association of Oral and Maxillofacial Surgeons and elsewhere.</p>
-  </section>
-  
-  
-  <section class="speaking">
-    <h2>Speaking</h2>
-    
-    <figure>
-      <img src="https://assets.codepen.io/281/2015-05-14-19-17-52-groupon_design_union_offsite_2015-dsc00864_17240564244_o.jpg" alt="Mike giving a talk on responsive design." class="full-bleed">
-    </figure>
-
-    <p>I spoke with Dan Mall at Superfriendly on <a href="https://superfriendlydesign.systems/podcasts/get-it-out-of-your-system/mike-aparicio-groupon-communication/">Get It Out of Your System</a> about how communication is one of the biggest challenges in establishing a design system.</p>
-
-    <p>On the <a href="https://commandzpodcast.com/podcast/episodio-35-mike-aparicio-design-systems-more-than-just-a-library/">Command Z Podcast</a>, I talked to Layshi Curbelo about how design systems help improve collaboration between designers and engineers.</p>
-
-    <p>At University of Illinois' 2019 WebCon, I gave a talk called <a href="/webcon/">Lessons From the Coupon Factory</a>, where I shared the evolution of Groupon's design system.</p>
-  </section>
-</main>
+  <p>At University of Illinois' 2019 WebCon, I gave a talk called <a href="/webcon/">Lessons From the Coupon Factory</a>, where I shared the evolution of Groupon's design system.</p>
+</section>

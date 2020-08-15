@@ -7,3 +7,16 @@
   width: 2rem;
   height: 2rem;
 }
+
+.ma-logo {
+  flex-shrink: 0;
+  margin-right: $gutter-medium;
+}
+
+.ma-logo svg {
+  transition: transform .2s ease-in-out;
+}
+
+.ma-logo:hover svg {
+  transform: scale(1.1);
+}

@@ -1,0 +1,22 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  min-height: 100vh;
+  min-width: $site-min-width;
+}
+
+.skip-link:not(:focus), .visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+main:focus {
+  outline: 0;
+}

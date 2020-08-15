@@ -1,0 +1,18 @@
+.ma-flex {
+  display: flex;
+  align-items: center;
+}
+
+.ma-flex > :not(:last-child) {
+  margin-right: $gutter-medium;
+}
+
+.ma-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ma-stack-24 {
+  margin-bottom: $spacing-24;
+}
