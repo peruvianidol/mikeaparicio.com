@@ -15,11 +15,7 @@ At first glance, Animal Crossing looks pretty childish. I'll admit I was initial
 
 <figure>
 
-<<<<<<< HEAD
 ![The residents of Quarantine](/images/quarantine-crew.jpg)
-=======
-![The residents of Quarantine](https://mikeaparicio.com/img/quarantine-crew.jpg)
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 
 <figcaption>
 A photo mode allows you to pose for pics with all of your island's residents.
@@ -32,11 +28,7 @@ Animal Crossing: New Horizons, is the fifth entry in the Animal Crossing series 
 
 <figure>
 
-<<<<<<< HEAD
 ![Tom Nook gives the daily announcements](/images/quarantine-living.jpg)
-=======
-![Tom Nook gives the daily announcements](https://mikeaparicio.com/img/quarantine-living.jpg)
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 
 <figcaption>
 I named my island "Quarantine," which leads to some fun dialog.
@@ -53,11 +45,7 @@ Aside from eventually paying off your loans and raising your island's rating eno
 
 <figure>
 
-<<<<<<< HEAD
 ![An Animal Crossing date gone sour](/images/awkward-date.jpg)
-=======
-![An Animal Crossing date gone sour](https://mikeaparicio.com/img/awkward-date.jpg)
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 
 <figcaption>
 Animal Crossing lets me relive awkward dating experiences from before I was married.
@@ -70,11 +58,7 @@ On the other hand, Animal Crossing is incredibly cooperative. Since players have
 
 <figure>
 
-<<<<<<< HEAD
 ![An occult gathering of friends](/images/star-ritual.jpg)
-=======
-![An occult gathering of friends](https://mikeaparicio.com/img/star-ritual.jpg)
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 
 <figcaption>
 Wishing upon stars in an ancient pagan ritual, as one does.
@@ -91,11 +75,7 @@ There's a kind of [emergent gameplay](https://en.wikipedia.org/wiki/Emergent_gam
 
 <figure>
 
-<<<<<<< HEAD
 ![Emergent gameplay in Animal Crossing](/images/catalog-party.jpg)
-=======
-![Emergent gameplay in Animal Crossing](https://mikeaparicio.com/img/catalog-party.jpg)
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 
 <figcaption>
 A highly successful catalog party!
@@ -124,11 +104,7 @@ With any game there's always going to be apps developed that help make the game 
 
 <figure>
 
-<<<<<<< HEAD
 ![Barcade themed basement](/images/game-room.jpg)
-=======
-![Barcade themed basement](https://mikeaparicio.com/img/game-room.jpg)
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 
 <figcaption>
 Just hanging out in my basement, like real life.

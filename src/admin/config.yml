@@ -21,7 +21,7 @@ collections:
     create: true
     sortableFields: ['date','commit_date', 'title']
     view_filters:
-      - label: "Posts this year"
+      - label: "2020"
         field: date
         pattern: '2020'
       - label: "Drafts"

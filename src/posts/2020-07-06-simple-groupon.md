@@ -18,11 +18,7 @@ Our current styles are largely built with our in-house CSS framework serving as 
 
 Our new design system addresses these challenges in a couple of ways. First, through the use of design tokens, we can manage all of our visual style decisions in a single file and make updates to it without needing to touch any HTML or CSS.
 
-<<<<<<< HEAD
 [I've written about design tokens previously](/posts/2018-09-07-driving-your-design-system-with-tokens/), but my thinking on tokens has evolved a bit since then. By using three layers of specificity, we can apply varying degrees of control over our visual styles.
-=======
-[I've written about design tokens previously](https://mikeaparicio.com/posts/2018-09-07-driving-your-design-system-with-tokens/), but my thinking on tokens has evolved a bit since then. By using three layers of specificity, we can apply varying degrees of control over our visual styles.
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 
 **Global Tokens** include all of the possible values in the system. The color palette, type scale, spacing values, etc. If we want to change the value of Groupon Green, we can do that here and it will change everywhere that token is used. What once took us several weeks can now be done in a few seconds.
 
@@ -46,11 +42,7 @@ As it turns out, [Brad Frost wrote about this over two years ago](https://bradfr
 
 <figure>
 
-<<<<<<< HEAD
 <video src="/images/video/pete-arrived-independently.mp4" loop autoplay>
-=======
-<video src="/images/pete-arrived-independently.mp4" loop autoplay>
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 
 <figcaption>
 It only took me a couple of years longer than Brad Frost.
@@ -123,11 +115,7 @@ Note: None of these are responsive, unfortunately, since our current site is als
 
 <figcaption>
 
-<<<<<<< HEAD
 **[Refresh](/simple-groupon/deal-page/)**\
-=======
-**[Refresh](https://mikeaparicio.com/simple-groupon/deal-page/)**\
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 I applied our latest design system styles to this replica of our existing deal page in the week leading up to Simple Groupon in order to build out the framework and figure out all the different components I'd need to compose the page.
 
 </figcaption>
@@ -139,11 +127,7 @@ I applied our latest design system styles to this replica of our existing deal p
 
 <figcaption>
 
-<<<<<<< HEAD
 **[Living Social](/simple-groupon/deal-page-ls/)**\
-=======
-**[Living Social](https://mikeaparicio.com/simple-groupon/deal-page-ls/)**\
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 Using the same markup and styles, I updated a few token values to support Living Social.
 
 </figcaption>
@@ -155,11 +139,7 @@ Using the same markup and styles, I updated a few token values to support Living
 
 <figcaption>
 
-<<<<<<< HEAD
 **[Dark Mode](/simple-groupon/deal-page-dark/)**\
-=======
-**[Dark Mode](https://mikeaparicio.com/simple-groupon/deal-page-dark/)**\
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 I did a quick exploration of a Dark Mode version of the deal page.
 
 </figcaption>
@@ -171,11 +151,7 @@ I did a quick exploration of a Dark Mode version of the deal page.
 
 <figcaption>
 
-<<<<<<< HEAD
 **[Rebrand](/simple-groupon/deal-page-rebrand/)**\
-=======
-**[Rebrand](https://mikeaparicio.com/simple-groupon/deal-page-rebrand/)**\
->>>>>>> c73dbf7fb899a65de7025399607fa904d7cb229f
 We can make even bigger changes to achieve a dramatically different design in a very short period of time. This page took me just an hour to make. I changed the font to the variable font, [Jost](https://fonts.google.com/specimen/Jost), bumped up the font scale and the border width, squared the borders, and added three new colors.
 
 </figcaption>
