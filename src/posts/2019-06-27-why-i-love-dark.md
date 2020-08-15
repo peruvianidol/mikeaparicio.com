@@ -45,7 +45,8 @@ The original score by Ben Frost really helps set the tone for the show and the s
 ## The Cinematography
 
 This show is just beautiful to look at. The opening credits do a great job of capturing some of the best shots but the composition of nearly every shot is stellar.
-The Characters
+
+## The Characters
 
 Most shows, particularly in the science fiction genre, are filled with one-note stereotypes. At first glance, some of the characters in Dark might appear to be a certain archetype but reveal themselves to be much deeper as the show progresses.
 The Casting
