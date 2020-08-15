@@ -58,7 +58,7 @@ Apex Legends differs from other Battle Royales by innovating on the genre rather
 
 Oh yeah, why I hate Battle Royale games.
 
-### Long stretches with no action
+## Long stretches with no action
 
 Here's how a match of Fortnite or Apex Legends goes for me compared to how it goes for a top streamer like Ninja.
 

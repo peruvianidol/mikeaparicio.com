@@ -17,7 +17,7 @@ One of the things that has puzzled me since moving from a one-man web team to a 
 
 But basically (and I have found this problem is not unique to Groupon) you have design hiring for visual design skills and engineering hiring for computer science skills. Designers have their portfolio rigorously dissected while engineers run a gauntlet of whiteboard interviews and live coding exercises in which they attempt to write a program to make change from a given number or some such bullshit they will never actually have to do on the job. As a result, people whose skills lie somewhere in the middle tend to get weeded out.
 
-Despite HTML and CSS typically being one of the prerequisites for a design OR engineering position, and all the emphasis on "[full-stack developers](https://mikeaparicio.com/img/fullstackdeveloper.gif)" (hoo boy, don't even get me started), often times if you get someone who is exceptionally skilled at HTML and CSS, it's by dumb luck. I wish I had a dollar for every candidate I interviewed who, when asked "what is your experience with CSS?" responds simply, "oh, I just use Bootstrap."
+Despite HTML and CSS typically being one of the prerequisites for a design OR engineering position, and all the emphasis on "[full-stack developers](/images/fullstackdeveloper.gif)" (hoo boy, don't even get me started), often times if you get someone who is exceptionally skilled at HTML and CSS, it's by dumb luck. I wish I had a dollar for every candidate I interviewed who, when asked "what is your experience with CSS?" responds simply, "oh, I just use Bootstrap."
 
 And when you're not thoroughly vetting people for certain skills, you end up not having people with those skills to vet other people for those skills and the problem perpetuates itself.
 
