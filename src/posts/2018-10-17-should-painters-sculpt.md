@@ -39,7 +39,7 @@ As a result, the finished product tends to look a bit... off. Maybe it's due to 
 
 <figure>
 
-![Photo of Ronaldo and a bust of him that looks horribly disfigured.](https://mikeaparicio.com/img/ronaldo-and-bust.png)
+![Photo of Ronaldo and a bust of him that looks horribly disfigured.](/images/ronaldo-and-bust.png)
 
 <figcaption>
 Mmmm... not quite.
