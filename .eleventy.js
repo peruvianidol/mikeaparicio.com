@@ -34,6 +34,7 @@ module.exports = config => {
   config.addPassthroughCopy('src/admin/*');
   config.addPassthroughCopy('src/simple-groupon/css/*');
   config.addPassthroughCopy('src/simple-groupon/img/*');
+  config.addPassthroughCopy('src/slides/*');
 
   // Only minify HTML if we are in production because it slows builds _right_ down
   if (isProduction) {

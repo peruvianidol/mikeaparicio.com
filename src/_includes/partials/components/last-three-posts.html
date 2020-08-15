@@ -1,0 +1,21 @@
+{% set postListItems = collections.posts %}
+
+{% if postListItems.length %}
+    <ol reversed>
+      {% for item in postListItems %}
+        {% if loop.index0 <= 2 %}
+          {% if item.date.getTime() <= global.now %}
+            <li>
+              <figure>
+                <img src="{{ item.data.thumbnail }}">
+                <figcaption>
+                <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | date('MMMM D, YYYY') }}</time>
+                <a href="{{ item.url }}" rel="bookmark">{{ item.data.title }}</a>
+                <p>{{ item.description }}</p>
+              </figcaption>
+            </figure>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ol>
+{% endif %}
