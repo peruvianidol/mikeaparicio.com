@@ -11,7 +11,7 @@ I recently received an email from PlayStation detailing my gaming "accomplishmen
 
 <figure>
 
-![An embarassing amount of video games played in 2019](https://mikeaparicio.com/img/playstation2019.png)
+![An embarassing amount of video games played in 2019](/images/playstation2019.png)
 
 <figcaption>
 Cruel, but fair, PlayStation.
@@ -30,7 +30,7 @@ After nearly a month into this experiment, I'd love to share some of the highlig
 
 <figure>
 
-![Poster for Waves](https://mikeaparicio.com/img/waves-poster.jpg)
+![Poster for Waves](/images/waves-poster.jpg)
 
 <figcaption>
 My favorite movie of 2019
@@ -51,7 +51,7 @@ My favorite movie of 2019
 
 <figure>
 
-![I Lost My Body poster](https://mikeaparicio.com/img/i-lost-my-body.jpg)
+![I Lost My Body poster](/images/i-lost-my-body.jpg)
 
 <figcaption>
 Netflix's Oscar-nominated I Lost My Body
@@ -68,7 +68,7 @@ Netflix's Oscar-nominated I Lost My Body
 
 <figure>
 
-![Ethan Hawke and Julie Delpy in Before Sunrise](https://mikeaparicio.com/img/before-sunrise.jpg)
+![Ethan Hawke and Julie Delpy in Before Sunrise](/images/before-sunrise.jpeg)
 
 <figcaption>
 1995's Before Sunrise
