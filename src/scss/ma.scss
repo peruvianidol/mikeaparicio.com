@@ -1,3 +1,4 @@
+@import 'components/icons';
 @import 'vendor/prism-okaidia';
 
 *,
@@ -47,4 +48,13 @@ figure {
 
 main:focus {
   outline: 0;
+}
+
+footer a {
+  filter: grayscale(100%);
+  transition: filter .2s ease-in-out;
+}
+
+footer a:hover {
+  filter: grayscale(0);
 }
