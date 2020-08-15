@@ -1,7 +1,7 @@
 {% set postListItems = collections.posts %}
 
 {% if postListItems.length %}
-    <ol reversed>
+    <ol reversed class="ma-grid-3">
       {% for item in postListItems %}
         {% if loop.index0 <= 2 %}
           {% if item.date.getTime() <= global.now %}
@@ -9,9 +9,9 @@
               <figure>
                 <img src="{{ item.data.thumbnail }}">
                 <figcaption>
-                <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | date('MMMM D, YYYY') }}</time>
-                <a href="{{ item.url }}" rel="bookmark">{{ item.data.title }}</a>
-                <p>{{ item.description }}</p>
+                <p><time datetime="{{ item.date | w3DateFilter }}">{{ item.date | date('MMMM D, YYYY') }}</time></p>
+                <a href="{{ item.url }}" rel="bookmark" class="ma-heading-3">{{ item.data.title }}</a>
+                <p>{{ item.data.description }}</p>
               </figcaption>
             </figure>
           {% endif %}

@@ -13,6 +13,18 @@
   justify-content: space-between;
 }
 
+[class*="ma-grid"] {
+  display: grid;
+  grid-gap: $gutter-small;
+}
+.ma-grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+}
+
 .ma-stack-24 {
   margin-bottom: $spacing-24;
+}
+
+.ma-flow-16 > :not([class*="ma-stack"]) {
+  margin-bottom: $spacing-16;
 }
