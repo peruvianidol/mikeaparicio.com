@@ -1,0 +1,22 @@
+{% extends 'layouts/base.html' %}
+
+{# Intro content #}
+{# {% set introHeading = title %}
+{% set introSummary %}{{ content | safe }}{% endset %} #}
+
+{# Post list content #}
+{% set postListHeading = title %}
+{% set postListItems = collections.posts %}
+
+{# If this is a tag, grab those items instead as one large collection #}
+{% if tag %}
+  {% set postListItems = collections[tag] %}
+  {% set postListHeading = 'Blog posts filed under “' + tag + '”' %}
+{% endif %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    {% include "partials/components/intro.html" %}
+    {% include "partials/components/post-list.html" %}
+  </main>
+{% endblock %}

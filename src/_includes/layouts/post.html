@@ -1,0 +1,27 @@
+{% extends "layouts/base.html" %} 
+
+{% set pageHeaderTitle = title %}
+
+{# Render post date and any tags that this post has been filed under #}
+{% set pageHeaderSummary %}
+  <time datetime="{{ date | w3DateFilter }}">{{ date | date('MMMM D, YYYY') }}</time>
+  {% if tags %}
+    <p class="visually-hidden" id="tags-desc">Tags that this post has been filed under.</p>
+    <ul class="tags-list" aria-describedby="tags-desc">
+      {% for tag in tags %}
+        <li>
+          <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endset %}
+
+{% block content %}
+<main tabindex="-1" id="main-content">
+  <article>
+    {% include "partials/page-header.html" %}
+    {{ content | safe }}
+  </article>
+</main>
+{% endblock %}

@@ -1,0 +1,65 @@
+/* Global Tokens */
+/* Contextual Tokens */
+/* ICONS */
+/* Component Tokens */
+/* AVATARS */
+/* BADGES */
+/* BREADCRUMBS */
+/* BUTTONS */
+/* CARDS */
+/* HIGHLIGHT BOX */
+/* INPUT - SELECT */
+/* SEARCHBAR */
+/* STAR RATING */
+/* TAGS */
+/* THUMBNAILS */
+/* HEADER */
+.gds-2-col-sidebar-right {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto auto auto;
+  grid-gap: 16px;
+  min-height: 100vh;
+  padding: 0 16px;
+  grid-template-areas: "header" "section" "main" "aside" "promo" "footer"; }
+
+.gds-2-col-sidebar-right .gds-container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.gds-2-col-sidebar-right > * {
+  width: 1080px;
+  position: relative; }
+
+.gds-2-col-sidebar-right > [data-area="header"] {
+  grid-area: header;
+  border-bottom: 1px solid #D5D8DB; }
+
+.gds-2-col-sidebar-right > [data-area="section"] {
+  grid-area: section; }
+
+.gds-2-col-sidebar-right > [data-area="main"] {
+  grid-area: main; }
+
+.gds-2-col-sidebar-right > [data-area="aside"] {
+  grid-area: aside; }
+
+.gds-2-col-sidebar-right > [data-area="promo"] {
+  grid-area: promo;
+  border-top: 1px solid #D5D8DB;
+  padding-top: 4rem;
+  margin-top: 1.5rem; }
+
+.gds-2-col-sidebar-right > [data-area="footer"] {
+  grid-area: footer; }
+
+@media (min-width: 600px) {
+  .gds-2-col-sidebar-right {
+    grid-template-columns: minmax(0, 1fr) minmax(368px, 688px) minmax(184px, 344px) minmax(0, 1fr);
+    grid-template-areas: "header header  header  header" ". section section ." ". main    aside   ." ". promo promo ." "footer footer  footer  footer";
+    padding: 0; }
+  .gds-2-col-sidebar-right > [data-area="main"] {
+    border-right: 1px solid #D5D8DB;
+    padding-right: 1rem; } }

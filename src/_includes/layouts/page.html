@@ -1,0 +1,22 @@
+{% extends "layouts/base.html" %} 
+
+{% if notitle != true %}
+  {% set pageHeaderTitle = title %} 
+{% endif %}
+
+{% block content %}
+<main tabindex="-1" id="main-content">
+  <article>
+    {% include "partials/page-header.html" %} 
+    {{ content | safe }}
+  </article>
+  
+</main>
+
+{% block sidebar %}
+  {{ sidebar | safe }}
+{% endblock %}
+
+{% endblock %}
+
+<!-- about-photos -->

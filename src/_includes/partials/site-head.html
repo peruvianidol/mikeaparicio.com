@@ -1,0 +1,18 @@
+<a href="#main-content" class="skip-link" >Skip to content</a>
+<header role="banner">
+  <a href="/" aria-label="{{ site.name }} - Home">
+    <svg aria-hidden="true" focusable="false" width="80" height="100">
+
+      <use xlink:href="#icon-ma-shield"></use>
+    </svg>
+  </a>
+  <nav aria-label="Primary">
+    <ul>
+      {% for item in navigation.items %}
+      <li>
+        <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

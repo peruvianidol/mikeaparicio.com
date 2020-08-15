@@ -1,0 +1,50 @@
+@import 'vendor/prism-okaidia';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img, video {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.skip-link:not(:focus), .visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+main:focus {
+  outline: 0;
+}
