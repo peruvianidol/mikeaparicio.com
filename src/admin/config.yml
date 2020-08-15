@@ -6,7 +6,7 @@ backend:
 publish_mode: editorial_workflow
 
 display_url: https://mikeaparicio.com
-logo_url: https://mikeaparicio.com/images/meta/ma-favicon.svg
+logo_url: https://mikeaparicio.netlify.app//images/meta/ma-favicon.svg
 
 media_folder: "src/images"
 public_folder: "/images"
@@ -20,6 +20,13 @@ collections:
     preview_path: "pages/{{slug}}"
     create: true
     sortableFields: ['date','commit_date', 'title']
+    view_filters:
+      - label: "Posts this year"
+        field: date
+        pattern: {{year}}
+      - label: "Drafts"
+        field: draft
+        pattern: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
