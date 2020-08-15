@@ -13,7 +13,7 @@ After years of being the lone "web guy" at various small companies, Groupon took
 
 <figure>
 
-![Groupon anniversary patches](https://mikeaparicio.com/img/anniversary-patches.jpg)
+![Groupon anniversary patches](/images/anniversary-patches.jpg)
 
 <figcaption>
 A patch for every calendar year I've worked at Groupon.
@@ -40,7 +40,7 @@ I've also been lucky to have several awesome colleagues as mentors. They really 
 
 <figure>
 
-![](https://mikeaparicio.com/img/offsite.jpg)
+![A group photo from a Design Union offsite.](/images/offsite.jpg)
 
 <figcaption>
 The fun folks of the Groupon Design Union
@@ -67,7 +67,7 @@ Since then, sports journalism has seen a huge shift from traditional media outle
 
 <figure>
 
-![Mark Aparicio diploma](https://mikeaparicio.com/img/mark-aparicio.jpg)
+![Mark Aparicio diploma](/images/mark-aparicio.jpg)
 
 <figcaption>
 Of all the ways you could spell my name wrong.
