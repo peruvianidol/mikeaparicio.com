@@ -1,0 +1,12 @@
+.ma-footer {
+  padding: $spacing-24;
+  color: $color-white;
+  text-align: center;
+  font-size: $text-small-font-size;
+  line-height: $text-small-line-height;
+}
+
+.ma-footer svg {
+  border: 2px solid $color-white;
+  border-radius: 50%;
+}

@@ -6,12 +6,21 @@
   padding-bottom: 54%;
   overflow: hidden;
   position: relative;
+  transition: transform .1s ease-in-out;
 }
 
 .ma-frame img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.ma-card .ma-frame:hover {
+  transform: translateY(-4px);
+}
+
+.ma-card .ma-frame:hover + figcaption a {
+  color: $color-medium-blue;
 }
 
 .ma-card figcaption {

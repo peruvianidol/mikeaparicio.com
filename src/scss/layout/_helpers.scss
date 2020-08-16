@@ -1,4 +1,5 @@
-.ma-flex {
+.ma-flex,
+.ma-flex-small {
   display: flex;
   align-items: center;
 }
@@ -6,6 +7,11 @@
 .ma-flex > :not(:last-child) {
   margin-right: $gutter-medium;
 }
+
+.ma-flex-small > :not(:last-child) {
+  margin-right: $gutter-small;
+}
+
 
 @media (min-width: $breakpoint-medium) {
   .ma-flex > :not(:last-child) {
@@ -21,6 +27,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.ma-justify-center {
+  justify-content: center;
 }
 
 [class*="ma-grid"] {

@@ -1,5 +1,5 @@
 .ma-nav a {
-  color: $color-flesh;
+  color: inherit;
   text-decoration: none;
   font-weight: $font-weight-bold;
   font-size: $text-large-font-size;
@@ -7,10 +7,6 @@
   display: block;
   padding: $spacing-12 0;
   position: relative;
-}
-
-.ma-nav a:hover {
-  color: $color-white;
 }
 
 .ma-nav a:hover:after {

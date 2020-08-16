@@ -1,4 +1,4 @@
-.ma-wedge-top {
+[class*="ma-wedge"] {
   position: relative;
 }
 
@@ -11,7 +11,23 @@
   background-size: false;
   content: '';
   height: 575px;
-  top: 0px;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.ma-wedge-bottom::after {
+  position: absolute;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7000' height='280' fill='rgb(217,16,35)' fill-opacity='1'%3E%3Cpolygon points='7000,280 0,280 7000,0'%3E%3C/polygon%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: false;
+  content: '';
+  height: 280px;
+  bottom: 0;
   right: 0;
   left: 0;
   width: 100%;
@@ -23,6 +39,11 @@
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6000' height='750' fill='rgb(217,16,35)' fill-opacity='1'%3E%3Cpolygon points='0,0 6000,0 0,750'%3E%3C/polygon%3E%3C/svg%3E");
     height: 750px;
   }
+
+  // .ma-wedge-bottom::after {
+  //   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6000' height='750' fill='rgb(217,16,35)' fill-opacity='1'%3E%3Cpolygon points='6000,750 0,750 6000,0'%3E%3C/polygon%3E%3C/svg%3E");
+  //   height: 750px;
+  // }
 }
 
 // .ma-wedge-top:before {
