@@ -1,0 +1,47 @@
+.ma-wedge-top {
+  position: relative;
+}
+
+.ma-wedge-top::before {
+  position: absolute;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7000' height='575' fill='rgb(217,16,35)' fill-opacity='1'%3E%3Cpolygon points='0,0 7000,0 0,575'%3E%3C/polygon%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: false;
+  content: '';
+  height: 575px;
+  top: 0px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (min-width: $breakpoint-medium) {
+  .ma-wedge-top::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6000' height='750' fill='rgb(217,16,35)' fill-opacity='1'%3E%3Cpolygon points='0,0 6000,0 0,750'%3E%3C/polygon%3E%3C/svg%3E");
+    height: 750px;
+  }
+}
+
+// .ma-wedge-top:before {
+//   content: '';
+//   display: block;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 125%;
+//   height: 475px;
+//   padding-bottom: 25%;
+//   background-color: $color-peru-red;
+//   border-bottom: $border-width-thick solid $color-gold;
+//   transform: rotate(-5deg) translateX(-20%) translateY(-45%);
+//   transform-origin: top left;
+// }
+
+// @media (min-width: $breakpoint-medium) {
+//   .ma-wedge-top:before {
+//     transform: rotate(-5deg) translateX(-20%) translateY(-45%);
+//   }
+// }

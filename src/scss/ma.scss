@@ -1,10 +1,19 @@
 @import '_tokens/tokens';
+
 @import 'base/reset';
 @import 'base/global';
+@import 'base/type';
+
+@import 'components/type';
 @import 'components/header';
 @import 'components/hero';
 @import 'components/icons';
 @import 'components/nav';
+@import 'components/cards';
+@import 'components/buttons';
+@import 'components/wedge';
+
 @import 'layout/helpers';
 @import 'layout/home';
+
 @import 'vendor/prism-okaidia';

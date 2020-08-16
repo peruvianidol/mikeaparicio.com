@@ -7,6 +7,16 @@
   margin-right: $gutter-medium;
 }
 
+@media (min-width: $breakpoint-medium) {
+  .ma-flex > :not(:last-child) {
+    margin-right: $gutter-large;
+  }
+}
+
+.ma-flex-item {
+  flex: 1;
+}
+
 .ma-space-between {
   display: flex;
   align-items: center;
@@ -17,14 +27,85 @@
   display: grid;
   grid-gap: $gutter-small;
 }
+
+.ma-grid-2 {
+  grid-template-columns: repeat(2, minmax(min-content, 50%));
+  grid-gap: $gutter-medium;
+}
+
+.ma-grid-2 > * {
+  margin: 0 auto;
+}
+
 .ma-grid-3 {
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+}
+
+.ma-stack-4 {
+  margin-bottom: $spacing-4;
+}
+
+.ma-stack-8 {
+  margin-bottom: $spacing-8;
+}
+
+.ma-stack-12 {
+  margin-bottom: $spacing-12;
+}
+
+.ma-stack-16 {
+  margin-bottom: $spacing-16;
 }
 
 .ma-stack-24 {
   margin-bottom: $spacing-24;
 }
 
-.ma-flow-16 > :not([class*="ma-stack"]) {
+.ma-stack-32 {
+  margin-bottom: $spacing-32;
+}
+
+.ma-stack-48 {
+  margin-bottom: $spacing-48;
+}
+
+.ma-stack-64 {
+  margin-bottom: $spacing-64;
+}
+
+.ma-flow-4 > :not(:last-child):not([class*="ma-stack"]) {
+  margin-bottom: $spacing-4;
+}
+
+.ma-flow-16 > :not(:last-child):not([class*="ma-stack"]) {
   margin-bottom: $spacing-16;
+}
+
+.ma-full-bleed {
+  margin-left: -#{$gutter-medium};
+  margin-right: -#{$gutter-medium};
+}
+
+.ma-align-right {
+  text-align: right;
+}
+
+.ma-container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+}
+
+@media (min-width: $breakpoint-medium) {
+  .ma-flex-row {
+    display: flex;
+  }
+  
+  .ma-flex-row > :not(:last-child) {
+    margin-right: $gutter-medium;
+  }
+
+  .ma-full-bleed {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

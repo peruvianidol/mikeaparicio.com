@@ -1,19 +1,55 @@
-$text-medium-font-size: 1rem;
-$text-medium-line-height: 1.5rem;
+$color-black: #2A2C2B;
+$color-dark-gray: #4C5B60;
+$color-white: #FFFFFF;
+$color-peru-red: #D91023;
+$color-brown: #511C29;
+$color-gold: #DDC35E;
+$color-khaki: #FBF8EA;
+$color-flesh: #ffe3d1;
+$color-dark-blue: #235789;
+$color-medium-blue: #4679B6;
+$color-light-blue: #58B9F7;
+$color-chicago-blue: #B3DDF2;
+
+$heading-1-font-size: 3.375rem;
+$heading-1-line-height: 4.5rem;
+$heading-2-font-size: 2.25rem;
+$heading-2-line-height: 3rem;
+$heading-3-font-size: 1.5rem;
+$heading-3-line-height: 1.5rem;
+$heading-4-font-size: 1rem;
+$heading-4-line-height: 1.5rem;
+
 $text-large-font-size: 1.125rem;
 $text-large-line-height: 1.5rem;
+$text-medium-font-size: 1rem;
+$text-medium-line-height: 1.5rem;
+$text-small-font-size: .875rem;
+$text-small-line-height: 1.25rem;
 
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 
+$spacing-4: .25rem;
 $spacing-8: .5rem;
 $spacing-12: .75rem;
 $spacing-16: 1rem;
 $spacing-24: 1.5rem;
 $spacing-32: 2rem;
+$spacing-48: 3rem;
+$spacing-64: 4rem;
 
 $gutter-small: $spacing-16;
 $gutter-medium: $spacing-24;
 $gutter-large: $spacing-32;
 
+$border-width-thin: 2px;
+$border-width-medium: 4px;
+$border-width-thick: 8px;
+
+$border-radius-small: 2px;
+$border-radius-medium: 4px;
+
 $site-min-width: 325px;
+$breakpoint-medium: 600px;
+$container-max-width: 1080px;

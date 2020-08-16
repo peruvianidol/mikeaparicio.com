@@ -64,3 +64,12 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* Additional resets by yours truly */
+
+/* Reset heading styles to encourage separation of semantics from visual treatment. You have to use a class for style. */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}

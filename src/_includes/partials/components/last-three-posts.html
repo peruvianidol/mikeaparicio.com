@@ -6,10 +6,14 @@
         {% if loop.index0 <= 2 %}
           {% if item.date.getTime() <= global.now %}
             <li>
-              <figure>
-                <img src="{{ item.data.thumbnail }}">
-                <figcaption>
-                <p><time datetime="{{ item.date | w3DateFilter }}">{{ item.date | date('MMMM D, YYYY') }}</time></p>
+              <figure class="ma-card">
+                <div class="ma-frame">
+                  <a href="{{ item.url }}" rel="bookmark">
+                    <img src="{{ item.data.thumbnail }}">
+                  </a>
+                </div>
+                <figcaption class="ma-flow-4">
+                <p><time datetime="{{ item.date | w3DateFilter }}" class="ma-text-small-subdued">{{ item.date | date('MMMM D, YYYY') }}</time></p>
                 <a href="{{ item.url }}" rel="bookmark" class="ma-heading-3">{{ item.data.title }}</a>
                 <p>{{ item.data.description }}</p>
               </figcaption>

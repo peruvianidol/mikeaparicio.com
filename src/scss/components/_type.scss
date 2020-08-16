@@ -1,0 +1,27 @@
+[class*="ma-heading"] {
+  font-weight: $font-weight-bold;
+}
+
+.ma-heading-1 {
+  font-size: $heading-1-font-size;
+  line-height: $heading-1-line-height;
+}
+
+.ma-heading-2 {
+  font-size: $heading-2-font-size;
+  line-height: $heading-2-line-height;
+}
+
+.ma-heading-3 {
+  font-size: $heading-3-font-size;
+  line-height: $heading-3-line-height;
+}
+
+[class*="ma-text-small"] {
+  font-size: $text-small-font-size;
+  line-height: $text-small-line-height;
+}
+
+[class*="-subdued"] {
+  color: $color-dark-gray;
+}

@@ -1,5 +1,5 @@
 .ma-nav a {
-  color: inherit;
+  color: $color-flesh;
   text-decoration: none;
   font-weight: $font-weight-bold;
   font-size: $text-large-font-size;
@@ -9,11 +9,25 @@
   position: relative;
 }
 
+.ma-nav a:hover {
+  color: $color-white;
+}
+
 .ma-nav a:hover:after {
   content: "";
   display: block;
-  border-bottom: 2px solid currentColor;
+  border-bottom: 4px solid $color-gold;
   position: absolute;
   bottom: $spacing-8;
   width: 100%;
+}
+
+@media (min-width: $breakpoint-medium) {
+  .ma-nav a {
+    font-size: $heading-3-font-size;
+    line-height: $heading-3-line-height;     
+  }
+  .ma-nav a:hover:after {
+    bottom: 0;
+  }  
 }

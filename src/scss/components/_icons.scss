@@ -20,3 +20,10 @@
 .ma-logo:hover svg {
   transform: scale(1.1);
 }
+
+@media (min-width: $breakpoint-medium) {
+  .ma-logo svg {
+    width: 104px;
+    height: 130px;
+  }
+}
