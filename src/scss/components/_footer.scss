@@ -10,3 +10,11 @@
   border: 2px solid $color-white;
   border-radius: 50%;
 }
+
+.ma-footer a {
+  transition: transform .1s ease-in-out;
+}
+
+.ma-footer a:hover svg {
+  transform: scale(1.1);
+}
