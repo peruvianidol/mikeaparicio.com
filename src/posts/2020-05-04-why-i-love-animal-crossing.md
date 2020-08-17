@@ -2,7 +2,7 @@
 title: Why I Love Animal Crossing
 description: A small comfort amidst a pandemic.
 date: 2020-05-04
-thumbnail: /images/quarantine-crew-thumbnail.jpg
+thumbnail: /images/quarantine-crew--thumbnail.jpg
 thumbnailAlt: The residents of Quarantine island
 tags:
   - Video Games
