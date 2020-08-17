@@ -1,1 +1,1 @@
-footer,header,main{position:relative;z-index:10}article{padding:4rem 0}
+footer,header,main{position:relative;z-index:10}article{padding:4rem 0}body>div{display:flex;flex-direction:column;min-height:100vh}main{flex:1}article{font-size:1.125rem;line-height:1.5rem}

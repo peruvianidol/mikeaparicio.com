@@ -16,7 +16,9 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.html" %}
-    {% include "partials/components/post-list.html" %}
+    <article>
+      {% include "partials/components/intro.html" %}
+      {% include "partials/components/post-list.html" %}
+    </article>
   </main>
 {% endblock %}

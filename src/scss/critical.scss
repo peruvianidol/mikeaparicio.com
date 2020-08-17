@@ -8,3 +8,18 @@ header, main, footer {
 article {
   padding: $spacing-64 0;
 }
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+article {
+  font-size: $text-large-font-size;
+  line-height: $text-large-line-height;
+}

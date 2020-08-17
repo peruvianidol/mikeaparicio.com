@@ -25,6 +25,7 @@ body {
   font-family: 'Manrope', sans-serif;
   min-height: 100vh;
   min-width: $site-min-width;
+  color: $color-black;
 }
 
 .ma-skip-link:not(:focus), .ma-visually-hidden {
