@@ -2,7 +2,7 @@
 title: Goodbye, Groupon
 description: "Leaving the longest job I've ever held. "
 date: 2020-07-23
-thumbnail: /images/so-long-groupon.png
+thumbnail: /images/so-long-groupon-thumbnail.png
 thumbnailAlt: An illustration of Mike with the phrase, "So long, Groupon."
 tags:
   - Life
