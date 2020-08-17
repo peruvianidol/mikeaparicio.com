@@ -2,7 +2,7 @@
 title: Simple Groupon
 description: Demonstrating the power of design tokens for a hackathon.
 date: 2020-07-06
-thumbnail: /images/refresh-thumbnail.jpg
+thumbnail: /images/refresh--thumbnail.jpg
 thumbnailAlt: A refreshed design of Groupon's deal page.
 tags:
   - Web Development
