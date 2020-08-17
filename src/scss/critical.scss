@@ -1,4 +1,10 @@
+@import '_tokens/tokens';
+
 header, main, footer {
   position: relative;
   z-index: 10;
+}
+
+article {
+  padding: $spacing-64 0;
 }

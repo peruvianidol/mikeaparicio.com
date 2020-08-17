@@ -12,7 +12,6 @@
   margin-right: $gutter-small;
 }
 
-
 @media (min-width: $breakpoint-medium) {
   .ma-flex > :not(:last-child) {
     margin-right: $gutter-large;
