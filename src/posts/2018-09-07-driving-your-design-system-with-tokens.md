@@ -32,7 +32,7 @@ All of those are valid answers. Ok, maybe if people aren't aware that you have a
 
 A design system has a number of parts built for different audiences: a UI kit with Sketch symbols for designers, a React component library and/or a CSS framework for developers, a documentation site for everyone, an icon library, etc. But how do we keep all of those things in sync? Especially when you have a rag tag group of full- and part-time team members of varying disciplines working on the system?
 
-## Design Decisions
+<h3 class="ma-heading-3">Design Decisions</h3>
 
 In a large company, where many small teams are responsible for designing and developing individual features across platforms, our design decisions can become muddled pretty easily. We try to achieve consistency by creating tools for designers and developers, like the UI kit and CSS framework, but these are all separate implementations of those decisions.
 
@@ -49,7 +49,7 @@ Our design decisions permeate all of our products separately, leading to inconsi
 </figcaption>
 </figure>
 
-## Design Tokens
+<h3 class="ma-heading-3">Design Tokens</h3>
 
 Design Tokens are a tech-agnostic method of storing design decisions in key/value pairs that can be exported to a different formats based on platform (web, iOS, Android). They give us a shared vocabulary for describing visual properties that translate across platforms. Each platform might use different values to express color but when we say `$color-green`, we're all talking about the same thing.
 
@@ -101,7 +101,7 @@ Decisions describe the contexts in which options are used.
 
 Notice that the values here refer to other tokens, which would be defined within the **options**.
 
-## Subatomic Design
+<h3 class="ma-heading-3">Subatomic Design</h3>
 
 In his book, *[Atomic Design](http://atomicdesign.bradfrost.com/)*, Brad Frost introduced a methodology for breaking design patterns into a logical hierarchy. Atoms, the smallest unit, represent the fundamental building blocks of our design system. In a sense, design tokens are like subatomic particles.
 
@@ -120,7 +120,7 @@ A heading, for example, is made up of a number of property/value pairs: typeface
 <figure>
 
 ```scss
- .header-page-title {
+.header-page-title {
   font-family: $font-family-heading;
   font-size: $font-size-heading-large;
   line-height: $line-height-heading-large;
@@ -137,7 +137,7 @@ Replacing hard-coded values with tokens.
 
 Notice that rather than using options like `$color-black` or `$spacing-medium`, we're applying decisions in a context specific to headings. This way, if we ever want to change the font weight of `.header-page-title` globally, for example, we can do so easily without having to search our entire codebase for every instance of a header and changing `$font-weight-bold` to `$font-weight-light`.
 
-## Tokens Across Platforms
+<h3 class="ma-heading-3">Tokens Across Platforms</h3>
 
 The real power of tokens comes when we use them to apply design decisions across platforms. By storing the token data in YAML, we can easily convert that data to the appropriate format to be consumed by web (preprocessor variables), iOS (JSON), and Android (XML). It might even be possible to power our design tools with tokens.
 
@@ -175,7 +175,7 @@ Accommodating platform differences in tokens.
 </figcaption>
 </figure>
 
-## The Single Source of Truth
+<h3 class="ma-heading-3">The Single Source of Truth</h3>
 
 Designers and developers are always looking for the mythical "Single Source of Truth" in which all of their decisions are editable in one place and propagate everywhere. We make tools like our Sketch UI kit and CSS frameworks in hopes that they will serve as such but over time they tend to fall short.
 

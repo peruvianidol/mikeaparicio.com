@@ -1,22 +1,8 @@
-<aside>
+<aside class="ma-flow-24">
+  {% for photo in about.photos %}
   <figure>
-    <img src="/images/with-allie.jpg" alt="My wife and me">
-    <figcaption>w/ Allie</figcaption>
+    <img src="/images/{{photo.filename}}" alt="{{photo.alt}}" class="ma-stack-8">
+    <figcaption class="ma-text-small-subdued">{{photo.caption}}</figcaption>
   </figure>
-  <figure>
-    <img src="/images/joe.jpg" alt="My oldest son">
-    <figcaption>Joe</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/ryan-eyes.jpg" alt="My youngest son">
-    <figcaption>Ryan</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/emily.jpg" alt="Our miniature labradoodle">
-    <figcaption>Emily</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/geno.jpg" alt="Our boxer">
-    <figcaption>Geno</figcaption>
-  </figure>
+  {% endfor %}
 </aside>

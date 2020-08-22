@@ -28,6 +28,13 @@ body {
   color: $color-black;
 }
 
+@media (min-width: $breakpoint-medium) {
+  body {
+    font-size: $text-large-font-size;
+    line-height: $text-large-line-height;
+  }
+}
+
 .ma-skip-link:not(:focus), .ma-visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -43,4 +50,21 @@ body {
 
 main:focus {
   outline: 0;
+}
+
+
+table {
+  border-spacing: 0;
+}
+
+th, td {
+  vertical-align: top;
+  border-bottom: 1px solid $color-dark-gray;
+  padding: $spacing-16;
+  font-size: $text-medium-font-size;
+  line-height: $text-medium-line-height;
+}
+
+td:not(:last-child) {
+  border-right: 1px solid $color-dark-gray;
 }

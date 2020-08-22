@@ -59,7 +59,7 @@ How'd this team do? They barely squeaked into the playoffs on a five-game win st
 
 Okay, I get it. Maybe you're not a basketball fan. Let's talk superheroes. Think about the Incredible Hulk. How cool would it be to have the Hulk on your team, just smashing shit left and right? What's better than that? I'll tell you: FIVE HULKS. A team of five Hulks is FUCKING AWESOME... if you need shit smashed.
 
-<figure>
+<figure class="ma-float-right">
 
 
 ![The Avengers](/images/avengers.jpg)

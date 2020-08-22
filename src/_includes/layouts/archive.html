@@ -8,16 +8,22 @@
 {% set postListHeading = title %}
 {% set postListItems = collections.posts %}
 
+{% if notitle != true %}
+  {% set pageHeaderTitle = title %} 
+{% endif %}
+
 {# If this is a tag, grab those items instead as one large collection #}
 {% if tag %}
-  {% set postListItems = collections[tag] %}
-  {% set postListHeading = 'Blog posts filed under “' + tag + '”' %}
+  {% set postListItems = collections[tag] | reverse %}
+  {% set pageHeaderTitle = 'Posts filed under “' + tag + '”' %}
 {% endif %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <article>
-      {% include "partials/components/intro.html" %}
+    <article data-title="{{ title }}" class="ma-flow-24">
+      <h2 class="ma-heading-2">
+        {{ pageHeaderTitle }}
+      </h2>
       {% include "partials/components/post-list.html" %}
     </article>
   </main>

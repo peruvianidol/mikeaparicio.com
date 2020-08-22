@@ -28,7 +28,7 @@ Since joining Letterboxd in 2012, the most "films" I've logged in a single year 
 
 After nearly a month into this experiment, I'd love to share some of the highlights I watched in January.
 
-<figure>
+<figure class="ma-float-right">
 
 ![Poster for Waves](/images/waves-poster.jpg)
 

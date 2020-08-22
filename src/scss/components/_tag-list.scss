@@ -1,0 +1,23 @@
+.ma-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ma-tag-list > :not(:last-child) {
+  margin-right: $spacing-8;
+}
+
+.ma-tag-list a {
+  font-size: $text-small-font-size;
+  line-height: $text-small-line-height;
+  display: block;
+  text-decoration: none;
+  background-color: $color-medium-blue;
+  color: white;
+  padding: $spacing-4 $spacing-16;
+  border-radius: $border-radius-small;
+  margin-bottom: $spacing-8;
+}
+
+.ma-tag-list a:hover { 
+  background-color: $color-dark-blue;
+}

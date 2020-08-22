@@ -22,7 +22,7 @@ A photo mode allows you to pose for pics with all of your island's residents.
 </figcaption>
 </figure>
 
-## WTF is Animal Crossing?
+<h3 class="ma-heading-3">WTF is Animal Crossing?</h3>
 
 Animal Crossing: New Horizons, is the fifth entry in the Animal Crossing series (and the first one I've played). The game drops you off on an island where Tom Nook, a tanuki loan-shark, invites you to set up camp, and eventually, permanent residence on the island. The game takes place in real-time, with certain creatures and events only available during certain times.
 
@@ -41,9 +41,9 @@ Besides building and decorating your house, you can acquire items, clothing and 
 
 Aside from eventually paying off your loans and raising your island's rating enough to attact K.K. Slider, a singing dog, to perform a show on your island, there's really no goal other than to build your dream home and its surroundings. So why does everyone love this game?
 
-## \#TogetherApart
+<h3 class="ma-heading-3">#TogetherApart</h3>
 
-<figure>
+<figure class="ma-float-left">
 
 ![An Animal Crossing date gone sour](/images/awkward-date.jpg)
 
@@ -56,7 +56,7 @@ There's no shortage of multiplayer gaming experiences out there — some competi
 
 On the other hand, Animal Crossing is incredibly cooperative. Since players have their own islands, people are generally helpful in sharing tips, items and allowing people to visit their islands to sell turnips at ridiculously high prices. I made my first million when my shop was offering an absurd amount in exchange for turnips and I opened my island up to strangers on the subreddit [r/TurnipStonkMarket](https://www.reddit.com/r/TurnipStonkMarket/), who tipped generously for the opportunity.
 
-<figure>
+<figure class="ma-float-right">
 
 ![An occult gathering of friends](/images/star-ritual.jpg)
 
@@ -67,7 +67,7 @@ Wishing upon stars in an ancient pagan ritual, as one does.
 
 Shortly after buying Animal Crossing, I was invited to a group of designers and developers who play, several of whom I have followed for many years and look up to as experts in my field. It is such a collaborative and supportive group. We constantly visit each other's islands when shops and villagers offer interesting items or to wish on shooting stars together on a clear night. (Yes, this is an actual mechanic in the game that generates crafting materials.) It's incredibly surreal to share a virtual moment with people I've seen speak at conferences and whose books and blogs I've read.
 
-## So Many Items
+<h3 class="ma-heading-3">So Many Items</h3>
 
 The sheer amount of items in this game is pretty astounding. There's so much variety in clothing, accessories, wallpaper, flooring, furniture, and plants. Each character, each house, and each island becomes an expression of its owner's personality. It feels weirdly intimate when you visit someone's island and enter their virtual house.
 
@@ -86,7 +86,7 @@ After attending one of these and getting a ton of new items to decorate my islan
 
 This kind of "everyone wins" gameplay only further fuels people's love for the game and enhances their connection to other players.
 
-## Third-party Apps
+<h3 class="ma-heading-3">Third-party Apps</h3>
 
 With any game there's always going to be apps developed that help make the game a bit easier. Animal Crossing has inspired a slew of great apps.
 
@@ -111,13 +111,13 @@ Just hanging out in my basement, like real life.
 </figcaption>
 </figure>
 
-## The Mike Seal of Approval
+<h3 class="ma-heading-3">The Mike Seal of Approval</h3>
 
 Animal Crossing: New Horizons is a wonderful, calming experience. It is incredibly deep, offering a seemingly endless number of customization options that help each player create a unique environment. The game continues to grow, with seasonal activities and new items and vendors appearing at a steady pace. The best part of ACNH is how it brings friends and strangers together, virtually at least, to hang out and help each other make the best island they can.
 
 When we finally emerge from our homes, hairy, squinting at the sun, I will look back fondly at Animal Crossing: New Horizons as one of the few bright spots that helped get us through.
 
-## Further Reading
+<h3 class="ma-heading-3">Further Reading</h3>
 
 * [Elijah Wood is the model Animal Crossing player](https://www.polygon.com/2020/4/23/21233074/animal-crossing-new-horizons-elijah-wood-model-citizen)
 * [People Are Getting Through Quarantine By Recreating Movie Scenes in Animal Crossing: New Horizons](https://www.slashfilm.com/animal-crossing-movie-scenes-recreations/)

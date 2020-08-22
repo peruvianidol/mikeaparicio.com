@@ -1,19 +1,22 @@
 {% if postListItems.length %}
-  <section>
-    <h2>{{ postListHeading }}</h2>
-    <ol reversed>
-      {% for item in postListItems %}
-        {% if item.date.getTime() <= global.now %}
-          <li>
-            <h3>
-              <a href="{{ item.url }}" rel="bookmark">{{ item.data.title }}</a>
-            </h3>
-            <p>
-              <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | date('MMMM D, YYYY') }}</time>
-            </p>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ol>
-  </section>
+  <ol reversed class="ma-grid-3">
+    {% for item in postListItems %}
+      {% if item.date.getTime() <= global.now %}
+        <li>
+          <figure class="ma-card">
+            <div class="ma-frame">
+              <a href="{{ item.url }}" rel="bookmark">
+                <img src="{{ item.data.thumbnail }}" alt="{{ item.data.thumbnailAlt }}">
+              </a>
+            </div>
+            <figcaption class="ma-flow-4 ma-text-medium">
+            <p><time datetime="{{ item.date | w3DateFilter }}" class="ma-text-small-subdued">{{ item.date | date('MMMM D, YYYY') }}</time></p>
+            <a href="{{ item.url }}" rel="bookmark" class="ma-heading-3">{{ item.data.title }}</a>
+            <p>{{ item.data.description }}</p>
+            </figcaption>
+          </figure>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
 {% endif %}

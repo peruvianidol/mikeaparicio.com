@@ -1,6 +1,6 @@
 ---
 title: 'Resources'
-layout: 'layouts/page.html'
+permalink: resources/index.html
 ---
 
 ### Andy Bell

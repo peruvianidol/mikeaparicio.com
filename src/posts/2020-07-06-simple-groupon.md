@@ -10,6 +10,7 @@ tags:
   - Design Tokens
   - CSS
 ---
+
 A few weeks ago we had a one-day hackathon at Groupon called **Simple Groupon**. The basic theme was to work on projects that simplified our processes and tools internally or simplified our customers' experience. I decided it would be a great opportunity to demonstrate the power of our new Groupon Design System to the broader engineering organization.
 
 With our current process, implementing visual style changes can be time-consuming due to existing technical debt and varying degrees of people's comfort/ability with [CSS](https://i.imgur.com/Q3cUg29.gif). Supporting multiple brands (including Living Social) and A/B testing new designs adds further complexity.
@@ -22,19 +23,19 @@ Our new design system addresses these challenges in a couple of ways. First, thr
 
 **Global Tokens** include all of the possible values in the system. The color palette, type scale, spacing values, etc. If we want to change the value of Groupon Green, we can do that here and it will change everywhere that token is used. What once took us several weeks can now be done in a few seconds.
 
-```scss
+```css
 $color-blue-600: #0070CC;
 ```
 
 **Contextual Tokens** describe how Global Tokens are used. They include common values that are used across multiple components, such as `$color-background-brand`. Contextual Tokens allow us to change from one Global Token value to another across multiple components.
 
-```scss
+```css
 $color-background-interactive: $color-blue-600;
 ```
 
 **Component Tokens** are values specific to a single component and can point to Contextual Tokens, Global Tokens, or even one-off values. Component Tokens allow us to make changes to a single component — changing the background color of the CTA button from green to blue, for example — without having to edit the app styles.
 
-```scss
+```css
 $button-cta-background: $color-background-interactive;
 ```
 
@@ -53,6 +54,7 @@ The other change I made was to separate the visual styles of components from the
 
 This allows us to compose new components without having to scope all of the styles required to arrange its parts to a class that is specific to the context. Take a deal card for example. Compare [this markup from our current site](https://gist.github.com/peruvianidol/970bedcbca60954c4a416474066956b1), stripped of data attributes, with [this markup from the Refresh example below](https://gist.github.com/peruvianidol/b4d028e33b011bc0d05ddc262ae83ee5), which produces a similar result with less markup and no references to the content or context of the component.
 
+<div class="ma-flex-row">
 <figure>
 
 ![A deal card from production](/images/deal-card.png)
@@ -70,15 +72,17 @@ Production
 Refresh
 </figcaption>
 </figure>
+</div>
 
 This new approach greatly reduces the amount of HTML and CSS required to reproduce a design, eliminating almost entirely the need for "app-specific styles", making pages much more flexible and maintainable.
 
-## GDS Framework
+<h3 class="ma-heading-3">GDS Framework</h3>
 
 The Groupon Design System includes a new CSS framework built entirely from scratch. It builds on everything I learned from developing CSS frameworks for our internal tools, consumer- and merchant-facing products. The framework is built using [Eleventy](https://11ty.dev), an incredibly simple and easy-to-use static site generator. It uses SASS for CSS pre-processing, but could just as easily use Stylus or CSS variables.
 
 `gds-grpn.css` is compiled from a bunch of individual `.scss` files. The Groupon design tokens are imported first, so that all the other files have access to them. For additional themes, the Groupon tokens serve as the defaults, to which a separate tokens file can build upon by adding or modifying token values before they are used by the style files.
 
+<div class="ma-flex-row">
 <figure>
 
 ![The GDS Groupon SCSS file](/images/gds-grpn-scss.png)
@@ -96,14 +100,15 @@ gds-grpn.scss
 gds-ls.scss
 </figcaption>
 </figure>
+</div>
 
 The different Deal Page examples are built using a templating engine, so you can include the name of the theme in the front matter and then call it in various places in your HTML like this:
 
 ```html
-<link href="/css/gds-{{theme}}.css" rel="stylesheet">
+<link href="/css/gds-{%raw%}{{theme}}{%endraw%}.css" rel="stylesheet">
 ```
 
-## Examples
+<h3 class="ma-heading-3">Examples</h3>
 
 Here are four versions of the deal page I was able to produce using the new Groupon Design System. The last three designs were all done in half a day. The same result would take dozens of engineers weeks to implement under our current process.
 
@@ -159,6 +164,6 @@ We can make even bigger changes to achieve a dramatically different design in a 
 
 Compared to our current homepage CSS (238k), the CSS for the above examples [weighs in at around just 20k](https://cssstats.com/stats?url=https%3A%2F%2Fmikeaparicio.com%2Fsimple-groupon%2Fdeal-page%2F), uses less markup, and is far more maintainable.
 
-## Special Thanks
+<h3 class="ma-heading-3">Special Thanks</h3>
 
 None of this would have been possible without the help of my Design System Team colleagues, **Michelle Witkowski** and **Lila Fagen**, who have helped drive the visual direction of the system and built the tooling designers will use to deliver designs using the new system. Also, thank you to the entire **[Groupon Design Union](https://design.groupon.com/)**, who helped put the system through its paces and helped contribute to it in ways big and small. And to my manager, **Matt Hanson**, for supporting and advocating for the design system for many years. Also thanks to all of the developers who provided feedback and contributed to Toolstrap, GIG and Mixer over the years and challenged my thinking about design systems and CSS frameworks. Finally, thanks to the design system community for being so generous with their time and knowledge, and constantly pushing design systems forward. This was truly a team effort!

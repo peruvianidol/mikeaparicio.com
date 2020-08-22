@@ -28,7 +28,7 @@ Besides your deck, you can also acquire relics, which give you passive or one-ti
 
 You make your way through a branching path that includes enemy battles, random events, shops, and campfires, where you can choose to rest or upgrade cards. Each of the three acts concludes with a boss encounter that will test the limits of your deck.
 
-## Every game is different
+<h3 class="ma-heading-3">Every game is different</h3>
 
 Because you're building your deck on-the-fly and randomly acquiring relics and potions, you can almost never re-construct the exact combination that led to success in previous runs. This forces you to try new card combinations in hopes of overcoming the most difficult encounters.
 
@@ -40,7 +40,7 @@ After over 100 hours of play, I've only been able to reach Ascension 4 on all th
 
 For even more variety, there's a daily challenge that adds random modifiers that change your starting cards or give you unique handicaps to overcome using one of the three characters. These can be incredibly fun and incredibly difficult.
 
-## Discovering synergies
+<h3 class="ma-heading-3">Discovering synergies</h3>
 
 After each battle you're given a choice of three cards to add to your deck. While your first inclination might be to always take a card, many times it's to your advantage to not take any of them. In fact, the game gives you the option in shops and random events to remove cards from your deck since the more cards you have in your deck, the less likely you are to have the card you need in your hand when you need it.
 
@@ -48,7 +48,7 @@ The game is filled with counter-intuitive choices like this that lead you to dis
 
 When you discover these synergies, it can be immensely satisfying as you cut through even the toughest boss.
 
-## Incredibly challenging achievements
+<h3 class="ma-heading-3">Incredibly challenging achievements</h3>
 
 <figure>
 
@@ -69,7 +69,7 @@ The achievements in Slay the Spire hint at some of these synergies. At first gla
 
 Many of these require you to find just the right combination of cards that can be cycled indefinitely, which is extremely challenging and requires a good bit of [RNG](https://en.wikipedia.org/wiki/Random_number_generation) luck. If you are a gaming masochist like me, Slay the Spire's achievements will really give you a run for your money.
 
-## The Mike Seal of Approval
+<h3 class="ma-heading-3">The Mike Seal of Approval</h3>
 
 Slay the Spire is an incredibly fun, rewarding and addictive game. If you're into CCGs like Magic or Hearthstone, or turn-based strategy games like Into the Breach or Darkest Dungeon, you'll love Slay the Spire.
 

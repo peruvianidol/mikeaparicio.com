@@ -90,6 +90,11 @@
   margin-bottom: $spacing-16;
 }
 
+.ma-flow-24 > :not(:last-child):not([class*="ma-stack"]) {
+  margin-bottom: $spacing-24;
+}
+
+
 .ma-full-bleed {
   margin-left: -#{$gutter-medium};
   margin-right: -#{$gutter-medium};
@@ -104,6 +109,10 @@
   margin: 0 auto;
 }
 
+.ma-full-width img {
+  width: 100%;
+}
+
 @media (min-width: $breakpoint-medium) {
   .ma-flex-row {
     display: flex;
@@ -116,5 +125,21 @@
   .ma-full-bleed {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .ma-float-left {
+    width: 50%;
+    float: left;
+    margin-right: $gutter-medium;
+  }
+  .ma-float-right {
+    width: 50%;
+    float: right;
+    margin-left: $gutter-medium;
+  }
+  .ma-float-center {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

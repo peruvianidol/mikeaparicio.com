@@ -11,7 +11,7 @@ I've been kicking around a few ideas for posts recently, but it seemed a little 
 
 For several weeks now, (what is time anymore?) we've all been under stay-at-home orders, maintaining social distancing and generally trying not to lose our collective shit as COVID-19 has spread throughout the world. At the time I'm writing this, John Hopkins University reports a total of 1.87M confirmed cases and 116k deaths throughout the world. Just in my small Chicago suburb, there have been nearly 100 cases and two deaths. And these numbers are probably well below the actual totals because of a lack of testing.
 
-<figure>
+<figure class="ma-float-right">
 
 ![The author in his new outdoor attire](/images/quarantine-mike.jpg)
 
@@ -28,7 +28,7 @@ It's not a great time to be [working for a company](https://www.chicagotribune.c
 
 Meanwhile, we're caring for a 14-month-old and a 16-year-old while trying to work from home. Because my time is split I feel like I'm not doing an adequate job at work or taking care of my kids. The 14-month-old is oblivious to the whole situation but he's at a stage where he's just mobile enough and curious enough to require constant supervision. Meanwhile the 16-year-old is missing out on his social life and his baseball season, which I'm sure is incredibly frustrating for him.
 
-## Trying to Cope
+<h3 class="ma-heading-3">Trying to Cope</h3>
 
 Here are some things my family and I have been doing and enjoying while trying to survive self-isolation.
 

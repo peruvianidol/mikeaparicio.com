@@ -11,7 +11,7 @@ Caring for my infant son has started to get me thinking about what's next in my 
 
 After years of being the lone "web guy" at various small companies, Groupon took a chance on me as a UI engineer. I started out working on a redesign project which took a long time to go nowhere. The mere mention of its codename for many years triggered PTSD in all those involved.
 
-<figure>
+<figure class="ma-float-right">
 
 ![Groupon anniversary patches](/images/anniversary-patches.jpg)
 
@@ -65,7 +65,7 @@ After giving up on computer science, I wondered what I could major in that invol
 
 Since then, sports journalism has seen a huge shift from traditional media outlets to [bloggers](https://awfulannouncing.com/nba/henry-abbott-truehoop-return-newsletter.html) and [podcasters](https://www.nba.com/the-starters-podcasts) becoming mainstream NBA personalities. As much as I used to love writing about hoops, I look at the stuff they're doing over at [The Ringer](https://www.theringer.com/) and wonder how I ever did it at all.
 
-<figure>
+<figure class="ma-float-right">
 
 ![Mark Aparicio diploma](/images/mark-aparicio.jpg)
 
@@ -90,7 +90,7 @@ There used to be a handful of Peruvian restaurants in the Chicago area, but in r
 
 Opening a restaurant seems like the riskiest proposition of all of these. Restaurants come and go so quickly, and require a ton of hours of work. Besides that, I can't cook for shit.
 
-## Sounds like a bunch of excuses to me
+<h3 class="ma-heading-3">Sounds like a bunch of excuses to me</h3>
 
 Yes, you're absolutely right, voice in my head. A lot of these different things appeal to me but it's highly unlikely I'll make such a drastic career change anytime soon. Things are good right now. I'm comfortable where I'm at. Sure, I'm not curing cancer with internet coupons, but it pays the bills.
 

@@ -13,7 +13,7 @@ Recently, I was tasked with taking a very data-heavy site designed for desktop a
 
 It also reminded me of the old CSS Zen Garden, since I couldn't update the markup and had to rely on targeting existing classes. This turned out to be somewhat challenging given that it was a React app and for some reason (in my experience, at least), React apps tend to have a ton of nested div elements. It prompted me to make a meme:
 
-<figure>
+<figure class="ma-float-center">
 
 ![(Butterfly man meme) React Devs looking at literally every layer in a Sketch file and asking, is this a div?](/images/is-this-a-div.jpg)
 

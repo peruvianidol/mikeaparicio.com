@@ -1,22 +1,16 @@
 {% extends "layouts/base.html" %} 
 
-{% if notitle != true %}
-  {% set pageHeaderTitle = title %} 
-{% endif %}
+{% set pageHeaderTitle = title %} 
 
 {% block content %}
-<main tabindex="-1" id="main-content" class="ma-container">
-  <article class="ma-flow-16">
+<main tabindex="-1" id="main-content" class="ma-two-col">
+  <article class="ma-flow-24">
     {% include "partials/page-header.html" %} 
     {{ content | safe }}
   </article>
-  
+  {% if title == "About" %}
+    {% include "partials/about-photos.html" %}
+  {% endif %}
 </main>
-
-{% block sidebar %}
-  {{ sidebar | safe }}
 {% endblock %}
 
-{% endblock %}
-
-<!-- about-photos -->
