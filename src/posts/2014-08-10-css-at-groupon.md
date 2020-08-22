@@ -3,6 +3,7 @@ title: CSS at Groupon
 description: A look at our CSS frameworks at Groupon.
 date: 2014-08-10
 thumbnail: /images/toolstrap-thumbnail.jpg
+thumbnailAlt: Groupon's CSS framework for internal tools.
 tags:
   - CSS
   - Design Systems

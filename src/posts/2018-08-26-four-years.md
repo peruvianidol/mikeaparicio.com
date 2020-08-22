@@ -3,6 +3,7 @@ title: Four Years
 description: It's been awhile.
 date: 2018-08-26
 thumbnail: /images/olivia-foot.jpg
+thumbnailAlt: Olivia's foot
 tags:
   - Extra Life
   - Olivia
