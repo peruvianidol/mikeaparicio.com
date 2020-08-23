@@ -5,9 +5,6 @@ const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const slugify = require("slugify");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
-// Transforms
-const htmlMinTransform = require('./src/transforms/html-min-transform.js');
-
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -36,11 +33,6 @@ module.exports = config => {
   config.addPassthroughCopy('src/simple-groupon/img/*');
   config.addPassthroughCopy('src/slides/*');
   config.addPassthroughCopy('src/fonts/*');
-
-  // Only minify HTML if we are in production because it slows builds _right_ down
-  if (isProduction) {
-    config.addTransform('htmlmin', htmlMinTransform);
-  }
 
   // Plugins
   config.addPlugin(rssPlugin);

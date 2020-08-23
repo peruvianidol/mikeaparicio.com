@@ -31,9 +31,9 @@
  /* Code blocks */
  pre[class*="language-"] {
    padding: 1em;
-   margin: .5em 0;
+   margin: 0;
    overflow: auto;
-   border-radius: 0.3em;
+   border-radius: $border-radius-medium;
  }
  
  :not(pre) > code[class*="language-"],
@@ -120,5 +120,10 @@
  
  .token.entity {
    cursor: help;
+ }
+
+ code:first-line,
+ code > br:last-child {
+   line-height: 0;
  }
  
