@@ -10,7 +10,7 @@ strong {
   font-weight: $font-weight-bold;
 }
 
-blockquote:not(.twitter-tweet) {
+blockquote:not([class]) {
   border-left: $spacing-8 solid $color-chicago-blue;
   padding: $spacing-24 $spacing-32 $spacing-24 $spacing-24;
   font-size: $text-medium-font-size;
@@ -19,7 +19,7 @@ blockquote:not(.twitter-tweet) {
 }
 
 @media (min-width: $breakpoint-medium) {
-  blockquote:not(.twitter-tweet) {
+  blockquote:not([class]) {
     padding: $spacing-24 $spacing-32 $spacing-24 $spacing-24;
     margin-left: $spacing-32;
     margin-right: $spacing-64;  
