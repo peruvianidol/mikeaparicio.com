@@ -4,6 +4,36 @@ const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const slugify = require("slugify");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt, sizes = "100vw") {
+  if(alt === undefined) {
+    throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
+  }
+
+  src = "src/" + src;
+
+  let metadata = await Image(src, {
+    widths: [300, 600],
+    formats: ['webp', 'jpeg'],
+    urlPath: "/images/",
+    outputDir: "./dist/images/",
+  });
+
+  let lowsrc = metadata.jpeg[0];
+
+  return `<picture>
+    ${Object.values(metadata).map(imageFormat => {
+      return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
+    }).join("\n")}
+      <img
+        src="${lowsrc.url}"
+        width="${lowsrc.width}"
+        alt="${alt}"
+        loading="lazy"
+        decoding="async">
+    </picture>`;
+}
 
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
@@ -49,6 +79,47 @@ module.exports = config => {
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
+
+  config.addNunjucksAsyncShortcode("image", imageShortcode);
+
+  // config.addNunjucksAsyncShortcode("Image", async (src, alt) => {
+  //   if (!alt) {
+  //     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+  //   }
+
+  //   let stats = await Image(src, {
+  //     widths: [480],
+  //     formats: ["jpeg", "webp"],
+  //     urlPath: "./images/",
+  //     outputDir: "./dist/images/",
+  //   });
+
+  //   let lowestSrc = stats["jpeg"][0];
+
+  //   const srcset = Object.keys(stats).reduce(
+  //     (acc, format) => ({
+  //       ...acc,
+  //       [format]: stats[format].reduce(
+  //         (_acc, curr) => `${_acc} ${curr.srcset}`,
+  //         ""
+  //       ),
+  //     }),
+  //     {}
+  //   );
+
+  //   const webp = `<source type="image/webp" srcset="${srcset["webp"]}" >`;
+  //   const jpg = `<source type="image/jpeg" srcset="${srcset["jpeg"]}" >`;
+
+  //   const img = `<img
+  //     loading="lazy"
+  //     alt="${alt}"
+  //     src="${lowestSrc.url}"
+  //     sizes='(min-width: 1024px) 1024px, 100vw'
+  //     srcset="${srcset["jpeg"]}"
+  //     width="${lowestSrc.width}">`;
+
+  //   return `<div class="image-wrapper"><picture> ${webp} ${jpg} ${img} </picture></div>`;
+  // });
 
   return {
     markdownTemplateEngine: 'njk',
