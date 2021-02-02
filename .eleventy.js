@@ -29,6 +29,7 @@ async function imageShortcode(src, alt, sizes = "100vw") {
       <img
         src="${lowsrc.url}"
         width="${lowsrc.width}"
+        height="${lowsrc.height}"
         alt="${alt}"
         loading="lazy"
         decoding="async">
