@@ -3,7 +3,7 @@ main, footer {
 }
 
 .ma-wrapper {
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 @media (min-width: $breakpoint-medium) {
