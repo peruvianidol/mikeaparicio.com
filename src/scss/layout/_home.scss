@@ -7,7 +7,6 @@ main, footer {
     display: grid;
     grid-template-columns: 1fr minmax(min-content, $container-max-width) 1fr;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
   }
 
   .ma-wrapper header {
