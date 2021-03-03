@@ -2,6 +2,12 @@
   font-weight: $font-weight-bold;
 }
 
+[class*="ma-heading"] > span {
+  font-weight: $font-weight-normal;
+  color: $color-dark-gray;
+  font-size: .875em;
+}
+
 .ma-heading-1 {
   font-size: $heading-1-font-size;
   line-height: $heading-1-line-height;

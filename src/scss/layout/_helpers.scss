@@ -12,6 +12,10 @@
   margin-right: $gutter-small;
 }
 
+.ma-align-start {
+  align-items: flex-start;
+}
+
 @media (min-width: $breakpoint-medium) {
   .ma-flex > :not(:last-child) {
     margin-right: $gutter-large;

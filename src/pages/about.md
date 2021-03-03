@@ -5,7 +5,7 @@ permalink: about/index.html
 
 <figure class="ma-float-left ma-about-headshot">
 
-![Photo of Mike](/images/headshot.jpg)
+![Photo of Mike](/images/headshot-2021.jpg)
 
 </figure>
 
@@ -15,7 +15,7 @@ I spent most of my career as a general "web guy" before joining Groupon in 2011.
 
 I did the writing and conservatory programs at Second City, which was as close as I'd come to fulfilling my childhood dream of being on Saturday Night Live. I wrote and performed sketch and improv comedy and collaborated on a few short [comedy videos](https://vimeo.com/peruvianidol) with my classmates.
 
-I also enjoy playing video games. Some of my favorites include Destiny, XCOM, and NBA2k. I've participated in [Extra Life](https://www.extra-life.org/), a 24-hour gaming marathon, every year since 2014 to support Lurie Children's Hospital in honor of my daughter, [Olivia](http://localhost:8080/posts/2018-08-26-four-years/). To date, we've raised over $19,000 for Lurie. You can occasionally find me streaming on [Twitch](https://twitch.tv/peruvianidol) for one or two viewers.
+I also enjoy playing video games. Some of my all-time favorites include Destiny, XCOM, and NBA2k. I've participated in [Extra Life](https://www.extra-life.org/), a 24-hour gaming marathon, every year since 2014 to support Lurie Children's Hospital in honor of my daughter, [Olivia](http://localhost:8080/posts/2018-08-26-four-years/). To date, we've raised over $25,000 for Lurie. You can occasionally find me streaming on [Twitch](https://twitch.tv/peruvianidol) for one or two viewers.
 
 I live in Oak Park, Illinois, with my wife, two sons and two dogs.
 
