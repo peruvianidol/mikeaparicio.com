@@ -68,3 +68,11 @@ th, td {
 td:not(:last-child) {
   border-right: 1px solid $color-dark-gray;
 }
+
+dt {
+  font-weight: 600;
+}
+
+dd {
+  margin-bottom: $spacing-24;
+}
