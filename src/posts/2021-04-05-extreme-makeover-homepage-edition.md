@@ -10,6 +10,13 @@ tags:
   - Web Development
 ---
 
+<figure>
+  {% image "/images/extreme-makeover.png", "Extreme Makeover Homepage Edition logo" %}
+  <figcaption>
+    I'm really nailing these clickbaity social images. 😎
+  </figcaption>
+</figure>
+
 A few weeks ago my therapist, Mollie, was lamenting about the fact that she's been paying $60 a month to host her website through one of those companies that offers template websites for professionals.
 
 "That's outrageous," I said. "I could move it over to Netlify and you wouldn't have to pay anything."
