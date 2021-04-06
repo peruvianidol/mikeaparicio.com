@@ -1,7 +1,7 @@
 ---
 title: Extreme Makeover Homepage Edition
 description: "I am the Ty Pennington of Lighthouse scores."
-date: 2021-04-05
+date: 2021-04-06
 thumbnail: /images/thumbnails/extreme-makeover-thumb.png
 thumbnailAlt: Extreme Makeover Homepage Edition
 tags:
