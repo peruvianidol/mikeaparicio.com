@@ -99,7 +99,7 @@ Are you ready for this?
   </figcaption>
 </figure>
 
-In total, I reduced the number of requests from 52 to 6 and the total size from ~10MB to 165k, and a large chunk of that are the two weights of EB Garamond. Not bad!
+In total, I reduced the number of requests from 52 to 6 and the total size from ~10MB to 165k, and a large chunk of that are the two weights of EB Garamond. The page's time to interactive went from 27 seconds to 0.8 seconds. Not bad!
 
 <figure>
   {% image "/images/mr-requests-after.png", "8 Requests, 165k" %}
@@ -108,7 +108,7 @@ In total, I reduced the number of requests from 52 to 6 and the total size from 
   </figcaption>
 </figure>
 
-And here's a side-by-side comparison of the original site (left) and the new site (right).
+And here's a side-by-side comparison of the original site (left) and the new site (right). Aside from a few accessibility improvements and spacing adjustments, it looks largely the same.
 
 <figure>
   {% image "/images/mr-side-by-side.png", "" %}
