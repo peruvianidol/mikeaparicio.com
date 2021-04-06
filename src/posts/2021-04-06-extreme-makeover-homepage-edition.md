@@ -17,7 +17,7 @@ tags:
   </figcaption>
 </figure>
 
-A few weeks ago my therapist, Mollie, was lamenting about the fact that she's been paying $60 a month to host her website through one of those companies that offers template websites for professionals.
+A few weeks ago my therapist was lamenting about the fact that she's been paying $60 a month to host her website through one of those companies that offers template websites for professionals.
 
 "That's outrageous," I said. "I could move it over to Netlify and you wouldn't have to pay anything."
 
@@ -48,7 +48,7 @@ Digging a little deeper, there were a number of items contributing to these scor
 
 **An accessibility overlay**. As companies are scrambling to meet accessibility requirements, they often reach for one of these solutions instead of just making their website accessible themselves. The A11y Project recently published an article about <a href="https://www.a11yproject.com/posts/2021-03-08-should-i-use-an-accessibility-overlay/">why they don't recommend using them</a>.
 
-There were some other small things, but those were the biggest culprits. And none of this was added by Mollie so much as she just picked out a template and added her content. I'm sure any other site offered by this company would be equally as unperformant.
+There were some other small things, but those were the biggest culprits. And none of this was added by my therapist so much as she just picked out a template and added her content. I'm sure any other site offered by this company would be equally as unperformant.
 
 <h3 class="ma-heading-3">Made with Eleventy</h3>
 
@@ -68,7 +68,7 @@ I reduced the number of fonts down to just two and aggressively subsetted them u
 
 With <a href="https://netlify.com">Netlify</a>, pushing updates to the live website is as easy as committing changes to your Github repo. Netlify makes it easy to roll back changes and offers a ton of other great features. It's revolutionized how I build and host sites. It pairs great with Eleventy, building your site before deploying it.
 
-Another cool feature is Netlify Forms. You can add a `netlify` attribute to any form element and when the site is built, Netlify will automatically handle form submissions. You can then set up any number of form handlers to forward submissions to an email address or automatically execute more complex tasks as needed. I used this feature for the contact form, with the submissions forwarding to Mollie's email.
+Another cool feature is Netlify Forms. You can add a `netlify` attribute to any form element and when the site is built, Netlify will automatically handle form submissions. You can then set up any number of form handlers to forward submissions to an email address or automatically execute more complex tasks as needed. I used this feature for the contact form, with the submissions forwarding to her email.
 
 **Full disclosure:** I am literally wearing <a href="https://swag.netlify.com/product/netlify-light-jammies">Netlify pajamas</a> right now.
 
@@ -108,7 +108,7 @@ In total, I reduced the number of requests from 52 to 6 and the total size from 
   </figcaption>
 </figure>
 
-And here's a side-by-side comparison of the original site (left) and the new site (right). Aside from a few accessibility improvements and spacing adjustments, it looks largely the same.
+And here's a side-by-side comparison of the original site (left) and the new site (right). Aside from a few accessibility improvements and spacing adjustments, it looks largely the same. (I obfuscated her personal details, per her request.)
 
 <figure>
   {% image "/images/mr-side-by-side.png", "" %}
