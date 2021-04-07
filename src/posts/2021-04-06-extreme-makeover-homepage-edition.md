@@ -17,7 +17,7 @@ tags:
   </figcaption>
 </figure>
 
-A few weeks ago my therapist was lamenting about the fact that she's been paying $60 a month to host her website through one of those companies that offers template websites for professionals.
+A few weeks ago a friend of mine, who is a therapist, was lamenting about the fact that she's been paying $60 a month to host her website through one of those companies that offers template websites for professionals.
 
 "That's outrageous," I said. "I could move it over to Netlify and you wouldn't have to pay anything."
 
@@ -48,7 +48,7 @@ Digging a little deeper, there were a number of items contributing to these scor
 
 **An accessibility overlay**. As companies are scrambling to meet accessibility requirements, they often reach for one of these solutions instead of just making their website accessible themselves. The A11y Project recently published an article about <a href="https://www.a11yproject.com/posts/2021-03-08-should-i-use-an-accessibility-overlay/">why they don't recommend using them</a>.
 
-There were some other small things, but those were the biggest culprits. And none of this was added by my therapist so much as she just picked out a template and added her content. I'm sure any other site offered by this company would be equally as unperformant.
+There were some other small things, but those were the biggest culprits. And none of this was added by my friend so much as she just picked out a template and added her content. I'm sure any other site offered by this company would be equally as unperformant.
 
 <h3 class="ma-heading-3">Made with Eleventy</h3>
 
