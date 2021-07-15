@@ -1,5 +1,5 @@
 ---
-title: 'Eleventy Meetup'
+title: 'THE Eleventy Meetup'
 permalink: template-talk/index.html
 ---
 

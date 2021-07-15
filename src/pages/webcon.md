@@ -1,5 +1,5 @@
 ---
-title: 'Webcon'
+title: 'Webcon 2019'
 permalink: webcon/index.html
 ---
 
