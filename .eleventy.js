@@ -43,6 +43,7 @@ module.exports = config => {
 
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
+  config.addFilter("squash", require("./src/filters/squash.js") );
   config.addFilter("date", function(date, format) {
     return moment.utc(date).format(format);
   });
@@ -62,8 +63,9 @@ module.exports = config => {
   config.addPassthroughCopy('src/admin/*');
   config.addPassthroughCopy('src/simple-groupon/css/*');
   config.addPassthroughCopy('src/simple-groupon/img/*');
-  config.addPassthroughCopy('src/slides/*');
+  config.addPassthroughCopy('src/slides/*.pdf');
   config.addPassthroughCopy('src/fonts/*');
+  config.addPassthroughCopy('src/js/*');
 
   // Plugins
   config.addPlugin(rssPlugin);
