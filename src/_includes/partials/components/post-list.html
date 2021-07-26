@@ -6,7 +6,7 @@
           <figure class="ma-card">
             <div class="ma-frame">
               <a href="{{ item.url }}" rel="bookmark">
-                <img src="{{ item.data.thumbnail }}" alt="{{ item.data.thumbnailAlt }}">
+                {% image item.data.thumbnail, item.data.thumbnailAlt %}
               </a>
             </div>
             <figcaption class="ma-flow-4 ma-text-medium">
