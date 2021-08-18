@@ -4,7 +4,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
     <link rel="stylesheet" media="print" href="/css/ma.css?{{ assetHash }}" onload="this.media='all'" />
@@ -23,6 +22,7 @@
         <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
       {% endfor %}
     {% endif %}
+    <script src="https://cdn.usefathom.com/script.js" data-site="JTDSSQEV" defer></script>
   </head>
   <body>
     
