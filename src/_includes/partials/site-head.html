@@ -11,7 +11,7 @@
       <ul class="ma-flex ma-nav">
         {% for item in navigation.items %}
         <li>
-          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }} {% if item.url == "/search/"%} id="search-link"{% endif %}>{{ item.text }}</a>
+          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
         </li>
         {% endfor %}
       </ul>
