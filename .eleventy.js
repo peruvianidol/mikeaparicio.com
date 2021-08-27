@@ -1,137 +1,67 @@
-const moment = require("moment");
-const rssPlugin = require('@11ty/eleventy-plugin-rss');
-const dateFilter = require('./src/filters/date-filter.js');
-const w3DateFilter = require('./src/filters/w3-date-filter.js');
-const slugify = require("slugify");
+const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const Image = require("@11ty/eleventy-img");
+const path = require('path');
 
 async function imageShortcode(src, alt, sizes = "100vw") {
-  if(alt === undefined) {
-    throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
-  }
-
-  src = "src/" + src;
+  let srcPrefix = `./_src/assets/images/`;
+  src = srcPrefix + src;
+  console.log(`Generating image(s) from:  ${src}`);
 
   let metadata = await Image(src, {
-    widths: [640, null],
-    formats: ['webp', 'jpeg'],
-    urlPath: "/images/",
-    outputDir: "./dist/images/",
+    widths: [320, 640, 960],
+    formats: ['avif', 'webp', 'jpeg'],
+    outputDir: "./_site/assets/images/generated/",
+    urlPath: "/assets/images/generated/",
+
+    filenameFormat: function (id, src, width, format, options) {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension)
+      return `${name}-${width}w.${format}`;
+    }
   });
 
   let lowsrc = metadata.jpeg[0];
-
+  let highsrc = metadata.jpeg[metadata.jpeg.length - 1];
   return `<picture>
     ${Object.values(metadata).map(imageFormat => {
-      return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
+      return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`
     }).join("\n")}
-      <img
-        src="${lowsrc.url}"
-        width="${lowsrc.width}"
-        height="${lowsrc.height}"
-        alt="${alt}"
-        loading="lazy"
-        decoding="async">
-    </picture>`;
+    <img
+      src="${lowsrc.url}"
+      width="${highsrc.width}"
+      height="${highsrc.height}"
+      alt="${alt}"
+      loading="lazy"
+      decoding="async">
+  </picture>`;
 }
 
-// Create a helpful production flag
-const isProduction = process.env.NODE_ENV === 'production';
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("_src/assets/images/");
 
-module.exports = config => {
+  eleventyConfig.addWatchTarget("./_src/assets/scss/");
 
-  config.addFilter('dateFilter', dateFilter);
-  config.addFilter('w3DateFilter', w3DateFilter);
-  config.addFilter("squash", require("./src/filters/squash.js") );
-  config.addFilter("date", function(date, format) {
-    return moment.utc(date).format(format);
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toLocaleString(DateTime.DATE_FULL);
   });
-  config.addFilter("slugify", (input) => {
-    const options = {
-      replacement: "-",
-      remove: /[&,+()$~%.'":*?<>{}]/g,
-      lower: true
-    };
-    return slugify(input, options);
-  });
-
-  config.addLayoutAlias('home', 'layouts/home.html');
-  config.addLayoutAlias('post', 'layouts/post.html');
-
-  config.addPassthroughCopy('src/images/**/*');
-  config.addPassthroughCopy('src/admin/*');
-  config.addPassthroughCopy('src/simple-groupon/css/*');
-  config.addPassthroughCopy('src/simple-groupon/img/*');
-  config.addPassthroughCopy('src/slides/*.pdf');
-  config.addPassthroughCopy('src/fonts/*');
-  config.addPassthroughCopy('src/js/*');
 
   // Plugins
-  config.addPlugin(rssPlugin);
-  config.addPlugin(syntaxHighlight);
-
-  const now = new Date();
-
-  const livePosts = post => post.date <= now && !post.data.draft;
-  config.addCollection('posts', collection => {
-    return [
-      ...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)
-    ].reverse();
-  });
-
-  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
-  config.setUseGitIgnore(false);
-
-  config.addNunjucksAsyncShortcode("image", imageShortcode);
-
-  // config.addNunjucksAsyncShortcode("Image", async (src, alt) => {
-  //   if (!alt) {
-  //     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-  //   }
-
-  //   let stats = await Image(src, {
-  //     widths: [480],
-  //     formats: ["jpeg", "webp"],
-  //     urlPath: "./images/",
-  //     outputDir: "./dist/images/",
-  //   });
-
-  //   let lowestSrc = stats["jpeg"][0];
-
-  //   const srcset = Object.keys(stats).reduce(
-  //     (acc, format) => ({
-  //       ...acc,
-  //       [format]: stats[format].reduce(
-  //         (_acc, curr) => `${_acc} ${curr.srcset}`,
-  //         ""
-  //       ),
-  //     }),
-  //     {}
-  //   );
-
-  //   const webp = `<source type="image/webp" srcset="${srcset["webp"]}" >`;
-  //   const jpg = `<source type="image/jpeg" srcset="${srcset["jpeg"]}" >`;
-
-  //   const img = `<img
-  //     loading="lazy"
-  //     alt="${alt}"
-  //     src="${lowestSrc.url}"
-  //     sizes='(min-width: 1024px) 1024px, 100vw'
-  //     srcset="${srcset["jpeg"]}"
-  //     width="${lowestSrc.width}">`;
-
-  //   return `<div class="image-wrapper"><picture> ${webp} ${jpg} ${img} </picture></div>`;
-  // });
+  eleventyConfig.addPlugin(rssPlugin);
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   return {
+    dir: {
+      input: '_src',
+      output: '_site'
+    },
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
-    htmlTemplateEngine: 'njk',
-    
-    dir: {
-      input: 'src',
-      output: 'dist'
-    }
+    htmlTemplateEngine: 'njk'
   };
+
 };

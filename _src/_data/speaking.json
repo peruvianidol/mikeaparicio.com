@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2021-08-03",
+    "description": "I built a basic design system for Frontend Horse and talked to Alex Trost about the process.",
+    "image": "",
+    "link": "https://youtu.be/69rQrjMt2go"
+  },
+  {
+    "date": "2021-07-15",
+    "description": "I gave a talk at the inaugural Eleventy Meetup called Templating: Eleventy's Superpower, where I demonstrated how to create an Eleventy site in ~10 minutes.",
+    "image": "",
+    "link": "/template-talk/"
+  },
+  {
+    "date": "2019-11-07",
+    "description": "I spoke with Dan Mall at Superfriendly on Get It Out of Your System about how communication is one of the biggest challenges in establishing a design system.",
+    "image": "",
+    "link": "https://superfriendlydesign.systems/podcasts/get-it-out-of-your-system/mike-aparicio-groupon-communication/"
+  },
+  {
+    "date": "2019-04-04",
+    "description": "On the Command Z Podcast, I talked to Layshi Curbelo about how design systems help improve collaboration between designers and engineers.",
+    "image": "",
+    "link": "https://commandzpodcast.com/podcast/episodio-35-mike-aparicio-design-systems-more-than-just-a-library/"
+  },
+  {
+    "date": "2019-04-04",
+    "description": "At University of Illinois' WebCon 2019, I gave a talk called Lessons From the Coupon Factory, where I shared the evolution of Groupon's design system.",
+    "image": "",
+    "link": "/webcon/"
+  }
+]

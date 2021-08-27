@@ -1,0 +1,7 @@
+<h2>Speaking</h2>
+
+{% for event in speaking %}
+  {% if loop.first %}<ul>{% endif %}
+    <li>{{ event.description }} <a href="{{ event.link }}">Link</a></li>
+  {% if loop.last %}</ul>{% endif %}
+{% endfor %}

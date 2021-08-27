@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.name }}</title>
+  <link rel="stylesheet" href="/assets/css/ma.css">
+  <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
+</head>
+<body>
+  
+  <header>
+    <h1><a href="/">{{ site.name }}</a></h1>
+    <nav>
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/work/">Work</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <p>&copy; 2014&ndash;2021 All your rights are belong to us.</p>
+
+    <ul>
+      <li><a href="https://twitter.com/peruvianidol">Twitter</a></li>
+      <li><a href="https://twitch.tv/peruvianidol">Twitch</a></li>
+      <li><a href="https://codepen.io/peruvianidol">Codepen</a></li>
+      <li><a href="https://github.com/peruvianidol">Github</a></li>
+      <li><a href="https://instagram.com/peruvianidol">Instagram</a></li>
+      <li><a href="https://letterboxd.com/peruvianidol">Letterboxd</a></li>
+      <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>

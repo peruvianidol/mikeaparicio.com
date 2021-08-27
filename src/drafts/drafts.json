@@ -1,5 +1,0 @@
-{
-  "layout": "layouts/post.html",
-  "permalink": "drafts/{{ date | date('YYYY-MM-DD') }}-{{ title | slug }}/index.html",
-  "draft": true
-}
