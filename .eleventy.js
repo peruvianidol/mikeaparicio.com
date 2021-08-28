@@ -3,6 +3,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const Image = require("@11ty/eleventy-img");
 const path = require('path');
+const svgSprite = require("eleventy-plugin-svg-sprite");
 
 async function imageShortcode(src, alt, sizes = "100vw") {
   let srcPrefix = `./_src/assets/images/`;
@@ -40,6 +41,7 @@ async function imageShortcode(src, alt, sizes = "100vw") {
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_src/assets/images/");
+  eleventyConfig.addPassthroughCopy("_src/assets/icons/");
 
   eleventyConfig.addWatchTarget("./_src/assets/scss/");
 
@@ -50,9 +52,19 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toLocaleString(DateTime.DATE_FULL);
   });
 
+  // add anchor links to heading text
+  eleventyConfig.addPairedShortcode("anchor",function(content) {
+    return `<a id="${eleventyConfig.getFilter('slug')(content)}" href="#${eleventyConfig.getFilter('slug')(content)}" class="anchor" aria-hidden="true">${content}</a>`
+  });
+
   // Plugins
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(svgSprite, {
+    path: "./_src/assets/icons",
+    globalClasses: "ma-icon",
+    svgShortcode: "icon"
+  });
 
   return {
     dir: {

@@ -1,0 +1,35 @@
+.#{$prefix}-social-icons a {
+  width: $spacing-32;
+  height: $spacing-32;
+  display: grid;
+  place-items: center;
+  border-radius: $border-radius-medium;
+  svg {
+    fill: $color-background-inverse;
+    width: $spacing-24;
+    height: $spacing-24;
+  }
+}
+
+[aria-label="Twitter"] {
+  background-color: $color-social-twitter; 
+}
+[aria-label="Github"] {
+  background-color: $color-social-github; 
+}
+[aria-label="Codepen"] {
+  background-color: $color-social-codepen; 
+}
+[aria-label="Instagram"] {
+  background-color: $color-social-instagram; 
+}
+[aria-label="Letterboxd"] {
+  background-color: $color-social-letterboxd; 
+}
+[aria-label="RSS"] {
+  background-color: $color-social-rss; 
+}
+[aria-label="Twitch"] {
+  color: inherit;
+  background-color: $color-social-twitch;
+}

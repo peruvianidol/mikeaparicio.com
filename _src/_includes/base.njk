@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="/assets/css/ma.css">
   <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
 </head>
-<body>
-  
+<body class="ma-styles">
+  {% svgsprite %}
   <header>
     <h1><a href="/">{{ site.name }}</a></h1>
     <nav>
@@ -25,16 +25,16 @@
   </main>
 
   <footer>
-    <p>&copy; 2014&ndash;2021 All your rights are belong to us.</p>
+    <p>&copy; 2014&ndash;{% year %} All your rights are belong to us.</p>
 
-    <ul>
-      <li><a href="https://twitter.com/peruvianidol">Twitter</a></li>
-      <li><a href="https://twitch.tv/peruvianidol">Twitch</a></li>
-      <li><a href="https://codepen.io/peruvianidol">Codepen</a></li>
-      <li><a href="https://github.com/peruvianidol">Github</a></li>
-      <li><a href="https://instagram.com/peruvianidol">Instagram</a></li>
-      <li><a href="https://letterboxd.com/peruvianidol">Letterboxd</a></li>
-      <li><a href="/feed.xml">RSS</a></li>
+    <ul role="list" class="ma-flex-row-8 ma-social-icons">
+      <li><a href="https://twitter.com/peruvianidol" aria-label="Twitter">{% icon "twitter" %}</a></li>
+      <li><a href="https://twitch.tv/peruvianidol" aria-label="Twitch">{% icon "twitch" %}</a></li>
+      <li><a href="https://codepen.io/peruvianidol" aria-label="Codepen">{% icon "codepen" %}</a></li>
+      <li><a href="https://github.com/peruvianidol" aria-label="Github">{% icon "github" %}</a></li>
+      <li><a href="https://instagram.com/peruvianidol" aria-label="Instagram">{% icon "instagram" %}</a></li>
+      <li><a href="https://letterboxd.com/peruvianidol" aria-label="Letterboxd">{% icon "letterboxd" %}</a></li>
+      <li><a href="/feed.xml" aria-label="RSS">{% icon "rss" %}</a></li>
     </ul>
   </footer>
 

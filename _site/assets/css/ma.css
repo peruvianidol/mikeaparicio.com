@@ -1,34 +1,273 @@
-* {
+.ma-styles,
+.ma-styles *,
+.ma-styles *::before,
+.ma-styles *::after {
   box-sizing: border-box;
-  margin: 0;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  margin: unset;
+  padding: unset;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
 }
 
-:root {
-  font-size: 125%;
+.ma-styles {
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-body {
-  margin: 0;
-  padding: 2rem;
-  font-family: "Really Sans Small", sans-serif;
-  line-height: 1.5;
+.ma-styles:focus-within {
+  scroll-behavior: smooth;
 }
-
-body *:not(:last-child):not(li) {
-  margin-bottom: 1.5rem;
-  max-width: 60ch;
+.ma-styles :where(a[class]:not([class*="text-inherit"])) {
+  text-decoration: none;
 }
-
-img {
-  display: block;
+.ma-styles ul[role=list],
+.ma-styles ol[role=list] {
+  list-style: none;
+  padding: 0;
+}
+.ma-styles dt {
+  font-weight: 600;
+}
+.ma-styles img,
+.ma-styles video,
+.ma-styles picture {
   max-width: 100%;
   height: auto;
+  display: block;
+}
+.ma-styles code,
+.ma-styles pre {
+  font-family: monospace;
+}
+.ma-styles pre {
+  white-space: pre-wrap;
 }
 
-ul, ol {
-  padding: 0 0 0 1em;
+@media (prefers-reduced-motion: reduce) {
+  .ma-styles *,
+.ma-styles *::before,
+.ma-styles *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .ma-styles:focus-within {
+    scroll-behavior: auto;
+  }
+}
+.ma-styles {
+  font-family: "Really Sans Small", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: white;
+}
+.ma-styles figure img,
+.ma-styles figure video,
+.ma-styles figure picture {
+  width: 100%;
+}
+.ma-styles :where(a) {
+  color: #1876a5;
+  text-underline-offset: 2px;
+  text-decoration-skip-ink: auto;
+}
+.ma-styles :where(a):hover {
+  color: #082636;
+}
+.ma-styles code {
+  display: inline-block;
+  font-size: 0.875em;
+  line-height: 1.5em;
+  color: white;
+  background-color: #1c2022;
+  border-radius: 4px;
+  padding: 0 0.5rem;
+}
+.ma-styles pre {
+  background-color: #1c2022;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  white-space: pre-line;
+}
+.ma-styles table {
+  border-collapse: collapse;
+}
+.ma-styles th, .ma-styles caption {
+  text-align: left;
+}
+.ma-styles ul, .ma-styles ol {
+  padding-left: 1em;
 }
 
-h1, h2, h3 {
-  font-family: "Really Sans Large", sans-serif;
+.ma-social-icons a {
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+}
+.ma-social-icons a svg {
+  fill: white;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+[aria-label=Twitter] {
+  background-color: #1ca0f2;
+}
+
+[aria-label=Github] {
+  background-color: #333333;
+}
+
+[aria-label=Codepen] {
+  background-color: #131417;
+}
+
+[aria-label=Instagram] {
+  background-color: #fd1c1c;
+}
+
+[aria-label=Letterboxd] {
+  background-color: #14181c;
+}
+
+[aria-label=RSS] {
+  background-color: #f26321;
+}
+
+[aria-label=Twitch] {
+  color: inherit;
+  background-color: #9147ff;
+}
+
+[class*=ma-flex-row],
+[class*=ma-space-between] {
+  display: flex;
+  align-items: center;
+}
+[class*=ma-flex-row] > :not(:last-child),
+[class*=ma-space-between] > :not(:last-child) {
+  margin-right: 1rem;
+}
+
+[class*=ma-space-between] {
+  justify-content: space-between;
+}
+
+[class*=ma-flex-row-responsive] {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ma-flex-row-4 > :not(:last-child) {
+  margin-right: 0.25rem;
+}
+.ma-flex-row-8 > :not(:last-child) {
+  margin-right: 0.5rem;
+}
+.ma-flex-row-24 > :not(:last-child) {
+  margin-right: 1.5rem;
+}
+.ma-flex-row-32 > :not(:last-child) {
+  margin-right: 2rem;
+}
+.ma-flex-row-responsive-4 > :not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+.ma-flex-row-responsive-8 > :not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.ma-flex-row-responsive-24 > :not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.ma-flex-row-responsive-32 > :not(:last-child) {
+  margin-bottom: 2rem;
+}
+.ma-flex-item {
+  flex: 1;
+}
+.ma-flex-no-shrink {
+  flex-shrink: 0;
+}
+.ma-flex-reverse {
+  flex-direction: row-reverse;
+}
+.ma-justify-center {
+  justify-content: center;
+}
+.ma-justify-end {
+  justify-content: end;
+}
+.ma-align-self-start {
+  align-self: start;
+}
+.ma-align-self-end {
+  align-self: end;
+}
+.ma-align-self-center {
+  align-self: center;
+}
+.ma-flex-wrap {
+  flex-wrap: wrap;
+}
+.ma-flex-inline {
+  display: inline-flex;
+}
+
+@media (min-width: 700px) {
+  [class*=ma-flex-row-responsive] {
+    flex-direction: row;
+  }
+
+  .ma-flex-row-responsive > :not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+  .ma-flex-row-responsive-8 > :not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+  }
+  .ma-flex-row-responsive-4 > :not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 0.25rem;
+  }
+}
+.ma-styles {
+  padding: 2rem;
+  max-width: 65ch;
+}
+.ma-styles > :not(:last-child),
+.ma-styles > * > :not(:last-child),
+.ma-styles article > :not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.anchor {
+  display: block;
+  color: currentColor;
+  text-decoration: none;
+  position: relative;
+}
+.anchor:before {
+  display: block;
+  content: "#";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  padding-right: 0.25rem;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.anchor:hover {
+  color: blue;
+}
+.anchor:hover:before {
+  opacity: 1;
 }

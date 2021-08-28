@@ -1,0 +1,107 @@
+$prefix: "ma";
+
+$color-social-twitter: hsl(203, 89%, 53%);
+$color-social-twitch: hsl(264, 100%, 64%);
+$color-social-codepen: hsl(225, 9.5%, 8.2%);
+$color-social-github: hsl(0, 0%, 20%);
+$color-social-instagram: hsl(0, 98%, 55%);
+$color-social-letterboxd: hsl(210, 16.7%, 9.4%);
+$color-social-rss: hsl(19, 89%, 54%);
+
+$color-black: hsl(0, 0%, 0%); // #000000
+$color-gray-800: hsl(200, 10%, 12%); // #1c2022
+$color-gray-600: hsl(200, 10%, 37%); // #556168
+$color-gray-400: hsl(200, 10%, 62%); // #94a1a8
+$color-gray-200: hsl(200, 10%, 87%); // #dbdfe1
+$color-white: hsl(0, 0%, 100%); // #ffffff
+
+$color-blue-800: hsl(200, 75%, 12%); // #082636
+$color-blue-600: hsl(200, 75%, 37%); // #1876a5
+$color-blue-400: hsl(200, 75%, 62%); // #55b6e7
+$color-blue-200: hsl(200, 75%, 87%); // #c5e6f7
+
+$color-red-800: hsl(350, 75%, 12%); // #36080f
+$color-red-600: hsl(350, 75%, 37%); // #a6172f
+$color-red-400: hsl(350, 75%, 62%); // #e7556e
+$color-red-200: hsl(350, 75%, 87%); // #f7c5cd
+
+$text-800-font-size: 2.5rem; // 40px
+$text-800-line-height: 3rem; // 48px
+$text-700-font-size: 2rem; //32px
+$text-700-line-height: 2.5rem; // 40px
+$text-600-font-size: 1.5rem; // 24px
+$text-600-line-height: 2rem; //32px
+$text-500-font-size: 1.25rem; // 20px
+$text-500-line-height: 1.875rem; // 30px
+$text-400-font-size: 1rem; // 16px
+$text-400-line-height: 1.5rem; // 24px
+$text-300-font-size: .875rem; // 14px
+$text-300-line-height: 1.25rem; // 20px
+$text-200-font-size: .75rem; // 12px
+$text-200-line-height: 1rem; // 16px
+
+$font-family: "Really Sans Small", sans-serif;
+
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+
+$spacing-4: .25rem;
+$spacing-8: .5rem;
+$spacing-16: 1rem;
+$spacing-24: 1.5rem;
+$spacing-32: 2rem;
+$spacing-64: 4rem;
+
+$border-width-default: 1px;
+$border-width-thick: 2px;
+$border-radius-small: 2px;
+$border-radius-medium: 4px;
+
+$shadow-focus: 0 0 .35em -.1em $color-blue-400;
+
+$max-line-length: 75ch;
+$sidebar-width: 200px;
+$container-max-width: calc(#{$sidebar-width} + #{$max-line-length});
+$breakpoint-medium: 700px;
+
+// Contextual Tokens
+
+$color-text-body: $color-gray-800;
+$color-text-subdued: $color-gray-600;
+$color-text-interactive: $color-blue-600;
+$color-text-interactive-hover: $color-blue-800;
+$color-text-error: $color-red-600;
+$color-text-inverse: $color-white;
+
+$color-icon-default: $color-gray-600;
+$color-icon-highlight: $color-blue-600;
+$color-icon-inverse: $color-white;
+
+$color-background-default: $color-white;
+$color-background-disabled: $color-gray-200;
+$color-background-inverse: $color-white;
+
+$color-border-default: $color-gray-200;
+$color-border-input: $color-gray-600;
+$color-border-focus: $color-blue-400;
+$color-border-disabled: $color-gray-400;
+
+$heading-font-weight: $font-weight-semibold;
+
+$heading-1-font-size: $text-800-font-size;
+$heading-1-line-height: $text-800-line-height;
+$heading-2-font-size: $text-700-font-size;
+$heading-2-line-height: $text-700-line-height;
+$heading-3-font-size: $text-600-font-size;
+$heading-3-line-height: $text-600-line-height;
+$heading-4-font-size: $text-500-font-size;
+$heading-4-line-height: $text-500-line-height;
+
+$text-large-font-size: $text-500-font-size;
+$text-large-line-height: $text-500-line-height;
+$text-medium-font-size: $text-400-font-size;
+$text-medium-line-height: $text-400-line-height;
+$text-small-font-size: $text-300-font-size;
+$text-small-line-height: $text-300-line-height;
+$text-tiny-font-size: $text-200-font-size;
+$text-tiny-line-height: $text-200-line-height;
