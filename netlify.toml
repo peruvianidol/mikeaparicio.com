@@ -1,6 +1,6 @@
 [build]
-  command = "npm run production"
-  publish = "dist"
+  command = "npm run start"
+  publish = "_site"
 
 [[redirects]]
     from = "*"

@@ -15,7 +15,7 @@ const criticalStyles = ['critical.scss'];
 const calculateOutput = ({history}) => {
   // By default, we want a CSS file in our dist directory, so the
   // HTML can grab it with a <link />
-  let response = './dist/css';
+  let response = './_site/css';
 
   // Get everything after the last slash
   const sourceFileName = /[^/]*$/.exec(history[0])[0];
@@ -33,7 +33,7 @@ const calculateOutput = ({history}) => {
 // The main Sass method grabs all root Sass files,
 // processes them, then sends them to the output calculator
 const sass = () => {
-  return src('./src/scss/*.scss')
+  return src('./_src/scss/*.scss')
     .pipe(sassProcessor().on('error', sassProcessor.logError))
     .pipe(
       cleanCSS(

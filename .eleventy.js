@@ -1,7 +1,7 @@
 const moment = require("moment");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
-const dateFilter = require('./src/filters/date-filter.js');
-const w3DateFilter = require('./src/filters/w3-date-filter.js');
+const dateFilter = require('./_src/filters/date-filter.js');
+const w3DateFilter = require('./_src/filters/w3-date-filter.js');
 const slugify = require("slugify");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const Image = require("@11ty/eleventy-img");
@@ -11,13 +11,13 @@ async function imageShortcode(src, alt, sizes = "100vw") {
     throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
   }
 
-  src = "src/" + src;
+  src = "_src/" + src;
 
   let metadata = await Image(src, {
     widths: [640, null],
     formats: ['webp', 'jpeg'],
     urlPath: "/images/",
-    outputDir: "./dist/images/",
+    outputDir: "./_site/images/",
   });
 
   let lowsrc = metadata.jpeg[0];
@@ -43,7 +43,7 @@ module.exports = config => {
 
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
-  config.addFilter("squash", require("./src/filters/squash.js") );
+  config.addFilter("squash", require("./_src/filters/squash.js") );
   config.addFilter("date", function(date, format) {
     return moment.utc(date).format(format);
   });
@@ -59,13 +59,13 @@ module.exports = config => {
   config.addLayoutAlias('home', 'layouts/home.html');
   config.addLayoutAlias('post', 'layouts/post.html');
 
-  config.addPassthroughCopy('src/images/**/*');
-  config.addPassthroughCopy('src/admin/*');
-  config.addPassthroughCopy('src/simple-groupon/css/*');
-  config.addPassthroughCopy('src/simple-groupon/img/*');
-  config.addPassthroughCopy('src/slides/*.pdf');
-  config.addPassthroughCopy('src/fonts/*');
-  config.addPassthroughCopy('src/js/*');
+  config.addPassthroughCopy('_src/images/**/*');
+  config.addPassthroughCopy('_src/admin/*');
+  config.addPassthroughCopy('_src/simple-groupon/css/*');
+  config.addPassthroughCopy('_src/simple-groupon/img/*');
+  config.addPassthroughCopy('_src/slides/*.pdf');
+  config.addPassthroughCopy('_src/fonts/*');
+  config.addPassthroughCopy('_src/js/*');
 
   // Plugins
   config.addPlugin(rssPlugin);
@@ -76,7 +76,7 @@ module.exports = config => {
   const livePosts = post => post.date <= now && !post.data.draft;
   config.addCollection('posts', collection => {
     return [
-      ...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)
+      ...collection.getFilteredByGlob('./_src/posts/*.md').filter(livePosts)
     ].reverse();
   });
 
@@ -130,8 +130,8 @@ module.exports = config => {
     htmlTemplateEngine: 'njk',
     
     dir: {
-      input: 'src',
-      output: 'dist'
+      input: '_src',
+      output: '_site'
     }
   };
 };
