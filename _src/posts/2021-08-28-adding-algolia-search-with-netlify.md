@@ -35,7 +35,9 @@ Okay, so this isn't specific to Eleventy. Algolia's Netlify plugin will work for
 * I experienced an issue where the URL in the results was omitting the domain and using a double slash before the path, which resulted in broken links. It took me a good hour to troubleshoot, but adding a canonical URL to the `head` fixed it.
 
  ```
+ {% raw %}
  <link rel="canonical" href="{{site.url}}{{page.url}}">
+ {% endraw %}
  ```
 
 ### Some other options I looked at:
