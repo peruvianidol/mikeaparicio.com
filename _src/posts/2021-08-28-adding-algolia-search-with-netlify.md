@@ -32,13 +32,13 @@ Okay, so this isn't specific to Eleventy. Algolia's Netlify plugin will work for
 
 * The frontend bundle includes a default CSS theme for the search, including responsive styles. It's not bad, but you can remove the link to the CSS and create your own, or copy that file and tweak it as needed.
 
-* I experienced an issue where the URL in the results was omitting the domain and using a double slash before the path, which resulted in broken links. It took me a good hour to troubleshoot, but adding a canonical URL to the `head` fixed it.
+* I experienced an issue where the URL in the results was omitting the domain and using a double slash before the path, which resulted in broken links. It took me a good hour to troubleshoot, but adding a canonical URL to the `<head>` fixed it.
 
- ```
- {% raw %}
- <link rel="canonical" href="{{site.url}}{{page.url}}">
- {% endraw %}
- ```
+```
+{% raw %}
+<link rel="canonical" href="{{site.url}}{{page.url}}">
+{% endraw %}
+```
 
 ### Some other options I looked at:
 
