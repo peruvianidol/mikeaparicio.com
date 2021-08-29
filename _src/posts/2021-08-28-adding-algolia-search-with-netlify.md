@@ -42,7 +42,7 @@ Okay, so this isn't specific to Eleventy. Algolia's Netlify plugin will work for
 
 ### Some other options I looked at:
 
-Phil Hawksworth has a great article, [Adding Search to a Jamstack Site](https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/), which is a great, relatively simple solution for adding search to an Eleventy site. For my particular use case, I wanted to be able to search within code examples as well as provide some context about the page rather than just the title. But if you're not on Netlify, this might work for you.
+Phil Hawksworth has a great article, [Adding Search to a Jamstack Site](https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/), which is a relatively simple solution for adding search to an Eleventy site. For my particular use case, I wanted to be able to search within code examples as well as provide some context about the page rather than just the title. But if you're not on Netlify, this might work for you.
 
 I landed on Algolia largely thanks to [this episode of Learn with Jason](https://www.learnwithjason.dev/javascript-autocomplete) with Sarah Dayan. It was a little more technical than what I'm comfortable with, but it led me to stumble upon the Netlify plugin solution.
 
