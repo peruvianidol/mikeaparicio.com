@@ -49,9 +49,3 @@ I landed on Algolia largely thanks to [this episode of Learn with Jason](https:/
 ### Final thoughts
 
 I'm really thrilled with how quickly I was able to put this together. Algolia offers a pretty good amount of customization, which I imagine is even better on a paid plan. For now, all I need to do is do a little customization to the CSS and it's pretty much good to go.
-
-
-
-
-
-
