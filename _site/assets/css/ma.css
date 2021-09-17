@@ -104,6 +104,9 @@
 .ma-styles ul, .ma-styles ol {
   padding-left: 1em;
 }
+.ma-styles [aria-current=page] {
+  font-weight: bold;
+}
 
 .ma-social-icons a {
   width: 2rem;

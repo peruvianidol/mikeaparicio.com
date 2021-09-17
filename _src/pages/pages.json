@@ -1,3 +1,4 @@
 {
-  "layout": "base"
+  "layout": "base",
+  "permalink": "/{{ title | slug }}/"
 }
