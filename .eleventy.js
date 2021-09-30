@@ -4,6 +4,16 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const Image = require("@11ty/eleventy-img");
 const path = require('path');
 const svgSprite = require("eleventy-plugin-svg-sprite");
+const metagen = require('eleventy-plugin-metagen');
+const embeds = require("eleventy-plugin-embed-everything");
+const markdownIt = require('markdown-it');
+const markdownItAttrs = require('markdown-it-attrs');
+const markdownItOptions = {
+  html: true,
+  breaks: true,
+  linkify: true
+};
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
 
 async function imageShortcode(src, alt, sizes = "100vw") {
   let srcPrefix = `./_src/assets/images/`;
@@ -52,14 +62,23 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toLocaleString(DateTime.DATE_FULL);
   });
 
+  eleventyConfig.setLibrary('md', markdownLib);
+
   // add anchor links to heading text
   eleventyConfig.addPairedShortcode("anchor",function(content) {
     return `<a id="${eleventyConfig.getFilter('slug')(content)}" href="#${eleventyConfig.getFilter('slug')(content)}" class="anchor" aria-hidden="true">${content}</a>`
   });
 
+  // Make collection from a folder
+  eleventyConfig.addCollection("posts", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("_src/posts/*.md");
+  });
+
   // Plugins
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(metagen);
+  eleventyConfig.addPlugin(embeds);
   eleventyConfig.addPlugin(svgSprite, {
     path: "./_src/assets/icons",
     globalClasses: "ma-icon",

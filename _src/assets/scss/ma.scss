@@ -3,6 +3,7 @@
 @import "base/global";
 @import "components/social-icons";
 @import "utilities/flexbox";
+@import "vendor/nightowl";
 
 .ma-styles {
   padding: 2rem;
@@ -35,4 +36,9 @@
       opacity: 1;
     }
   }
+}
+
+.logo {
+  width: 132px;
+  height: 161px;
 }

@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.name }}</title>
+  {% set metaTitle %}{% if title %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endset %}
+  {% metagen
+      title=metaTitle,
+      desc=description or site.description,
+      url=url + page.url,
+      img=image,
+      img_alt=alt,
+      twitter_card_type="summary_large_image",
+      twitter_handle="peruvianidol",
+      name=site.name
+  %}
   <link rel="stylesheet" href="/assets/css/ma.css">
   <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
 </head>
 <body class="ma-styles">
   {% svgsprite %}
   <header>
-    <h1><a href="/">{{ site.name }}</a></h1>
+    <h1><a href="/">{% icon "shield", "logo" %}</a></h1>
     <nav>
       <ul>
       {% for link in navigation %}
