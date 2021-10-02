@@ -15,7 +15,7 @@ const markdownItOptions = {
 };
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
 
-async function imageShortcode(src, alt, sizes = "100vw") {
+async function imageShortcode(src, alt, caption, sizes = "100vw") {
   let srcPrefix = `./_src/assets/images/`;
   src = srcPrefix + src;
   console.log(`Generating image(s) from:  ${src}`);
@@ -35,18 +35,29 @@ async function imageShortcode(src, alt, sizes = "100vw") {
 
   let lowsrc = metadata.jpeg[0];
   let highsrc = metadata.jpeg[metadata.jpeg.length - 1];
-  return `<picture>
-    ${Object.values(metadata).map(imageFormat => {
-      return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`
-    }).join("\n")}
-    <img
-      src="${lowsrc.url}"
-      width="${highsrc.width}"
-      height="${highsrc.height}"
-      alt="${alt}"
-      loading="lazy"
-      decoding="async">
-  </picture>`;
+  let figure = "";
+  let picture = `<picture>
+  ${Object.values(metadata).map(imageFormat => {
+    return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`
+  }).join("\n")}
+  <img
+    src="${lowsrc.url}"
+    width="${highsrc.width}"
+    height="${highsrc.height}"
+    alt="${alt}"
+    loading="lazy"
+    decoding="async">
+</picture>`;
+  if (caption) {
+    figure = 
+    `<figure> 
+      ${picture}
+      <figcaption>${caption}</figcaption>
+    </figure>`;
+  } else {
+    figure = picture;
+  }
+  return figure;
 }
 
 module.exports = function(eleventyConfig) {

@@ -6,7 +6,7 @@
       title=metaTitle,
       desc=description or site.description,
       url=url + page.url,
-      img=image,
+      img="/assets/images/" + image,
       img_alt=alt,
       twitter_card_type="summary_large_image",
       twitter_handle="peruvianidol",
@@ -18,7 +18,7 @@
 <body class="ma-styles">
   {% svgsprite %}
   <header>
-    <h1><a href="/">{% icon "shield", "logo" %}</a></h1>
+    <h1><a href="/">Mike Aparicio</a></h1>
     <nav>
       <ul>
       {% for link in navigation %}

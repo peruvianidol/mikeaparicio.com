@@ -1,10 +1,10 @@
 ---
 title: Adding Algolia search to an Eleventy site with Netlify
 description: After months of struggles I finally found a relatively easy solution.
-image: https://www.mikeaparicio.com/images/380ff7a0-640.jpeg
+image: search-butt.png
 alt: A search for 'butt' using Algolia
 tags: ['eleventy', 'web development']
-date: 2021-08-28
+date: 2021-08-29
 ---
 
 I was looking for a way to incorporate search into the documentation site for Provi's design system, Fizz, which is built on Eleventy and hosted on Netlify. After lots of Googling and frustrating starts and stops with various solutions, I discovered Algolia's search plugin for Netlify.
@@ -29,7 +29,7 @@ Okay, so this isn't specific to Eleventy. Algolia's Netlify plugin will work for
 7. Add an empty HTML element that matches the `selector` value in your frontend bundle's config options. The default is `<div id="search"></div>`
 8. Fire up the site locally and test it out!
 
-{% image "search-butt.png", "Searching 'butt' on the Fizz documentation site" %}
+{% image "search-butt.png", "Searching 'butt' on the Fizz documentation site", "Tee hee!" %}
 
 ### Notes
 
