@@ -8,7 +8,7 @@ tags:
   - Movies
 ---
 
-In 2020 I set an ambitious goal of watching a movie a day for the entire year. I had hoped to watch as many new releases as possible and fill in some gaps in my movie knowledge. I got off to a strong start, staying on pace through most of March.
+In 2020 I set an ambitious goal of watching [a movie a day](/posts/2020-01-31-my-year-of-film/) for the entire year. I had hoped to watch as many new releases as possible and fill in some gaps in my movie knowledge. I got off to a strong start, staying on pace through most of March.
 
 But then the pandemic hit. And while most people would think, "well, at least I have more time to watch movies," it had the opposite effect for me. I almost completely lost interest. Even just a week of not watching movies was enough to make meeting the goal seem almost impossible.
 
