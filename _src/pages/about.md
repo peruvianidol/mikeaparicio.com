@@ -27,6 +27,6 @@ I live in Oak Park, Illinois, with my wife, two sons and two dogs.
 
 Vector illustrations and logos for the site were created by the incredibly talented [David Schnorr](http://davidschnorr.com/).
 
-Typeface used is [Manrope](https://fonts.google.com/specimen/Manrope).
+Typeface used is [Really Sans](https://lettermatic.com/fonts/really-sans) by the lovely folks at [Lettermatic](https://lettermatic.com/).
 
 The site was built with [Eleventy](https://www.11ty.dev/), a great static site generator made by [Zach Leatherman](https://www.zachleat.com/), and is hosted on [Netlify](https://netlify.com).
