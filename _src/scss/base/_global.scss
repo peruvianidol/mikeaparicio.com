@@ -16,13 +16,36 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Really Sans Large';
+  src: url('/fonts/ReallySansLarge-Black.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Really Sans Small';
+  src: url('/fonts/ReallySansSmall-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Really Sans Small';
+  src: url('/fonts/ReallySansSmall-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 html, body {
   overflow-x: hidden;
   position: relative;
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Really Sans Small', sans-serif;
   min-height: 100vh;
   min-width: $site-min-width;
   color: $color-black;
@@ -51,7 +74,6 @@ body {
 main:focus {
   outline: 0;
 }
-
 
 table {
   border-spacing: 0;
