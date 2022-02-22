@@ -194,7 +194,7 @@ I'll leave you with a few miscellanous tips:
 <figure>
   {% image "/images/sifu-hallway.png", "Sifu's homage to Old Boy" %}
   <figcaption>
-    Sifu pays homage to a number of iconic fight scenes, like the hallway fight from Old Boy.
+    Sifu pays homage to a number of iconic fight scenes, like the hallway fight from Oldboy.
   </figcaption>
 </figure>
 
