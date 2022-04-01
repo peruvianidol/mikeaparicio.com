@@ -16,12 +16,19 @@
   transform: translateY(-50%);
 }
 
-.ma-card .ma-frame:hover {
-  transform: translateY(-4px);
+.ma-card {
+  position: relative;
 }
 
-.ma-card .ma-frame:hover + figcaption a {
-  color: $color-medium-blue;
+.ma-card:hover .ma-frame,
+.ma-card:focus-within .ma-frame {
+  transform: translateY(-#{$spacing-4});
+}
+
+.ma-card:focus-within {
+  outline: 2px solid dodgerblue;
+  outline-offset: $spacing-4;
+  border-radius: 2px;
 }
 
 .ma-card figcaption {
@@ -30,4 +37,17 @@
 
 .ma-card a {
   text-decoration: none;
+}
+.ma-card a:focus {
+  outline: none;
+}
+
+.ma-card a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
 }

@@ -5,14 +5,10 @@
       {% for item in postListItems %}
         {% if loop.index0 <= 2 %}
           {% if item.date.getTime() <= global.now %}
-            <li>
-              <figure class="ma-card">
+            <li class="ma-card">
+              <figure>
                 <div class="ma-frame">
-                  <a href="{{ item.url }}" rel="bookmark">
-                    {# <img src="{{ item.data.thumbnail }}" alt="
-                    {{ item.data.thumbnailAlt }}"> #}
-                    {% image item.data.thumbnail, item.data.thumbnailAlt %}
-                  </a>
+                  {% image item.data.thumbnail, item.data.thumbnailAlt %}
                 </div>
                 <figcaption class="ma-flow-4 ma-text-medium">
                 <p><time datetime="{{ item.date | w3DateFilter }}" class="ma-text-small-subdued">{{ item.date | date('MMMM D, YYYY') }}</time></p>

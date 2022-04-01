@@ -1,12 +1,23 @@
 <a href="#main-content" class="ma-skip-link">Skip to content</a>
 <header role="banner" class="ma-header">
   <div class="ma-container ma-space-between">
-    <h1><a href="/" aria-label="{{ site.name }} - Home" class="ma-logo">
+    {% if page.url === "/" %}
+    <h1>
+      <a href="/" aria-label="{{ site.name }} - Home" class="ma-logo">
       <svg aria-hidden="true" focusable="false" width="80" height="100">
         <use xlink:href="#icon-ma-shield"></use>
       </svg>
-    <span class="ma-visually-hidden">Mike Aparicio</span>
-    </a></h1>
+    </a>
+    </h1>
+    {% else %}
+    <div>
+      <a href="/" aria-label="{{ site.name }} - Home" class="ma-logo">
+      <svg aria-hidden="true" focusable="false" width="80" height="100">
+        <use xlink:href="#icon-ma-shield"></use>
+      </svg>
+    </a>
+    </div>
+    {% endif %}
     <nav aria-label="Primary">
       <ul class="ma-flex ma-nav">
         {% for item in navigation.items %}
