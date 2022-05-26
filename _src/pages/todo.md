@@ -34,15 +34,15 @@ title: Todo
 
 ✅ Normalize company logo heights
 
-⬜ WTF Eleventy build?
+✅ WTF Eleventy build?
 
-⬜ Inline CSS
+✅ Inline CSS
 
-⬜ Preload fonts
+✅ Preload fonts
 
 ⬜ CLS!!!!
 
-⬜ Contrast ratio on Twitch button
+✅ Contrast ratio on Twitch button
 
 ### Stretch Goals
 
@@ -69,3 +69,5 @@ title: Todo
 ⬜ Don't build all pages when saving `scss` files
 
 ⬜ Add additional Work content
+
+⬜ Offload image optimization to Cloudinary for faster build times?
