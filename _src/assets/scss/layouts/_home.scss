@@ -1,0 +1,8 @@
+@use '../abstracts/tokens' as *;
+
+[data-layout="home"] {
+  section:nth-of-type(4),
+  section:nth-of-type(5) {
+    padding-block-end: calc(var(--gutter) * 2);
+  }
+}
