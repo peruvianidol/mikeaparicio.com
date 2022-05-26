@@ -31,9 +31,9 @@ $font-family-body: 'Really Sans Small', sans-serif;
 $font-family-heading: 'Really Sans Large', sans-serif;
 $font-family-mono: 'Fira Code', monospace;
 
-$font-size-100: .75rem;
-$font-size-200: .875rem;
-$font-size-300: 1rem;
+$font-size-100: .875rem;
+$font-size-200: 1rem;
+$font-size-300: 1.125rem;
 $font-size-400: 1.25rem;
 $font-size-500: 1.5rem;
 $font-size-600: 2rem;
@@ -87,7 +87,7 @@ $text-underline-offset: $spacing-4;
 
 $text-body-font-family: $font-family-body;
 $text-body-font-weight: $font-weight-regular;
-$text-body-font-size: $font-size-300;
+$text-body-font-size: $font-size-200;
 $text-body-line-height: $line-height-text;
 $text-heading-font-family: $font-family-heading;
 $text-heading-font-weight: $font-weight-black;

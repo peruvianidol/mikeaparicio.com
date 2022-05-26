@@ -64,10 +64,10 @@
   color: $color-text-brand;
   font-size: $font-size-100;
   text-transform: uppercase;
-  letter-spacing: 1em;
+  letter-spacing: .79em;
   white-space: nowrap;
   @media (min-width: $breakpoint-medium) {
-    letter-spacing: 1.4em;
+    letter-spacing: 1.125em;
   }
 }
 

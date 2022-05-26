@@ -2,13 +2,13 @@
 
 .ma-article {
   :where(h2) {
-    font-size: $heading-2-font-size;
-  }
-  :where(h3) {
     font-size: $heading-3-font-size;
   }
-  :where(h4) {
+  :where(h3) {
     font-size: $heading-4-font-size;
+  }
+  :where(h4) {
+    font-size: $paragraph-font-size;
   }
   :where(p, li) {
     font-size: var(--font-size-400);
@@ -60,5 +60,14 @@
   }
   :where(figure:not([class*="ma-float"])) {
     margin-block: var(--gutter);
+  }
+}
+
+@media(max-width: calc(#{$breakpoint-medium} - 1px)) {
+  .ma-article {
+    :where(h1) {
+      margin-top: var(--gutter);
+      font-size: $heading-2-font-size;
+    }
   }
 }

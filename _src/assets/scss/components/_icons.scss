@@ -1,5 +1,9 @@
 @use '../abstracts/tokens' as *;
 
+.ma-icon-company {
+  max-height: 66px;
+}
+
 .ma-icon-social {
   width: $spacing-32;
   height: $spacing-32;
