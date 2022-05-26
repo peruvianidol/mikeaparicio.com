@@ -6,3 +6,11 @@
     padding-block-end: calc(var(--gutter) * 2);
   }
 }
+
+@media (max-width: calc(#{$breakpoint-medium} - 1px)) {
+  [data-layout="home"] {
+    header {
+      margin-block-end: calc(var(--gutter) / 2);
+    }
+  }
+}
