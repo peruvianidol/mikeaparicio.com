@@ -2,20 +2,19 @@
 title: My Year of Film
 description: My attempt to watch one film per day in 2020.
 date: 2020-01-31
-thumbnail: /images/waves-mini.jpg
+thumbnail: waves-mini.jpg
 thumbnailAlt: Still from the movie, Waves.
 tags:
   - Movies
 ---
+
 I recently received an email from PlayStation detailing my gaming "accomplishments" of 2019. This email laid bare the ridiculous amount of time I spent playing video games on just one of the platforms I play on, PlayStation 4. I'm embarrassed to admit exactly how much time it was. It got me thinking of ways I could better use my time or devote it to other hobbies.
 
 <figure>
-
-![An embarassing amount of video games played in 2019](/images/playstation2019.png)
-
-<figcaption>
-Cruel, but fair, PlayStation.
-</figcaption>
+  {% image "playstation2019.png", "An embarassing amount of video games played in 2019" %}
+  <figcaption>
+    Cruel, but fair, PlayStation.
+  </figcaption>
 </figure>
 
 When I posted my annual list of [favorite movies of the year](https://letterboxd.com/peruvianidol/list/favorite-films-of-2019/) on Letterboxd, there were a ton of movies that I didn't see which were getting considerable awards buzz, so after the new year I made a concerted effort to catch up. Surprisingly, SIX movies I watched in 2020 ended up on my list of favorite movies of 2019, including the top four.
@@ -29,12 +28,10 @@ Since joining Letterboxd in 2012, the most "films" I've logged in a single year 
 After nearly a month into this experiment, I'd love to share some of the highlights I watched in January.
 
 <figure class="ma-float-right">
-
-![Poster for Waves](/images/waves-poster.jpg)
-
-<figcaption>
-My favorite movie of 2019
-</figcaption>
+  {% image "waves-poster.jpg", "Poster for Waves" %}
+  <figcaption>
+    My favorite movie of 2019
+  </figcaption>
 </figure>
 
 **Waves** This movie blew me away. I wasn't a huge fan of Krisha, and It Comes at Night had its moments, but director Trey Edward Shults knocked it out of the park with Waves. Everything in this movie — the story, the cinematography, the soundtrack, and the performances — combined to make something special. Waves will stay with you long after the credits roll. Hands down my favorite movie of 2019.
@@ -50,12 +47,10 @@ My favorite movie of 2019
 **I Lost My Body** A beautiful animated feature. Loved the style and the story. Not much more I can say without spoiling it.
 
 <figure>
-
-![I Lost My Body poster](/images/i-lost-my-body.jpg)
-
-<figcaption>
-Netflix's Oscar-nominated I Lost My Body
-</figcaption>
+  {% image "i-lost-my-body.jpg", "I Lost My Body poster" %}
+  <figcaption>
+    Netflix's Oscar-nominated I Lost My Body
+  </figcaption>
 </figure>
 
 **Little Women** Having not read the book or seen previous versions of Little Women, I wasn't sure what to expect. I was blown away by this movie. Greta Gerwig takes a 150-year-old book and breathes new life into it, making it feel modern and fresh. Her decision to not tell the story linearly gives the movie an energetic pace and sets up character beats that might otherwise feel jarring. I loved all the meta scenes with the publisher as well. Great cast all around and great production design and costuming. Florence Pugh, between Midsommar and Little Women, is the actor whose career I'm most excited to see unfold. And Gerwig is proving to be one of the great directors of her time.
@@ -67,12 +62,10 @@ Netflix's Oscar-nominated I Lost My Body
 **The Before Trilogy** I was 20 when Before Sunrise came out. Watching it again 25 years later was interesting, with years of experience changing my perspective. I had never seen Before Sunset and Before Midnight, which were released 9 and 18 years, respectively, after Before Sunrise. Watching Celine and Jesse age and mature in the span of 24 hours had a different effect, I'm sure, than watching it unfold in near real-time. I certainly found a lot to relate to.
 
 <figure>
-
-![Ethan Hawke and Julie Delpy in Before Sunrise](/images/before-sunrise.jpeg)
-
-<figcaption>
-1995's Before Sunrise
-</figcaption>
+  {% image "before-sunrise.jpeg", "Ethan Hawke and Julie Delpy in Before Sunrise" %}
+  <figcaption>
+    1995's Before Sunrise
+  </figcaption>
 </figure>
 
 I'm keeping [a running list](https://letterboxd.com/peruvianidol/list/my-year-of-film/) of the movies I've watched this year, if you want to check in on my progress throughout the year. I'll probably write up a recap in December. Let me know if there's any movies you think I should add to my watchlist!

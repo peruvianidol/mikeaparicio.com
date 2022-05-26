@@ -2,29 +2,27 @@
 title: Why I Love Dark
 description: The best show on Netflix you (probably) haven't seen.
 date: 2019-06-27
-thumbnail: /images/dark.jpg
+thumbnail: dark.jpg
 thumbnailAlt: Title card from the Netflix series, Dark
 tags:
   - Why I Love
   - Television
-  - Dark
 ---
+
 Netflix's **Dark**, which recently premiered its second season, answers the important question, "what if **Stranger Things**, but good?"
 
 Just judging by Dark's first season trailer, the German series seems to share a lot in common with its more well known Netflix cousin. They certainly seem to share a lot of of the same DNA: a missing child, a mysterious vibe, a 1980s aesthetic. But where Stranger Things leans on nostalgia and riffs heavily on the works of Steven Spielberg and Stephen King, Dark has a broader range of influences.
 
 Dark tells the story of four families in the small German town of Winden, coming to terms with their past and the secrets that they keep from each other. It's hard to go into any details without spoiling the show, but here are the best things about Dark.
 
-<h3 class="ma-heading-3">The Music</h3>
+## The Music
 
 From the opening credits, Dark captures your attention with a series of scenes from the show reflected through a kaleidoscope, set to the haunting song _Goodbye_ by Apparat.
 
 <figure>
-  <div class="ma-video-wrapper">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8c399HPb01s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+  <iframe src="https://www.youtube.com/embed/8c399HPb01s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <figcaption>
-  Dark's opening credits
+    Dark's opening credits
   </figcaption>
 </figure>
 
@@ -44,29 +42,28 @@ The original score by Ben Frost really helps set the tone for the show and the s
 * [God's Whisper – Raury](https://youtu.be/Bh1XRH4HrOY)
 * [My Body is a Cage – Peter Gabriel](https://youtu.be/dTZQ2IB_x7c)
 
-<h3 class="ma-heading-3">The Cinematography</h3>
+## The Cinematography
 
 This show is just beautiful to look at. The opening credits do a great job of capturing some of the best shots but the composition of nearly every shot is stellar.
 
-<h3 class="ma-heading-3">The Characters</h3>
+## The Characters
 
 Most shows, particularly in the science fiction genre, are filled with one-note stereotypes. At first glance, some of the characters in Dark might appear to be a certain archetype but reveal themselves to be much deeper as the show progresses.
-The Casting
+
+## The Casting
 
 Dark's story features characters at different points in their lives and rather than use makeup or digital effects to age/de-age characters, the casting department found actors that look and act remarkably similar. Just take a look at Ulrich, played in various stages of his life by Ludger Bökelmann, Oliver Masucci and Winfried Glatzeder.
 
 <figure>
-
-![Ulrich Neilen, played by three different actors](/images/ulrich.png)
-
-<figcaption>
-The brilliant casting of Dark.
-</figcaption>
+  {% image "ulrich.png", "Ulrich Neilen, played by three different actors" %}
+  <figcaption>
+    The brilliant casting of Dark.
+  </figcaption>
 </figure>
 
 Dark's ensemble is one of the best on television. I hope Dark gives some of these actors more international exposure because many of them are quite good!
 
-<h3 class="ma-heading-3">The Mike Seal of Approval</h3>
+## The Mike Seal of Approval
 
 Showrunners Baran bo Odar and Jantje Friese have created one of the best science fiction shows ever made. The first season was a captivating masterpiece and season two somehow managed to take things up several notches, introducing new characters and new twists, and leaving us hungry for the third and final season, which has already in the works.
 

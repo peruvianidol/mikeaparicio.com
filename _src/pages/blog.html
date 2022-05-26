@@ -1,0 +1,31 @@
+---
+title: All Posts
+---
+
+<section class="ma-block-32">
+  <p class="ma-block-4"><strong>Filter by Tag</strong></p>
+
+  <ul class="ma-tag-list" role="list">
+    {% for tag, posts in collections | dictsort %}
+      {% if tag != "all" and tag != "posts" and tag != "drafts" %}
+        <li><a href="/tag/{{ tag | slugify }}" class="ma-tag">
+          {{ tag }} ({{ posts.length }})
+        </a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+</section>
+
+<section class="ma-grid">
+  {% for post in collections.posts %}
+    <figure class="ma-card">
+      {% image post.data.thumbnail, post.data.thumbnailAlt %}
+      <figcaption>
+        <p><date class="ma-text-subdued ma-text-medium">{{ post.date | postDate }}</date></p>
+        <h3 class="ma-heading-4"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.description }}</p>
+      </figcaption>
+    </figure>
+  {% endfor %}
+</section>

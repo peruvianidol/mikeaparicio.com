@@ -1,0 +1,45 @@
+@use '../abstracts/tokens' as *;
+
+:where(.ma-flow > :not(:last-child)) {
+  margin-block-end: $size-gutter;
+}
+
+.ma-inset-square {
+  padding: var(--padding, var(--gutter));
+}
+
+.ma-inset-block {
+  padding-block: var(--padding, var(--gutter));
+}
+
+:where(.ma-block) {
+  margin-block-end: var(--gutter);
+}
+
+.ma-block-4 {
+  margin-block-end: $spacing-4;
+}
+.ma-block-8 {
+  margin-block-end: $spacing-8;
+}
+.ma-block-32 {
+  margin-block-end: $spacing-32;
+}
+
+.ma-inset-vertical {
+  padding-block: $size-gutter;
+}
+
+.ma-inset-vertical-32 {
+  padding-block: $spacing-32;
+}
+
+.ma-margin-auto {
+  margin-inline: auto;
+}
+
+@media (max-width: calc(#{$breakpoint-medium} - 1px)) {
+  .ma-margin-auto-on-small {
+    margin-inline: auto;
+  }
+}

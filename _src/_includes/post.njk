@@ -1,0 +1,40 @@
+---
+layout: base
+---
+
+<main class="ma-block-32">
+  <article class="ma-flow ma-article" data-grid-area="article">
+    <h1 class="ma-heading-1 ma-block-8">{{ title }}</h1>
+    <p class="ma-text-subdued ma-block-32 ma-text-medium">{{ date | postDate }}</p>
+
+    {{ content | safe }}
+  </article>
+  <aside data-grid-area="aside">
+    <ul role="list" class="ma-tag-list ma-block-32">
+    {% if tags %}
+      {% for tag in tags %}
+        {% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+        <li><a href="{{ tagUrl | url }}" class="ma-tag">{{ tag }}</a></li>
+      {% endfor %}
+    {% endif %}
+    </ul>
+
+  </aside>
+</main>
+
+<section class="ma-surface ma-inset-vertical-32">
+  <div class="ma-container">
+    <figure class="ma-flex-row-responsive" style="--align-items: flex-start; --gap: 1.5rem;">
+      <img src="/assets/images/headshot-2021.jpg" alt="" style="max-width: 250px; flex-shrink: 0" class="ma-margin-auto-on-small">
+      <figcaption class="ma-flow">
+        <p>I'm <strong>Mike Aparicio</strong>, {{ site.role }}. I'm interested in helping companies large and small improve collaboration between design and engineering through the use of design systems. I write about web design and development, video games, pop culture, and other things I find interesting. I live in the Chicago area with my wife, two sons, and two dogs.</p>
+
+        <p>You can find me on Twitter and most other places as <strong>@peruvianidol</strong>.</p>
+
+        <p class="ma-text-center"><a href="/contact/" class="ma-button ">Get in touch</a></p>
+      </figcaption>
+    </figure>
+
+
+  </div>
+</section>

@@ -1,0 +1,16 @@
+@use '../abstracts/tokens' as *;
+
+@media (min-width: $breakpoint-medium) {
+  [data-layout="page"] {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+}
+
+[data-layout="page"] h2 {
+  font-size: $heading-3-font-size;
+}
+
+[data-layout="page"] h3 {
+  font-size: $heading-4-font-size;
+}

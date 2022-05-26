@@ -1,0 +1,12 @@
+@use '../abstracts/tokens' as *;
+
+.ma-container {
+  width: min(100% - (var(--gutter) * 2), #{$size-max-width});
+  margin-inline: auto;
+}
+
+@media (min-width: $breakpoint-medium) {
+  .ma-container-content {
+    max-width: 80%;
+  }
+}

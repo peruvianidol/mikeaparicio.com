@@ -1,0 +1,5 @@
+@use '../abstracts/tokens' as *;
+
+.ma-figure:not([class*="ma-float"]) {
+    margin-block: var(--gutter);
+}

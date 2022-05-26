@@ -1,0 +1,16 @@
+@use '../abstracts/tokens' as *;
+
+.ma-grid {
+  --min: 256px;
+  --gap: var(--gutter);
+  --cols: 3;
+
+  --gap-count: calc(var(--cols) - 1);
+  --total-gap: calc(var(--gap-count) * var(--gap));
+  --max: calc((100% - var(--total-gap)) / var(--cols));
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: repeat(auto-fill, minmax(max(var(--min), var(--max)), 1fr));
+  align-items: var(--align-items, stretch);
+  justify-items: var(--justify-items, stretch);
+}

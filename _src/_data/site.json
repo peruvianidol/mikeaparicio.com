@@ -1,7 +1,10 @@
 {
-  "name": "Mike Aparicio",
-  "url": "https://mikeaparicio.com",
-  "author": "Mike Aparicio",
-  "email": "peruvianidol@gmail.com",
-  "description": "Senior Design Systems Engineer at Provi. Formerly @ Groupon."
+  "url" : "https://mikeaparicio.com",
+  "title" : "Mike Aparicio",
+  "description" : "Senior Design Systems Engineer at Provi. Improving collaboration between design and engineering with the power of design systems.",
+  "author" : "Mike Aparicio",
+  "role" : "Senior Design Systems Engineer at Provi",
+  "email" : "peruvianidol@gmail.com",
+  "twitter" : "peruvianidol",
+  "thumbnail" : "wtf-tailwind.jpg"
 }

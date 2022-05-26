@@ -2,7 +2,7 @@
 title: "Tips for beating Sifu"
 description: Lessons learned while earning Sifu's platinum trophy.
 date: 2022-02-21
-thumbnail: /images/sifu.jpg
+thumbnail: sifu.jpg
 thumbnailAlt: Sifu
 tags:
   - Video Games
@@ -10,22 +10,22 @@ tags:
 
 Sifu (PS4/PS5/PC) has already cemented itself as one of my top games of 2022. It's an action-packed, gorgeously-styled love letter to martial arts movies. It's also an extremely challenging game, taking elements of Souls-likes (shortcuts, beefy bosses) and Rogue-likes (permanent upgrades across runs), which can give players who aren't used to these types of games fits when they're expecting more of a button-mashing brawler.
 
-I was completely absorbed in Sifu and, over the course of two weeks, went from barely making it past the first level to earning all the trophies on PS5 in just over two weeks. I know a lot of people are still struggling to get past the second boss, so here's some tips I learned from my time mastering Sifu.
+I was completely absorbed in Sifu and went from barely making it past the first level to earning all the trophies on PS5 in just over two weeks. I know a lot of people are still struggling to get past the second boss, so here's some tips I learned from my time mastering Sifu.
 
 <figure>
-  {% image "/images/sifu-club.jpg", "A Sifu walks into a bar" %}
+  {% image "sifu-club.jpg", "Your character, dressed in a tank top with his hair in a top knot, faces the interior of a nightclub, where several gangsters are gathered, unaware of their impending doom, near the dance floor." %}
   <figcaption>
     A Sifu walks into a bar...
   </figcaption>
 </figure>
 
-<h3 class="ma-heading-3">Dealing with incoming attacks</h3>
+## Dealing with incoming attacks
 
 It's tempting to go into Sifu and just start mashing buttons. It manages to look pretty badass as you pummel enemy after enemy, but it won't get you too far in the game.
 
 The key to Sifu is understanding its four different ways of dealing with incoming attacks and then countering with your own attacks when the opportunity arises.
 
-<h4 class="ma-heading-4">Guard</h4>
+### Guard
 
 This is Sifu's term for blocking. Holding the left button without moving the stick will block all incoming attacks, but add to your "structure" meter. When your structure meter is full, your guard will break and you'll be vulnerable to attacks for a brief period of time.
 
@@ -33,7 +33,7 @@ You don't want to guard **every** attack, but you can selectively block high/low
 
 A good example is the second boss, Sean, who adds a low, sweeping attack in his second phase. Sean typically opens each string of attacks with either a thrust attack or a sweep attack. Rather than trying to guess which he'll open with, you can **always** block the first attack and then either deflect or avoid his remaining attacks until you have an opening to counter. Once you recognize this pattern and can react to it accordingly, it makes this fight much easier.
 
-<h4 class="ma-heading-4">Deflect</h4>
+### Deflect
 
 Once you have guarding down, instead of holding the button, you can try and time it with your enemies attacks to deflect them. Deflecting attacks adds to your **enemy's** structure, and potentially breaks their attack, giving you an opening for a quick counter.
 
@@ -43,7 +43,7 @@ The timing of deflects have a relatively long window, so you can sometimes just 
 
 However, deflecting also adds to your own structure meter, so be sure to back off and let your structure recover before enduring more attacks.
 
-<h4 class="ma-heading-4">Avoid</h4>
+### Avoid
 
 Avoiding is a great way to keep your structure meter from filling up while still preventing damage. To avoid an attack, hold the left button as you would to guard, but move the left stick up, down or to either side. This requires similar timing to deflecting, but you also have to be able to anticipate whether the incoming attack is high, medium or low.
 
@@ -51,7 +51,7 @@ Most low-level enemies, especially the kind that can swarm you, will only attack
 
 A successful avoid will briefly slow time, allowing you to counter or get a hit on another nearby enemy. Avoiding also helps build your focus faster, allowing you to unleash unblockable attacks like the eye strike.
 
-<h4 class="ma-heading-4">Dodge</h4>
+### Dodge
 
 Dodging can be used to quickly get out of the way of an attack, which is especially useful when a group of enemies is closing in around you. To dodge, hold the left button and press the right trigger while holding a direction on the left stick.
 
@@ -59,15 +59,15 @@ Some enemies can unleash a long string of attacks that are too strong or quick t
 
 The opportunity window to counter after dodging is a lot smaller than other guard methods, but for some enemies, like the third boss, dodging can be vital to escaping the battle without taking a ton of damage.
 
-<h3 class="ma-heading-3">Weapons are your best friend</h3>
+## Weapons are your best friend
 
 Weapons are plentiful in Sifu. Bricks, bottles, bats, pipes, sticks, staffs, brooms, knives and machetes can be found throughout the game, giving you a huge advantage in most battles.
 
 You can disarm most enemies with weapons using sweep attacks.
 
 <figure class="ma-float-right">
-  <video preload="auto" aria-label="Embedded video" src="/images/sifu-one-shot.mp4" poster="/images/sifu-one-hit.jpg" type="video/mp4" playsinline autoplay disablePictureInPicture loop muted></video>
-  <figcaption class="cool-text-medium">Using the Charged Backfist skill with a knife can bring down the toughest enemies in one hit.</figcaption>
+  <video preload="auto" aria-label="Embedded video" src="/images/sifu-one-shot.mp4" poster="/images/sifu-one-hit.png" type="video/mp4" playsinline autoplay disablePictureInPicture loop muted></video>
+  <figcaption>Using the Charged Backfist skill with a knife can bring down the toughest enemies in one hit.</figcaption>
 </figure>
 
 Weapons have a limited durability, which can be enhanced through skills and rewards. You can also throw weapons at enemies using the right (R1) button.
@@ -76,7 +76,7 @@ The **Environmental Mastery** skill allows you to throw objects like weapons and
 
 Even better, the **Charged Backfist** skill, when used with a knife in hand, can **one-shot-kill** any non-boss enemy, immediately destroying the knife in the process. Knives can be found starting on the third level.
 
-<h3 class="ma-heading-3">Use i-frames to your advantage</h3>
+## Use i-frames to your advantage
 
 I-frames, or invincibility frames, is a term that describes a temporary window of invincibility resulting from certain animations. In Sifu, you can use this to deal effectively with multiple enemies who might be surrounding you.
 
@@ -87,7 +87,7 @@ The following attacks give you i-frames:
 
 You can use these i-frame attacks to temporarily prevent incoming damage. Use this to your advantage if you find yourself getting overwhelmed with groups of enemies.
 
-<h3 class="ma-heading-3">Spend XP wisely</h3>
+## Spend XP wisely
 
 As you progress through the game, you'll earn XP that you can use to unlock skills and rewards. While it's tempting to unlock as many things as possible during a run, it's really to your advantage to focus on putting XP into a single skill at a time.
 
@@ -122,10 +122,10 @@ The other shrine rewards can be unlocked with level score or based on your age. 
 I'd recommend **Focus Regain** to help you build up focus for unblockable attacks more frequently (keeping in mind you can't use focus on the last boss) and **Health Gained on Takedowns** if you find yourself struggling to even get to a boss without racking up a high death counter.
 
 <figure>
-  {% image "/images/sifu-bosses.jpg", "Sifu's bosses" %}
+  {% image "sifu-bosses.jpg", "Sifu's bosses" %}
 </figure>
 
-<h3 class="ma-heading-3">How to beat the bosses</h3>
+## How to beat the bosses
 
 Sifu's five bosses can be extremely frustrating until you learn their moves and how to counter them. Be patient, watch their attacks and wait for an opening. After you're able to beat a boss, you'll find it easier and easier to do it again on future runs.
 
@@ -167,7 +167,7 @@ In the first phase, spam deflects as he rushes in and then counter. Keep an eye 
 
 The second phase is much tougher, as Yang has a lot of attacks that Sifu didn't teach you. Here you want to deflect the first two attacks and then keep avoiding the rest until you have an opening. Deflecting the first two attacks will build his structure and also protect you whether Yang opens with a high, mid or low attack. Watch out when he jumps back and leans back with both arms up. He's about to rush in with a series of punishing punches. Spam avoid to the side and then counterattack.
 
-<h3 class="ma-heading-3">Winning the game by age 25</h3>
+## Winning the game by age 25
 
 This is by far the toughest trophy to unlock. Replay each level until you have it down cold. Take advantage of shortcuts. The third, fourth and fifth levels have pretty generous shortcuts that can save your from having to fight a ton of enemies.
 
@@ -177,9 +177,9 @@ If this all sounds impossible, keep at it! The boss fights get much easier once 
 
 Remember, your health refills at each shrine and between each boss phase. Use that mentally to your advantage. Just make it to the next shrine or boss phase without dying.
 
-<h3 class="ma-heading-3">Parting Tips</h3>
+## Parting Tips
 
-I'll leave you with a few miscellanous tips:
+I'll leave you with a few miscellaneous tips:
 
 * **Pushing enemies** When an enemy is stunned or in a finisher state, you can press square + X/X + A to throw them against a wall or other enemies. If they are near a ledge/railing you can throw them over. Enemies tend to die from fall damage from even the shortest drops. There's also a trophy for throwing someone into the museum fountain from an upper floor, which is extremely satisfying!
 
@@ -192,12 +192,12 @@ I'll leave you with a few miscellanous tips:
 * **Don't always take shortcuts** If you're trying to unlock as many skills and rewards as possible, you might want to avoid taking shortcuts in some situations. There's a path you can take in the third level after unlocking the shortcuts that allows you to access three shrines without having to fight your way through all the exhibits.
 
 <figure>
-  {% image "/images/sifu-hallway.png", "Sifu's homage to Old Boy" %}
+  {% image "sifu-hallway.png", "Sifu's homage to Old Boy" %}
   <figcaption>
     Sifu pays homage to a number of iconic fight scenes, like the hallway fight from Oldboy.
   </figcaption>
 </figure>
 
-<h3 class="ma-heading-3">Good luck on your path to vengeance!</h3>
+## Good luck on your path to vengeance!
 
 Hopefully you found this guide helpful! Sifu can be extremely challenging but also incredibly satisfying when you elegantly plow your way through waves of enemies.

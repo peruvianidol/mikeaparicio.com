@@ -1,21 +1,21 @@
 ---
 title: Goodbye, Groupon
-description: "Leaving the longest job I've ever held. "
+description: "Leaving the longest job I've ever held."
 date: 2020-07-23
-thumbnail: /images/so-long-groupon-thumbnail.png
+thumbnail: so-long-groupon-thumbnail.png
 thumbnailAlt: An illustration of Mike with the phrase, "So long, Groupon."
 tags:
   - Life
 ---
 Last year, [I reminisced about my time at Groupon](/posts/2019-04-24-whats-next/), and wondered what might be next. It's been over eight and a half years since I started at Groupon and today was my last day.
 
-While I was never incredibly enthusastic about internet coupons, I was fortunate to work with so many talented, generous and fun people in my time at Groupon. It's really because of them that I stuck around for so long, and because of them that I have grown enough to take the next step in my career.
+While I was never incredibly enthusiastic about internet coupons, I was fortunate to work with so many talented, generous and fun people in my time at Groupon. It's really because of them that I stuck around for so long, and because of them that I have grown enough to take the next step in my career.
 
 I put together this video for the team to share some of my fondest memories there.
 
 <figure>
-  <video controls="" poster="/images/so-long-groupon.png" width="100%">
-    <source src="/images/video/goodbye-groupon.mp4" type="video/mp4">
+  <video controls="" poster="/assets/posters/so-long-groupon.png" width="100%">
+    <source src="/assets/videos/goodbye-groupon.mp4" type="video/mp4">
   </video>
 </figure>
 

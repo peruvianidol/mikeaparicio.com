@@ -1,0 +1,73 @@
+@use '../abstracts/tokens' as *;
+
+.ma-article {
+  :where(h2) {
+    font-size: $heading-3-font-size;
+  }
+  :where(h3) {
+    font-size: $heading-4-font-size;
+  }
+  :where(h4) {
+    font-size: $paragraph-font-size;
+  }
+  :where(p, li) {
+    font-size: var(--font-size-400);
+  }
+  :where(strong) {
+    color: $color-text-accent;
+  }
+  :where(figcaption) {
+    margin-top: $spacing-4;
+    font-size: var(--font-size-300);
+    color: $color-text-subdued;
+  }
+  :where(img, video) {
+    filter: brightness(.8);
+  }
+  .instagram-media,
+  .twitter-tweet {
+    margin-inline: auto !important;
+    margin-block: var(--gutter) !important;
+  }
+  blockquote:not([class]) {
+    padding: var(--gutter);
+    border-inline-start: $border-width-thick solid $color-border-accent;
+    > :not(:last-child) {
+      margin-block-end: var(--gutter);
+    }
+    p {
+      font-size: var(--font-size-500);
+    }
+  }
+  :where(table) {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: $color-background-surface;
+    border-radius: $border-radius-small;
+    margin-block: var(--gutter);
+    :where(th),
+    :where(tr:not(:last-child)) {
+      border-bottom: $border-width-thin solid $color-background-body;
+    }
+    :where(th, td) {
+      padding: $spacing-8 $spacing-16;
+      vertical-align: top;
+      &:not(:last-of-type) {
+        border-inline-end: $border-width-thin solid $color-background-body;
+      }
+    }
+  }
+  :where(figure:not([class*="ma-float"])) {
+    margin-block: var(--gutter);
+  }
+}
+
+@media(max-width: calc(#{$breakpoint-medium} - 1px)) {
+  .ma-article {
+    :where(h1) {
+      margin-top: var(--gutter);
+      font-size: $heading-2-font-size;
+    }
+  }
+}

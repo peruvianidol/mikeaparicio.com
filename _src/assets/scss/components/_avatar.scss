@@ -1,0 +1,26 @@
+@use '../abstracts/tokens' as *;
+
+[class*="ma-avatar"] {
+  transform: translateY($spacing-8);
+  margin-block-end: calc(var(--gutter) * 2);
+}
+
+[class*="ma-avatar"] img {
+  border-radius: $border-radius-small;
+  width: 50%;
+  height: auto;
+  margin-inline: auto;
+}
+
+@media (min-width: $breakpoint-medium) {
+  [class*="ma-avatar"] {
+    width: 150px;
+    aspect-ratio: 1;
+    margin-inline-end: $spacing-16;
+    margin-block-end: var(--gutter);
+  }
+
+  [class*="ma-avatar"] img {
+    width: 100%;
+  }
+}

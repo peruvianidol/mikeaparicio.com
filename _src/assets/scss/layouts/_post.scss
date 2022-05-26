@@ -1,0 +1,40 @@
+@use '../abstracts/tokens' as *;
+
+@media (min-width: $breakpoint-medium) {
+  [data-layout="post"] {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+}
+
+[data-layout="post"] header,
+[data-layout="page"] header {
+  border-bottom: $border-width-thin solid $color-border-accent;
+  background-color: $color-background-brand;
+  margin-bottom: var(--gutter);
+  .ma-text-stretched {
+    color: $color-text-accent;
+  }
+  nav a {
+    color: $color-text-accent;
+    &:hover {
+      color: $color-text-body;
+    }
+  }
+}
+
+[data-layout="post"] main {
+  width: 100%;
+  max-inline-size: min(100% - (var(--gutter) * 2), #{$size-max-width});
+  margin-inline: auto;
+  display: grid;
+  gap: var(--gutter);
+}
+
+@media (min-width: $breakpoint-medium) {
+
+  [data-layout="post"] main {
+    grid-template-columns: 4fr 1fr;
+  }
+
+}

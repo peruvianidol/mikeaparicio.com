@@ -2,12 +2,12 @@
 title: Building a Dream Team
 description: My beef with the term "full-stack developer."
 date: 2014-07-09
-thumbnail: /images/fullstackdeveloper.gif
+thumbnail: fullstackdeveloper.gif
 thumbnailAlt: Dr. Evil doing airquotes with the caption "full stack developer"
 tags:
   - Web Development
-  - Hiring
 ---
+
 *(This post is based on a [lightning talk](https://speakerdeck.com/peruvianiodl/building-a-dream-team) I gave at [Geekfest](https://meetup.com/Geekfest) last year.)*
 
 If you work in the tech industry, you're probably familiar with the following words which recruiters use to describe their ideal candidate:
@@ -23,13 +23,11 @@ And my personal favorite:
 
 <figure>
 
-
 ![Dr. Evil doing air quotes with the caption "Full Stack Developer"](/images/fullstackdeveloper.gif)
-
 
 </figure>
 
-*I'll take Mythical Creatures for $800, Alex.*
+**I'll take Mythical Creatures for $800, Alex.**
 
 You may consider yourself a full stack developer but let me explain why I have beef with this term.
 
@@ -38,11 +36,7 @@ When we talk about "The Stack," we're talking about the technologies we use to b
 We could easily expand the stack to include things like user experience, content strategy, typography, and Photoshopping people's heads onto funny bodies. At this point it becomes more of a spectrum of skills than a stack of technologies. Along this spectrum you have people who can do any number of these things, but they tend to specialize in one particular area. People on one end of the spectrum are labeled as designers and on the other side, developers.
 
 <figure>
-
-
-![The stack as a spectrum](/images/the-stack.jpg)
-
-
+  {% image "the-stack.jpg", "The stack as a spectrum" %}
 </figure>
 
 No shit, right? I'm not telling you anything you don't already know. Bear with me.
@@ -60,11 +54,7 @@ How'd this team do? They barely squeaked into the playoffs on a five-game win st
 Okay, I get it. Maybe you're not a basketball fan. Let's talk superheroes. Think about the Incredible Hulk. How cool would it be to have the Hulk on your team, just smashing shit left and right? What's better than that? I'll tell you: FIVE HULKS. A team of five Hulks is FUCKING AWESOME... if you need shit smashed.
 
 <figure class="ma-float-right">
-
-
-![The Avengers](/images/avengers.jpg)
-
-
+  {% image "avengers.jpg", "The Avengers" %}
 </figure>
 
 Sometimes, though, you just need a dude on your team who all he does is shoot stuff with a bow and arrow. But he's REALLY good at it. Throw in a billionaire genius, a super-strong and agile World War II vet, a Norse god with a powerful hammer, a foxy, red-headed ninja, Samuel L. Fucking Jackson and Robin from *How I Met Your Mother* and you've got a pretty formidable team.

@@ -1,0 +1,113 @@
+// Global Tokens
+
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+$color-red-400: #da7081;
+$color-red-600: #b81a34;
+$color-red-900: #8c1428;
+
+$color-gold-100: #efe2ba;
+$color-gold-200: #b5ab8c;
+
+$color-gray-200: #f1f1f1;
+$color-gray-400: #ababab;
+$color-gray-600: #303030;
+$color-gray-700: #1f1f1f;
+
+$color-blue-400: #7cd3ec;
+
+$color-social-twitch: #9146ff;
+$color-social-twitter: #1b9df0;
+$color-social-letterboxd-bg: #202830;
+$color-social-letterboxd-orange: #ff8000;
+$color-social-letterboxd-green: #00e054;
+$color-social-letterboxd-blue: #40bcf4;
+$color-social-instagram: #fd1d1d;
+$color-social-github: #181616;
+$color-social-rss: #ee802f;
+
+$font-family-body: 'Really Sans Small', sans-serif;
+$font-family-heading: 'Really Sans Large', sans-serif;
+$font-family-mono: 'Fira Code', monospace;
+
+$font-size-100: .875rem;
+$font-size-200: 1rem;
+$font-size-300: 1.125rem;
+$font-size-400: 1.25rem;
+$font-size-500: 1.5rem;
+$font-size-600: 2rem;
+$font-size-700: 2.5rem;
+$font-size-800: 3rem;
+
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-weight-black: 800;
+
+$line-height-text: 1.5;
+$line-height-heading: 1.2;
+
+$spacing-4: .25rem;
+$spacing-8: .5rem;
+$spacing-16: 1rem;
+$spacing-24: 1.5rem;
+$spacing-32: 2rem;
+$spacing-64: 4rem;
+$spacing-96: 6rem;
+
+$border-radius-small: 4px;
+$border-radius-medium: 8px;
+$border-radius-rounded: 2rem;
+$border-width-thin: 1px;
+$border-width-medium: 2px;
+$border-width-thick: 4px;
+
+$breakpoint-medium: 700px;
+
+// Contextual Tokens
+
+$color-text-body: $color-gray-200;
+$color-text-subdued: $color-gray-400;
+$color-text-interactive: $color-blue-400;
+$color-text-interactive-highlight: $color-text-body;
+$color-text-brand: $color-red-400;
+$color-text-accent: $color-gold-100;
+
+$color-background-body: $color-gray-700;
+$color-background-brand: $color-red-900;
+$color-background-brand-highlight: $color-red-600;
+$color-background-surface: $color-gray-600;
+
+$color-background-twitch: $color-social-twitch;
+
+$color-border-accent: $color-gold-100;
+$color-border-default: $color-gray-600;
+
+$text-underline-offset: $spacing-4;
+
+$text-body-font-family: $font-family-body;
+$text-body-font-weight: $font-weight-regular;
+$text-body-font-size: $font-size-200;
+$text-body-line-height: $line-height-text;
+$text-heading-font-family: $font-family-heading;
+$text-heading-font-weight: $font-weight-black;
+$text-heading-line-height: $line-height-heading;
+
+$size-gutter: $spacing-16;
+$size-min-width: 325px;
+$size-max-width: 1024px;
+
+// Component Tokens
+
+$heading-1-font-size: var(--font-size-800);
+$heading-2-font-size: var(--font-size-700);
+$heading-3-font-size: var(--font-size-600);
+$heading-4-font-size: var(--font-size-500);
+
+$text-large-font-size: var(--font-size-400);
+$text-medium-font-size: var(--font-size-300);
+$text-small-font-size: var(--font-size-200);
+
+$paragraph-font-size: var(--font-size-400);
+$text-link-icon-size: .75em;
+$text-link-gutter: 1em;

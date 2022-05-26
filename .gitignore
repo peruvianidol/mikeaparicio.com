@@ -2,5 +2,4 @@ node_modules
 .DS_Store
 _site
 drafts
-# Local Netlify folder
-.netlify
+_src/data/ideas.json

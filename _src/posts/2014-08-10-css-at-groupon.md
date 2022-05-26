@@ -2,13 +2,14 @@
 title: CSS at Groupon
 description: A look at our CSS frameworks at Groupon.
 date: 2014-08-10
-thumbnail: /images/toolstrap-thumbnail.jpg
+thumbnail: toolstrap-thumbnail.jpg
 thumbnailAlt: Groupon's CSS framework for internal tools.
 tags:
   - CSS
   - Design Systems
   - Web Development
 ---
+
 This post was inspired by the recent wave of people sharing info about their CSS: [Mark Otto at Github](http://markdotto.com/2014/07/23/githubs-css/), [Ian Feather at Lonely Planet](http://ianfeather.co.uk/css-at-lonely-planet/) and [Chris Coyier at Codepen](http://codepen.io/chriscoyier/blog/codepens-css).
 
 About two years ago I was working on a redesign of Groupon's consumer website (which was later scrapped) when I was asked if I wanted to work on our internal tools team. "You won't have to support Internet Explorer," they said.
@@ -19,13 +20,13 @@ As Groupon had been experiencing exponential growth, many of our "internal tools
 
 At first we debated the merits of using Twitter Bootstrap, which had just started gaining popularity at the time. We also looked at Zurb's Foundation. Eventually we decided that we would roll our own CSS framework in order to keep things light and consistent with our designs. We called it [Toolstrap](https://speakerdeck.com/peruvianidol/toolstrap-a-css-framework-for-groupon-internal-tools) (Bootstrap for Internal Tools).
 
-<h3 class="ma-heading-3">Style Guide</h3>
+## Style Guide
 
 We began by looking at a lot of common elements in our design and started abstracting them out into reusable components. We documented these in a style guide that helped us keep track of which components needed to be styled and later served as a handy reference of what was in the framework for developers.
 
-<h3 class="ma-heading-3">SMACCS</h3>
+## SMACCS
 
-Next we decided that [Scalable Modular Architecture for CSS](https://smacss.com/) would be a great way to organize our code. Most of the company was already using SASS, and the use of variables and mixins made organizing our code quite simple. Here's a general overview:
+Next we decided that [Scalable Modular Architecture for CSS](https://smacss.com/) would be a great way to organize our code. Most of the company was already using Sass, and the use of variables and mixins made organizing our code quite simple. Here's a general overview:
 
 * **Base** - In this folder we have [normalize.css](http://necolas.github.io/normalize.css/) as well as base styles of all our elements, broken down by global styles (box-sizing, body styles), typography, forms, lists and tables.
 * **Layout** - This included our grid (borrowed liberally from Foundation 2) as well as styles to support several different layouts that our different apps required.
@@ -33,31 +34,33 @@ Next we decided that [Scalable Modular Architecture for CSS](https://smacss.com/
 * **State** - This folder would normally include styles that are triggered by JavaScript but, for the most part, we just put styles here for entire modules that have on/off states, such as accordions, modals and tooltips.
 * **Theme** - Here we have variations on styles for headers, tables and forms, as well as classes to apply color themes to any element.
 
-<h3 class="ma-heading-3">Toolstrap in action</h3>
+## Toolstrap in action
 
 Teams embraced Toolstrap pretty quickly as they were able to get a majority of the design for their app from the framework without having to fiddle around in CSS trying to interpret a PSD. They could simply layer on some app-specific overrides to layout their components.
 
 As more teams used Toolstrap, however, we ran into a few issues.
 
-1. The first version of Toolstrap was heavily dependent on Rails (which most teams were using at the time), JUI, SASS and Compass. Around that time, teams were starting to create apps using various JavaScript frameworks which made using Toolstrap difficult.
+1. The first version of Toolstrap was heavily dependent on Rails (which most teams were using at the time), JUI, Sass and Compass. Around that time, teams were starting to create apps using various JavaScript frameworks which made using Toolstrap difficult.
+
 2. Versioning of Toolstrap was constantly in flux as we added new modules and removed things that were only being used by a single app. One of the tricky things about maintaining a framework used by multiple apps is determining which styles should be in the framework and which should be included in the app-specific styles.
+
 3. We had a number of image assets included with the framework, including icon sprites, logos and background patterns. This added a lot of bloat to the framework.
 
-To solve these issues, we created Toolstrap 2. Toolstrap 2 included just a single CSS and JS file, rather than all the pre-compiled assets. We decided that we didn't particularly need every project to have access to the individual SASS files. Rather than require JUI, we simply included styles for their markup patterns for things like datepickers. This freed people to use Toolstrap on any project just by including the CSS and JS on each page.
+To solve these issues, we created Toolstrap 2. Toolstrap 2 included just a single CSS and JS file, rather than all the pre-compiled assets. We decided that we didn't particularly need every project to have access to the individual Sass files. Rather than require JUI, we simply included styles for their markup patterns for things like date pickers. This freed people to use Toolstrap on any project just by including the CSS and JS on each page.
 
 We worked on DRYing up our code and pulling out a lot of things that we included "just in case." Teams were free to add these things to their app-specific styles.
 
 We put all of our icons into an icon font using [Icomoon](https://icomoon.io/), which reduced the overhead of assets and also gave us a lot of flexibility for high-resolution displays. Chris Coyier has a great demo that shows why [Icon Fonts are Awesome](http://css-tricks.com/examples/IconFont/).
 
-<h3 class="ma-heading-3">Toolstrap for Consumers</h3>
+## Toolstrap for Consumers
 
 Eventually the product side of the company got wind of Toolstrap and its success and decided it would be a good idea to implement in their latest redesign efforts. We had already begun creating a style guide for the new design in earnest, known as the Groupon Interface Guidelines. The new framework took on this unfortunate name, shortened to GIG.
 
 Our existing site was a massive Rails app and the CSS was just a huge, huge file with all of the styles for every page on the site, including some that no longer existed. I want to say the CSS weighed in at close to 1 MB.
 
-<h3 class="ma-heading-3">A quick word about the dangers of SASS</h3>
+## A quick word about the dangers of Sass
 
-While SASS can be a powerful tool in the right hands, in the wrong hands you can end up with selectors like this:
+While Sass can be a powerful tool in the right hands, in the wrong hands you can end up with selectors like this:
 
 ```scss
 body.getaways-gallery-gig .page_header #filters #categories_filter .pane .categories_container .categories ul li.selectBox-selected a {
@@ -65,9 +68,9 @@ color: #333;
 }
 ```
 
-Yes, this was an actual selector in production code. Because of the ease of nesting in preprocessors like SASS, inexperienced devs will often nest like crazy without understanding the ramifications on the compiled code. This adds a ton of unnecessary specificity that requires the same selector to override or worse, using !important. (Often times devs will even resort to inline styles! Ewww.)
+Yes, this was an actual selector in production code. Because of the ease of nesting in preprocessors like Sass, inexperienced devs will often nest like crazy without understanding the ramifications on the compiled code. This adds a ton of unnecessary specificity that requires the same selector to override or worse, using !important. (Often times devs will even resort to inline styles! Ewww.)
 
-<h3 class="ma-heading-3">Building GIG</h3>
+## Building GIG
 
 As we moved from Rails to Node.js, one of the biggest challenges in creating GIG was supporting two different designs. We needed to support styles for both the existing design (referred to as OG, or Original Groupon) and the new design (known as Prom Night). Rather than create two separate frameworks, we decided to abstract out common styles between the two designs and then use SMACSS's Themes folder to apply design-specific code scoped to a single body class.
 
@@ -91,7 +94,7 @@ All of the styles were nested under an **og** or **prom-night** class that could
 
 There's a great post on our transition from Rails to Node.js on the Groupon Engineering Blog: [I-Tier: Dismantling the Monoliths](https://engineering.groupon.com/2013/misc/i-tier-dismantling-the-monoliths/)
 
-<h3 class="ma-heading-3">Benefits of Custom Frameworks</h3>
+## Benefits of Custom Frameworks
 
 There are a bunch of benefits to having your own in-house framework.
 
@@ -101,6 +104,6 @@ There are a bunch of benefits to having your own in-house framework.
 
 * With Toolstrap and GIG, it's very easy for developers to move between teams - even from product to internal tools - and not have to spend time learning new styles.  
 
-<h3 class="ma-heading-3">Many Thanks!</h3>
+## Many Thanks!
 
 Groupon's CSS frameworks would not be possible without the efforts of the ton of talented developers we have, as well as the influence of people like [Brad Frost](http://bradfrostweb.com/), [Chris Coyier](http://chriscoyier.net/), [Jonathan Snook](http://snook.ca/), [Luke Wroblewski](http://www.lukew.com/), [Ethan Marcotte](http://ethanmarcotte.com/), [Keyamoon](http://keyamoon.com/) and countless others.

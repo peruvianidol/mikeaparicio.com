@@ -1,0 +1,58 @@
+---
+title: Design System
+layout: page
+---
+
+<!-- <h2 class="ma-heading-2">Style Tile</h2> -->
+
+<!-- {% include "partials/style-tile.njk" %} -->
+<section class="ma-block-32 ma-flow">
+  <h2 class="ma-heading-2 ma-heading-section">Color</h2>
+
+  <h3 class="ma-heading-3">Color Palette</h3>
+
+  <div class="ma-grid">
+    {% for id, color in tokens.color %}
+    <figure class="ma-flex">
+      <div class="ma-swatch" style="--bg-color: {{ color.value }}"></div>
+      <figcaption>
+        <strong>$color-{{id}}</strong><br>
+        {{ color.usage }}<br>
+        <span class="ma-text-subdued">{{ color.value }}<br>
+        {{ color.hex }}</span>
+      </figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+
+<h2 class="ma-heading-2 ma-heading-section">Type</h2>
+
+<h3 class="ma-heading-3">Fonts</h3>
+
+{% for id, font in tokens.font.family %}
+  <figure>
+    <p class="ma-block-4"><strong>$font-family-{{ id }}</strong></p>
+    <p class="ma-block-4"><span style="font-family: {{ font.value }}{% if font.usage === "Headings" %}; font-weight: 700{% endif %}">{{ font.name }}</span> <span>by <a href="{{ font.url }}">{{ font.author }}</a></span></p>
+    <div style="font-family: {{ font.value }}; font-size: 2.25rem; line-height: 1.2; overflow-wrap: anywhere;{% if font.usage === "Headings" %} font-weight: 700{% endif %}">
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+      abcdefghijklmnopqrstuvwxyz<br>
+      <span style="letter-spacing: .25em">123456789.,;&lsquo;&rsquo;&ldquo;&rdquo;(&!?)</span>
+    </div>
+  </figure>
+{% endfor %}
+
+<h3 class="ma-heading-3">Type Scale</h3>
+
+{% for id, size in tokens.font.size %}
+  <p class="ma-text-small ma-block-4"><strong>$font-size-{{ id }}</strong></p>
+  <p style="font-size: {{ size.value }}; line-height: {{ size.lineHeight }}">Improving collaboration between design and engineering through the use of design systems</p>
+{% endfor %}
+
+<h2 class="ma-heading-2">Spacing</h2>
+
+<h2 class="ma-heading-2">Icons</h2>
+
+<h2 class="ma-heading-2">Components</h2>
+
+<h2 class="ma-heading-2">Layouts</h2>

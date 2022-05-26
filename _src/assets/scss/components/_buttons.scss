@@ -1,0 +1,42 @@
+@use '../abstracts/tokens' as *;
+
+.ma-button-twitch {
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  gap: $spacing-4;
+  align-items: center;
+  color: $color-white;
+  text-decoration: none;
+  font-size: $text-large-font-size;
+  font-weight: $font-weight-bold;
+  border-radius: $border-radius-rounded;
+  padding: $spacing-4 $spacing-16 $spacing-4 $spacing-8;
+  border: $border-width-medium solid transparent;
+  background-color: $color-background-twitch;
+  text-shadow: 1px 1px 0 rgb(0 0 0 / .5);
+
+  svg {
+    width: $spacing-32;
+    height: $spacing-32;
+  }
+  &:hover {
+    border-color: $color-white;
+  }
+}
+
+.ma-button {
+  display: inline-block;
+  color: $color-text-body;
+  text-decoration: none;
+  font-size: $text-large-font-size;
+  font-weight: $font-weight-bold;
+  border-radius: $border-radius-small;
+  background-color: $color-background-brand-highlight;
+  border: $border-width-medium solid transparent;
+  padding: $spacing-8 $spacing-24;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $color-white;
+  }
+}

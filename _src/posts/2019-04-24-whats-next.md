@@ -2,22 +2,21 @@
 title: What's Next?
 description: Am I having a mid-life crisis?
 date: 2019-04-24
-thumbnail: /images/offsite.jpg
-thumbnailAlt: The lovely folks of Groupon's Design Union.
+thumbnail: offsite.jpg
+thumbnailAlt: The lovely folks of Groupon's Design Union
 tags:
   - Life
 ---
+
 Caring for my infant son has started to get me thinking about what's next in my career. This October will mark my eighth year at Groupon. And as much as friends and family hear me make snarky jokes about the ol' coupon factory, it really has been good to me.
 
-After years of being the lone "web guy" at various small companies, Groupon took a chance on me as a UI engineer. I started out working on a redesign project which took a long time to go nowhere. The mere mention of its codename for many years triggered PTSD in all those involved.
+After years of being the lone "web guy" at various small companies, Groupon took a chance on me as a UI engineer. I started out working on a redesign project which took a long time to go nowhere. The mere mention of its code name for many years triggered PTSD in all those involved.
 
 <figure class="ma-float-right">
-
-![Groupon anniversary patches](/images/anniversary-patches.jpg)
-
-<figcaption>
-A patch for every calendar year I've worked at Groupon.
-</figcaption>
+  {% image "anniversary-patches.jpg", "Groupon anniversary patches" %}
+  <figcaption>
+    A patch for every calendar year I've worked at Groupon.
+  </figcaption>
 </figure>
 
 Just when I was contemplating leaving Groupon after only a few months, an opportunity came up to work on the Internal Tools team, supporting two designers and a half dozen engineering teams. It was there I developed our first CSS framework, Toolstrap, which led to a bunch of similar frameworks for consumer and merchant products.
@@ -39,12 +38,10 @@ My current manager, Matt, really gets me. He knows and appreciates what I bring 
 I've also been lucky to have several awesome colleagues as mentors. They really helped me navigate the politics of working at a large company and encouraged me to think beyond my team or the current project I was working on and consider how I could influence the company at a higher level.
 
 <figure>
-
-![A group photo from a Design Union offsite.](/images/offsite.jpg)
-
-<figcaption>
-The fun folks of the Groupon Design Union
-</figcaption>
+  {% image "offsite.jpg", "A group photo from a Design Union offsite" %}
+  <figcaption>
+    The fun folks of the Groupon Design Union
+  </figcaption>
 </figure>
 
 The people are what's kept me at Groupon for so long. I've met so many great and talented people there. So generous with their time and knowledge and their continual support for [my annual Extra Life marathons](https://mikeaparicio.com/posts/2018-08-26-four-years/). We've shared a lot of laughs at work, outside of work, and at our yearly offsites.
@@ -66,12 +63,10 @@ After giving up on computer science, I wondered what I could major in that invol
 Since then, sports journalism has seen a huge shift from traditional media outlets to [bloggers](https://awfulannouncing.com/nba/henry-abbott-truehoop-return-newsletter.html) and [podcasters](https://www.nba.com/the-starters-podcasts) becoming mainstream NBA personalities. As much as I used to love writing about hoops, I look at the stuff they're doing over at [The Ringer](https://www.theringer.com/) and wonder how I ever did it at all.
 
 <figure class="ma-float-right">
-
-![Mark Aparicio diploma](/images/mark-aparicio.jpg)
-
-<figcaption>
-Of all the ways you could spell my name wrong.
-</figcaption>
+  {% image "mark-aparicio.jpg", "Mark Aparicio diploma" %}
+  <figcaption>
+    Of all the ways you could spell my name wrong.
+  </figcaption>
 </figure>
 
 **Comedy** Long before I wanted to make video games, I loved to make people laugh. It was always a dream of mine to be on SNL. As I'd later learn, the road there is difficult and requires so much work and a fair amount of luck.
@@ -90,7 +85,7 @@ There used to be a handful of Peruvian restaurants in the Chicago area, but in r
 
 Opening a restaurant seems like the riskiest proposition of all of these. Restaurants come and go so quickly, and require a ton of hours of work. Besides that, I can't cook for shit.
 
-<h3 class="ma-heading-3">Sounds like a bunch of excuses to me</h3>
+## Sounds like a bunch of excuses to me
 
 Yes, you're absolutely right, voice in my head. A lot of these different things appeal to me but it's highly unlikely I'll make such a drastic career change anytime soon. Things are good right now. I'm comfortable where I'm at. Sure, I'm not curing cancer with internet coupons, but it pays the bills.
 

@@ -1,4 +1,3 @@
 {
-  "layout": "layouts/post.html",
-  "permalink": "posts/{{ date | date('YYYY-MM-DD') }}-{{ title | slugify }}/index.html"
+  "layout" : "post"
 }
