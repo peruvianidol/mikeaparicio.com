@@ -2,7 +2,7 @@
 title: My Movie a Year Challenge
 description: "I watched one movie from each year since 1975."
 date: 2021-11-29
-thumbnail: "/images/movie-a-year.png"
+thumbnail: "movie-a-year.png"
 thumbnailAlt: "A selection of movie posters from my Movie a Year challenge list on Letterboxd."
 tags:
   - Movies
@@ -13,7 +13,7 @@ In 2020 I set an ambitious goal of watching [a movie a day](/posts/2020-01-31-my
 But then the pandemic hit. And while most people would think, "well, at least I have more time to watch movies," it had the opposite effect for me. I almost completely lost interest. Even just a week of not watching movies was enough to make meeting the goal seem almost impossible.
 
 <figure>
-  {% image "/images/movies-by-week.png", "A chart of the movies I watched in 2020 by week with a steep drop in March." %}
+  {% image "movies-by-week.png", "A chart of the movies I watched in 2020 by week with a steep drop in March." %}
   <figcaption>
     Three months in, I all but gave up on my goal of watching 365 movies in 2020.
   </figcaption>
@@ -33,7 +33,7 @@ Eventually, I settled on some combination of a mix of highly rated and/or popula
 
 You can check out [the full list on Letterboxd](https://letterboxd.com/peruvianidol/list/movie-a-year-challenge/) but I'll share some of the highs and lows here.
 
-<h3 class="ma-heading-2">Movies I Loved</h3>
+## Movies I Loved
 
 **Blue Velvet (1986)** I'm not a huge fan of David Lynch's movies. I think he's an awesome person and I appreciate that his movies are largely uncompromising in sticking to his unique vision but most of his movies are just a little too out there for me. Blue Velvet, while definitely being "out there", is narratively probably his most comprehensible movie that I've seen. Such a wild ride with a great cast, particularly a scene-stealing Dean Stockwell, who recently passed away. This was the most fun movie I watched in the list.
 
@@ -46,7 +46,7 @@ You can check out [the full list on Letterboxd](https://letterboxd.com/peruviani
 **Silence (2016)** A fascinating departure from his usual crime stories, Martin Scorsese's Silence is pretty incredible and feels deeply personal. I was kind of dreading this one because I'm not particularly into movies about religion but I ended up liking it a lot. 
 
 <figure>
-  {% image "/images/a-hidden-life.jpg", "A sweeping shot of August Diehl working on a farm in the Austrian mountains" %}
+  {% image "a-hidden-life.jpg", "A sweeping shot of August Diehl working on a farm in the Austrian mountains" %}
   <figcaption>
     A Hidden Life was one of the most gorgeously shot films I watched.
   </figcaption>
@@ -54,7 +54,7 @@ You can check out [the full list on Letterboxd](https://letterboxd.com/peruviani
 
 **A Hidden Life (2019)** This was the last movie I watched from the list and the fourth Terrence Malick film. I was dreading this one as well because I wasn't particularly into any of the other Malick films I watched. All of them are immaculately shot, and A Hidden Life is no exception. Everything is shot in wide angle, accentuating the incredible beauty of Austria's mountains as well as the personal struggle of the main character, who is imprisoned for being a conscientious objector in Nazi Germany. A lot of similarities with Silence, which also finds its characters grappling with their faith in the face of extreme adversity.
 
-<h3 class="ma-heading-2">Movies I Didn't Love</h3>
+## Movies I Didn't Love
 
 **Stalker (1979)** One of the highest rated films on the list and I absolutely hated it. Some incredible visuals but just an absolute chore to get through. It literally took me FOUR nights to watch this movie because it was so long and boring I kept falling asleep.
 
@@ -63,7 +63,7 @@ You can check out [the full list on Letterboxd](https://letterboxd.com/peruviani
 **Videodrome (1983)** When Rick Baker's name pops up in the opening credits you know you're in for some shit. This movie basically predicted Fox News before it existed. It also stars insufferable piece of shit James Woods, which didn't really help me sympathize with his character. Some fun practical effects but this movie is a hot mess.
 
 <figure class="ma-float-right">
-<video loop="" autoplay="" preload="auto" playsinline="true"><source src="/images/aunt-linda.mp4" type="video/mp4"></video>
+  <video loop="" autoplay="" preload="auto" playsinline="true"><source src="/images/aunt-linda.mp4" type="video/mp4"></video>
   <figcaption>
     Most of these movies elicited this response from me.
   </figcaption>
@@ -75,7 +75,7 @@ You can check out [the full list on Letterboxd](https://letterboxd.com/peruviani
 
 **Me and Earl and the Dying Girl (2015)** Everyone in this movie exists solely to progress the character arc of its white protagonist. All of the women and people of color are written as if the writer had never met one in real life. It tries so hard that it almost collapses under the weight of its own quirkiness. Olivia Cooke (Sound of Metal) is quite good, despite not having much to work with.
 
-<h3 class="ma-heading-2">The next challenge awaits</h3>
+## The next challenge awaits
 
 This challenge turned out to be a lot of fun and mostly manageable. I did end up buying a half dozen or so movies on disc because they weren't available on streaming services. Thankfully none of them turned out to be absolute stinkers.
 

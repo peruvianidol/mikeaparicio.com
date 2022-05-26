@@ -1,0 +1,97 @@
+@use '../abstracts/tokens' as *;
+
+.ma-icon-social {
+  width: $spacing-32;
+  height: $spacing-32;
+  transition: all .2s ease-in-out;
+}
+
+.ma-icon-social > circle {
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.ma-icon-social:hover circle {
+  opacity: 1;
+}
+
+.ma-icon-social:hover {
+  color: $color-text-body;
+}
+
+:where(.ma-icon-social > path),
+#icon-letterboxd g circle {
+  fill: currentColor;
+}
+
+:where(.ma-icon-social > circle) {
+  fill: transparent;
+}
+
+#icon-twitter:hover circle {
+  fill: $color-social-twitter;
+}
+
+#icon-twitter:hover path {
+  fill: $color-white;
+}
+
+#icon-twitch path:first-of-type {
+  fill: currentColor;
+  opacity: .1;
+}
+
+#icon-twitch:hover path:first-of-type{
+  fill: $color-white;
+  opacity: 1;
+}
+
+#icon-twitch:hover path:last-of-type{
+  fill: $color-black;
+}
+#icon-twitch:hover circle {
+  fill: $color-social-twitch;
+}
+#icon-letterboxd path {
+  fill: $color-black;
+}
+#icon-letterboxd:hover path {
+  fill: $color-white;
+}
+#icon-letterboxd:hover > circle {
+  fill: $color-social-letterboxd-bg;
+}
+#icon-letterboxd:hover #green {
+  fill: $color-social-letterboxd-green;
+}
+#icon-letterboxd:hover #blue {
+  fill: $color-social-letterboxd-blue;
+}
+#icon-letterboxd:hover #orange {
+  fill: $color-social-letterboxd-orange;
+}
+#icon-instagram:hover > circle {
+  fill: $color-social-instagram;
+}
+#icon-instagram:hover > path {
+  fill: $color-white;
+}
+#icon-codepen:hover > circle {
+  fill: $color-black;
+}
+#icon-codepen:hover > path {
+  fill: $color-white;
+}
+#icon-github {
+  width: $spacing-24;
+  height: $spacing-24;
+}
+#icon-github:hover > path {
+  fill: $color-white;
+}
+#icon-rss:hover > path {
+  fill: $color-white;
+}
+#icon-rss:hover > circle {
+  fill: $color-social-rss;
+}

@@ -1,9 +1,8 @@
 ---
-title: 'THE Eleventy Meetup'
-permalink: template-talk/index.html
+title: Template Talk
 ---
 
-<figure class="ma-embed">
+<figure class="ma-figure">
   <iframe src="https://www.youtube.com/embed/rZyNBd1WgVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
 </figure>
 

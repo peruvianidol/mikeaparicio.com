@@ -1,0 +1,18 @@
+@use '../abstracts/tokens' as *;
+@use '../abstracts/icons' as *;
+
+.twitter-tweet {
+  padding: $spacing-24 $spacing-32 $spacing-24 $spacing-96;
+  max-width: 80%;
+  margin-inline: auto;
+  border: $border-width-medium solid $color-social-twitter;
+  border-radius: $border-radius-medium;
+  background-image: $icon-twitter;
+  background-repeat: no-repeat;
+  background-position: $spacing-16 $spacing-16;
+  background-size: $spacing-64 $spacing-64;
+  p {
+    font-size: $text-large-font-size;
+    line-height: $line-height-text;
+  }
+}

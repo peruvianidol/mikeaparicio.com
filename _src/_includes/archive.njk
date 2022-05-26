@@ -1,0 +1,6 @@
+{% extends 'base.njk' %}
+
+{% if tag %}
+  {% set postListItems = collections[tag] | reverse %}
+  {% set pageHeaderTitle = 'Posts filed under “' + tag + '”' %}
+{% endif %}

@@ -1,0 +1,47 @@
+@use '../abstracts/tokens' as *;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: unset;
+  padding: unset;
+  font: inherit;
+  background-repeat: no-repeat;
+}
+
+:where(html) {
+  block-size: 100%;
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+
+:where(body) {
+  min-block-size: 100%;
+  scrollbar-gutter: stable both-edges;
+}
+
+:where(img, picture, video, svg, iframe, embed, object) {
+  display: block;
+}
+
+:where(img, svg, video) {
+  width: 100%;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+:where(code, kbd, samp, pre) {
+  font-family: $font-family-mono;
+}
+
+:where(strong, th) {
+  font-weight: $font-weight-bold;
+}
+
+:where(ol, ul)[role="list"] {
+  list-style: none;
+}
+
+:where(ol, ul):not([role="list"]) {
+  padding-inline-start: 1.5em;
+}

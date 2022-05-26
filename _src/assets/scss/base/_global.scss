@@ -1,0 +1,34 @@
+@use '../abstracts/tokens' as *;
+
+:where(body) {
+  font-family: $text-body-font-family;
+  font-size: $text-body-font-size;
+  line-height: $text-body-line-height;
+  color: $color-text-body;
+  background-color: $color-background-body;
+  min-width: $size-min-width;
+}
+
+:where(p) {
+  font-size: $paragraph-font-size;
+}
+
+:where(a[href]) {
+  color: $color-text-interactive;
+  text-underline-offset: $text-underline-offset;
+  text-decoration-thickness: $border-width-thin;
+
+  &:hover {
+    color: $color-text-interactive-highlight;
+  }
+}
+
+:where(nav a):hover {
+  border-bottom: $border-width-thick solid $color-border-accent;
+  padding-block: $spacing-4;
+}
+
+:where(iframe) {
+  aspect-ratio: 16/9;
+  width: 100%;
+}

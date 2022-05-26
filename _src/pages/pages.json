@@ -1,3 +1,4 @@
 {
-  "layout" : "layouts/page.html"
+  "layout": "page",
+  "permalink": "/{{ page.fileSlug }}/"
 }

@@ -1,0 +1,33 @@
+@use '../abstracts/tokens' as *;
+
+:where(.ma-flex-row) {
+  display: flex;
+  align-items: var(--align-items, center);
+  gap: var(--gap, $size-gutter);
+}
+
+:where(.ma-flex-row-responsive) {
+  display: flex;
+  flex-direction: column;
+  align-items: var(--align-items, center);
+  gap: var(--gap, $size-gutter);
+}
+
+
+@media (min-width: $breakpoint-medium) {
+  :where(.ma-flex-row-responsive) {
+    flex-direction: row;
+  }
+}
+
+:where(.ma-space-between) {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing, $size-gutter);
+  align-items: var(--align-items, center);
+
+  @media(min-width: $breakpoint-medium) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

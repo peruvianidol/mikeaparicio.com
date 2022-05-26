@@ -1,18 +1,20 @@
-const moment = require("moment");
-const rssPlugin = require('@11ty/eleventy-plugin-rss');
-const dateFilter = require('./_src/filters/date-filter.js');
-const w3DateFilter = require('./_src/filters/w3-date-filter.js');
-const slugify = require("slugify");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const Image = require("@11ty/eleventy-img");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const { DateTime } = require("luxon");
+const metagen = require('eleventy-plugin-metagen');
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 async function imageShortcode(src, alt, sizes = "100vw") {
 
-  src = "_src/" + src;
+  let isOnNetlify = process.env.CONTEXT === "production" ||
+    process.env.CONTEXT === "deploy-preview" ||
+    process.env.CONTEXT === "branch-deploy";
+
+  src = "_src/images/" + src;
 
   let metadata = await Image(src, {
-    widths: [300, 600, null],
-    formats: ["avif", "webp", "jpeg"],
+    widths: isOnNetlify ? [300, 600, null] : [null],
+    formats: isOnNetlify ? ["avif", "webp", "jpeg"] : [null],
     urlPath: "/images/",
     outputDir: "./_site/images/",
   });
@@ -27,92 +29,52 @@ async function imageShortcode(src, alt, sizes = "100vw") {
   return Image.generateHTML(metadata, imageAttributes);
 }
 
-// async function imageShortcode(src, alt, sizes = "100vw") {
+module.exports = function(eleventyConfig) {
 
-//   src = "_src/" + src;
-
-//   let metadata = await Image(src, {
-//     widths: [640, null],
-//     formats: ['webp', 'jpeg'],
-//     urlPath: "/images/",
-//     outputDir: "./_site/images/",
-//   });
-
-//   let lowsrc = metadata.jpeg[0];
-
-//   return `<picture>
-//     ${Object.values(metadata).map(imageFormat => {
-//       return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
-//     }).join("\n")}
-//       <img
-//         src="${lowsrc.url}"
-//         width="${lowsrc.width}"
-//         height="${lowsrc.height}"
-//         alt="${alt}"
-//         loading="lazy"
-//         decoding="async">
-//     </picture>`;
-// }
-
-// Create a helpful production flag
-const isProduction = process.env.NODE_ENV === 'production';
-
-module.exports = config => {
-
-  config.addFilter('dateFilter', dateFilter);
-  config.addFilter('w3DateFilter', w3DateFilter);
-  config.addFilter("squash", require("./_src/filters/squash.js") );
-  config.addFilter("date", function(date, format) {
-    return moment.utc(date).format(format);
-  });
-  config.addFilter("slugify", (input) => {
-    const options = {
-      replacement: "-",
-      remove: /[&,+()$~%.'":*?<>{}]/g,
-      lower: true
-    };
-    return slugify(input, options);
+  eleventyConfig.setServerOptions({
+    showAllHosts: true,
   });
 
-  config.addLayoutAlias('home', 'layouts/home.html');
-  config.addLayoutAlias('post', 'layouts/post.html');
+  eleventyConfig.addWatchTarget("./_src/assets/scss/**/*");
+  eleventyConfig.addPassthroughCopy('_src/assets/fonts/**/*');
+  eleventyConfig.addPassthroughCopy('_src/assets/images/**/*');
+  eleventyConfig.addPassthroughCopy('_src/assets/videos/**/*');
+  eleventyConfig.addPassthroughCopy('_src/assets/posters/**/*');
+  eleventyConfig.addPassthroughCopy('_src/images/*.mp4');
+  eleventyConfig.addPassthroughCopy('_src/images/*.gif');
+  eleventyConfig.addPassthroughCopy('_src/slides/**/*');
+  eleventyConfig.addPassthroughCopy('_src/simple-groupon/**/*');
 
-  config.addPassthroughCopy('_src/images/**/*');
-  config.addPassthroughCopy('_src/admin/*');
-  config.addPassthroughCopy('_src/simple-groupon/css/*');
-  config.addPassthroughCopy('_src/simple-groupon/img/*');
-  config.addPassthroughCopy('_src/slides/*.pdf');
-  config.addPassthroughCopy('_src/fonts/*');
-  config.addPassthroughCopy('_src/js/*');
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
-  // Plugins
-  config.addPlugin(rssPlugin);
-  config.addPlugin(syntaxHighlight);
-
-  const now = new Date();
-
-  const livePosts = post => post.date <= now && !post.data.draft;
-  config.addCollection('posts', collection => {
+  eleventyConfig.addCollection('posts', collection => {
     return [
-      ...collection.getFilteredByGlob('./_src/posts/*.md').filter(livePosts)
+      ...collection.getFilteredByGlob('./_src/posts/*.md')
+    ].reverse();
+  });
+  eleventyConfig.addCollection('drafts', collection => {
+    return [
+      ...collection.getFilteredByGlob('./_src/drafts/*.md')
     ].reverse();
   });
 
-  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
-  config.setUseGitIgnore(false);
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toLocaleString(DateTime.DATE_FULL);
+  });
+  eleventyConfig.addFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
-  config.addNunjucksAsyncShortcode("image", imageShortcode);
-
-
+  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(metagen);
+  eleventyConfig.addPlugin(pluginRss);
 
   return {
-    markdownTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk',
-    htmlTemplateEngine: 'njk',
-    
     dir: {
       input: '_src',
       output: '_site'
-    }
+    },
+ 
+    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk'
   };
 };

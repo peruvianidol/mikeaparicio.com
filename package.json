@@ -1,37 +1,28 @@
 {
   "name": "mikeaparicio.com",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
-  "main": ".eleventy.js",
+  "main": "index.js",
   "scripts": {
-    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
-    "build": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/peruvianidol/mikeaparicio.com.git"
+    "watch:sass": "sass --watch _src/assets/scss:_site/assets/css --no-source-map",
+    "build:sass": "sass _src/assets/scss:_site/assets/css --no-source-map",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/peruvianidol/mikeaparicio.com/issues"
-  },
-  "homepage": "https://github.com/peruvianidol/mikeaparicio.com#readme",
+  "author": "Mike Aparicio <peruvianidol@gmail.com> (http://mikeaparicio.com/)",
+  "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^2.0.0-canary.11"
+  },
+  "devDependencies": {
     "@11ty/eleventy-img": "^2.0.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.9",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "concurrently": "^5.3.0",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^4.1.0",
-    "html-minifier": "^4.0.0",
-    "moment": "^2.27.0",
-    "netlify-cms": "^2.10.55",
-    "sass": "^1.26.10",
-    "slugify": "^1.4.5"
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+    "eleventy-plugin-metagen": "^1.7.8",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.11"
   }
 }

@@ -1,0 +1,23 @@
+@use '../abstracts/tokens' as *;
+
+:where(html) {
+  --font-size-200: #{$font-size-100};
+  --font-size-300: #{$font-size-200};
+  --font-size-400: #{$font-size-300};
+  --font-size-500: #{$font-size-400};
+  --font-size-600: #{$font-size-500};
+  --font-size-700: #{$font-size-600};
+  --font-size-800: #{$font-size-700};
+  --gutter: #{$size-gutter};
+
+  @media(min-width: $breakpoint-medium) {
+    --font-size-200: #{$font-size-200};
+    --font-size-300: #{$font-size-300};
+    --font-size-400: #{$font-size-400};
+    --font-size-500: #{$font-size-500};
+    --font-size-600: #{$font-size-600};
+    --font-size-700: #{$font-size-700};
+    --font-size-800: #{$font-size-800};
+    --gutter: calc(#{$size-gutter} * 2);
+  }
+}

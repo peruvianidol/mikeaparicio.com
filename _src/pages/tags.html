@@ -1,0 +1,16 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter: ['all', 'posts', 'drafts']
+permalink: '/tag/{{ tag | slugify }}/'
+eleventyComputed:
+  title: 'Posts tagged "{{ tag }}"'
+---
+
+<section class="ma-grid">
+{% asyncEach post in collections[tag] | reverse %}
+  {% include "partials/card.njk" %}
+{% endeach %}
+</section>

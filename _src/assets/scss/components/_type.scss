@@ -1,0 +1,117 @@
+@use '../abstracts/tokens' as *;
+@use '../abstracts/icons' as *;
+
+:where(h1, h2, h3, h4),
+[class*="ma-heading"] {
+  font-family: $text-heading-font-family;
+  font-weight: $text-heading-font-weight;
+  line-height: $text-heading-line-height;
+}
+
+:where(h2, h3) {
+  margin-top: var(--gutter);
+}
+
+.ma-heading-1-fluid {
+  font-size: clamp(2.00rem, calc(1.30rem + 3.43vw), 3.50rem);
+}
+
+.ma-heading-1 {
+  font-size: $heading-1-font-size;
+}
+
+.ma-heading-2 {
+  font-size: $heading-2-font-size;
+}
+
+.ma-heading-3 {
+  font-size: $heading-3-font-size;
+}
+
+.ma-heading-4 {
+  font-size: $heading-4-font-size;
+}
+
+.ma-text-small {
+  font-size: $text-small-font-size;
+}
+
+.ma-text-medium {
+  font-size: $text-medium-font-size;
+}
+
+.ma-text-large {
+  font-size: $text-large-font-size;
+}
+
+:where(.ma-text-subdued) {
+  color: $color-text-subdued;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $color-text-interactive-highlight;
+  }
+}
+
+.ma-text-inherit {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ma-text-stretched {
+  color: $color-text-brand;
+  font-size: $font-size-100;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  white-space: nowrap;
+  @media (min-width: $breakpoint-medium) {
+    letter-spacing: 1.4em;
+  }
+}
+
+.ma-text-brand {
+  color: $color-text-brand;
+}
+
+.ma-text-accent {
+  color: $color-text-accent;
+}
+
+.ma-text-uppercase {
+  text-transform: uppercase;
+}
+
+.ma-no-wrap {
+  white-space: nowrap;
+}
+
+.ma-text-center {
+  text-align: center;
+}
+
+.ma-text-right {
+  text-align: right;
+}
+
+@media (min-width: $breakpoint-medium) {
+  .ma-multicolumn {
+    columns: 2;
+    gap: $spacing-32;
+  }
+}
+
+.ma-more-link {
+  text-decoration: none;
+  font-weight: $font-weight-bold;
+  padding-inline-end: $text-link-gutter;
+  background-image: $icon-chevron-right-interactive;
+  background-size: $text-link-icon-size $text-link-icon-size;
+  background-position: right center;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-image: $icon-chevron-right-body;
+  }
+}

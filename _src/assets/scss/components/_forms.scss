@@ -1,0 +1,32 @@
+@use '../abstracts/tokens' as *;
+
+.ma-form {
+  margin-block-start: var(--gutter);
+  > :not(:last-child) {
+    margin-block-end: var(--gutter);
+  }
+}
+
+.ma-input-text,
+.ma-input-textarea {
+  --width: 50ch;
+  display: block;
+  font-size: $text-large-font-size;
+  line-height: $text-body-line-height;
+  padding: $spacing-8 $spacing-16;
+  width: var(--width);
+  border: $border-width-thin solid $color-border-default;
+  border-radius: $border-radius-small;
+}
+
+.ma-input-textarea {
+  resize: vertical;
+  overflow: auto;
+}
+
+.ma-label {
+  display: block;
+  font-weight: $font-weight-bold;
+  margin-block-end: $spacing-4;
+  font-size: $text-large-font-size;
+}
