@@ -19,11 +19,14 @@
   comments=true
   %}
   <meta name="color-scheme" content="dark light">
-  <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" href="/assets/images/meta/ma-favicon.svg" type="image/svg+xml">
   <link rel="preload" href="/assets/fonts/ReallySansLarge-Black.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/ReallySansSmall-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/ReallySansSmall-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  {# <link rel="stylesheet" href="/assets/css/style.css"> #}
+  <style>
+    {% include '../assets/css/style.css' %}
+  </style>
 </head>
 <body data-layout="{{ layout }}">
 

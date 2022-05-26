@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "sass --watch _src/assets/scss:_site/assets/css --no-source-map",
-    "build:sass": "sass _src/assets/scss:_site/assets/css --no-source-map",
+    "watch:sass": "sass --watch _src/assets/scss:_src/assets/css --no-source-map --style=compressed",
+    "build:sass": "sass _src/assets/scss:_site/assets/css --no-source-map --style=compressed",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
