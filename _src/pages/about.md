@@ -22,6 +22,6 @@ I also enjoy playing video games. I've participated in [Extra Life](https://www.
 
 I live in Oak Park, Illinois, with my wife, two sons and two dogs.
 
-<a href="/contact/" class="ma-button">Get in touch</a>
+<p class="ma-text-center"><a href="/contact/" class="ma-button">Get in touch</a></p>
 
 </article>
