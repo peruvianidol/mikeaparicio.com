@@ -115,3 +115,11 @@
     background-image: $icon-chevron-right-body;
   }
 }
+
+.ma-site-logo {
+  position: relative;
+  padding-bottom: calc(#{$text-small-font-size} * #{$text-body-line-height});
+  .ma-text-stretched {
+    position: absolute;
+  }
+}
