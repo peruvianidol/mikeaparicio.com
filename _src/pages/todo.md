@@ -36,6 +36,14 @@ title: Todo
 
 ⬜ WTF Eleventy build?
 
+⬜ Inline CSS
+
+⬜ Preload fonts
+
+⬜ CLS!!!!
+
+⬜ Contrast ratio on Twitch button
+
 ### Stretch Goals
 
 ⬜ Enable Drafts [1](https://jkc.codes/blog/creating-drafts-in-eleventy/) [2](https://giustino.blog/how-to-drafts-eleventy/) [3](https://mymanycoloredways.com/posts/2021/02/creating-drafts-in-eleventy/)
