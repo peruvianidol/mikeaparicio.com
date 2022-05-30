@@ -1,35 +1,13 @@
-const Image = require("@11ty/eleventy-img");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { DateTime } = require("luxon");
 const metagen = require('eleventy-plugin-metagen');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-async function imageShortcode(src, alt, sizes = "100vw") {
-
-  let isOnNetlify = process.env.CONTEXT === "production" ||
-    process.env.CONTEXT === "deploy-preview" ||
-    process.env.CONTEXT === "branch-deploy";
-
-  src = "_src/images/" + src;
-
-  let metadata = await Image(src, {
-    widths: isOnNetlify ? [300, 600, null] : [null],
-    formats: isOnNetlify ? ["avif", "webp", "jpeg"] : [null],
-    urlPath: "/images/",
-    outputDir: "./_site/images/",
-  });
-
-  let imageAttributes = {
-    alt,
-    sizes,
-    loading: "lazy",
-    decoding: "async",
-  };
-
-  return Image.generateHTML(metadata, imageAttributes);
-}
-
 module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addNunjucksShortcode("image", function(src, alt) {
+    return `<img src="https://peruvianidol.mo.cloudinary.net/images/` + src + `" alt="` + alt + `">`;
+  });
 
   eleventyConfig.setServerOptions({
     showAllHosts: true,
@@ -40,12 +18,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('_src/assets/images/**/*');
   eleventyConfig.addPassthroughCopy('_src/assets/videos/**/*');
   eleventyConfig.addPassthroughCopy('_src/assets/posters/**/*');
-  eleventyConfig.addPassthroughCopy('_src/images/*.mp4');
-  eleventyConfig.addPassthroughCopy('_src/images/*.gif');
+  eleventyConfig.addPassthroughCopy('_src/images/**/*');
   eleventyConfig.addPassthroughCopy('_src/slides/**/*');
   eleventyConfig.addPassthroughCopy('_src/simple-groupon/**/*');
-
-  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
   eleventyConfig.addCollection('posts', collection => {
     return [
