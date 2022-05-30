@@ -14,7 +14,7 @@ async function imageShortcode(src, alt, sizes = "100vw") {
 
   let metadata = await Image(src, {
     widths: isOnNetlify ? [300, 600, null] : [null],
-    formats: isOnNetlify ? ["avif", "webp", "jpeg"] : [null],
+    formats: isOnNetlify ? ["webp", "jpeg"] : [null],
     urlPath: "/images/",
     outputDir: "./_site/images/",
   });
