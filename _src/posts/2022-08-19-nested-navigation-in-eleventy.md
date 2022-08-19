@@ -258,7 +258,7 @@ The plugin documentation has [a snippet for a Nunjucks macro](https://www.11ty.d
  
 Okay, there's a lot going on here, so let's break it down.
 
-First, we're adding our collections to `navPages` and applying the `eleventyNavigation` filter:
+First, we're adding our collections to `navPages` and applying the `eleventyNavigation` filter, which [returns a sorted array of page objects](https://www.11ty.dev/docs/plugins/navigation/#fetch-the-menu-items-using-the-eleventynavigation-filter):
 
 ```js
 {%- raw -%}
@@ -266,7 +266,7 @@ First, we're adding our collections to `navPages` and applying the `eleventyNavi
 {% endraw %}
 ```
 
-Next, we're creating a Nunjucks macro called `renderNavListItem` that takes `entry`, an individual item in `navPages`, as an arguement.
+Next, we're creating a Nunjucks macro called `renderNavListItem` that takes `entry`, an individual item in `navPages`, as an argument.
 
 ```js
 {%- raw -%}
@@ -276,7 +276,7 @@ Next, we're creating a Nunjucks macro called `renderNavListItem` that takes `ent
 {% endraw %}
 ```
 
-Inside the macro, if an item has children, we'll show it as a `details` element inside a list item. If one of its children is the current page, we'll add a class of `.is-active` and also add an attribute of `open` to expand the `details` element by default. (If you want all of them to be expanded by default, you can move `open` ouside of the `for` loop and before the closing bracket of `details`.) Below the `summary`, we're using the `renderNavListItem` macro recursively to show children of the item in a list.
+Inside the macro, if an item has children, we'll show it as a `details` element inside a list item. If one of its children is the current page, we'll add a class of `.is-active` and also add an attribute of `open` to expand the `details` element by default. (If you want all of them to be expanded by default, you can move `open` outside of the `for` loop and before the closing bracket of `details`.) Below the `summary`, we're using the `renderNavListItem` macro recursively to show children of the item in a list.
 
 ```js
 {%- raw -%}
@@ -394,7 +394,7 @@ When the list is open, we want to change the direction of the indicator arrow, s
 }
 ```
 
-Whoopsie! Safari still shows the native arrow on the left. We can remove it like so:
+Whoopsie! Safari still shows the native arrow on the left. (Applying `display: block` on the `summary` removes it in other browsers. The default value is `list-item`.) We can remove it like so:
 
 ```scss
 .nav-list summary::-webkit-details-marker {
