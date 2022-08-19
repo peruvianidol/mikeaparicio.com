@@ -6,6 +6,7 @@
   font-family: $text-heading-font-family;
   font-weight: $text-heading-font-weight;
   line-height: $text-heading-line-height;
+  word-spacing: .25rem;
 }
 
 :where(h2, h3) {

@@ -2,4 +2,4 @@ node_modules
 .DS_Store
 _site
 drafts
-_src/data/ideas.json
+_src/_data/ideas.json
