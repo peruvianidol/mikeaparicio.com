@@ -62,7 +62,7 @@ As the number of pages increases, this could get noisy pretty quickly. So I deci
     padding-inline-start: .75rem;
   }
   .nav-list-demo .nav-list a,
-  .nav-list-demo summary {
+  .nav-list-demo .nav-list summary {
     padding-block: .375rem;
     transition: color .1s ease-in-out;
   }
@@ -406,7 +406,7 @@ Let's give our link and summary elements some vertical padding using the [logica
 
 ```scss
 .nav-list a,
-summary {
+.nav-list summary {
   padding-block: .375rem;
   transition: color .1s ease-in-out;
 }
