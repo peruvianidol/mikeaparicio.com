@@ -1,6 +1,6 @@
 ---
 title: Reframing Design Systems
-description: 
+description: Thoughts on removing product decisions from your system.
 date: 2022-11-26
 thumbnail: atoms-and-molecules.png
 thumbnailAlt: Atoms and Molecules from Brad Frost's Atomic Design
