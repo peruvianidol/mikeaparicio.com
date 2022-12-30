@@ -10,7 +10,7 @@ title: About
 
 I'm **Mike Aparicio**, a.k.a. Peruvian Idol. I was born and raised in the Chicago area and, aside from a two year stint in California, have lived here my whole life. I started my first website, Mikey's Chicago Bulls Page, after flunking out of the University of Illinois in 1994 and have been making them ever since.
 
-I spent most of my career as a general "web guy" before joining Groupon in 2011. At Groupon, I built in-house CSS frameworks for our internal tools, consumer, and merchant websites and helped build a cross-platform design system. In 2020, I went to Provi, where I led the development of their design system, Fizz. <!--I'm currently the {{ site.role }}.-->
+I spent most of my career as a general "web guy" before joining Groupon in 2011. At Groupon, I built in-house CSS frameworks for our internal tools, consumer, and merchant websites and helped build a cross-platform design system. In 2020, I went to Provi, where I led the development of their design system, Fizz. I'm currently the {{ site.role }}.
 
 I occasionally stream [Office Hours on Twitch](https://twitch.tv/peruvianidol), where I talk about and answer questions on design systems, CSS, Eleventy and other stuff, while doing a bit of live-coding.
 

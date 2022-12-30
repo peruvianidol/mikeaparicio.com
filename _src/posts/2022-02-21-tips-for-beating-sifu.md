@@ -6,6 +6,7 @@ thumbnail: sifu.jpg
 thumbnailAlt: Sifu
 tags:
   - Video Games
+  - Gaming Tips
 ---
 
 Sifu (PS4/PS5/PC) has already cemented itself as one of my top games of 2022. It's an action-packed, gorgeously-styled love letter to martial arts movies. It's also an extremely challenging game, taking elements of Souls-likes (shortcuts, beefy bosses) and Rogue-likes (permanent upgrades across runs), which can give players who aren't used to these types of games fits when they're expecting more of a button-mashing brawler.
