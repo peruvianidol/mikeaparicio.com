@@ -66,6 +66,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(pluginRss);
 
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
   return {
     dir: {
       input: '_src',
