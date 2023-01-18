@@ -20,12 +20,12 @@
 }
 @media (min-width: $breakpoint-medium) {
   :where(.ma-float-right) {
-    float: inline-end;
+    float: right;
     margin-inline-start: var(--gutter);
     width: 50%;
   }
   :where(.ma-float-left) {
-    float: inline-start;
+    float: left;
     margin-inline-end: var(--gutter);
     width: 50%;
   }
