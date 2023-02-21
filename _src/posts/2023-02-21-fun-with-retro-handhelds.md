@@ -82,7 +82,7 @@ $95
 
 The [Anbernic RG351P](https://anbernic.com/products/rg351p-anbernic-retro-game-ps1-rk3326-64g-open-source-system-3-5-inch-ips-screen-portable-handheld-game-console-rg351gift-2401) is kind of in the middle, price- and feature-wise between the RG35XX and RG353V. It has its controls on the sides of the screen instead of below, giving it more of a Nintendo Switch feel. The RG351P doesn't include HDMI out but it does support the same systems as the RG353V. I kind of like the more modern form-factor of this one.
 
-### Retriod Pocket 3+
+### Retroid Pocket 3+
 
 $150
 
