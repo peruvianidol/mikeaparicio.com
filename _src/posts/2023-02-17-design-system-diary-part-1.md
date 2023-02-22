@@ -49,7 +49,7 @@ I wrote more about tokens in this post about a hackathon called [Simple Groupon]
 
 ## UI Kit
 
-I often say that if your design system is primarily engineering-driven (a component library/CSS framework) and the designers aren't designing with the system, then you don't have a design system. It's crucial that the designers have an equivalent library of components in their tools (Figma/Sketch) that allows them to create new designs that align with the tols developers are building the product with. Otherwise your component library is going to be constantly growing as designers add new features that deviate from existing styles.
+I often say that if your design system is primarily engineering-driven (a component library/CSS framework) and the designers aren't designing with the system, then you don't have a design system. It's crucial that the designers have an equivalent library of components in their tools (Figma/Sketch) that allows them to create new designs that align with the tools developers are building the product with. Otherwise your component library is going to be constantly growing as designers add new features that deviate from existing styles.
 
 A big part of my job is meeting regularly (at least once a week) with designers to get a sense of what they're working on and determining if anything needs to be added/updated in the system.
 
