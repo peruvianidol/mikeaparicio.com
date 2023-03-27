@@ -30,8 +30,6 @@ Our hearts are broken. On Thursday night our beloved dog, Geno, passed away. He 
     inline-size: 100%;
     max-inline-size: 20rem;
     max-block-size: 300px;
-    font-size: 2rem;
-    background: hotpink;
     border-radius: 4px;
     overflow: hidden;
   }
