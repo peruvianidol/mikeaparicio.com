@@ -18,7 +18,7 @@ One of the first things I like to do when starting a new design system is make a
 
 I try to make this deck accessible to folks of different disciplines, so that people can get a basic understanding of design systems and the value they create regardless of whether they are actually working to design/build the product. The deck also serves as a great onboarding tool when new people join the company.
 
-The basic stucture of the deck is:
+The basic structure of the deck is:
 
 1. Why companies struggle with getting a design from concept to production
 2. What are design systems and how to they help solve this struggle
@@ -39,7 +39,7 @@ Brad Frost has a great set of [design system interview questions](https://bradfr
 
 ## Visual Design Audit
 
-This is where I dig into the product and the designs to identify all the different visual styles in use (type, spacing, color, icons, etc.) and try to narrow them down into a discrete set of values. What are all the values we're using and in what contexts are we using them? Can we consilidate similar colors/sizes? Do the color combinations we're using have sufficient contrast?
+This is where I dig into the product and the designs to identify all the different visual styles in use (type, spacing, color, icons, etc.) and try to narrow them down into a discrete set of values. What are all the values we're using and in what contexts are we using them? Can we consolidate similar colors/sizes? Do the color combinations we're using have sufficient contrast?
 
 ## Design Tokens
 
@@ -75,7 +75,7 @@ I've found that it's much easier to get support for this approach than trying to
 
 ## From prototype to design system
 
-Once I've identified the next feature on the roadmap, it's time to start building! I like to do this work in [Codepen](https://codepen.io). I have a template that I use that's blank except for pulling in the design system's CSS framework. (Of course, for this first feature, we don't have a framework yet!)
+Once I've identified the next feature on the roadmap, it's time to start building! I like to do this work in [CodePen](https://codepen.io). I have a template that I use that's blank except for pulling in the design system's CSS framework. (Of course, for this first feature, we don't have a framework yet!)
 
 I write all of the markup and styles that I need to accurately reproduce the design. This includes tokens (as CSS custom properties) and icons (as an SVG sprite).
 
@@ -89,7 +89,7 @@ This is even more crucial as the company grows and the product team splits off i
 
 Once the prototype is built, I share it with designers, engineers and product managers to get feedback and make adjustments as needed. They can view the prototype on different devices, see the code and make changes while seeing the prototype update live.
 
-When everyone has signed off on it, whatever additional styles I added that didn't already exist in our CSS framework get added to the framework. When I release a new version the template, using the latest CSS, I can safely remove all of the CSS from Codepen and the prototype should still look the same.
+When everyone has signed off on it, whatever additional styles I added that didn't already exist in our CSS framework get added to the framework. When I release a new version the template, using the latest CSS, I can safely remove all of the CSS from CodePen and the prototype should still look the same.
 
 From here, the engineering team can take the prototype and build out the functionality of the feature without having to worry about what it looks like. Instead of delivering a picture of a website, we're delivering production-ready markup and styles.
 
