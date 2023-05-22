@@ -20,7 +20,7 @@ I did the writing and conservatory programs at Second City, which was as close a
 
 I also enjoy playing video games. I've participated in [Extra Life](https://www.extra-life.org/), a 24-hour gaming marathon, every year since 2014 to support Lurie Children's Hospital in honor of my daughter, [Olivia](/posts/2018-08-26-four-years/). To date, we've raised over **$38,000** for Lurie.
 
-I live in Oak Park, Illinois, with my wife, three sons and two dogs.
+I live in Oak Park, Illinois, with my wife, three sons and a dog.
 
 <p class="ma-text-center"><a href="/contact/" class="ma-button">Get in touch</a></p>
 

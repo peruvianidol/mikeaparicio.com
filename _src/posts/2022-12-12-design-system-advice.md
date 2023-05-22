@@ -27,7 +27,7 @@ If you're a recent grad or trying to pivot your career into a design systems rol
 
 Find the people in the company who are doing that work and offer to help, even if they're not on your team. Not only is it a great opportunity to expand your skills and influence, but as other people doing the work move on, you'll become the de facto go-to person for whatever you're interested in.
 
-In short, **don't let your employer define your role**. Find opporunities to work on what you're interested in and make yourself indespensible for that thing.
+In short, **don't let your employer define your role**. Find opportunities to work on what you're interested in and make yourself indispensable for that thing.
 
 ## Adopt a service mentality
 

@@ -124,3 +124,23 @@
     position: absolute;
   }
 }
+
+.ma-blockquote {
+  padding: 2rem 3rem;
+  font-family: $font-family-heading;
+  font-size: $font-size-600;
+  line-height: 1.4;
+  border-block: 1px solid $color-border-accent;
+  margin-block-start: 3rem;
+  margin-block-end: 1rem;
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 0;
+  }
+  + figcaption {
+    font-size: $font-size-100;
+  }
+}
