@@ -145,7 +145,7 @@ The content within this particular card includes an image and a blockquote, arra
 
 Here we're using CSS custom properties inside our flex utility to provide some common defaults from *our* design system. This way we don't need to provide a bunch of additional utility classes to support every possible value for each flex property.
 
-If a developer runs into an instance where they need to override the defaults, they can do so by declaring them in the `style` tag. In this case, we don't want a gap between the image and the blockquote, since that will be handled by the padding.
+If a developer runs into an instance where they need to override the defaults, they can do so by declaring them in the `style` attribute. In this case, we don't want a gap between the image and the blockquote, since that will be handled by the padding.
 
 ```html
 <figure class="cool-card cool-flex" style="--flex-gap: 0">
