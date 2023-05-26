@@ -2,8 +2,8 @@
 title: "Why we're bad at CSS"
 description: And how we can improve with a practical example.
 date: 2023-05-22
-thumbnail: pain-box.gif
-thumbnailAlt: 
+thumbnail: pain-box.png
+thumbnailAlt: A hand going into the pain box from Dune, overlaid with CSS in the font Impact.
 tags:
   - CSS
   - Web Development
@@ -12,7 +12,9 @@ tags:
 
 When many devs think of CSS they think of Peter Griffin trying to open window blinds. But for others CSS is more like putting their hand in [the pain box from Dune](https://youtu.be/mbTp1vlRqYA) while some product manager has a _gom jabbar_ to their neck, daring them to pull their hand out.
 
-<img src="/images/pain-box.gif">
+<figure>
+  <video poster="/images/pain-box.png" src="/images/pain-box.mp4" loop autoplay>
+</figure>
 
 There's a few reasons why tech continues to struggle with CSS.
 
