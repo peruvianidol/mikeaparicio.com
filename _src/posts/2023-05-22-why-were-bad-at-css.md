@@ -13,7 +13,7 @@ tags:
 When many devs think of CSS they think of Peter Griffin trying to open window blinds. But for others CSS is more like putting their hand in [the pain box from Dune](https://youtu.be/mbTp1vlRqYA) while some product manager has a _gom jabbar_ to their neck, daring them to pull their hand out.
 
 <figure>
-  <video poster="/images/pain-box.png" src="/images/pain-box.mp4" loop autoplay>
+  <video poster="/images/pain-box.png" src="/images/pain-box.mp4" loop autoplay muted playsinline>
 </figure>
 
 There's a few reasons why tech continues to struggle with CSS.
