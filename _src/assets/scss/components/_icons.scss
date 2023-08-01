@@ -99,3 +99,16 @@
 #icon-rss:hover > circle {
   fill: $color-social-rss;
 }
+
+#icon-mastodon:hover > circle {
+  fill: $color-social-mastodon;
+}
+
+#icon-mastodon:hover > path {
+  width: 16px;
+  height: 16px;
+}
+
+#icon-mastodon:hover > path {
+  fill: $color-white;
+}
