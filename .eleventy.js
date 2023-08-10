@@ -43,6 +43,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('_src/images/**/*');
   eleventyConfig.addPassthroughCopy('_src/slides/**/*');
   eleventyConfig.addPassthroughCopy('_src/simple-groupon/**/*');
+  eleventyConfig.addPassthroughCopy({ '_src/robots.txt': '/robots.txt' });
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
