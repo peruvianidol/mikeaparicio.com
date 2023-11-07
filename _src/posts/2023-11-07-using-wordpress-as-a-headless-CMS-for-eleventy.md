@@ -116,9 +116,9 @@ eleventyComputed:
 {% endraw %}
 ```
 
-There's some extra stuff in there specific to this project, but basically in the `pagination` we're specifying where the data is coming from, setting the `size` to 1 to get one category page for each category, and then giving the data an alias so we can reference it elsewhere as `category` instead of `categories.categories`. (The data file is called "categories" and then within that JSON data the data lives inside `categories`.)
+There's some extra stuff in there specific to this project, but basically in the `pagination` we're specifying where the data is coming from, setting the `size` to 1 to get one category page for each category, and then giving the data an alias so we can reference it elsewhere as `category` instead of `categories.categories`. (The data file is called "categories" and then within that JSON the data lives inside `categories`.)
 
-Next we define the URL the category pages, and then in `eleventyComputed` we can assign the page title and description for each category page so we can access those elsewhere.
+Next we define the URL for the category pages, and then in `eleventyComputed` we can assign the page title and description for each category page so we can access those elsewhere.
 
 Fortunately, the data has a field called `post_count`, which equals the number of posts in a particular category, so we can conditionally show a list of posts in each category:
 
