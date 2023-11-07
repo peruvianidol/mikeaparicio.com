@@ -28,7 +28,7 @@ I decided to start completely from scratch with a fresh build of the most bleedi
 For this design refresh I wanted to default to a dark design. (Light mode to come!) You may be aware of the CSS media query `prefers-color-scheme`, but there is also a CSS property called `color-scheme` that provides some default styles based on its setting.
 
 <figure>
-  <div class="ma-flex-row-responsive">
+  <div class="ma-grid">
     {% image "color-scheme-light.png", "A sample HTML with text, form elements and a button defaulting to a light color scheme" %}
     {% image "color-scheme-dark.png", "The same sample HTML defaulting to a dark color scheme" %}
   </div>

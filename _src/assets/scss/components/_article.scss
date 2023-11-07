@@ -30,7 +30,7 @@
     margin-block: var(--gutter) !important;
   }
   blockquote:not([class]) {
-    padding: var(--gutter);
+    padding: calc(var(--gutter)/2) var(--gutter);
     border-inline-start: $border-width-thick solid $color-border-accent;
     > :not(:last-child) {
       margin-block-end: var(--gutter);
