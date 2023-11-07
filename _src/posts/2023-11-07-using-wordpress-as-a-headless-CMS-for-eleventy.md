@@ -145,7 +145,7 @@ Fortunately, the data has a field called `post_count`, which equals the number o
 {% endraw %}
 ```
 
-Here we're looking in the `posts` data file for all the posts that match the current category and adding displaying the title and a brief excerpt.
+Here we're looking in the `posts` data file for all the posts that match the current category and displaying the title and a brief excerpt.
 
 ### Pages
 
