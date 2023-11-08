@@ -192,6 +192,8 @@ You can find build hooks on Netlify under **Site Configuration -> Build & Deploy
 
 Now when someone makes a change to the site, it triggers a Netlify build and the live site is updated within about 30 seconds. Sweet!
 
+**Update:** Several people brought to my attention the fact that only Wordpress' Business tier ($25/mo) and above support plugins.
+
 ## Adding custom CSS
 
 While our design system's CSS framework handles most of the styles for the site, it's unlikely the marketing team wants to be bothered adding CSS classes to things like headings and tables. So I added a few site-specific styles that help style all of the content that comes from Wordpress. There was a bit of redundancy, but in the end it's worth it to have the content look good without the author having to think about it.
