@@ -26,17 +26,17 @@
 
 .ma-button {
   display: inline-block;
-  color: $color-text-body;
+  color: var(--color-text-body, #{$color-text-body});
   text-decoration: none;
   font-size: $text-large-font-size;
   font-weight: $font-weight-bold;
-  border-radius: $border-radius-small;
-  background-color: $color-background-brand-highlight;
+  border-radius: var(--radius, #{$border-radius-small});
+  background-color: var(--color-background-brand-highlight, #{$color-background-brand-highlight});
   border: $border-width-medium solid transparent;
   padding: $spacing-8 $spacing-24;
   cursor: pointer;
 
   &:hover {
-    border-color: $color-white;
+    border-color: currentColor;
   }
 }

@@ -14,12 +14,12 @@
     font-size: var(--font-size-400);
   }
   :where(strong) {
-    color: $color-text-accent;
+    color: var(--color-text-accent, #{$color-text-accent});
   }
   :where(figcaption) {
     margin-top: $spacing-4;
     font-size: var(--font-size-300);
-    color: $color-text-subdued;
+    color: var(--color-text-subdued, #{$color-text-subdued});
   }
   :where(img, video) {
     filter: brightness(.8);

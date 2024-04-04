@@ -10,6 +10,7 @@
 
  code[class*="language-"],
  pre[class*="language-"],
+ style[style="display: block"],
  code {
    color: #d6deeb;
    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
@@ -55,7 +56,8 @@
  }
  
  /* Code blocks */
- pre[class*="language-"] {
+ pre[class*="language-"],
+ style[style="display: block"] {
    padding: 1em;
    margin-block: var(--gutter);
    overflow: auto;
@@ -63,6 +65,7 @@
  
  :not(pre) > code[class*="language-"],
  pre[class*="language-"],
+ style[style="display: block"],
  code {
    color: white;
    background: #011627;

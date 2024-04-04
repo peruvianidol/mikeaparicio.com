@@ -1,15 +1,15 @@
 @use '../abstracts/tokens' as *;
 
 .ma-surface-brand {
-  background-color: $color-background-brand;
+  background-color: var(--color-background-brand, #{$color-background-brand});
 }
 
 .ma-surface {
-  background-color: $color-background-surface;
+  background-color: var(--color-background-surface, #{$color-background-surface});
 }
 
 .ma-border-block {
-  border-block: $border-width-thin solid $color-border-accent;
+  border-block: $border-width-thin solid var(--color-text-accent, #{$color-border-accent});
 }
 
 .ma-scale-on-hover {

@@ -9,16 +9,16 @@
 
 [data-layout="post"] header,
 [data-layout="page"] header {
-  border-bottom: $border-width-thin solid $color-border-accent;
-  background-color: $color-background-brand;
+  border-bottom: $border-width-thin solid var(--color-text-accent, #{$color-border-accent});
+  background-color: var(--color-background-brand, #{$color-background-brand});
   margin-bottom: var(--gutter);
   .ma-text-stretched {
-    color: $color-text-accent;
+    color: var(--color-text-accent, #{$color-text-accent});
   }
   nav a {
-    color: $color-text-accent;
+    color: var(--color-text-accent, #{$color-text-accent});
     &:hover {
-      color: $color-text-body;
+      color: var(--color-text-body, #{$color-text-body});
     }
   }
 }

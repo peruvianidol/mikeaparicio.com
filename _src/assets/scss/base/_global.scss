@@ -4,8 +4,8 @@
   font-family: $text-body-font-family;
   font-size: $text-body-font-size;
   line-height: $text-body-line-height;
-  color: $color-text-body;
-  background-color: $color-background-body;
+  color: var(--color-text-body, #{$color-text-body});
+  background-color: var(--color-background-body, #{$color-background-body});
   min-width: $size-min-width;
 }
 
@@ -14,17 +14,17 @@
 }
 
 :where(a[href]) {
-  color: $color-text-interactive;
+  color: var(--color-text-interactive, #{$color-text-interactive});
   text-underline-offset: $text-underline-offset;
   text-decoration-thickness: $border-width-thin;
 
   &:hover {
-    color: $color-text-interactive-highlight;
+    color: var(--color-text-interactive-highlight, #{$color-text-interactive-highlight});
   }
 }
 
 :where(nav a):hover {
-  border-bottom: $border-width-thick solid $color-border-accent;
+  border-bottom: $border-width-thick solid var(--color-text-accent, #{$color-border-accent});
   padding-block: $spacing-4;
 }
 

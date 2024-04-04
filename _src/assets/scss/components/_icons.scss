@@ -20,7 +20,7 @@
 }
 
 .ma-icon-social:hover {
-  color: $color-text-body;
+  color: var(--color-text-body, #{$color-text-body});
 }
 
 :where(.ma-icon-social > path),
