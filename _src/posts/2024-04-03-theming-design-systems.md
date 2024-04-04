@@ -1,6 +1,6 @@
 ---
 title: Theming Design Systems
-description: A look at Pit Viper's theme system
+description: A look at Pit Viper's theme system.
 date: 2024-04-03
 thumbnail: pv-theming.png
 thumbnailAlt: The Pit Viper logo in six different color schemes.
