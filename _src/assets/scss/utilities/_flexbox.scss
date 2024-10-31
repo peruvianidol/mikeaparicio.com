@@ -4,6 +4,7 @@
   display: flex;
   align-items: var(--align-items, center);
   gap: var(--gap, $size-gutter);
+  flex-wrap: var(--flex-wrap, nowrap);
 }
 
 :where(.ma-flex-row-responsive) {

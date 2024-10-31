@@ -37,11 +37,11 @@ I'll be streaming the entire day on [Twitch](https://www.twitch.tv/peruvianidol)
 
 It's going to be a great time and I'm going to be having a raffle for some gaming related prizes for folks who donate, as well as matching contributions for part of the day.
 
-If you'd like to join us in our effort to raise funds for children's hospitals (you can pick your own local hospital to support), you can visit [our Extra Life team page](https://www.extra-life.org/index.cfm?fuseaction=donordrive.team&teamID=63682) and click the "Join Our Team" button. What a great excuse to play video games for 24 hours!
+If you'd like to join us in our effort to raise funds for children's hospitals (you can pick your own local hospital to support), you can visit [our Extra Life team page](https://www.extra-life.org/index.cfm?fuseaction=donordrive.team&teamID={{site.extralifeteamid}}) and click the "Join Our Team" button. What a great excuse to play video games for 24 hours!
 
-**If you'd like to make a donation**, you can do so on [my Extra Life page](https://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&participantID=510006) or by clicking this button:
+**If you'd like to make a donation**, you can do so on [my Extra Life page](https://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&participantID={{site.extralifeid}}) or by clicking this button:
 
-<a href="https://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&participantID=510006" class="ma-button">Donate</a>
+<a href="https://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&participantID={{site.extralifeid}}" class="ma-button">Donate</a>
 
 Any amount you can give is greatly appreciated. You can really help us out by sharing our campaign with your friends and family.
 

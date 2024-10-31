@@ -18,7 +18,7 @@ Some of my active side-projects include [11ty Recipes](https://11ty.recipes), a 
 
 I did the writing and conservatory programs at Second City, which was as close as I'd come to fulfilling my childhood dream of being on Saturday Night Live. I wrote and performed sketch and improv comedy and collaborated on a few short [comedy videos](https://vimeo.com/peruvianidol) with my classmates.
 
-I also enjoy playing video games. I've participated in [Extra Life](https://www.extra-life.org/), a 24-hour gaming marathon, every year since 2014 to support Lurie Children's Hospital in honor of my daughter, [Olivia](/posts/2018-08-26-four-years/). To date, we've raised over **$43,000** for Lurie.
+I also enjoy playing video games. I've participated in [Extra Life](https://www.extra-life.org/), a 24-hour gaming marathon, every year since 2014 to support Lurie Children's Hospital in honor of my daughter, [Olivia](/posts/2018-08-26-four-years/). To date, we've raised over **$49,000** for Lurie.
 
 I live in Oak Park, Illinois, with my wife, three sons and two dogs.
 
