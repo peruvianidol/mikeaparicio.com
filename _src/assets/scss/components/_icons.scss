@@ -112,3 +112,11 @@
 #icon-mastodon:hover > path {
   fill: $color-white;
 }
+
+#icon-bluesky:hover > circle {
+  fill: $color-social-bluesky;
+}
+
+#icon-bluesky:hover {
+  fill: white;
+}

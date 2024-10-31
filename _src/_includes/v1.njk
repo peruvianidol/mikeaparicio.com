@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>m i c h a e l a p a r i c i o . c o m</title>
+  <style>
+    :root {
+      --color-border: #ccc;
+      --color-accent: #5A5F7F;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      font: inherit;
+    }
+    body {
+      font-family: Verdana, sans-serif;
+      font-size: 11px;
+      max-width: 600px;
+      margin-inline: auto;
+      margin-block: .5rem;
+      display: grid;
+      grid-template-columns: auto 1fr;
+    }
+    header, nav {
+      font-family: serif;
+      text-transform: uppercase;
+    }
+    header {
+      grid-column: 1 / -1;
+      border: 1px solid var(--color-border);
+      text-align: right;
+      font-size: 21px;
+      line-height: 1;
+      color: #aaa;
+      padding-inline: .125rem;
+    }
+    nav {
+      padding: .5rem;
+      border: solid var(--color-border);
+      border-width: 0 1px 1px 1px;
+    }
+    main {
+      padding: 1rem;
+      border: solid var(--color-border);
+      border-width: 0 1px 1px 0;
+    }
+    footer {
+      grid-column: 1 / -1;
+      text-align: center;
+    }
+    article {
+      border-block-end: 1px solid var(--color-accent);
+      &:not(:last-child) {
+        margin-block-end: 1rem;
+      }
+      > * {
+        margin-block-end: 1rem;
+      }
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      li {
+        --cap-color: 255 0 0;
+        max-width: min-content;
+        margin-block-end: .875rem;
+        line-height: 1;
+        font-weight: 600;
+        a {
+          display: block;
+          color: rgb(var(--cap-color));
+          text-decoration: none;
+          &:not([href="#"]):hover,
+          &:not([href="#"]):focus-visible {
+            outline: 2px solid dodgerblue;
+            outline-offset: 4px;
+          }
+          &:before {
+            content: attr(data-cap);
+            display: grid;
+            place-items: center;
+            font-size: 34px;
+            line-height: 1;
+            width: 42px;
+            aspect-ratio: 1;
+            border-radius: 6px;
+            background-color: rgb(var(--cap-color));
+            outline: 3px solid rgb(var(--cap-border));
+            color: white !important;
+            margin-inline: auto;
+            margin-block-end: .325rem;
+          }
+        }
+      }
+    }
+    h2 {
+      border-block-end: 1px solid var(--color-accent);
+      span {
+        padding-inline: .5rem;
+        display: inline-block;
+        color: white;
+        background-color: var(--color-accent);
+      }
+    }
+    strong {
+      font-weight: 600;
+    }
+    em {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MichaelAparicio.com</h1>
+  </header>
+  <nav>
+    <ul>
+      <li style="--cap-color: 86 87 130; --cap-border: 191 193 242"><a href="/archive/v1/2001-05-31/" data-cap="H">Home</a></li>
+      <li style="--cap-color: 128 86 88; --cap-border: 251 194 194"><a href="#" data-cap="A">About</a></li>
+      <li style="--cap-color: 86 128 103; --cap-border: 205 251 194"><a href="#" data-cap="P">Pics</a></li>
+      <li style="--cap-color: 196 123 59; --cap-border: 247 214 186"><a href="../sites/" data-cap="S">Sites</a></li>
+      <li style="--cap-color: 126 87 124; --cap-border: 247 199 246"><a href="#" data-cap="L">Links</a></li>
+      <li style="--cap-color: 177 137 54; --cap-border: 253 230 186"><a href="#" data-cap="G">Guest Book</a></li>
+    </ul>
+  </nav>
+  <main>
+    {{ content | safe }}
+  </main>
+  <footer>
+    &copy; 2001 mike_aparicio@yahoo.com
+  </footer>
+</body>
+</html>
