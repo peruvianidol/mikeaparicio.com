@@ -45,5 +45,5 @@ If you'd like to join us in our effort to raise funds for children's hospitals (
 
 Any amount you can give is greatly appreciated. You can really help us out by sharing our campaign with your friends and family.
 
-Thank you so much to everyone who has donated to our cause over the years. It truly  means a lot to me and my family.
+Thank you so much to everyone who has donated to our cause over the years. It truly means a lot to me and my family.
 
