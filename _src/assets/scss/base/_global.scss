@@ -1,5 +1,9 @@
 @use '../abstracts/tokens' as *;
 
+@view-transition {
+	navigation: auto;
+}
+
 :where(body) {
   font-family: $text-body-font-family;
   font-size: $text-body-font-size;
