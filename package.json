@@ -15,10 +15,10 @@
   "author": "Mike Aparicio <peruvianidol@gmail.com> (http://mikeaparicio.com/)",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.11"
+    "@11ty/eleventy": "^3.0.0"
   },
   "devDependencies": {
-    "@11ty/eleventy-img": "^2.0.0",
+    "@11ty/eleventy-img": "^5.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "eleventy-plugin-metagen": "^1.7.8",
