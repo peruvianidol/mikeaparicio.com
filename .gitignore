@@ -3,3 +3,5 @@ node_modules
 _site
 drafts
 _src/_data/ideas.json
+.vscode
+.nvmrc
