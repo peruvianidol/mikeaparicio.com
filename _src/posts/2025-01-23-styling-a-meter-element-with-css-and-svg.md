@@ -100,24 +100,22 @@ Here we're setting the position of the meter to `absolute` and using `inset: 0` 
 Next we have to apply some cross-browser styling to set the color of the meter background and bar:
 
 ```css
-.rating {
-  ::-moz-meter-bar {
-    background: none;
-    background-color: var(--icon-color);
-  }
-  ::-webkit-meter-bar {
-    background: var(--background-color);
-    border: 0;
-    border-radius: 0;
-    height: var(--height);
-  }
-  ::-webkit-meter-optimum-value {
-    background: var(--icon-color);
-  }
+.rating ::-moz-meter-bar {
+  background: none;
+  background-color: var(--icon-color);
+}
+.rating ::-webkit-meter-bar {
+  background: var(--background-color);
+  border: 0;
+  border-radius: 0;
+  height: var(--height);
+}
+.rating ::-webkit-meter-optimum-value {
+  background: var(--icon-color);
 }
 ```
 
-It's pretty straightfoward. We're just resetting the colors and removing any borders or radii. I'm using CSS nesting here which has had [good browser support](https://caniuse.com/?search=nesting) for awhile now.
+It's pretty straightfoward. We're just resetting the colors and removing any borders or radii.
 
 Finally, we'll add our star as a repeating background image on a pseudo-element of our `.rating` container.
 
@@ -194,17 +192,17 @@ Here's the full, updated CSS:
   --icon-color: dodgerblue;
   --height: 20px;
   --background-size: 12px 20px;
-  &:has(meter[max="5"]) {
-    --aspect-ratio: 29/10;
-  }
-  &:has(meter[max="10"]) {
-    --aspect-ratio: 59/10;
-  }
-  &:after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' fill-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2' clip-rule='evenodd' viewBox='0 0 6 10'%3E%3Cpath fill='%231f1f1f' d='M0 1V0h1a1 1 0 0 0-1 1Zm4-1h2v10H4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1ZM1 10H0V9a1 1 0 0 0 1 1Z'/%3E%3C/svg%3E");
-    background-size: var(--background-size);
-    background-repeat: repeat-x;
-  }
+}
+.rating[data-rating="bar"]:has(meter[max="5"]) {
+  --aspect-ratio: 29/10;
+}
+.rating[data-rating="bar"]:has(meter[max="10"]) {
+  --aspect-ratio: 59/10;
+}
+.rating[data-rating="bar"]:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' fill-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2' clip-rule='evenodd' viewBox='0 0 6 10'%3E%3Cpath fill='%231f1f1f' d='M0 1V0h1a1 1 0 0 0-1 1Zm4-1h2v10H4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1ZM1 10H0V9a1 1 0 0 0 1 1Z'/%3E%3C/svg%3E");
+  background-size: var(--background-size);
+  background-repeat: repeat-x;
 }
 ```
 And the result:
@@ -249,52 +247,52 @@ So there you go. A versatile rating component in about 60 lines of CSS. Let me k
     aspect-ratio: var(--aspect-ratio);
     height: var(--height);
     position: relative;
-    ::-moz-meter-bar {
-      background: none;
-      background-color: var(--icon-color);
-    }
-    ::-webkit-meter-bar {
-      background: var(--background-color);
-      border: 0;
-      border-radius: 0;
-      height: var(--height);
-    }
-    ::-webkit-meter-optimum-value {
-      background: var(--icon-color);
-    }
-    meter {
-      position: absolute;
-      inset: 0;
-      background: none;
-      background-color: var(--background-color);
-      height: var(--height);
-      width: auto;
-    }
-    &:after {
-      content: "";
-      display: block;
-      position: absolute;
-      inset: 0;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 16'%3E%3Cpath d='M17 0v16H0V0h17ZM8.87.788a.97.97 0 0 0-1.745 0L5.177 4.796l-4.351.643a.967.967 0 0 0-.779.657.974.974 0 0 0 .24.991l3.157 3.124-.746 4.415a.974.974 0 0 0 1.415 1.018l3.888-2.076 3.887 2.076a.971.971 0 0 0 1.415-1.018l-.748-4.415 3.157-3.124a.968.968 0 0 0-.539-1.648l-4.354-.643L8.87.788Z' fill='%231f1f1f'/%3E%3C/svg%3E");
-      background-repeat: repeat-x;
-      background-size: var(--background-size);
-    }
+  }
+  .rating ::-moz-meter-bar {
+    background: none;
+    background-color: var(--icon-color);
+  }
+  .rating ::-webkit-meter-bar {
+    background: var(--background-color);
+    border: 0;
+    border-radius: 0;
+    height: var(--height);
+  }
+  .rating ::-webkit-meter-optimum-value {
+    background: var(--icon-color);
+  }
+  .rating meter {
+    position: absolute;
+    inset: 0;
+    background: none;
+    background-color: var(--background-color);
+    height: var(--height);
+    width: auto;
+  }
+  .rating:after {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 16'%3E%3Cpath d='M17 0v16H0V0h17ZM8.87.788a.97.97 0 0 0-1.745 0L5.177 4.796l-4.351.643a.967.967 0 0 0-.779.657.974.974 0 0 0 .24.991l3.157 3.124-.746 4.415a.974.974 0 0 0 1.415 1.018l3.888-2.076 3.887 2.076a.971.971 0 0 0 1.415-1.018l-.748-4.415 3.157-3.124a.968.968 0 0 0-.539-1.648l-4.354-.643L8.87.788Z' fill='%231f1f1f'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: var(--background-size);
   }
   .rating[data-rating="bar"] {
     --background-color: #727273;
     --icon-color: dodgerblue;
     --height: 20px;
     --background-size: 12px 20px;
-    &:has(meter[max="5"]) {
-      --aspect-ratio: 29/10;
-    }
-    &:has(meter[max="10"]) {
-      --aspect-ratio: 59/10;
-    }
-    &:after {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 10'%3E%3Cpath fill='%231f1f1f' d='M0 1V0h1a1 1 0 0 0-1 1Zm4-1h2v10H4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1ZM1 10H0V9a1 1 0 0 0 1 1Z'/%3E%3C/svg%3E");
-      background-size: var(--background-size);
-    }
+  }
+  .rating[data-rating="bar"]:has(meter[max="5"]) {
+    --aspect-ratio: 29/10;
+  }
+  .rating[data-rating="bar"]:has(meter[max="10"]) {
+    --aspect-ratio: 59/10;
+  }
+  .rating[data-rating="bar"]:after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 10'%3E%3Cpath fill='%231f1f1f' d='M0 1V0h1a1 1 0 0 0-1 1Zm4-1h2v10H4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1ZM1 10H0V9a1 1 0 0 0 1 1Z'/%3E%3C/svg%3E");
+    background-size: var(--background-size);
   }
 </style>
 
