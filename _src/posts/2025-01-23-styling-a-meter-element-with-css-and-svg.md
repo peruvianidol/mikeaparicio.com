@@ -158,7 +158,7 @@ We may need to set some new custom properties to support this style.
 ```css
 .rating[data-rating="bar"] {
   --background-color: #727273;
-  --icon-color: orange;
+  --icon-color: dodgerblue;
   --height: 20px;
   --aspect-ratio: 29/10;
   --background-size: 12px 20px;
