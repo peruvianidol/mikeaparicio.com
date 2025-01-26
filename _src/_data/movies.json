@@ -1,5 +1,23 @@
 [
   {
+    "filmTitle": "Blink Twice",
+    "link": "https://letterboxd.com/peruvianidol/film/blink-twice/",
+    "pubDate": "Sat, 25 Jan 2025 18:12:09 +1300",
+    "filmYear": "2024",
+    "memberRating": "4.0",
+    "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/5/6/0/4/2/756042-blink-twice-0-600-0-900-crop.jpg?v=2f35ddcd4e",
+    "reviewText": "Wow, that was deeply unsettling. Blink Twice sets the table and then just kinda of lets you stew in a sense of unease before finally revealing itself. From there it gets wild. I never thought much of Channing Tatum as an actor but he’s perfectly cast here, delivering a mix of charm and menace. The ending is *chef’s kiss*."
+  },
+  {
+    "filmTitle": "Gangs of New York",
+    "link": "https://letterboxd.com/peruvianidol/film/gangs-of-new-york-2002/",
+    "pubDate": "Fri, 24 Jan 2025 16:41:56 +1300",
+    "filmYear": "2002",
+    "memberRating": "4.0",
+    "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/9/8/4/6/49846-gangs-of-new-york-0-600-0-900-crop.jpg?v=5c4435acc6",
+    "reviewText": "There’s a lot to love here, particularly Daniel Day-Lewis’ performance as Bill the Butcher. It feels like both DiCaprio and Diaz are miscast and Scorsese just tries to do too much at the end. There’s a lot of build-up to a climactic confrontation that’s largely disrupted by a historical event. This movie is probably more relevant to today’s political climate than it was in 2002. If only we could see we should be fighting the “$300 men” instead of each other."
+  },
+  {
     "filmTitle": "Nosferatu",
     "link": "https://letterboxd.com/peruvianidol/film/nosferatu-2024/",
     "pubDate": "Thu, 23 Jan 2025 00:02:15 +1300",
@@ -54,15 +72,6 @@
     "reviewText": "I like Nate but his dry, clean humor doesn’t elicit much more than a hearty chuckle from me."
   },
   {
-    "filmTitle": "We Live in Time",
-    "link": "https://letterboxd.com/peruvianidol/film/we-live-in-time/",
-    "pubDate": "Wed, 1 Jan 2025 17:18:29 +1300",
-    "filmYear": "2024",
-    "memberRating": "3.0",
-    "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/9/1/7/8/6/991786-we-live-in-time-0-600-0-900-crop.jpg?v=14245ba118",
-    "reviewText": "Not sure this needed to have such a non-linear narrative, except “time” is in the title, so I guess? I enjoyed the chemistry between Garfield and Pugh, but it probably would have worked the same as a conventional narrative. Some good moments but ultimately I don’t think it was terribly memorable."
-  },
-  {
     "filmTitle": "Challengers",
     "link": "https://letterboxd.com/peruvianidol/film/challengers/1/",
     "pubDate": "Wed, 1 Jan 2025 17:23:02 +1300",
@@ -79,6 +88,15 @@
     "memberRating": "3.5",
     "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/5/1/2/2/6/651226-nightbitch-0-600-0-900-crop.jpg?v=9717400486",
     "reviewText": "Amy Adams is great in this spin on Teen Wolf. Lots to relate to here as tired parent."
+  },
+  {
+    "filmTitle": "We Live in Time",
+    "link": "https://letterboxd.com/peruvianidol/film/we-live-in-time/",
+    "pubDate": "Wed, 1 Jan 2025 17:18:29 +1300",
+    "filmYear": "2024",
+    "memberRating": "3.0",
+    "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/9/1/7/8/6/991786-we-live-in-time-0-600-0-900-crop.jpg?v=14245ba118",
+    "reviewText": "Not sure this needed to have such a non-linear narrative, except “time” is in the title, so I guess? I enjoyed the chemistry between Garfield and Pugh, but it probably would have worked the same as a conventional narrative. Some good moments but ultimately I don’t think it was terribly memorable."
   },
   {
     "filmTitle": "Red Rooms",

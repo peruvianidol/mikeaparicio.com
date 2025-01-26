@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 // Dynamically import `node-fetch` for compatibility
 async function fetchModule() {
@@ -9,7 +10,7 @@ async function fetchModule() {
 const RSS_URL = 'https://letterboxd.com/peruvianidol/rss/';
 
 // Path to the JSON file to store movie data
-const JSON_FILE = './_src/_data/movies.json';
+const JSON_FILE = path.join(__dirname, 'movies.json');
 
 // Fetch the RSS feed
 async function fetchRSS(url) {
@@ -42,33 +43,44 @@ function loadExistingMovies() {
     return JSON.parse(fileData);
 }
 
-// Save movies to the JSON file
 function saveMovies(movies) {
-    fs.writeFileSync(JSON_FILE, JSON.stringify(movies, null, 2));
+    // Check if the current content matches to avoid unnecessary writes
+    const currentData = fs.existsSync(JSON_FILE) ? fs.readFileSync(JSON_FILE, 'utf8') : '';
+    const newData = JSON.stringify(movies, null, 2);
+
+    if (currentData !== newData) {
+        fs.writeFileSync(JSON_FILE, newData);
+        console.log('movies.json updated.');
+    } else {
+        console.log('No changes to movies.json.');
+    }
 }
 
 // Main function to update the JSON file with new movies
 async function updateMovies() {
     try {
+        console.log('Fetching RSS feed...');
         const xml = await fetchRSS(RSS_URL);
+        console.log('RSS feed fetched.');
         const items = Array.from(xml.getElementsByTagName('item'));
+        console.log(`Found ${items.length} items in the feed.`);
         const newMovies = items.slice(0, 50).map(parseItem);
 
         const existingMovies = loadExistingMovies();
         const existingLinks = new Set(existingMovies.map(movie => movie.link));
 
+        // Combine existing and new movies, filter duplicates, and sort by pubDate (most recent first)
         const updatedMovies = [
             ...existingMovies,
             ...newMovies.filter(movie => !existingLinks.has(movie.link)),
-        ];
+        ].sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
         saveMovies(updatedMovies);
-        console.log(`Updated ${updatedMovies.length} movies.`);
+        console.log(`Updated movies.json with ${updatedMovies.length} movies.`);
     } catch (error) {
         console.error('Error:', error);
     }
 }
-
 // Run the update function if invoked directly
 if (require.main === module) {
     updateMovies();

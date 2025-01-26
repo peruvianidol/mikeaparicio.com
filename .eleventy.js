@@ -45,6 +45,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('_src/simple-groupon/**/*');
   eleventyConfig.addPassthroughCopy({ '_src/robots.txt': '/robots.txt' });
 
+  eleventyConfig.addWatchTarget('./_data/letterboxd.js');
+  eleventyConfig.setServerOptions({
+    watch: ['!./_data/movies.json'], // Ignore movies.json
+  });
+
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
   eleventyConfig.addCollection('posts', collection => {
