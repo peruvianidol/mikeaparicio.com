@@ -63,18 +63,20 @@ module.exports = function(eleventyConfig) {
     ].reverse();
   });
 
-  eleventyConfig.addFilter("postDate", (dateInput) => {
-    let date;
-    if (typeof dateInput === 'string') {
-      date = DateTime.fromRFC2822(dateInput, { zone: 'utc' });
-    } else if (dateInput instanceof Date) {
-      date = DateTime.fromJSDate(dateInput, { zone: 'utc' });
-    } else {
-      console.error(`Invalid dateInput: Expected a string or Date, but got ${typeof dateInput}`, dateInput);
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toLocaleString(DateTime.DATE_FULL);
+  });
+
+  eleventyConfig.addFilter("watchDate", (dateStr) => {
+    if (!dateStr) {
+      console.error(`Invalid watchDate: "${dateStr}"`);
       return 'Invalid Date';
     }
+  
+    const date = DateTime.fromISO(dateStr);
     return date.isValid ? date.toLocaleString(DateTime.DATE_FULL) : 'Invalid Date';
   });
+  
   eleventyConfig.addFilter("jsonify", (obj) => JSON.stringify(obj, null, 2));
   eleventyConfig.addFilter("dateToRfc3339", pluginRss.dateToRfc3339);
   eleventyConfig.addFilter("limit", function (arr, limit) {

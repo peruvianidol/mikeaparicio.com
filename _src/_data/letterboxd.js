@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { DateTime } = require('luxon');
 
 // Dynamically import `node-fetch` for compatibility
 async function fetchModule() {
@@ -24,17 +25,20 @@ async function fetchRSS(url) {
 
 // Parse an RSS item to extract movie details
 function parseItem(item) {
+    const watchedDate = item.getElementsByTagName('letterboxd:watchedDate')[0]?.textContent;
+  
     const movie = {
-        filmTitle: item.getElementsByTagName('letterboxd:filmTitle')[0]?.textContent,
-        link: item.getElementsByTagName('link')[0]?.textContent,
-        pubDate: item.getElementsByTagName('pubDate')[0]?.textContent,
-        filmYear: item.getElementsByTagName('letterboxd:filmYear')[0]?.textContent,
-        memberRating: item.getElementsByTagName('letterboxd:memberRating')[0]?.textContent,
-        posterUrl: item.getElementsByTagName('description')[0]?.textContent.match(/<img src="(.*?)"/)[1],
-        reviewText: item.getElementsByTagName('description')[0]?.textContent.replace(/<[^>]+>/g, '').trim(),
+      filmTitle: item.getElementsByTagName('letterboxd:filmTitle')[0]?.textContent,
+      link: item.getElementsByTagName('link')[0]?.textContent,
+      watchedDate: watchedDate || null, // Use watchedDate as is, or null if not present
+      filmYear: item.getElementsByTagName('letterboxd:filmYear')[0]?.textContent,
+      memberRating: item.getElementsByTagName('letterboxd:memberRating')[0]?.textContent,
+      posterUrl: item.getElementsByTagName('description')[0]?.textContent.match(/<img src="(.*?)"/)[1],
+      reviewText: item.getElementsByTagName('description')[0]?.textContent.replace(/<[^>]+>/g, '').trim(),
     };
+  
     return movie;
-}
+  }
 
 // Load existing movies from the JSON file
 function loadExistingMovies() {
@@ -44,7 +48,6 @@ function loadExistingMovies() {
 }
 
 function saveMovies(movies) {
-    // Check if the current content matches to avoid unnecessary writes
     const currentData = fs.existsSync(JSON_FILE) ? fs.readFileSync(JSON_FILE, 'utf8') : '';
     const newData = JSON.stringify(movies, null, 2);
 
@@ -67,20 +70,35 @@ async function updateMovies() {
         const newMovies = items.slice(0, 50).map(parseItem);
 
         const existingMovies = loadExistingMovies();
-        const existingLinks = new Set(existingMovies.map(movie => movie.link));
 
-        // Combine existing and new movies, filter duplicates, and sort by pubDate (most recent first)
-        const updatedMovies = [
-            ...existingMovies,
-            ...newMovies.filter(movie => !existingLinks.has(movie.link)),
-        ].sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+        // Merge new and existing movies, keeping only unique links
+        const allMovies = [
+            ...newMovies,
+            ...existingMovies.filter(movie => !newMovies.some(newMovie => newMovie.link === movie.link)),
+        ];
 
-        saveMovies(updatedMovies);
-        console.log(`Updated movies.json with ${updatedMovies.length} movies.`);
+        // Process movies and sort by watchedDate (most recent first)
+        const processedMovies = allMovies.map(movie => ({
+            ...movie,
+            watchedDate: movie.watchedDate || null, // Ensure watchedDate exists (null if missing)
+        }));
+        
+        // Sort movies by watchedDate (most recent first)
+        processedMovies.sort((a, b) => {
+            const dateA = new Date(a.watchedDate);
+            const dateB = new Date(b.watchedDate);
+            return dateB - dateA; // Descending order
+        });
+        
+        // Save updated movies to JSON file
+        saveMovies(processedMovies);
+        console.log(`Updated movies.json with ${processedMovies.length} movies.`);
+  
     } catch (error) {
         console.error('Error:', error);
     }
 }
+
 // Run the update function if invoked directly
 if (require.main === module) {
     updateMovies();

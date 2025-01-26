@@ -42,7 +42,7 @@ title: Watching
         <meter min="0" max="5" value="{{ movie.memberRating }}">{{ movie.memberRating }} out of 5 stars</meter>
       </div>
       <p>{{ movie.reviewText }}</p>
-      <p><time datetime="{{ movie.pubDate }}">{{ movie.pubDate | postDate }}</time></p>
+      <time datetime="{{ movie.watchedDate }}">{{ movie.watchedDate | watchDate }}</time>
     </figcaption>
   </figure>
 </li>
