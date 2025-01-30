@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { DateTime } = require('luxon');
+const { decode } = require('he');
 
 // Dynamically import `node-fetch` for compatibility
 async function fetchModule() {
@@ -28,13 +29,13 @@ function parseItem(item) {
     const watchedDate = item.getElementsByTagName('letterboxd:watchedDate')[0]?.textContent;
   
     const movie = {
-      filmTitle: item.getElementsByTagName('letterboxd:filmTitle')[0]?.textContent,
+      filmTitle: decode(item.getElementsByTagName('letterboxd:filmTitle')[0]?.textContent || ""),
       link: item.getElementsByTagName('link')[0]?.textContent,
       watchedDate: watchedDate || null, // Use watchedDate as is, or null if not present
       filmYear: item.getElementsByTagName('letterboxd:filmYear')[0]?.textContent,
       memberRating: item.getElementsByTagName('letterboxd:memberRating')[0]?.textContent,
       posterUrl: item.getElementsByTagName('description')[0]?.textContent.match(/<img src="(.*?)"/)[1],
-      reviewText: item.getElementsByTagName('description')[0]?.textContent.replace(/<[^>]+>/g, '').trim(),
+      reviewText: decode(item.getElementsByTagName('description')[0]?.textContent.replace(/<[^>]+>/g, '').trim() || ""),
     };
   
     return movie;

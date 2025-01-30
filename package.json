@@ -17,6 +17,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "dotenv": "^16.4.7",
+    "he": "^1.2.0",
     "linkedom": "^0.18.7",
     "node-fetch": "^3.3.2"
   },
