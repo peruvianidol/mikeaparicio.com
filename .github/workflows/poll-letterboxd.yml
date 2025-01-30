@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
         with:
-          persist-credentials: true # Ensures we can push changes
+          persist-credentials: true
 
       - name: Install Dependencies
         run: npm install
@@ -30,3 +30,8 @@ jobs:
           git add _src/_data/movies.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update movies.json with latest Letterboxd data"
           git push origin main
+
+      - name: Trigger Netlify Build
+        run: curl -X POST -d {} $NETLIFY_BUILD_HOOK
+        env:
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
