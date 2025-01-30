@@ -3,6 +3,7 @@ name: Poll Letterboxd RSS and Trigger Netlify Build
 on:
   schedule:
     - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:
 
 jobs:
   poll:
