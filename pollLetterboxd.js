@@ -34,7 +34,7 @@ async function checkForUpdates() {
     link: item.getElementsByTagName('link')[0]?.textContent,
     watchedDate: item.getElementsByTagName('letterboxd:watchedDate')[0]?.textContent,
   }));
-
+  console.log(`Polling Letterboxd at ${new Date().toISOString()}`);
   console.log("Latest Movies from RSS:", latestMovies);
 
   const lastLoggedMovie = getLastLoggedMovie();

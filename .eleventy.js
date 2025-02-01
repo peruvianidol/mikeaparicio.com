@@ -45,9 +45,32 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('_src/simple-groupon/**/*');
   eleventyConfig.addPassthroughCopy({ '_src/robots.txt': '/robots.txt' });
 
-  eleventyConfig.addWatchTarget('./_data/letterboxd.js');
+  eleventyConfig.addWatchTarget("./_src/_data/movies.json"); // Watch movies.json
+
+  eleventyConfig.on("eleventy.before", async () => {
+    const fs = require("fs"); // Now only loaded when Eleventy starts
+    const crypto = require("crypto");
+
+    console.log("Checking if movies.json has changed...");
+    const lastBuildHash = "./_src/_data/movies.hash";
+
+    const moviesJson = fs.readFileSync("./_src/_data/movies.json", "utf8");
+    const currentHash = crypto.createHash("md5").update(moviesJson).digest("hex");
+
+    if (fs.existsSync(lastBuildHash)) {
+      const previousHash = fs.readFileSync(lastBuildHash, "utf8");
+      if (previousHash === currentHash) {
+        console.log("No changes to movies.json, skipping rebuild.");
+        return;
+      }
+    }
+
+    fs.writeFileSync(lastBuildHash, currentHash);
+    console.log("movies.json changed, rebuilding...");
+  });
+
   eleventyConfig.setServerOptions({
-    watch: ['!./_data/movies.json'], // Ignore movies.json
+    watch: ['!./_data/movies.json'], // Prevent infinite loop
   });
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);

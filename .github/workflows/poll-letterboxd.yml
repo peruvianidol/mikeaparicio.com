@@ -8,7 +8,8 @@ on:
 jobs:
   poll:
     runs-on: ubuntu-latest
-
+    concurrency: poll-letterboxd # Prevents multiple instances from running at the same time
+    
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -28,8 +29,11 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add _src/_data/movies.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update movies.json with latest Letterboxd data"
-          git push origin main
+          git status # Debugging step to check if files are staged
+          git diff --staged # Show what changed
+          git commit -m "Auto-update movies.json from Letterboxd" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
+
 
       - name: Trigger Netlify Build
         run: curl -X POST -d {} $NETLIFY_BUILD_HOOK
