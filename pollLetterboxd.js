@@ -20,7 +20,7 @@ function getLastLoggedMovie() {
   
   try {
     const movies = JSON.parse(fs.readFileSync(JSON_FILE, 'utf8'));
-    return movies.length > 0 ? movies[0] : null; // Assumes movies are sorted by watchedDate
+    return movies.movies.length > 0 ? movies.movies[0] : null; // Assumes movies are sorted by watchedDate
   } catch (error) {
     console.error("❌ Error reading movies.json:", error);
     return null;
@@ -33,7 +33,7 @@ function loadExistingMovies() {
   
   try {
     const fileData = fs.readFileSync(JSON_FILE, 'utf8');
-    return JSON.parse(fileData);
+    return JSON.parse(fileData).movies || [];
   } catch (error) {
     console.error("❌ Failed to load existing movies:", error);
     return [];
@@ -55,6 +55,22 @@ function saveMovies(movies) {
   }
 }
 
+// Parse an RSS item to extract movie details
+function parseItem(item) {
+  console.log("🔍 Debugging RSS Item Structure:");
+  console.log(item.outerHTML); // Logs full XML structure for analysis
+
+  return {
+    title: item.getElementsByTagName('letterboxd:filmTitle')[0]?.textContent || "Unknown Title",
+    link: item.getElementsByTagName('link')[0]?.textContent || "Unknown Link",
+    watchedDate: item.getElementsByTagName('letterboxd:watchedDate')[0]?.textContent || "Unknown Date",
+    filmYear: item.getElementsByTagName('letterboxd:filmYear')[0]?.textContent || "Unknown Year",
+    memberRating: item.getElementsByTagName('letterboxd:memberRating')[0]?.textContent || "No Rating",
+    posterUrl: item.getElementsByTagName('description')[0]?.textContent.match(/<img src="(.*?)"/)?.[1] || "No Image",
+    reviewText: item.getElementsByTagName('description')[0]?.textContent.replace(/<[^>]+>/g, '').trim() || "No Review"
+  };
+}
+
 // Check RSS feed for new movies
 async function checkForUpdates() {
   const fetch = await fetchModule();
@@ -65,12 +81,8 @@ async function checkForUpdates() {
   const items = Array.from(xml.getElementsByTagName('item'));
   console.log(`📡 Fetched ${items.length} movies from RSS feed.`);
 
-  // Extract the most recent movies
-  const latestMovies = items.slice(0, 50).map(item => ({
-    title: item.getElementsByTagName('letterboxd:filmTitle')[0]?.textContent,
-    link: item.getElementsByTagName('link')[0]?.textContent,
-    watchedDate: item.getElementsByTagName('letterboxd:watchedDate')[0]?.textContent,
-  }));
+  // Extract full movie details from RSS
+  const latestMovies = items.slice(0, 50).map(parseItem);
 
   console.log(`🕵️‍♂️ Polling Letterboxd at ${new Date().toISOString()}`);
   console.log("🎞️ Latest Movies from RSS:", latestMovies);

@@ -1,10 +1,14 @@
 {
-  "lastUpdated": "2025-02-03T23:32:12.023Z",
+  "lastUpdated": "2025-02-04T00:03:58.428Z",
   "movies": [
     {
       "title": "Sing Sing",
       "link": "https://letterboxd.com/peruvianidol/film/sing-sing-2023/",
-      "watchedDate": "2025-02-02"
+      "watchedDate": "2025-02-02",
+      "filmYear": "2023",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/4/1/9/5/7/1041957-sing-sing-2023-0-600-0-900-crop.jpg?v=f893b22924",
+      "reviewText": "There’s a vulnerability in acting that almost seems incongruous with prison life. Yet this story, about the real-life Rehabilitation Through the Arts program at Sing Sing, proves that wrong, blending fact with fiction with a cast of real RTA alums. Coleman Domingo gives a powerful performance and deserves all of the awards buzz. But the real standout for me was Clarence Maclin, one of the RTA members, who plays his vital arc with convincing nuance. A great pairing with Ghostlight, which also shows the redemptive power of theater."
     },
     {
       "filmTitle": "Land of Bad",
