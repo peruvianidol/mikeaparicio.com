@@ -103,8 +103,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("jsonify", (obj) => JSON.stringify(obj, null, 2));
   eleventyConfig.addFilter("dateToRfc3339", pluginRss.dateToRfc3339);
   eleventyConfig.addFilter("limit", function (arr, limit) {
+    if (!Array.isArray(arr)) {
+        console.error("❌ limit filter received a non-array value:", arr);
+        return []; // Prevent crashing
+    }
     return arr.slice(0, limit);
-  });
+});
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(pluginRss);

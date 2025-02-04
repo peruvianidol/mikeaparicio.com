@@ -66,14 +66,16 @@ function loadExistingMovies() {
 }
 
 function saveMovies(movies) {
-    const currentData = fs.existsSync(JSON_FILE) ? fs.readFileSync(JSON_FILE, 'utf8') : '';
-    const newData = JSON.stringify(movies, null, 2);
+    try {
+        const moviesData = {
+            lastUpdated: new Date().toISOString(), // Ensures Git detects changes
+            movies: Array.isArray(movies) ? movies : [] // Guarantees an array
+        };
 
-    if (currentData !== newData) {
-        fs.writeFileSync(JSON_FILE, newData);
-        console.log('movies.json updated.');
-    } else {
-        console.log('No changes to movies.json.');
+        fs.writeFileSync(JSON_FILE, JSON.stringify(moviesData, null, 2));
+        console.log("✅ movies.json updated successfully!");
+    } catch (error) {
+        console.error("❌ Error writing to movies.json:", error);
     }
 }
 
@@ -134,13 +136,15 @@ module.exports = async function () {
         console.log("🔄 Fetching movies.json for Eleventy...");
         const moviesData = JSON.parse(fs.readFileSync(JSON_FILE, 'utf8'));
 
-        // Ensure the returned value is an array
-        if (!moviesData || !Array.isArray(moviesData.movies)) {
-            console.warn("⚠️ movies.json is malformed or missing movies array. Returning empty array.");
-            return [];
-        }
+        console.log("📜 Type of movies.json contents:", typeof moviesData);
+        console.log("📜 Type of movies.json.movies:", Array.isArray(moviesData.movies) ? "Array" : typeof moviesData.movies);
+        console.log("📜 Number of movies:", Array.isArray(moviesData.movies) ? moviesData.movies.length : "N/A");
 
-        return moviesData.movies;
+        // Ensure we're returning an array
+        const moviesArray = Array.isArray(moviesData.movies) ? moviesData.movies : [];
+
+        console.log("✅ Returning movies array to Eleventy. Length:", moviesArray.length);
+        return moviesArray;
     } catch (error) {
         console.error("❌ Error loading movies.json for Eleventy:", error);
         return []; // Return an empty array so Eleventy doesn’t crash
