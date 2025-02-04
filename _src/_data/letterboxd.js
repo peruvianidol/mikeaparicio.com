@@ -43,9 +43,26 @@ function parseItem(item) {
 
 // Load existing movies from the JSON file
 function loadExistingMovies() {
-    if (!fs.existsSync(JSON_FILE)) return [];
-    const fileData = fs.readFileSync(JSON_FILE, 'utf8');
-    return JSON.parse(fileData);
+    if (!fs.existsSync(JSON_FILE)) {
+        console.warn("⚠️ movies.json not found. Returning an empty array.");
+        return [];
+    }
+
+    try {
+        const fileData = fs.readFileSync(JSON_FILE, 'utf8');
+        const parsedData = JSON.parse(fileData);
+
+        // Ensure it returns an array, even if malformed
+        if (!parsedData || !Array.isArray(parsedData)) {
+            console.warn("⚠️ movies.json does not contain a valid movies array. Resetting to an empty array.");
+            return [];
+        }
+
+        return parsedData;
+    } catch (error) {
+        console.error("❌ Error reading movies.json. Resetting to an empty array.", error);
+        return [];
+    }
 }
 
 function saveMovies(movies) {
@@ -71,6 +88,12 @@ async function updateMovies() {
         const newMovies = items.slice(0, 50).map(parseItem);
 
         const existingMovies = loadExistingMovies();
+
+        // Ensure existingMovies is an array
+        if (!Array.isArray(existingMovies)) {
+            console.warn("⚠️ existingMovies was not an array. Resetting to an empty array.");
+            existingMovies = [];
+        }
 
         // Merge new and existing movies, keeping only unique links
         const allMovies = [
@@ -106,4 +129,20 @@ if (require.main === module) {
 }
 
 // Export the function for Eleventy
-module.exports = updateMovies;
+module.exports = async function () {
+    try {
+        console.log("🔄 Fetching movies.json for Eleventy...");
+        const moviesData = JSON.parse(fs.readFileSync(JSON_FILE, 'utf8'));
+
+        // Ensure the returned value is an array
+        if (!moviesData || !Array.isArray(moviesData.movies)) {
+            console.warn("⚠️ movies.json is malformed or missing movies array. Returning empty array.");
+            return [];
+        }
+
+        return moviesData.movies;
+    } catch (error) {
+        console.error("❌ Error loading movies.json for Eleventy:", error);
+        return []; // Return an empty array so Eleventy doesn’t crash
+    }
+};

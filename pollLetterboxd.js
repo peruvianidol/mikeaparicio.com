@@ -19,8 +19,11 @@ function getLastLoggedMovie() {
   }
   
   try {
-    const movies = JSON.parse(fs.readFileSync(JSON_FILE, 'utf8'));
-    return movies.movies.length > 0 ? movies.movies[0] : null; // Assumes movies are sorted by watchedDate
+    const data = JSON.parse(fs.readFileSync(JSON_FILE, 'utf8'));
+
+    // Ensure movies is an array
+    const movies = Array.isArray(data.movies) ? data.movies : [];
+    return movies.length > 0 ? movies[0] : null;
   } catch (error) {
     console.error("❌ Error reading movies.json:", error);
     return null;
@@ -30,10 +33,17 @@ function getLastLoggedMovie() {
 // Load existing movies
 function loadExistingMovies() {
   if (!fs.existsSync(JSON_FILE)) return [];
-  
+
   try {
-    const fileData = fs.readFileSync(JSON_FILE, 'utf8');
-    return JSON.parse(fileData).movies || [];
+    const data = JSON.parse(fs.readFileSync(JSON_FILE, 'utf8'));
+
+    // Force movies to be an array
+    if (!data.movies || !Array.isArray(data.movies)) {
+      console.warn("⚠️ movies.json does not contain a valid movies array. Resetting to an empty array.");
+      return [];
+    }
+
+    return data.movies;
   } catch (error) {
     console.error("❌ Failed to load existing movies:", error);
     return [];
@@ -55,11 +65,8 @@ function saveMovies(movies) {
   }
 }
 
-// Parse an RSS item to extract movie details
-function parseItem(item) {
-  console.log("🔍 Debugging RSS Item Structure:");
-  console.log(item.outerHTML); // Logs full XML structure for analysis
-
+// Parse movie data from RSS item
+function parseMovie(item) {
   return {
     title: item.getElementsByTagName('letterboxd:filmTitle')[0]?.textContent || "Unknown Title",
     link: item.getElementsByTagName('link')[0]?.textContent || "Unknown Link",
@@ -81,8 +88,8 @@ async function checkForUpdates() {
   const items = Array.from(xml.getElementsByTagName('item'));
   console.log(`📡 Fetched ${items.length} movies from RSS feed.`);
 
-  // Extract full movie details from RSS
-  const latestMovies = items.slice(0, 50).map(parseItem);
+  // Extract full movie details
+  const latestMovies = items.slice(0, 50).map(parseMovie);
 
   console.log(`🕵️‍♂️ Polling Letterboxd at ${new Date().toISOString()}`);
   console.log("🎞️ Latest Movies from RSS:", latestMovies);
@@ -129,7 +136,13 @@ async function triggerBuild() {
 
     if (newMovies) {
       console.log("📥 Loading existing movies...");
-      const existingMovies = loadExistingMovies();
+      let existingMovies = loadExistingMovies();
+
+      // Ensure existingMovies is an array
+      if (!Array.isArray(existingMovies)) {
+        console.warn("⚠️ existingMovies was not an array. Resetting to an empty array.");
+        existingMovies = [];
+      }
 
       // Add new movies to the top, keep only the latest 50
       const updatedMovies = [...newMovies, ...existingMovies].slice(0, 50);
