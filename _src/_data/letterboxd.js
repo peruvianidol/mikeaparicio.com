@@ -130,17 +130,22 @@ if (require.main === module) {
     updateMovies();
 }
 
-// Export the function for Eleventy
 module.exports = async function () {
     try {
         console.log("🔄 Fetching movies.json for Eleventy...");
+
         const moviesData = JSON.parse(fs.readFileSync(JSON_FILE, 'utf8'));
 
-        console.log("📜 Type of movies.json contents:", typeof moviesData);
-        console.log("📜 Type of movies.json.movies:", Array.isArray(moviesData.movies) ? "Array" : typeof moviesData.movies);
+        console.log("📜 movies.json type:", typeof moviesData);
+        console.log("📜 Type of moviesData.movies:", Array.isArray(moviesData.movies) ? "Array" : typeof moviesData.movies);
         console.log("📜 Number of movies:", Array.isArray(moviesData.movies) ? moviesData.movies.length : "N/A");
 
-        // Ensure we're returning an array
+        // Log only the first movie's title instead of dumping the entire JSON
+        if (Array.isArray(moviesData.movies) && moviesData.movies.length > 0) {
+            console.log("🎞️ First movie in list:", moviesData.movies[0].filmTitle || "Unknown Title");
+        }
+
+        // Ensure we return an array
         const moviesArray = Array.isArray(moviesData.movies) ? moviesData.movies : [];
 
         console.log("✅ Returning movies array to Eleventy. Length:", moviesArray.length);

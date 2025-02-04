@@ -32,7 +32,7 @@ title: Watching
 <p>My last 10 watched from <a href="https://letterboxd.com/peruvianidol">Letterboxd</a>.</p>
 
 <ul class="reviews">
-{% for movie in movies | limit(10) %}
+{% for movie in movies.movies | limit(10) %}
 <li>
   <figure>
     <img src="{{ movie.posterUrl }}" alt="Poster for {{ movie.filmTitle }}">
