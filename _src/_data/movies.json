@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-04T00:33:52.961Z",
+  "lastUpdated": "2025-02-08T04:23:05.328Z",
   "movies": [
+    {
+      "title": "Dog Man",
+      "link": "https://letterboxd.com/peruvianidol/film/dog-man/",
+      "watchedDate": "2025-02-07",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/9/3/7/3/3/693733-dog-man-0-600-0-900-crop.jpg?v=c978774be5",
+      "reviewText": "This was more fun than I was expecting. Dog Man is the hero but it's really Pete Davidson's movie. There was a lot to relate to in being a parent and dog owner. At one point Petey asks L'il Petey, \"how come I made you but you're not like me?\" To which L'il Petey responds, \"maybe I am but you just don't like that part.\" That gutted me. Some great humor and 80s references for parents and came in at under 90 minutes."
+    },
     {
       "filmTitle": "Sing Sing",
       "link": "https://letterboxd.com/peruvianidol/film/sing-sing-2023/",
@@ -441,15 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/8/3/1/5/3/883153-i-like-movies-0-600-0-900-crop.jpg?v=f0181e54fc",
       "reviewText": "A really sweet and earnest coming-of-age movie. I also like movies and grew up in the video store age, so I found a lot to relate to. Isaiah Lehtinen is really great and believably awkward as the lead character, Lawrence. I almost wish the movie was longer than its 100 minute run time. I would have liked to see more of Lawrence and his manager Alana’s relationship develop. It seemed a little rushed."
-    },
-    {
-      "filmTitle": "Spartacus",
-      "link": "https://letterboxd.com/peruvianidol/film/spartacus/",
-      "watchedDate": "2024-11-09",
-      "filmYear": "1960",
-      "memberRating": "3.5",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/1/9/6/51196-spartacus-0-600-0-900-crop.jpg?v=81703ce87a",
-      "reviewText": "This movie is painfully long but I have to give it props for its sheer ambition and scope. Kirk Douglas is such a charmer you can believe he’d be able to lead a slave uprising. Given recent events I was all jazzed when the slaves were eating the rich but uh, well, I guess we’re all truly fucked."
     }
   ]
 }
