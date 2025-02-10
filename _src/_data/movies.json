@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-08T04:23:05.328Z",
+  "lastUpdated": "2025-02-10T23:19:52.628Z",
   "movies": [
+    {
+      "title": "Wild Things",
+      "link": "https://letterboxd.com/peruvianidol/film/wild-things/",
+      "watchedDate": "2025-02-10",
+      "filmYear": "1998",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/5/0/6/51506-wild-things-0-600-0-900-crop.jpg?v=bc7b982455",
+      "reviewText": "I feel like maybe I saw this before but it was so forgettable that nothing stuck. I definitely remember the poster. Anyway, this movie is very 90s in just about every way. A modern-ish noir with lots of twists and turns and plot points that fall apart if you think about them for more than half a second. It's like a Lifetime movie made for Cinemax, with Denise Richards providing lots of male gaze bits. It's not a good movie by any means but it's pretty fun and trashy all the way through to the credits, where a bunch of stuff is revealed that happened off-camera."
+    },
     {
       "title": "Dog Man",
       "link": "https://letterboxd.com/peruvianidol/film/dog-man/",
@@ -441,15 +450,6 @@
       "memberRating": "4.5",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/5/9/5/4/0/959540-anora-0-600-0-900-crop.jpg?v=6f92877033",
       "reviewText": "Despite finding nearly every character in this movie unlikable and entitled, I was captivated the whole time. I would describe Anora as Pretty Woman meets Uncut Gems. Mikey Madison gives a really brave performance. Sean Baker again shows he’s a unique and incredibly talented filmmaker. I was surprised how funny this movie was. Also, it’s clear the actor that plays Vanya never played a video game in his life."
-    },
-    {
-      "filmTitle": "I Like Movies",
-      "link": "https://letterboxd.com/peruvianidol/film/i-like-movies/",
-      "watchedDate": "2024-11-10",
-      "filmYear": "2022",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/8/3/1/5/3/883153-i-like-movies-0-600-0-900-crop.jpg?v=f0181e54fc",
-      "reviewText": "A really sweet and earnest coming-of-age movie. I also like movies and grew up in the video store age, so I found a lot to relate to. Isaiah Lehtinen is really great and believably awkward as the lead character, Lawrence. I almost wish the movie was longer than its 100 minute run time. I would have liked to see more of Lawrence and his manager Alana’s relationship develop. It seemed a little rushed."
     }
   ]
 }
