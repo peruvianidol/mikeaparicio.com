@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-02-10T23:19:52.628Z",
+  "lastUpdated": "2025-02-17T20:21:19.524Z",
   "movies": [
+    {
+      "title": "SNL50: The Anniversary Special",
+      "link": "https://letterboxd.com/peruvianidol/film/snl50-the-anniversary-special/",
+      "watchedDate": "2025-02-16",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/0/8/6/1/2/1308612-snl50-the-anniversary-special-0-600-0-900-crop.jpg?v=cdf893e1c4",
+      "reviewText": "A lot of fun seeing new sketches with a mix of cast members from the show's 50 years and random famous people. It felt like they could have went a little harder though."
+    },
+    {
+      "title": "SNL50: The Homecoming Concert",
+      "link": "https://letterboxd.com/peruvianidol/film/snl50-the-homecoming-concert/",
+      "watchedDate": "2025-02-17",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/1/1/6/5/2/1311652-snl50-the-homecoming-concert-0-600-0-900-crop.jpg?v=9b3187bd1c",
+      "reviewText": "A joyous mix of SNL cast doing musical numbers and a who's who of former musical guests doing their hits and collaborating with other artists. I was constantly surprised so I won't spoil it here, but if you love SNL and music in general, you'll dig this!"
+    },
     {
       "title": "Wild Things",
       "link": "https://letterboxd.com/peruvianidol/film/wild-things/",
@@ -432,24 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/47/69/xz/jf/8iYcbxHwArwiqtPSU0aeuGawGrP-0-600-0-900-crop.jpg?v=76abf7d9b0",
       "reviewText": "I was interested in checking out this early work of Jonathan Glazer and it did not disappoint. From the very beginning, like Nicole Kidman, you’re not fully convinced whether 10-year-old Cameron Bright is actually the reincarnation of her dead husband. The score is both chilling and whimsical at times, and the cast features some great supporting actors, including Danny Huston, who plays Kidman’s (adult) fiancée. Watching him unravel as Kidman gets pulled deeper into this kid’s story culminates in such a delightful way. I really had no idea where this was going until the very end."
-    },
-    {
-      "filmTitle": "My Old Ass",
-      "link": "https://letterboxd.com/peruvianidol/film/my-old-ass/",
-      "watchedDate": "2024-11-12",
-      "filmYear": "2024",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/5/2/5/3/1/852531-my-old-ass-0-600-0-900-crop.jpg?v=2b684502b7",
-      "reviewText": "A short and sweet coming-of-age movie with a dash of magic(?), for lack of a better word. I was expecting it to lean a bit more into its initial premise but it keeps it at arms length. Aubrey Plaza and Maisy Stella couldn’t be more different but they make it work. And I randomly watched back-to-back movies with Percy Hynes White, who is charming and down-to-earth here. I was ready to write this off as just another breezy rom-com but the ending really landed for me and reminded me of one of my favorite movies that I won’t name because that would spoil this one."
-    },
-    {
-      "filmTitle": "Anora",
-      "link": "https://letterboxd.com/peruvianidol/film/anora/",
-      "watchedDate": "2024-11-11",
-      "filmYear": "2024",
-      "memberRating": "4.5",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/5/9/5/4/0/959540-anora-0-600-0-900-crop.jpg?v=6f92877033",
-      "reviewText": "Despite finding nearly every character in this movie unlikable and entitled, I was captivated the whole time. I would describe Anora as Pretty Woman meets Uncut Gems. Mikey Madison gives a really brave performance. Sean Baker again shows he’s a unique and incredibly talented filmmaker. I was surprised how funny this movie was. Also, it’s clear the actor that plays Vanya never played a video game in his life."
     }
   ]
 }
