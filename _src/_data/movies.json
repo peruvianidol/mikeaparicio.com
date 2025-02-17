@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-17T20:21:19.524Z",
+  "lastUpdated": "2025-02-17T21:18:28.621Z",
   "movies": [
+    {
+      "title": "SNL50: The Homecoming Concert",
+      "link": "https://letterboxd.com/peruvianidol/film/snl50-the-homecoming-concert/",
+      "watchedDate": "2025-02-17",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/1/1/6/5/2/1311652-snl50-the-homecoming-concert-0-600-0-900-crop.jpg?v=9b3187bd1c",
+      "reviewText": "A joyous mix of SNL cast doing musical numbers and a who's who of former musical guests doing their hits and collaborating with other artists. I was constantly surprised so I won't spoil it here, but if you love SNL and music in general, you'll dig this!"
+    },
     {
       "title": "SNL50: The Anniversary Special",
       "link": "https://letterboxd.com/peruvianidol/film/snl50-the-anniversary-special/",
@@ -441,15 +450,6 @@
       "memberRating": "3.5",
       "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/g2/2g/f0/6b/the-terminator-original-0-600-0-900-crop.jpg?v=677a47d94a",
       "reviewText": "The setup of this movie is so brilliantly economical. Seeing this in the theater before Arnold became a superstar and Terminator 2 became a pop culture phenomenon, the night club scene must have been wild. The shootout at the police station must have seemed utterly terrifying but today it’s just a Tuesday. The effects don’t hold up very well, particularly in the otherwise gorgeous 4K transfer, but this is such a well-crafted film and a template for Cameron’s later work that would go on to shatter box office records again and again."
-    },
-    {
-      "filmTitle": "Birth",
-      "link": "https://letterboxd.com/peruvianidol/film/birth-2004/",
-      "watchedDate": "2024-11-14",
-      "filmYear": "2004",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/47/69/xz/jf/8iYcbxHwArwiqtPSU0aeuGawGrP-0-600-0-900-crop.jpg?v=76abf7d9b0",
-      "reviewText": "I was interested in checking out this early work of Jonathan Glazer and it did not disappoint. From the very beginning, like Nicole Kidman, you’re not fully convinced whether 10-year-old Cameron Bright is actually the reincarnation of her dead husband. The score is both chilling and whimsical at times, and the cast features some great supporting actors, including Danny Huston, who plays Kidman’s (adult) fiancée. Watching him unravel as Kidman gets pulled deeper into this kid’s story culminates in such a delightful way. I really had no idea where this was going until the very end."
     }
   ]
 }
