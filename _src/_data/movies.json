@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-17T21:18:28.621Z",
+  "lastUpdated": "2025-02-18T20:21:37.338Z",
   "movies": [
+    {
+      "title": "Nickel Boys",
+      "link": "https://letterboxd.com/peruvianidol/film/nickel-boys/",
+      "watchedDate": "2025-02-18",
+      "filmYear": "2024",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/2/6/5/8/9/926589-nickel-boys-0-600-0-900-crop.jpg?v=c90912e607",
+      "reviewText": "A fascinating film that immerses you in the experience of these two young men. Hard to sustain over 2 hours and 20 minutes but the end hits hard. Sadly relevant given our current political climate."
+    },
     {
       "title": "SNL50: The Homecoming Concert",
       "link": "https://letterboxd.com/peruvianidol/film/snl50-the-homecoming-concert/",
@@ -441,15 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/8/6/9/7/8/486978-gladiator-ii-0-600-0-900-crop.jpg?v=0fb2edf525",
       "reviewText": "I’m growing weary of all these “lega-sequels” but I was, in fact, entertained! Paul Mescal takes up the mantle for Russell Crowe’s Maximus, whose presence looms large over the movie, and does a serviceable job. Denzel Washington is just having a blast here. He’s bringing Training Day energy, which would otherwise seem out of place if it weren’t for the comically over-the-top twin emperors of Rome. The set pieces are solid and the whole affair leads up to a rousing and satisfying conclusion. Love that Ridley Scott is still banging out movies, even if they don’t all hit as hard as this one."
-    },
-    {
-      "filmTitle": "The Terminator",
-      "link": "https://letterboxd.com/peruvianidol/film/the-terminator/1/",
-      "watchedDate": "2024-11-20",
-      "filmYear": "1984",
-      "memberRating": "3.5",
-      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/g2/2g/f0/6b/the-terminator-original-0-600-0-900-crop.jpg?v=677a47d94a",
-      "reviewText": "The setup of this movie is so brilliantly economical. Seeing this in the theater before Arnold became a superstar and Terminator 2 became a pop culture phenomenon, the night club scene must have been wild. The shootout at the police station must have seemed utterly terrifying but today it’s just a Tuesday. The effects don’t hold up very well, particularly in the otherwise gorgeous 4K transfer, but this is such a well-crafted film and a template for Cameron’s later work that would go on to shatter box office records again and again."
     }
   ]
 }
