@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-18T20:21:37.338Z",
+  "lastUpdated": "2025-02-22T06:28:47.840Z",
   "movies": [
+    {
+      "title": "To Live and Die in L.A.",
+      "link": "https://letterboxd.com/peruvianidol/film/to-live-and-die-in-la/",
+      "watchedDate": "2025-02-21",
+      "filmYear": "1985",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/7/6/9/46769-to-live-and-die-in-l-a--0-600-0-900-crop.jpg?v=4a55db27ed",
+      "reviewText": "Just a fun, sleazy, 80s crime movie featuring a pretty epic chase scene and one ridiculous turn after another. Willem Dafoe shines as an expert counterfeiter being pursued by two increasingly incompetent secret service agents. Not a great movie by any means but you can tell this probably inspired Tarantino and others to make similarly over-the-top crime capers."
+    },
     {
       "title": "Nickel Boys",
       "link": "https://letterboxd.com/peruvianidol/film/nickel-boys/",
@@ -441,15 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/9/0/4/50904-speed-0-600-0-900-crop.jpg?v=08424df13d",
       "reviewText": "Classic 90s action movie. Highly implausible but peak Keanu and Sandra Bullock make it work. Dennis Hopper feels miscast as the villain. Maybe with better writing it wouldn't have been as noticable, but I give it a pass because Hopper is Hopper and this movie is just non-stop thrills. Couldn't tell you anything about Speed 2 without confusing it with Under Seige but the first one slaps."
-    },
-    {
-      "filmTitle": "Gladiator II",
-      "link": "https://letterboxd.com/peruvianidol/film/gladiator-ii/",
-      "watchedDate": "2024-11-21",
-      "filmYear": "2024",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/8/6/9/7/8/486978-gladiator-ii-0-600-0-900-crop.jpg?v=0fb2edf525",
-      "reviewText": "I’m growing weary of all these “lega-sequels” but I was, in fact, entertained! Paul Mescal takes up the mantle for Russell Crowe’s Maximus, whose presence looms large over the movie, and does a serviceable job. Denzel Washington is just having a blast here. He’s bringing Training Day energy, which would otherwise seem out of place if it weren’t for the comically over-the-top twin emperors of Rome. The set pieces are solid and the whole affair leads up to a rousing and satisfying conclusion. Love that Ridley Scott is still banging out movies, even if they don’t all hit as hard as this one."
     }
   ]
 }
