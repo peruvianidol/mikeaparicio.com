@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-22T06:28:47.840Z",
+  "lastUpdated": "2025-02-24T06:30:56.914Z",
   "movies": [
+    {
+      "title": "The Social Network",
+      "link": "https://letterboxd.com/peruvianidol/film/the-social-network/1/",
+      "watchedDate": "2025-02-23",
+      "filmYear": "2010",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/nw/cm/pa/ai/sGQv3ZMZBDBnl3z42Q0mEQ5uiDe-0-600-0-900-crop.jpg?v=54ee59f7cd",
+      "reviewText": "Zuckerberg sucks. Not sure how much of this movie is true but Fincher's direction, Sorkin's writing, and Reznor and Ross' score add up to a hell of a movie. Looking forward to the legacy-quel in a few years that covers Facebook's (and Zuck's) role in the downfall of society."
+    },
     {
       "title": "To Live and Die in L.A.",
       "link": "https://letterboxd.com/peruvianidol/film/to-live-and-die-in-la/",
@@ -441,15 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/0/1/2/8/5/1001285-abigail-0-600-0-900-crop.jpg?v=39f001008d",
       "reviewText": "I had low expectations going into this because the marketing for the movie ruined the whole premise but I had great time with it. Funny and gory, it should have come as no surprise that this was made by the team behind Ready or Not. Dan Stevens is great, as always, but just about everyone in the cast brings something unique. This movie is a ton of fun."
-    },
-    {
-      "filmTitle": "Speed",
-      "link": "https://letterboxd.com/peruvianidol/film/speed/",
-      "watchedDate": "2024-11-22",
-      "filmYear": "1994",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/9/0/4/50904-speed-0-600-0-900-crop.jpg?v=08424df13d",
-      "reviewText": "Classic 90s action movie. Highly implausible but peak Keanu and Sandra Bullock make it work. Dennis Hopper feels miscast as the villain. Maybe with better writing it wouldn't have been as noticable, but I give it a pass because Hopper is Hopper and this movie is just non-stop thrills. Couldn't tell you anything about Speed 2 without confusing it with Under Seige but the first one slaps."
     }
   ]
 }
