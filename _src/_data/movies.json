@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-24T06:30:56.914Z",
+  "lastUpdated": "2025-02-25T04:25:14.757Z",
   "movies": [
+    {
+      "title": "Demolition Man",
+      "link": "https://letterboxd.com/peruvianidol/film/demolition-man/",
+      "watchedDate": "2025-02-24",
+      "filmYear": "1993",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/8/6/8/46868-demolition-man-0-600-0-900-crop.jpg?v=2a6b346a45",
+      "reviewText": "This movie predicted Uber Eats, Zoom calls, AI agents, and self-driving cars and was directed by a guy whose only credit before this was apparently a C+C Music Factory video. It's not a top tier 90s action movie but it's incredibly watchable, largely thanks to Wesley Snipes' charisma and action chops and Sandra Bullock going all-in as Stallone's hopelessly optimistic and 20th century-loving partner. There are some fun action set pieces, including one of the most memorable demises of a villain. How this got made I have no idea but I wish they still made stuff like this."
+    },
     {
       "title": "The Social Network",
       "link": "https://letterboxd.com/peruvianidol/film/the-social-network/1/",
@@ -441,15 +450,6 @@
       "memberRating": "5.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/9/5/2/51952-gladiator-2000-0-600-0-900-crop.jpg?v=0071a74571",
       "reviewText": "This movie never gets old. So many good lines. Epic score. Rousing action. Revisiting this after the sequel (which I quite enjoyed) only elevated the greatness of the original for me."
-    },
-    {
-      "filmTitle": "Abigail",
-      "link": "https://letterboxd.com/peruvianidol/film/abigail-2024/",
-      "watchedDate": "2024-11-24",
-      "filmYear": "2024",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/0/1/2/8/5/1001285-abigail-0-600-0-900-crop.jpg?v=39f001008d",
-      "reviewText": "I had low expectations going into this because the marketing for the movie ruined the whole premise but I had great time with it. Funny and gory, it should have come as no surprise that this was made by the team behind Ready or Not. Dan Stevens is great, as always, but just about everyone in the cast brings something unique. This movie is a ton of fun."
     }
   ]
 }
