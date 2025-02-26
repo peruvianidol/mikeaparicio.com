@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-25T04:25:14.757Z",
+  "lastUpdated": "2025-02-26T04:26:34.577Z",
   "movies": [
+    {
+      "title": "Body Parts",
+      "link": "https://letterboxd.com/peruvianidol/film/body-parts/",
+      "watchedDate": "2025-02-25",
+      "filmYear": "1991",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/0/6/1/1/30611-body-parts-0-600-0-900-crop.jpg?v=6661a5e163",
+      "reviewText": "\"CAN'T YOU SEE THIS ARM IS KILLING ME?!\"An underrated and unhinged horror classic. I remember seeing this in the theater as a sophomore in high school and it still delights me now more than ever. Just a brilliant premise carried out to its ridiculously over-the-top conclusion. Jeff Fahey plays the lead with earnestness and his sweater game is on point. Brad Dourif pops up in this so you know it's good."
+    },
     {
       "title": "Demolition Man",
       "link": "https://letterboxd.com/peruvianidol/film/demolition-man/",
@@ -441,15 +450,6 @@
       "memberRating": "4.5",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/9/1/2/9/1/891291-a-different-man-0-600-0-900-crop.jpg?v=f19de2db41",
       "reviewText": "Darkly funny, which I was not at all expecting. Part Charlie Kaufman, part David Cronenberg. Adam Pearson is so outrageously confident and Renate Reinsve is delightful. This would make a great double feature with The Substance."
-    },
-    {
-      "filmTitle": "Gladiator",
-      "link": "https://letterboxd.com/peruvianidol/film/gladiator-2000/1/",
-      "watchedDate": "2024-11-26",
-      "filmYear": "2000",
-      "memberRating": "5.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/9/5/2/51952-gladiator-2000-0-600-0-900-crop.jpg?v=0071a74571",
-      "reviewText": "This movie never gets old. So many good lines. Epic score. Rousing action. Revisiting this after the sequel (which I quite enjoyed) only elevated the greatness of the original for me."
     }
   ]
 }
