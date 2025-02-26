@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-26T04:26:34.577Z",
+  "lastUpdated": "2025-02-26T23:21:11.800Z",
   "movies": [
+    {
+      "title": "The Hidden",
+      "link": "https://letterboxd.com/peruvianidol/film/the-hidden/",
+      "watchedDate": "2025-02-26",
+      "filmYear": "1987",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/07/47/cd/lc/5CEVBtcNEhz9zJxAKpdaYUAL700-0-600-0-900-crop.jpg?v=171817c2dd",
+      "reviewText": "This movie is amazing. It dives right in and keeps getting crazier and more (inadvertently?) funny as it goes. Extremely 80s."
+    },
     {
       "title": "Body Parts",
       "link": "https://letterboxd.com/peruvianidol/film/body-parts/",
@@ -441,15 +450,6 @@
       "memberRating": "3.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/5/9/7/45597-vera-drake-0-600-0-900-crop.jpg?v=45229e256c",
       "reviewText": "Joined my wife mid-way through this and then went back and watched the parts I missed. What an odd movie. I'm almost not sure where this movie stands on the issue of abortion but it could prove to be a lot more relevant if the Project 2025 weirdos have their way."
-    },
-    {
-      "filmTitle": "A Different Man",
-      "link": "https://letterboxd.com/peruvianidol/film/a-different-man/",
-      "watchedDate": "2024-11-27",
-      "filmYear": "2024",
-      "memberRating": "4.5",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/9/1/2/9/1/891291-a-different-man-0-600-0-900-crop.jpg?v=f19de2db41",
-      "reviewText": "Darkly funny, which I was not at all expecting. Part Charlie Kaufman, part David Cronenberg. Adam Pearson is so outrageously confident and Renate Reinsve is delightful. This would make a great double feature with The Substance."
     }
   ]
 }
