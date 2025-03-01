@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-02-28T03:28:08.312Z",
+  "lastUpdated": "2025-03-01T07:18:39.794Z",
   "movies": [
+    {
+      "title": "No Way Out",
+      "link": "https://letterboxd.com/peruvianidol/film/no-way-out-1987/",
+      "watchedDate": "2025-03-01",
+      "filmYear": "1987",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/79/cr/fo/t2/f1u4r6jZwFie18yjJ2uhYXOXsjl-0-600-0-900-crop.jpg?v=873cc9eae7",
+      "reviewText": "This movie is a prime example of how a twist ending doesn't make a bad/average movie better in retrospect. No Way Out is a decent thriller but the ending is so nonsensical. Went in looking to fill some gaps in my Gene Hackman watches and was disappointed to get way more Costner. Hackman is good here, playing sleazy and desperate in equal measure but he just doesn't get enough screen time. Instead, Costner, who I've always felt is less an actor than a \"movie star\" runs around the Pentagon like a maniac for half the movie. Was hoping Hackman would be more adversarial but after the \"incident\" he's largely out of play until the end. Will Patton seems like he's in a completely different movie than everyone else but is maybe the best part."
+    },
     {
       "title": "Fist of Legend",
       "link": "https://letterboxd.com/peruvianidol/film/fist-of-legend/",
@@ -441,15 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/ek/qa/d5/cb/18GHWx66uADdY7GM9NL8WRY5GSw-0-600-0-900-crop.jpg?v=cc723e4c2b",
       "reviewText": "First time revisiting this and it’s still pretty great. Some of the dialogue hasn’t aged well but that could be said for a lot of 20-year-old movies. Downey Jr and Kilmer have great chemistry. Love how this movie subverts cliches left and right. I wish Shane Black just made a career doing screwball buddy detective movies like this and The Nice Guys."
-    },
-    {
-      "filmTitle": "Conclave",
-      "link": "https://letterboxd.com/peruvianidol/film/conclave/",
-      "watchedDate": "2024-11-28",
-      "filmYear": "2024",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/7/7/2/5/3/877253-conclave-0-600-0-900-crop.jpg?v=f9cbf50dec",
-      "reviewText": "More like MEN TALKING, amirite? In all seriousness, as an atheist, I didn't expect to be so riveted by this movie. Gorgeously shot and almost plays like a murder mystery. So many twists and turns culminating in such a fantastic and timely reveal. Gave me hope that maybe good can ultimately prevail in the face of a bunch of shitty men."
     }
   ]
 }
