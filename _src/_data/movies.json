@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-01T07:18:39.794Z",
+  "lastUpdated": "2025-03-02T07:18:02.675Z",
   "movies": [
+    {
+      "title": "Night Moves",
+      "link": "https://letterboxd.com/peruvianidol/film/night-moves/",
+      "watchedDate": "2025-03-02",
+      "filmYear": "1975",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/0/7/0/1/30701-night-moves-0-600-0-900-crop.jpg?v=b65152bdf2",
+      "reviewText": "The Hackman marathon continues. I didn't quite care for this 70s noir where Hackman's detective, Harry Mosby, isn't particularly good at his job, or maybe it's just that the central \"mystery\" just isn't that compelling. The real mystery doesn't become evident until nearly the end and even then it feels like a lot is left unsolved, including Harry's own personal life. Man, people sure were horny in the 70s. It seems that everyone in this movie is looking to score, including a young Melanie Griffith. (I didn't even realize it was her until the credits rolled.) Hackman was good though. Just about the only thing keeping me from falling asleep."
+    },
     {
       "title": "No Way Out",
       "link": "https://letterboxd.com/peruvianidol/film/no-way-out-1987/",
@@ -441,15 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/a0/sz/qf/mq/erBsxkzVwkXuvuzUBpVnNxxPYhO-0-600-0-900-crop.jpg?v=80375a32fa",
       "reviewText": "One of my favorite Coen Brothers movies, I must have seen it a dozen times but probably not in at least 15 years or so. Clooney is so wacky and charming and the supporting cast is wonderful, like most Coen movies. All these years later it felt like it lost some of its luster but it’s still a fun time."
-    },
-    {
-      "filmTitle": "Kiss Kiss Bang Bang",
-      "link": "https://letterboxd.com/peruvianidol/film/kiss-kiss-bang-bang-2005/",
-      "watchedDate": "2024-12-01",
-      "filmYear": "2005",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/ek/qa/d5/cb/18GHWx66uADdY7GM9NL8WRY5GSw-0-600-0-900-crop.jpg?v=cc723e4c2b",
-      "reviewText": "First time revisiting this and it’s still pretty great. Some of the dialogue hasn’t aged well but that could be said for a lot of 20-year-old movies. Downey Jr and Kilmer have great chemistry. Love how this movie subverts cliches left and right. I wish Shane Black just made a career doing screwball buddy detective movies like this and The Nice Guys."
     }
   ]
 }
