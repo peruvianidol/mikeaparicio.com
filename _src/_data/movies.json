@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-02T07:18:02.675Z",
+  "lastUpdated": "2025-03-04T04:25:24.666Z",
   "movies": [
+    {
+      "title": "The Poseidon Adventure",
+      "link": "https://letterboxd.com/peruvianidol/film/the-poseidon-adventure/",
+      "watchedDate": "2025-03-03",
+      "filmYear": "1972",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/5/6/7/51567-the-poseidon-adventure-0-600-0-900-crop.jpg?v=66fd1216a2",
+      "reviewText": "Fairly entertaining with some great back and forth between Gene Hackman's renegade preacher and Ernest Borgnine's ex-cop. One too many screaming damsel characters. Leslie Nielsen as the captain!"
+    },
     {
       "title": "Night Moves",
       "link": "https://letterboxd.com/peruvianidol/film/night-moves/",
@@ -441,15 +450,6 @@
       "memberRating": "5.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/9/0/5/51905-crouching-tiger-hidden-dragon-0-600-0-900-crop.jpg?v=6ce0305909",
       "reviewText": "I was so happy to revisit this gorgeous movie on 4K bluray. It had been a long time since I’d last seen it but it really holds up as one of the best wuxia films of all time. Great cast, stunning cinematography and a moving score."
-    },
-    {
-      "filmTitle": "O Brother, Where Art Thou?",
-      "link": "https://letterboxd.com/peruvianidol/film/o-brother-where-art-thou/",
-      "watchedDate": "2024-12-01",
-      "filmYear": "2000",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/a0/sz/qf/mq/erBsxkzVwkXuvuzUBpVnNxxPYhO-0-600-0-900-crop.jpg?v=80375a32fa",
-      "reviewText": "One of my favorite Coen Brothers movies, I must have seen it a dozen times but probably not in at least 15 years or so. Clooney is so wacky and charming and the supporting cast is wonderful, like most Coen movies. All these years later it felt like it lost some of its luster but it’s still a fun time."
     }
   ]
 }
