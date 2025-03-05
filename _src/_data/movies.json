@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-04T04:25:24.666Z",
+  "lastUpdated": "2025-03-05T20:23:41.630Z",
   "movies": [
+    {
+      "title": "The Legend of Fong Sai Yuk",
+      "link": "https://letterboxd.com/peruvianidol/film/the-legend-of-fong-sai-yuk/",
+      "watchedDate": "2025-03-05",
+      "filmYear": "1993",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/0/8/6/1/40861-the-legend-0-600-0-900-crop.jpg?v=d8e1b1eb50",
+      "reviewText": "Probably the funniest movie Jet Li has made. In most of his movies he plays a very serious martial artist, but here he's letting loose and having fun. Some incredibly inventive wire work and choreography and a few laugh out loud props that had me screaming. There's a sequence near the beginning where Li is battling the wife of a local merchant and must knock her to the ground to win the hand of their daughter that is just wildly outrageous. If that's not enough, Li's mom, played by Josephine Siao, takes a turn, posing as Li's older brother. Delightful. The 4k transfer looks great."
+    },
     {
       "title": "The Poseidon Adventure",
       "link": "https://letterboxd.com/peruvianidol/film/the-poseidon-adventure/",
@@ -441,15 +450,6 @@
       "memberRating": "3.5",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/5/7/2/45572-police-story-3-super-cop-0-600-0-900-crop.jpg?v=3c5469ed8d",
       "reviewText": "I appreciate Supercop more than I love it. It’s truly a miracle that no one died making this movie, particularly Michelle Yeoh, who is absolutely fearless and very much Jackie’s equal in terms of skill and screen presence. The plot is ridiculously over-the-top but grounded with humor, like many of Jackie’s movies. Props to the stunt team who managed several set pieces on par with modern Mission: Impossible movies years earlier. There are very few movie stars that would risk their lives just to entertain us for a couple of hours but I’m glad they exist."
-    },
-    {
-      "filmTitle": "Crouching Tiger, Hidden Dragon",
-      "link": "https://letterboxd.com/peruvianidol/film/crouching-tiger-hidden-dragon/",
-      "watchedDate": "2024-12-03",
-      "filmYear": "2000",
-      "memberRating": "5.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/9/0/5/51905-crouching-tiger-hidden-dragon-0-600-0-900-crop.jpg?v=6ce0305909",
-      "reviewText": "I was so happy to revisit this gorgeous movie on 4K bluray. It had been a long time since I’d last seen it but it really holds up as one of the best wuxia films of all time. Great cast, stunning cinematography and a moving score."
     }
   ]
 }
