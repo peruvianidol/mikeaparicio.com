@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-08T01:16:53.302Z",
+  "lastUpdated": "2025-03-08T16:20:03.408Z",
   "movies": [
+    {
+      "title": "A Bridge Too Far",
+      "link": "https://letterboxd.com/peruvianidol/film/a-bridge-too-far/",
+      "watchedDate": "2025-03-08",
+      "filmYear": "1977",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/ck/3j/e7/yn/lszOk3Xmh7qpLaM9J4K9E6ADLk1-0-600-0-900-crop.jpg?v=aacf86062a",
+      "reviewText": "Like the operation this WW2 movie depicts, A Bridge Too Far is overly-ambitious and doesn't quite succeed. The cast is stacked with a who's who of famous actors, but like the Avengers movies, there's too many characters to give any meaningful time to develop. A lot of the action looks like stock footage, even though it's not. The movie gets more interesting in the last third as it focuses more on the plight of the soldiers on the ground and less on the logistics that the first third painfully drags out. It could have easily been an hour shorter and much improved if it just focused on the soldiers and didn't try to give equal screen time to all the higher-ups played by big name actors."
+    },
     {
       "title": "Mickey 17",
       "link": "https://letterboxd.com/peruvianidol/film/mickey-17/",
@@ -441,15 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/6/6/4/1/9/1266419-anthony-jeselnik-bones-and-all-0-600-0-900-crop.jpg?v=dbbca95550",
       "reviewText": "It came as no surprise in this special when Jeselnik talked about his comedy hero, Norm MacDonald. Both he and Norm have a similar deadpan style where you don’t know where a joke is going but when the punchline drops it’s almost always a surprise. Jeselnik tells a bunch of stories from his 20 years in stand up with such bravado, never once cracking a smile at his own jokes. I can’t say his humor is for everybody but I laughed my ass off."
-    },
-    {
-      "filmTitle": "Brigsby Bear",
-      "link": "https://letterboxd.com/peruvianidol/film/brigsby-bear/1/",
-      "watchedDate": "2024-12-04",
-      "filmYear": "2017",
-      "memberRating": "5.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/1g/pp/xg/9f/lRLoSm2Yp0lRvme5xxE31qbDbYv-0-600-0-900-crop.jpg?v=a84f272046",
-      "reviewText": "I wanted to revisit this with Kyle Mooney’s new movie, Y2K coming out this week. I think this was my favorite movie of 2017 and I still love it the second time around. Mooney plays it with such earnestness that you really care for his character. Shades of Be Kind, Rewind and The Truman Show. Mark Hamill is perfectly cast. Now I’m really stoked to check out Y2K."
     }
   ]
 }
