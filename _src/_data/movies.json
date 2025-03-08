@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-05T20:23:41.630Z",
+  "lastUpdated": "2025-03-08T01:16:53.302Z",
   "movies": [
+    {
+      "title": "Mickey 17",
+      "link": "https://letterboxd.com/peruvianidol/film/mickey-17/",
+      "watchedDate": "2025-03-07",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/2/0/2/8/1/620281-mickey-17-0-600-0-900-crop.jpg?v=93e4d2af6d",
+      "reviewText": "I had a huge grin on my face through most of this movie. Everyone is just hamming it up and having a good time. Landed in a way that Snowpiercer didn't for me. Robert Pattinson continues to make interesting choices, both in his projects and characters."
+    },
     {
       "title": "The Legend of Fong Sai Yuk",
       "link": "https://letterboxd.com/peruvianidol/film/the-legend-of-fong-sai-yuk/",
@@ -441,15 +450,6 @@
       "memberRating": "5.0",
       "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/1g/pp/xg/9f/lRLoSm2Yp0lRvme5xxE31qbDbYv-0-600-0-900-crop.jpg?v=a84f272046",
       "reviewText": "I wanted to revisit this with Kyle Mooney’s new movie, Y2K coming out this week. I think this was my favorite movie of 2017 and I still love it the second time around. Mooney plays it with such earnestness that you really care for his character. Shades of Be Kind, Rewind and The Truman Show. Mark Hamill is perfectly cast. Now I’m really stoked to check out Y2K."
-    },
-    {
-      "filmTitle": "Police Story 3: Super Cop",
-      "link": "https://letterboxd.com/peruvianidol/film/police-story-3-super-cop/",
-      "watchedDate": "2024-12-04",
-      "filmYear": "1992",
-      "memberRating": "3.5",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/5/7/2/45572-police-story-3-super-cop-0-600-0-900-crop.jpg?v=3c5469ed8d",
-      "reviewText": "I appreciate Supercop more than I love it. It’s truly a miracle that no one died making this movie, particularly Michelle Yeoh, who is absolutely fearless and very much Jackie’s equal in terms of skill and screen presence. The plot is ridiculously over-the-top but grounded with humor, like many of Jackie’s movies. Props to the stunt team who managed several set pieces on par with modern Mission: Impossible movies years earlier. There are very few movie stars that would risk their lives just to entertain us for a couple of hours but I’m glad they exist."
     }
   ]
 }
