@@ -98,10 +98,12 @@ async function updateMovies() {
         }
 
         // Merge new and existing movies, keeping only unique links
-        const allMovies = [
-            ...newMovies,
-            ...existingMovies.filter(movie => !newMovies.some(newMovie => newMovie.link === movie.link)),
-        ];
+        // const allMovies = [
+        //     ...newMovies,
+        //     ...existingMovies.filter(movie => !newMovies.some(newMovie => newMovie.link === movie.link)),
+        // ];
+        const allMovies = [...newMovies, ...existingMovies];
+
 
         // Process movies and sort by watchedDate (most recent first)
         const processedMovies = allMovies.map(movie => ({

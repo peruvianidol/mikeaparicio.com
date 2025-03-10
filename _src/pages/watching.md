@@ -35,9 +35,9 @@ title: Watching
 {% for movie in movies.movies | limit(10) %}
 <li>
   <figure>
-    <img src="{{ movie.posterUrl }}" alt="Poster for {{ movie.filmTitle }}">
+    <img src="{{ movie.posterUrl }}" alt="Poster for {{ movie.title }}">
     <figcaption>
-      <h2><a href="{{ movie.link }}">{{ movie.filmTitle }}</a></h2>
+      <h2><a href="{{ movie.link }}">{{ movie.title }}</a></h2>
       <div class="rating">
         <meter min="0" max="5" value="{{ movie.memberRating }}">{{ movie.memberRating }} out of 5 stars</meter>
       </div>

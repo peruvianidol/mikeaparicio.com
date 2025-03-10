@@ -94,17 +94,24 @@ async function checkForUpdates() {
   console.log(`🕵️‍♂️ Polling Letterboxd at ${new Date().toISOString()}`);
   console.log("🎞️ Latest Movies from RSS:", latestMovies);
 
-  const lastLoggedMovie = getLastLoggedMovie();
-  console.log("📜 Last logged movie from movies.json:", lastLoggedMovie);
+  const existingMovies = loadExistingMovies(); 
+  console.log("📜 Existing Movies:", existingMovies.length);
 
-  if (!lastLoggedMovie) {
-    console.log("⚠️ No logged movies found. Treating all as new.");
-    return latestMovies;
-  }
+  // const lastLoggedMovie = getLastLoggedMovie();
+  // console.log("📜 Last logged movie from movies.json:", lastLoggedMovie);
+
+  // if (!lastLoggedMovie) {
+  //   console.log("⚠️ No logged movies found. Treating all as new.");
+  //   return latestMovies;
+  // }
 
   // Compare watchedDate instead of pubDate
+  // const newMovies = latestMovies.filter(movie => 
+  //   movie.watchedDate && new Date(movie.watchedDate) > new Date(lastLoggedMovie.watchedDate)
+  // );
+
   const newMovies = latestMovies.filter(movie => 
-    movie.watchedDate && new Date(movie.watchedDate) > new Date(lastLoggedMovie.watchedDate)
+    !existingMovies.some(existingMovie => existingMovie.link === movie.link)
   );
 
   if (newMovies.length === 0) {
