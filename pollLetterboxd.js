@@ -151,9 +151,12 @@ async function triggerBuild() {
         existingMovies = [];
       }
 
-      // Add new movies to the top, keep only the latest 50
-      const updatedMovies = [...newMovies, ...existingMovies].slice(0, 50);
-      
+      // Add new movies to the top
+      const updatedMovies = [...newMovies, ...existingMovies];
+
+      // 🔥 Ensure sorting by watched date (most recent first)
+      updatedMovies.sort((a, b) => new Date(b.watchedDate) - new Date(a.watchedDate));
+            
       console.log("💾 Saving updated movies.json...");
       saveMovies(updatedMovies);
 
