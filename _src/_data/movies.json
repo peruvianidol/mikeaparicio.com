@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-10T03:20:58.602Z",
+  "lastUpdated": "2025-03-10T06:25:36.435Z",
   "movies": [
+    {
+      "title": "Oh, Canada",
+      "link": "https://letterboxd.com/peruvianidol/film/oh-canada/",
+      "watchedDate": "2025-03-10",
+      "filmYear": "2024",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/0/4/0/1/5/1004015-oh-canada-0-600-0-900-crop.jpg?v=9261d4907f",
+      "reviewText": "A character study about a mediocre white guy who became successful in spite of himself, coming to terms with his life in front of a documentary crew as he's dying from cancer. Great performance by Richard Gere but woof."
+    },
     {
       "title": "Virtuosity",
       "link": "https://letterboxd.com/peruvianidol/film/virtuosity/",
@@ -441,15 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/0/5/8/7/6/905876-carry-on-2024-0-600-0-900-crop.jpg?v=bc2c1c0d8f",
       "reviewText": "Way more fun than it has any right to be. The plot is ridiculous but the cast is stacked with a who's who of great character actors. Taron Egerton is solid, if not overqualified to be a TSA agent. A lot of comparisons to Die Hard, but this is more like Phone Booth except it's actually enjoyable."
-    },
-    {
-      "filmTitle": "The Man from U.N.C.L.E.",
-      "link": "https://letterboxd.com/peruvianidol/film/the-man-from-uncle/1/",
-      "watchedDate": "2024-12-07",
-      "filmYear": "2015",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/4/5/8/2/2/145822-the-man-from-u-n-c-l-e--0-600-0-900-crop.jpg?v=2cc57633aa",
-      "reviewText": "Stylish and fun in a way that Guy Ritchie excels at. I watched reruns of the show as a kid and, while it was fun, it never looked this cool. It’s a shame that Armie Hammer turned out to be a weird vampire sex perv or whatever. I would have loved for this to be a franchise. Also on second watch I realized that Jared Harris plays Solo’s boss, doing a hilariously bad American accent and I loved every minute of it."
     }
   ]
 }
