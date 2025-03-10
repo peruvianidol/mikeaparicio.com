@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-08T16:20:03.408Z",
+  "lastUpdated": "2025-03-10T03:20:58.602Z",
   "movies": [
+    {
+      "title": "Virtuosity",
+      "link": "https://letterboxd.com/peruvianidol/film/virtuosity/",
+      "watchedDate": "2025-03-09",
+      "filmYear": "1995",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/3/2/1/47321-virtuosity-0-600-0-900-crop.jpg?v=7d3dbd4729",
+      "reviewText": "An extremely dumb B-movie that somehow lucked out in convincing Denzel to lead it and finding a young Russell Crowe to play its over-the-top VR villain come to life. The writing is awful but you can still see Crowe is a star in the making, and Denzel just naturally elevates everything he's in. It's hilarious to me that despite its sci-fi premise, nothing about this world aside from the concept of VR in the 1990s is particularly futuristic."
+    },
     {
       "title": "A Bridge Too Far",
       "link": "https://letterboxd.com/peruvianidol/film/a-bridge-too-far/",
@@ -441,15 +450,6 @@
       "memberRating": "4.0",
       "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/4/5/8/2/2/145822-the-man-from-u-n-c-l-e--0-600-0-900-crop.jpg?v=2cc57633aa",
       "reviewText": "Stylish and fun in a way that Guy Ritchie excels at. I watched reruns of the show as a kid and, while it was fun, it never looked this cool. It’s a shame that Armie Hammer turned out to be a weird vampire sex perv or whatever. I would have loved for this to be a franchise. Also on second watch I realized that Jared Harris plays Solo’s boss, doing a hilariously bad American accent and I loved every minute of it."
-    },
-    {
-      "filmTitle": "Anthony Jeselnik: Bones and All",
-      "link": "https://letterboxd.com/peruvianidol/film/anthony-jeselnik-bones-and-all/",
-      "watchedDate": "2024-12-05",
-      "filmYear": "2024",
-      "memberRating": "4.0",
-      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/6/6/4/1/9/1266419-anthony-jeselnik-bones-and-all-0-600-0-900-crop.jpg?v=dbbca95550",
-      "reviewText": "It came as no surprise in this special when Jeselnik talked about his comedy hero, Norm MacDonald. Both he and Norm have a similar deadpan style where you don’t know where a joke is going but when the punchline drops it’s almost always a surprise. Jeselnik tells a bunch of stories from his 20 years in stand up with such bravado, never once cracking a smile at his own jokes. I can’t say his humor is for everybody but I laughed my ass off."
     }
   ]
 }
