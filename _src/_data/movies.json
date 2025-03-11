@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-10T21:42:00.610Z",
+  "lastUpdated": "2025-03-11T04:26:29.522Z",
   "movies": [
+    {
+      "title": "Darkman",
+      "link": "https://letterboxd.com/peruvianidol/film/darkman/",
+      "watchedDate": "2025-03-10",
+      "filmYear": "1990",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/0/4/4/47044-darkman-0-600-0-900-crop.jpg?v=0ce4651ae6",
+      "reviewText": "This should be on the Mt. Rushmore of superhero movies. Without this there's no Spider-Man, and without Spider-Man and it's sequels, there's probably no MCU. Marvel has had like 30 shots at this point to make a movie this fun and have maybe come close a handful of times. Watching this again has me excited for Liam Neeson's Naked Gun reboot."
+    },
     {
       "title": "Oh, Canada",
       "link": "https://letterboxd.com/peruvianidol/film/oh-canada/",
