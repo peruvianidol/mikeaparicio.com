@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-11T04:26:29.522Z",
+  "lastUpdated": "2025-03-12T04:25:52.522Z",
   "movies": [
+    {
+      "title": "Thief",
+      "link": "https://letterboxd.com/peruvianidol/film/thief/2/",
+      "watchedDate": "2025-03-11",
+      "filmYear": "1981",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/2/2/4/45224-thief-0-600-0-900-crop.jpg?v=775424c4c3",
+      "reviewText": "This movie just gets better every time I watch it. So many great shots and great lines. And such an authentically Chicago-ass movie right down to the Portillo's wrappers on the dash and someone using a Jewel bag as luggage. Makes me wish they'd make a GTA game set in 1980s Chicago."
+    },
     {
       "title": "Darkman",
       "link": "https://letterboxd.com/peruvianidol/film/darkman/",
