@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-12T04:25:52.522Z",
+  "lastUpdated": "2025-03-13T04:26:12.385Z",
   "movies": [
+    {
+      "title": "Companion",
+      "link": "https://letterboxd.com/peruvianidol/film/companion-2025/",
+      "watchedDate": "2025-03-12",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/7/2/977172-companion-2025-0-600-0-900-crop.jpg?v=66c5c946ec",
+      "reviewText": "I liked this movie better the first time I saw it, when it was called REVENGE. Seriously though, I had an okay time with this one. It seems to think it's more clever then it is. Rupert Friend gave me a chuckle and Sophie Thatcher (who went to my high school!) did a pretty great job with what she was given. Wish the poster wasn't so spoilery."
+    },
     {
       "title": "Thief",
       "link": "https://letterboxd.com/peruvianidol/film/thief/2/",
