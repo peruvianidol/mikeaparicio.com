@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2025-03-10T21:42:00.610Z",
+  "lastUpdated": "2025-03-13T06:30:13.412Z",
   "movies": [
+    {
+      "title": "Presence",
+      "link": "https://letterboxd.com/peruvianidol/film/presence-2024/",
+      "watchedDate": "2025-03-13",
+      "filmYear": "2024",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/7/9/3/7/1027937-presence-2024-0-600-0-900-crop.jpg?v=e47f97445a",
+      "reviewText": "Fuckin' zoomers, man. I didn't see a joint until I was in college and these kids are on some Fear and Loathing shit. Anyway, I spent most of this movie mad because my 100-year-old house isn't anywhere near as nice as the one in this movie. An interesting concept, but one that is better realized in A Ghost Story, which I also didn't love but featured Rooney Mara eating a whole pie in one take. Nothing as daring on display here and a little too much exposition. But it was good to see Cleary from The Knick as a suburban dad."
+    },
+    {
+      "title": "Companion",
+      "link": "https://letterboxd.com/peruvianidol/film/companion-2025/",
+      "watchedDate": "2025-03-12",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/7/2/977172-companion-2025-0-600-0-900-crop.jpg?v=66c5c946ec",
+      "reviewText": "I liked this movie better the first time I saw it, when it was called REVENGE. Seriously though, I had an okay time with this one. It seems to think it's more clever then it is. Rupert Friend gave me a chuckle and Sophie Thatcher (who went to my high school!) did a pretty great job with what she was given. Wish the poster wasn't so spoilery."
+    },
+    {
+      "title": "Thief",
+      "link": "https://letterboxd.com/peruvianidol/film/thief/2/",
+      "watchedDate": "2025-03-11",
+      "filmYear": "1981",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/2/2/4/45224-thief-0-600-0-900-crop.jpg?v=775424c4c3",
+      "reviewText": "This movie just gets better every time I watch it. So many great shots and great lines. And such an authentically Chicago-ass movie right down to the Portillo's wrappers on the dash and someone using a Jewel bag as luggage. Makes me wish they'd make a GTA game set in 1980s Chicago."
+    },
+    {
+      "title": "Darkman",
+      "link": "https://letterboxd.com/peruvianidol/film/darkman/",
+      "watchedDate": "2025-03-10",
+      "filmYear": "1990",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/0/4/4/47044-darkman-0-600-0-900-crop.jpg?v=0ce4651ae6",
+      "reviewText": "This should be on the Mt. Rushmore of superhero movies. Without this there's no Spider-Man, and without Spider-Man and it's sequels, there's probably no MCU. Marvel has had like 30 shots at this point to make a movie this fun and have maybe come close a handful of times. Watching this again has me excited for Liam Neeson's Naked Gun reboot."
+    },
     {
       "title": "Oh, Canada",
       "link": "https://letterboxd.com/peruvianidol/film/oh-canada/",
