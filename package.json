@@ -19,7 +19,8 @@
     "dotenv": "^16.4.7",
     "he": "^1.2.0",
     "linkedom": "^0.18.7",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "psn-api": "^2.11.0"
   },
   "devDependencies": {
     "@11ty/eleventy-img": "^5.0.0",
