@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-13T06:30:13.412Z",
+  "lastUpdated": "2025-03-14T20:22:42.882Z",
   "movies": [
+    {
+      "title": "Black Bag",
+      "link": "https://letterboxd.com/peruvianidol/film/black-bag-2025/",
+      "watchedDate": "2025-03-14",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/7/5/5/1116755-black-bag-2025-0-600-0-900-crop.jpg?v=b6b9dffb20",
+      "reviewText": "Went into this expecting more of a spy movie and what I got instead was a delightful whodunnit where all the characters are smart and lie for a living. Soderbergh brings his A-game and his signature low-key horny vibes. Fassbender and Blanchett do a great job of keeping their cards close to their vest. This movie was kind of inscrutable until the climactic reveal at which point everything clicked. Definitely interested in giving this a rewatch."
+    },
     {
       "title": "Presence",
       "link": "https://letterboxd.com/peruvianidol/film/presence-2024/",
