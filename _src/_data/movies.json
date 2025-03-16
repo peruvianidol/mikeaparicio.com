@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-14T20:22:42.882Z",
+  "lastUpdated": "2025-03-16T04:24:43.814Z",
   "movies": [
+    {
+      "title": "Parasite",
+      "link": "https://letterboxd.com/peruvianidol/film/parasite-2019/2/",
+      "watchedDate": "2025-03-15",
+      "filmYear": "2019",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/2/6/4/0/6/426406-parasite-0-600-0-900-crop.jpg?v=8f5653f710",
+      "reviewText": "Bong's American films have a distinct lack of subtlety compared to his South Korean ones. Watching this again after Mickey 17 it really struck me. This movie is transcendent. It's easy to see why it remains one of, if not THE best Best Picture Oscar winners of the last decade or more. On this third watch I couldn't help think of The Prestige. Parasite is like a magic trick, with three distinct parts, and concludes with a real Transported Man. The ending is *chef's kiss*."
+    },
     {
       "title": "Black Bag",
       "link": "https://letterboxd.com/peruvianidol/film/black-bag-2025/",
