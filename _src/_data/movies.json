@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-16T04:24:43.814Z",
+  "lastUpdated": "2025-03-17T05:21:25.320Z",
   "movies": [
+    {
+      "title": "Runaway Jury",
+      "link": "https://letterboxd.com/peruvianidol/film/runaway-jury/",
+      "watchedDate": "2025-03-16",
+      "filmYear": "2003",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/4/0/5/45405-runaway-jury-0-600-0-900-crop.jpg?v=118d3396b2",
+      "reviewText": "Hackman and an all-star lineup of character actors elevate this idealistic courtroom drama that centers on gun control. With 20+ years of gun deaths since this was released, the whole thing seems wildly improbable now. But damn, Hackman is really great in this, even if no one else, including Dustin Hoffman, rises to his level."
+    },
     {
       "title": "Parasite",
       "link": "https://letterboxd.com/peruvianidol/film/parasite-2019/2/",
