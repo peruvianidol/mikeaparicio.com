@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-18T16:28:29.118Z",
+  "lastUpdated": "2025-03-20T05:20:47.988Z",
   "movies": [
+    {
+      "title": "Days of Heaven",
+      "link": "https://letterboxd.com/peruvianidol/film/days-of-heaven/",
+      "watchedDate": "2025-03-19",
+      "filmYear": "1978",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/x3/jx/v5/l2/rwxTYjOZmX2rGhz7avLe1qsjNqe-0-600-0-900-crop.jpg?v=5fe1a56460",
+      "reviewText": "I'm not sure this totally clicked for me (like a lot of Malick's work) but hot damn is it a gorgeous movie (like a lot of Malick's work). I didn't know what to make of it until reading Ebert's review, where he suggested that Linda, the little sister, is the main character and that's why the passion of the love triangle feels muted. That interpretation makes me want to revisit this again someday with that in mind. A good movie to watch if you feel like your job sucks. At least you don't have to deal with locusts."
+    },
     {
       "title": "Adolescence",
       "link": "https://letterboxd.com/peruvianidol/film/adolescence-2025/",
