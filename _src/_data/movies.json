@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-20T05:20:47.988Z",
+  "lastUpdated": "2025-03-22T20:21:36.168Z",
   "movies": [
+    {
+      "title": "Decision to Leave",
+      "link": "https://letterboxd.com/peruvianidol/film/decision-to-leave/1/",
+      "watchedDate": "2025-03-22",
+      "filmYear": "2022",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/2/9/3/2/0/629320-decision-to-leave-0-600-0-900-crop.jpg?v=30eaeaf481",
+      "reviewText": "On second watch I found this to be a lot funnier but also a lot slower than the first time around. Still a fantastic movie with excellent cinematography and editing. The ending is such a gut punch. Looking back, my review for The Handmaiden applies to Decision to Leave word for word. 😂"
+    },
     {
       "title": "Days of Heaven",
       "link": "https://letterboxd.com/peruvianidol/film/days-of-heaven/",
