@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-22T20:21:36.168Z",
+  "lastUpdated": "2025-03-23T04:24:42.448Z",
   "movies": [
+    {
+      "title": "The Gorge",
+      "link": "https://letterboxd.com/peruvianidol/film/the-gorge-2025/",
+      "watchedDate": "2025-03-22",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/5/4/6/8/7/854687-the-gorge-2025-0-600-0-900-crop.jpg?v=fca29e60dd",
+      "reviewText": "Wow, people really didn't dig this? I thought it was a nice change of pace from the usual IP-driven bullshit we're constantly subjected to these days. A fun meet cute with two hot actors, some good needle drops, a Reznor/Ross score, Sigourney Fucking Weaver? It almost didn't even need the sci-fi/action elements, which were merely ok. But I ate up all the stuff between Teller and Taylor-Joy."
+    },
     {
       "title": "Decision to Leave",
       "link": "https://letterboxd.com/peruvianidol/film/decision-to-leave/1/",
