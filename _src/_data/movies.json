@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-23T04:24:42.448Z",
+  "lastUpdated": "2025-03-23T19:17:00.638Z",
   "movies": [
+    {
+      "title": "Predator 2",
+      "link": "https://letterboxd.com/peruvianidol/film/predator-2/",
+      "watchedDate": "2025-03-23",
+      "filmYear": "1990",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/zr/v7/bi/bd/zvliTkCns7f37iUeedDdo7rFyYH-0-600-0-900-crop.jpg?v=06158f2080",
+      "reviewText": "Not nearly as good as the original but the sequel is delightfully cheesy and does a great job of adding to the mythology of the franchise. Glover is no Schwarzenegger but does an admirable job despite some pretty corny writing. I'd probably seen this a dozen times in high school and completely forgot Bill Paxton is in it. Also peak Gary Busey."
+    },
     {
       "title": "The Gorge",
       "link": "https://letterboxd.com/peruvianidol/film/the-gorge-2025/",
