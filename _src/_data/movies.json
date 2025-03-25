@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-25T03:01:15.323Z",
+  "lastUpdated": "2025-03-25T15:24:51.908Z",
   "movies": [
+    {
+      "title": "Drive My Car",
+      "link": "https://letterboxd.com/peruvianidol/film/drive-my-car/1/",
+      "watchedDate": "2025-03-25",
+      "filmYear": "2021",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/7/9/2/9/1/679291-drive-my-car-0-600-0-900-crop.jpg?v=9e1f7c9f35",
+      "reviewText": "Re-watching this it hit even harder this time. There’s been a recent batch of films like Ghostlight and Sing Sing where the characters are performing a play that connects to their life experiences and this may be my favorite of them all. The line between the characters in the film and the characters they are portraying in the play is often blurred, especially in that powerful ending. A beautiful film."
+    },
     {
       "title": "Dark Angel",
       "link": "https://letterboxd.com/peruvianidol/film/dark-angel/",
