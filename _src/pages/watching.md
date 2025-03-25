@@ -8,7 +8,7 @@ title: Watching
     list-style: none;
     padding: 0;
     img {
-      max-width: 150px;
+      max-width: 200px;
     }
     li {
       margin-block-end: 2rem;
@@ -22,9 +22,27 @@ title: Watching
       margin: 0;
       font-size: 1.5rem;
     }
+    p {
+      margin-block-start: 1rem;
+    }
     time {
       font-size: 1rem;
       opacity: .7;
+      display: block;
+      margin-block-start: .5rem;
+    }
+  }
+
+  @media (width < 700px) {
+    .reviews figure {
+      display: block;
+      figcaption {
+        margin-block-start: 1rem;
+      }
+      img {
+        max-width: 300px;
+        margin-inline: auto;
+      }
     }
   }
 </style>
