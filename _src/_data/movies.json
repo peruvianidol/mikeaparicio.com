@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-25T15:24:51.908Z",
+  "lastUpdated": "2025-03-26T06:30:52.465Z",
   "movies": [
+    {
+      "title": "Riff Raff",
+      "link": "https://letterboxd.com/peruvianidol/film/riff-raff-2024/",
+      "watchedDate": "2025-03-26",
+      "filmYear": "2024",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/1/6/1/9/7/1016197-riff-raff-2024-0-600-0-900-crop.jpg?v=c94f7c668a",
+      "reviewText": "Squanders a fun cast with a dumb script, unfortunately. I enjoyed the scenes with Bill Murray and Pete Davidson but they were few and far between. The entire last half hour is completely nonsensical. Billed as a comedy but the entire movie barely elicited a single chuckle."
+    },
     {
       "title": "Drive My Car",
       "link": "https://letterboxd.com/peruvianidol/film/drive-my-car/1/",
