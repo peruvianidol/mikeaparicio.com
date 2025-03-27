@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-26T06:30:52.465Z",
+  "lastUpdated": "2025-03-27T15:24:29.384Z",
   "movies": [
+    {
+      "title": "Sicario",
+      "link": "https://letterboxd.com/peruvianidol/film/sicario-2015/5/",
+      "watchedDate": "2025-03-27",
+      "filmYear": "2015",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/9/7/6/2/8/197628-sicario-0-600-0-900-crop.jpg?v=06d4163bb2",
+      "reviewText": "This popped up on Netflix and my immediate reaction was “I guess I’m watching Sicario again!” God, this movie is incredible. Just a perfect storm of directing, acting, writing, cinematography, scoring. There’s very little downtime in its 2+ hour runtime. Del Toro is especially restrained and badass here. And a great, vulnerable performance by Emily Blunt."
+    },
     {
       "title": "Riff Raff",
       "link": "https://letterboxd.com/peruvianidol/film/riff-raff-2024/",
