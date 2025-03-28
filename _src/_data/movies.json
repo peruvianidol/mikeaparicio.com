@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-27T15:24:29.384Z",
+  "lastUpdated": "2025-03-28T05:23:01.292Z",
   "movies": [
+    {
+      "title": "1917",
+      "link": "https://letterboxd.com/peruvianidol/film/1917/1/",
+      "watchedDate": "2025-03-27",
+      "filmYear": "2019",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/0/1/5/5/460155-1917-0-600-0-900-crop.jpg?v=9eb1d95df5",
+      "reviewText": "The oner is like a high-wire act. Difficult to pull off but leaves its audience breathless when it’s pulled off successfully. It’s been popular in recent series like Adolescence and The Studio, and while 1917 uses some trickery to achieve the illusion of one, long continuous shot, its sheer ambition tops any oners in recent memory. The logistics that must have gone into this to make it work are mind-boggling. The film is gorgeously shot by Roger Deakins and George MacKay gives an impressive and physically challenging performance."
+    },
     {
       "title": "Sicario",
       "link": "https://letterboxd.com/peruvianidol/film/sicario-2015/5/",
