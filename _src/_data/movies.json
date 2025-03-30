@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-30T03:08:24.075Z",
+  "lastUpdated": "2025-03-30T06:29:14.739Z",
   "movies": [
+    {
+      "title": "Subservience",
+      "link": "https://letterboxd.com/peruvianidol/film/subservience-2024/",
+      "watchedDate": "2025-03-30",
+      "filmYear": "2024",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/5/9/6/7/2/959672-subservience-0-600-0-900-crop.jpg?v=16ae748259",
+      "reviewText": "This movie features more broken glass than Die Hard. If there’s a lesson to be learned from movies like this and Companion it’s stop having sex with your robots."
+    },
     {
       "title": "Under Suspicion",
       "link": "https://letterboxd.com/peruvianidol/film/under-suspicion-2000/",
