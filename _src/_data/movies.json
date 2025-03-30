@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-29T05:19:54.232Z",
+  "lastUpdated": "2025-03-30T03:08:24.075Z",
   "movies": [
+    {
+      "title": "Under Suspicion",
+      "link": "https://letterboxd.com/peruvianidol/film/under-suspicion-2000/",
+      "watchedDate": "2025-03-29",
+      "filmYear": "2000",
+      "memberRating": "1.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/1/1/0/46110-under-suspicion-0-600-0-900-crop.jpg?v=4d8d9e7fb1",
+      "reviewText": "This movie is so incredibly awful that even two of the greatest actors of our time couldn’t elevate it. How Hackman and Freeman read this script and agreed to do this movie I’ll never know. The whole thing builds up to some noir-like twist and then it just ends with a whimper. I’d expect something at least a bit more entertaining from the director of Predator 2 and the writer of Point Break. The production looks like a bad network TV procedural, complete with overlays of the cast’s photos over the opening credits. If I had to guess I’d say that Jeffrey Epstein wrote this, or at least someone who had been to his island. Yeesh."
+    },
     {
       "title": "Michael Clayton",
       "link": "https://letterboxd.com/peruvianidol/film/michael-clayton/2/",
