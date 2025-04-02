@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-04-02T20:24:15.928Z",
+  "lastUpdated": "2025-04-02T21:20:19.687Z",
   "movies": [
+    {
+      "title": "Black Bag",
+      "link": "https://letterboxd.com/peruvianidol/film/black-bag-2025/1/",
+      "watchedDate": "2025-04-02",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/7/5/5/1116755-black-bag-2025-0-600-0-900-crop.jpg?v=7dbc1baf6f",
+      "reviewText": "On second watch I picked up a lot of clues I missed the first time around. This movie is a brisk 94 minutes and doesn’t waste much time. All of the spycraft stuff is just set dressing and an excuse to watch a bunch of smart, sexy people in beautifully-lit environments verbally spar with each other. More movies like this, please!"
+    },
     {
       "title": "Ripley",
       "link": "https://letterboxd.com/peruvianidol/film/ripley/",
