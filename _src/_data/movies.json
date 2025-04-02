@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-03-30T06:29:14.739Z",
+  "lastUpdated": "2025-04-02T20:24:15.928Z",
   "movies": [
+    {
+      "title": "Ripley",
+      "link": "https://letterboxd.com/peruvianidol/film/ripley/",
+      "watchedDate": "2025-04-02",
+      "filmYear": "2024",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/1/3/2/0/1141320-ripley-0-600-0-900-crop.jpg?v=6992c33fc4",
+      "reviewText": "I finally got around to finishing this sublime adaptation of Patricia Highsmith’s The Talented Mr. Ripley. Robert Elswit’s cinematography is stunning. Picturesque Italy is captured in gorgeous black-and-white and nearly every shot could be a painting. I loved Andrew Scott as Ripley, a much more calculating take than Matt Damon’s version. And Mauricio Lombardi is delightful as Inspector Ravini, who always seems to be both a step ahead and a step behind Ripley at every moment. The pacing may seem slow as the series likes to luxuriate in every detail, but I loved every minute of it."
+    },
     {
       "title": "Subservience",
       "link": "https://letterboxd.com/peruvianidol/film/subservience-2024/",
