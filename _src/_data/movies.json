@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-04-05T05:21:35.515Z",
+  "lastUpdated": "2025-04-05T20:21:23.482Z",
   "movies": [
+    {
+      "title": "A Minecraft Movie",
+      "link": "https://letterboxd.com/peruvianidol/film/a-minecraft-movie/",
+      "watchedDate": "2025-04-05",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/5/4/6/9/1/854691-a-minecraft-movie-0-600-0-900-crop.jpg?v=074e7fed9e",
+      "reviewText": "Video game movies are tricky because you have a checklist of things from the game you have to squeeze in references to for the fans but you also have to find a a way to make it fun for the uninitiated. Jared Hess may be the perfect director to deliver seemingly non sequiturs in a fun way. There’s definitely some Napoleon Dynamite DNA here. Jack Black is in full Jack Black mode and shares a Point Break-esque homoerotic bond with a similarly over-the-top Jason Momoa. This checked all the boxes for my Minecraft-loving 6-year-old but also had me cracking up a lot more than I thought I would."
+    },
     {
       "title": "Unforgiven",
       "link": "https://letterboxd.com/peruvianidol/film/unforgiven/",
