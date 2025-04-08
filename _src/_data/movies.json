@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-04-05T20:21:23.482Z",
+  "lastUpdated": "2025-04-08T05:21:42.070Z",
   "movies": [
+    {
+      "title": "The Lighthouse",
+      "link": "https://letterboxd.com/peruvianidol/film/the-lighthouse-2019/2/",
+      "watchedDate": "2025-04-08",
+      "filmYear": "2019",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/3/3/8/6/3/433863-the-lighthouse-0-600-0-900-crop.jpg?v=ee97005537",
+      "reviewText": "Having seen Eggers’ last two movies since this was released, The Lighthouse has lost a little bit of its luster. Still a great two-hander with brilliant performances by Dafoe and Pattinson, but it drags on a bit at times. The 4K release doesn’t do it any favors either, since much of the film is shot in low light with shallow depth of field. Man, that ending though."
+    },
     {
       "title": "A Minecraft Movie",
       "link": "https://letterboxd.com/peruvianidol/film/a-minecraft-movie/",
