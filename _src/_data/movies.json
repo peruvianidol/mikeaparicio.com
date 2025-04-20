@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-04-08T05:21:42.070Z",
+  "lastUpdated": "2025-04-20T04:25:19.687Z",
   "movies": [
+    {
+      "title": "Blue Velvet",
+      "link": "https://letterboxd.com/peruvianidol/film/blue-velvet/1/",
+      "watchedDate": "2025-04-19",
+      "filmYear": "1986",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/3/5/9/51359-blue-velvet-0-600-0-900-crop.jpg?v=b0ee3c20f6",
+      "reviewText": "Hoo! They don’t make ‘em like this anymore!"
+    },
     {
       "title": "The Lighthouse",
       "link": "https://letterboxd.com/peruvianidol/film/the-lighthouse-2019/2/",
