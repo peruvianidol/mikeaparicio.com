@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-04-20T07:20:29.274Z",
+  "lastUpdated": "2025-04-22T05:22:21.816Z",
   "movies": [
+    {
+      "title": "Sinners",
+      "link": "https://letterboxd.com/peruvianidol/film/sinners-2025/",
+      "watchedDate": "2025-04-21",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-600-0-900-crop.jpg?v=00ce32e0ba",
+      "reviewText": "Watched on Monday April 21, 2025."
+    },
     {
       "title": "Jack Reacher: Never Go Back",
       "link": "https://letterboxd.com/peruvianidol/film/jack-reacher-never-go-back/",
