@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-04-22T05:22:21.816Z",
+  "lastUpdated": "2025-04-26T04:26:22.881Z",
   "movies": [
+    {
+      "title": "Ash",
+      "link": "https://letterboxd.com/peruvianidol/film/ash-2025/",
+      "watchedDate": "2025-04-25",
+      "filmYear": "2025",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/3/6/2/1/3/836213-ash-2025-0-600-0-900-crop.jpg?v=39e3f3c32c",
+      "reviewText": "Visually interesting but kind of a slog to get through. Goes to great lengths to set up a mystery that, when it’s finally revealed, is like, “oh, okay.”"
+    },
     {
       "title": "Sinners",
       "link": "https://letterboxd.com/peruvianidol/film/sinners-2025/",
