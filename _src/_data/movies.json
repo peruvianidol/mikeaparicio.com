@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-04-27T04:25:53.302Z",
+  "lastUpdated": "2025-04-27T05:21:18.388Z",
   "movies": [
+    {
+      "title": "Havoc",
+      "link": "https://letterboxd.com/peruvianidol/film/havoc-2025/",
+      "watchedDate": "2025-04-26",
+      "filmYear": "2025",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/9/3/2/8/0/593280-havoc-1-0-600-0-900-crop.jpg?v=c38106ed32",
+      "reviewText": "On paper, a movie by the director of The Raid starring Tom Hardy sounds great but, sadly, the execution is lacking here. Outside of a couple fun set pieces, this is a pretty nondescript crime movie. Even the setting is some unknown, presumably American (based on the sheer number of guns) city, which looks like a combination of back lot sets and something made in Unreal Engine. This movie also has Timothy Olyphant, Forest Whitaker and Luis Guzman but pretty much squanders them. I really dug Apostle and Gangs of London, so I’m not sure what happened here but it’s not good."
+    },
     {
       "title": "My Old Ass",
       "link": "https://letterboxd.com/peruvianidol/film/my-old-ass/1/",
