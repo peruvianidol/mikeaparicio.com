@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-03T16:26:17.528Z",
+  "lastUpdated": "2025-05-05T05:23:51.021Z",
   "movies": [
+    {
+      "title": "Galaxy Quest",
+      "link": "https://letterboxd.com/peruvianidol/film/galaxy-quest/",
+      "watchedDate": "2025-05-04",
+      "filmYear": "1999",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/2/2/7/51227-galaxy-quest-0-600-0-900-crop.jpg?v=77947eabcc",
+      "reviewText": "It’s May the 4th so of course I had to watch Galaxy Quest for the first time since I saw it in the theater. I honestly didn’t remember anything about it besides the premise. I love Star Trek and I get what they were going for here but it didn’t quite work for me. Tim Allen is woefully miscast and Alan Rickman probably didn’t have to stretch too far to play a Shakespearean actor playing a role that’s beneath him. I loved Sam Rockwell’s manic energy and whatever the hell Enrico Colantoni is doing."
+    },
     {
       "title": "Deadpool & Wolverine",
       "link": "https://letterboxd.com/peruvianidol/film/deadpool-wolverine/",
