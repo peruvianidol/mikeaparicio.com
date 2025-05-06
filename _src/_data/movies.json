@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-05T05:23:51.021Z",
+  "lastUpdated": "2025-05-06T22:22:04.553Z",
   "movies": [
+    {
+      "title": "The Insider",
+      "link": "https://letterboxd.com/peruvianidol/film/the-insider/",
+      "watchedDate": "2025-05-06",
+      "filmYear": "1999",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/l7/vs/7t/qj/sYQsmMl4oG56NtFaNkDxuJhhODa-0-600-0-900-crop.jpg?v=2ee2c41378",
+      "reviewText": "Revisiting this for the first time since the theater. Mann infuses the story with the tension and stakes of a crime thriller. Pacino and Crowe both give great, restrained performances. There’s a ton of great character actors in this, but Christopher Plummer really nails it as Mike Wallace. Could have been a little tighter but the performances kept me in it to the end."
+    },
     {
       "title": "Galaxy Quest",
       "link": "https://letterboxd.com/peruvianidol/film/galaxy-quest/",
