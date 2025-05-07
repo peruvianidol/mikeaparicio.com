@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-06T22:22:04.553Z",
+  "lastUpdated": "2025-05-07T04:27:18.271Z",
   "movies": [
+    {
+      "title": "Warfare",
+      "link": "https://letterboxd.com/peruvianidol/film/warfare/",
+      "watchedDate": "2025-05-06",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/4/7/0/1/1124701-warfare-0-600-0-900-crop.jpg?v=f379233a1b",
+      "reviewText": "Felt like if Black Hawk Down was a bottle episode. Small in scale and scope but effectively tense throughout. I can imagine, like Black Hawk Down, we might look back at some of the actors here ten years from now after they’ve become wildly famous and marvel at how they were all in this movie."
+    },
     {
       "title": "The Insider",
       "link": "https://letterboxd.com/peruvianidol/film/the-insider/",
