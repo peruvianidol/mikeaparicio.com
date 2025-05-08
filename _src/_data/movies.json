@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-07T04:27:18.271Z",
+  "lastUpdated": "2025-05-08T04:28:27.231Z",
   "movies": [
+    {
+      "title": "Lost Bullet",
+      "link": "https://letterboxd.com/peruvianidol/film/lost-bullet/",
+      "watchedDate": "2025-05-07",
+      "filmYear": "2020",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/2/9/9/3/4/629934-lost-bullet-0-600-0-900-crop.jpg?v=95be815c8c",
+      "reviewText": "I’m a sucker for a good A-Team welding montage, so when the one in Lost Bullet pays off I was practically giddy. Not a great movie but the director knows what he’s going for and executes it well and there’s not a ton of fat in this 93 minute movie. Definitely has me interested in checking out the sequels."
+    },
     {
       "title": "Warfare",
       "link": "https://letterboxd.com/peruvianidol/film/warfare/",
