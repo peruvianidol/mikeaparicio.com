@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-08T04:28:27.231Z",
+  "lastUpdated": "2025-05-09T04:28:09.688Z",
   "movies": [
+    {
+      "title": "Lost Bullet 2",
+      "link": "https://letterboxd.com/peruvianidol/film/lost-bullet-2/",
+      "watchedDate": "2025-05-08",
+      "filmYear": "2022",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/5/2/8/6/6/852866-lost-bullet-2-0-600-0-900-crop.jpg?v=791889869b",
+      "reviewText": "Weirdly retcons the last five minutes of the first movie and then proceeds to up the ante in every possible way. The hero inexplicably becomes a cop and the car he drove in the first film gets a major upgrade that elicited such a series of noises from me at one point that I thought for sure I was going to wake the kids. The end is fairly abrupt and ends like the season finale of a TV show that’s confident it’s going to be picked up for another season. It doesn’t feel like a complete movie, but what’s there is fun and breezy and competently made."
+    },
     {
       "title": "Lost Bullet",
       "link": "https://letterboxd.com/peruvianidol/film/lost-bullet/",
