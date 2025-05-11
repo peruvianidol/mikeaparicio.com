@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-09T04:28:09.688Z",
+  "lastUpdated": "2025-05-11T04:26:39.164Z",
   "movies": [
+    {
+      "title": "Last Bullet",
+      "link": "https://letterboxd.com/peruvianidol/film/last-bullet/",
+      "watchedDate": "2025-05-10",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/4/2/6/5/5/1042655-last-bullet-0-600-0-900-crop.jpg?v=8845e501bb",
+      "reviewText": "Nicely ties up the trilogy with a little backstory on the first two movies followed by nearly non-stop vehicular and hand-to-hand mayhem, with another A-Team welding montage thrown in for good measure. Another well-executed fun time."
+    },
     {
       "title": "Lost Bullet 2",
       "link": "https://letterboxd.com/peruvianidol/film/lost-bullet-2/",
