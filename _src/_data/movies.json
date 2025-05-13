@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-11T04:26:39.164Z",
+  "lastUpdated": "2025-05-13T06:33:18.192Z",
   "movies": [
+    {
+      "title": "Friendship",
+      "link": "https://letterboxd.com/peruvianidol/film/friendship-2024/",
+      "watchedDate": "2025-05-12",
+      "filmYear": "2024",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/2/6/9/1/1122691-friendship-2024-0-600-0-900-crop.jpg?v=9ea74152f4",
+      "reviewText": "Not sure I could recommend this to just anyone, but I was right at home at a sold out early screening among a bunch of fellow I Think You Should Leave enthusiasts. Tim Robinson brings the same manic energy to this with hilarious results. Paul Rudd is perfectly cast as Tim’s new neighbor and would be friend. It’s not a home run but it could become a cult comedy that’s quoted often."
+    },
     {
       "title": "Last Bullet",
       "link": "https://letterboxd.com/peruvianidol/film/last-bullet/",
