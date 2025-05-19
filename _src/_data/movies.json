@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-18T05:22:01.225Z",
+  "lastUpdated": "2025-05-19T05:23:26.020Z",
   "movies": [
+    {
+      "title": "Moonlight",
+      "link": "https://letterboxd.com/peruvianidol/film/moonlight-2016/1/",
+      "watchedDate": "2025-05-19",
+      "filmYear": "2016",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/90/gn/c7/9k/qAwFbszz0kRyTuXmMeKQZCX3Q2O-0-600-0-900-crop.jpg?v=192bde15c6",
+      "reviewText": "This movie is just stunning. Watching it for the first time since it was released and I fell in love with it all over again. Just an amazing job by the actors that play Chiron and Kevin at different ages building on the performances that came before. When Black reunites with Kevin in the third act you can see his facade crumble become Little again. Ahhhh and the score is incredible."
+    },
     {
       "title": "Wick Is Pain",
       "link": "https://letterboxd.com/peruvianidol/film/wick-is-pain/",
