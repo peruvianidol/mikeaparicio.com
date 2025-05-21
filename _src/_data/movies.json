@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-21T05:23:05.277Z",
+  "lastUpdated": "2025-05-21T19:18:36.741Z",
   "movies": [
+    {
+      "title": "The Taking of Pelham One Two Three",
+      "link": "https://letterboxd.com/peruvianidol/film/the-taking-of-pelham-one-two-three/",
+      "watchedDate": "2025-05-21",
+      "filmYear": "1974",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/8/0/0/47800-the-taking-of-pelham-one-two-three-0-600-0-900-crop.jpg?v=b04395e6e7",
+      "reviewText": "This is a fun crime thriller, basically Die Hard on a subway train. Just about the entire cast is a wise-cracking, ball-busting New Yorker. Matthau is great and the last shot is *chef's kiss*."
+    },
     {
       "title": "You Were Never Really Here",
       "link": "https://letterboxd.com/peruvianidol/film/you-were-never-really-here/2/",
