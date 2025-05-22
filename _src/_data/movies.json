@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-21T19:18:36.741Z",
+  "lastUpdated": "2025-05-22T01:54:32.072Z",
   "movies": [
+    {
+      "title": "Top Gun: Maverick",
+      "link": "https://letterboxd.com/peruvianidol/film/top-gun-maverick/2/",
+      "watchedDate": "2025-05-21",
+      "filmYear": "2022",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/9/3/4/6/5/293465-top-gun-maverick-0-600-0-900-crop.jpg?v=9f8af0f61b",
+      "reviewText": "Ok, yeah. This is an absolute banger."
+    },
     {
       "title": "The Taking of Pelham One Two Three",
       "link": "https://letterboxd.com/peruvianidol/film/the-taking-of-pelham-one-two-three/",
