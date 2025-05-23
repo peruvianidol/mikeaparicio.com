@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-22T22:22:28.706Z",
+  "lastUpdated": "2025-05-23T04:27:52.119Z",
   "movies": [
+    {
+      "title": "The Hurt Locker",
+      "link": "https://letterboxd.com/peruvianidol/film/the-hurt-locker/",
+      "watchedDate": "2025-05-22",
+      "filmYear": "2008",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/4/7/4/1/44741-the-hurt-locker-0-600-0-900-crop.jpg?v=ea165af0c3",
+      "reviewText": "I probably watched this a half dozen times when it first came out. Just a solid, rewatchable war flick. Great direction by Bigelow who really has a knack for adrenaline junkies. Love Renner and Mackie in this. This got a lot of acclaim at the time but you don't hear it talked about much anymore."
+    },
     {
       "title": "Mission: Impossible – The Final Reckoning",
       "link": "https://letterboxd.com/peruvianidol/film/mission-impossible-the-final-reckoning/",
