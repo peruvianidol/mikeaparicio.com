@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-27T04:30:00.532Z",
+  "lastUpdated": "2025-05-27T22:21:50.203Z",
   "movies": [
+    {
+      "title": "Starman",
+      "link": "https://letterboxd.com/peruvianidol/film/starman/1/",
+      "watchedDate": "2025-05-27",
+      "filmYear": "1984",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/9/3/9/46939-starman-0-600-0-900-crop.jpg?v=c0046f1463",
+      "reviewText": "I loved this movie as a kid, though I probably couldn't tell you why. As an adult, the idea of experiencing grief over the loss of a loved one and then getting a second chance with them, in a sense, really hits different. I love Karen Allen's performance, and this might be my second favorite Jeff Bridges movie. I'd probably seen this a dozen times and only realized recently that it was a John Carpenter movie. What a run he had in the 80s. Just about every movie of his from that time is deeply embedded in my brain. This movie demands a lega-sequel."
+    },
     {
       "title": "All the Right Moves",
       "link": "https://letterboxd.com/peruvianidol/film/all-the-right-moves/",
