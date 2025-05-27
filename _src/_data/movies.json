@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-26T14:23:09.493Z",
+  "lastUpdated": "2025-05-27T04:30:00.532Z",
   "movies": [
+    {
+      "title": "All the Right Moves",
+      "link": "https://letterboxd.com/peruvianidol/film/all-the-right-moves/",
+      "watchedDate": "2025-05-26",
+      "filmYear": "1983",
+      "memberRating": "1.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/7o/oy/3f/gh/kSrtxWweaqce1zuzF2rw7uYFwRB-0-600-0-900-crop.jpg?v=493f56225a",
+      "reviewText": "Real 80s after school special vibes here. This movie did not age well if anyone ever enjoyed it to begin with. Wild to think the star of this would go on to become one of the world's biggest movie stars, the DP would one day direct Speed, and the coach would go on to, well, Coach. I would sooner believe that Tom Cruise could save the world from nuclear annihilation than I would believe he could get a full scholarship to college as a defensive back."
+    },
     {
       "title": "Pee-wee as Himself",
       "link": "https://letterboxd.com/peruvianidol/film/pee-wee-as-himself-1/",
