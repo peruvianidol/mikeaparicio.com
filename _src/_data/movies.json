@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-05-27T22:21:50.203Z",
+  "lastUpdated": "2025-05-30T03:14:01.634Z",
   "movies": [
+    {
+      "title": "Popstar: Never Stop Never Stopping",
+      "link": "https://letterboxd.com/peruvianidol/film/popstar-never-stop-never-stopping/1/",
+      "watchedDate": "2025-05-29",
+      "filmYear": "2016",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/7/0/4/7/6/270476-popstar-never-stop-never-stopping-0-600-0-900-crop.jpg?v=c6e71d71e8",
+      "reviewText": "Lonely Island is really good at short form stuff and, even at 86 minutes long, this is painfully drawn out. There are some truly funny moments but if it weren't for the crazy amount of celebrity cameos, this would be a real slog."
+    },
     {
       "title": "Starman",
       "link": "https://letterboxd.com/peruvianidol/film/starman/1/",
