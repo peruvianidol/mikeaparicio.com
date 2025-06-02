@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-01T07:21:56.040Z",
+  "lastUpdated": "2025-06-02T02:00:38.179Z",
   "movies": [
+    {
+      "title": "Captain America: Brave New World",
+      "link": "https://letterboxd.com/peruvianidol/film/captain-america-brave-new-world/",
+      "watchedDate": "2025-06-01",
+      "filmYear": "2025",
+      "memberRating": "1.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/3/8/2/9/2/738292-captain-america-brave-new-world-0-600-0-900-crop.jpg?v=97dff5b720",
+      "reviewText": "The absolute nadir of the MCU. Completely incomprehensible and devoid of any character development. Some stuff happens in this movie but you never care because it's all boring CG and the same choreography you've seen in every Marvel movie. This entry has absolutely nothing to say, which is a shame because there's so much potential having a black Captain America in 2025. The best part was when the credits finally rolled and I could get on with my life."
+    },
     {
       "title": "Michael Clayton",
       "link": "https://letterboxd.com/peruvianidol/film/michael-clayton/3/",
