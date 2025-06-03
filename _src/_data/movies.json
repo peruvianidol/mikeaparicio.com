@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-02T21:24:24.228Z",
+  "lastUpdated": "2025-06-03T20:26:42.014Z",
   "movies": [
+    {
+      "title": "Batman Begins",
+      "link": "https://letterboxd.com/peruvianidol/film/batman-begins/",
+      "watchedDate": "2025-06-03",
+      "filmYear": "2005",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/7/8/4/51784-batman-begins-0-600-0-900-crop.jpg?v=f090edc352",
+      "reviewText": "Looking back, Nolan's first foray into superhero movies is a little shaggy. So much happens in the first third, setting up a finale that doesn't quite pay off. The hand-to-hand combat is shot soooo close up and with so many edits that it's practically incomprehensible. Still, I love this version of Batman, and Bale has a great mix of physicality and humor. The supporting cast is filled with heavy hitters, and Katie Holmes. I can't believe this came out 20 years ago."
+    },
     {
       "title": "Public Enemies",
       "link": "https://letterboxd.com/peruvianidol/film/public-enemies-2009/",
