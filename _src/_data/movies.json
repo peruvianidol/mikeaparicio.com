@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-04T03:19:34.709Z",
+  "lastUpdated": "2025-06-04T18:33:18.052Z",
   "movies": [
+    {
+      "title": "Marathon Man",
+      "link": "https://letterboxd.com/peruvianidol/film/marathon-man/",
+      "watchedDate": "2025-06-04",
+      "filmYear": "1976",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/1/5/4/46154-marathon-man-0-600-0-900-crop.jpg?v=352ff0ffb7",
+      "reviewText": "What was going on in the 70s? Lots of paranoid conspiracy thrillers. This one is pretty solid, even if it's hard to keep up with what the actual conspiracy is and who's on what side. Hoffman is great as a guy completely out of his element who gets caught up in the whole thing. The last act is kinda bonkers."
+    },
     {
       "title": "MacGruber",
       "link": "https://letterboxd.com/peruvianidol/film/macgruber/",
