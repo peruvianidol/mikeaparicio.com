@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-03T20:26:42.014Z",
+  "lastUpdated": "2025-06-04T01:57:12.270Z",
   "movies": [
+    {
+      "title": "Her",
+      "link": "https://letterboxd.com/peruvianidol/film/her/2/",
+      "watchedDate": "2025-06-03",
+      "filmYear": "2013",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/au/nb/i6/lq/fsoTLnUXEUTNuVCBxAJMY0HPPd-0-600-0-900-crop.jpg?v=16789732be",
+      "reviewText": "One of Joaquin's most hinged performances. Love his vulnerability. It's interesting rewatching this now that AI is close to the capabilities depicted here. The epidemic of loneliness that we find ourselves in, exasperated by a global pandemic, has led people to form relationships with chat bots. But in real life the AI is just repeating patterns. Watching this again with that in mind, are Samantha's feelings genuine, or is she merely repeating patterns? The idea makes the movie feel darker and less hopeful. I wonder how this movie will feel in another 12 years."
+    },
     {
       "title": "Batman Begins",
       "link": "https://letterboxd.com/peruvianidol/film/batman-begins/",
