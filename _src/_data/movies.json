@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-04T01:57:12.270Z",
+  "lastUpdated": "2025-06-04T03:19:34.709Z",
   "movies": [
+    {
+      "title": "MacGruber",
+      "link": "https://letterboxd.com/peruvianidol/film/macgruber/",
+      "watchedDate": "2025-06-03",
+      "filmYear": "2010",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/6/5/8/9/26589-macgruber-0-600-0-900-crop.jpg?v=306108a1c7",
+      "reviewText": "Not as riotously funny as I remembered but there's definitely enough hilarious moments that reward repeat viewing. Forte and Wiig are great and VAL KILMER. Great soundtrack for riding around in your Miata."
+    },
     {
       "title": "Her",
       "link": "https://letterboxd.com/peruvianidol/film/her/2/",
