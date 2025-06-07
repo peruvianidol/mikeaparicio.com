@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-06T19:18:58.617Z",
+  "lastUpdated": "2025-06-07T05:21:50.592Z",
   "movies": [
+    {
+      "title": "The Accountant²",
+      "link": "https://letterboxd.com/peruvianidol/film/the-accountant-2025/",
+      "watchedDate": "2025-06-06",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/8/2/0/0/6/782006-the-accountant-2-0-600-0-900-crop.jpg?v=11a051d3db",
+      "reviewText": "I found myself less interested in the central mystery of The Accountant 2 and more curious about what Ben Affleck’s Chris and his brother, John Bernthal’s Braxton, would get into next. Would Chris find love? Would Medina find a comfy chair? Would the Harbor kids release the Epstein files? Someone needs to show this movie to RFK Jr. Can someone please cast Bernthal in a remake/lega-sequel of Remo Williams already?"
+    },
     {
       "title": "Predator: Killer of Killers",
       "link": "https://letterboxd.com/peruvianidol/film/predator-killer-of-killers/",
