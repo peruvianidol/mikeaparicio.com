@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-07T05:21:50.592Z",
+  "lastUpdated": "2025-06-08T19:17:54.191Z",
   "movies": [
+    {
+      "title": "The Life of Chuck",
+      "link": "https://letterboxd.com/peruvianidol/film/the-life-of-chuck/",
+      "watchedDate": "2025-06-08",
+      "filmYear": "2024",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/5/7/6/1/2/757612-the-life-of-chuck-0-600-0-900-crop.jpg?v=7ac670c0be",
+      "reviewText": "The trailer really piqued my interest. Tom Hiddleston and Mike Flanagan? Sign me up! Ultimately it didn’t really resonate with me. There were some memorable scenes, but the structure of the movie was baffling and there was way less Hiddleston than I expected. Great to see Mia Sara again and Mark Hamill in full-on grandpa mode was great."
+    },
     {
       "title": "The Accountant²",
       "link": "https://letterboxd.com/peruvianidol/film/the-accountant-2025/",
