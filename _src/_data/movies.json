@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-08T19:17:54.191Z",
+  "lastUpdated": "2025-06-09T03:52:56.293Z",
   "movies": [
+    {
+      "title": "Novocaine",
+      "link": "https://letterboxd.com/peruvianidol/film/novocaine-2025/",
+      "watchedDate": "2025-06-08",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/0/1/7/1081017-novocaine-2025-0-600-0-900-crop.jpg?v=bf4021de18",
+      "reviewText": "When the title card came up I thought, \"please don't let this guy's name be Caine,\" before they immediately cut to his name plate, Nathan Caine. Oh, FFS. This turned out to be fun though. They really stretched the premise in clever and often gruesome ways. This is maybe the first thing I've seen Jack Quaid in where I didn't want to immediately punch him in the face."
+    },
     {
       "title": "The Life of Chuck",
       "link": "https://letterboxd.com/peruvianidol/film/the-life-of-chuck/",
