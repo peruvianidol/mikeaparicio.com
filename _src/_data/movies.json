@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-09T03:52:56.293Z",
+  "lastUpdated": "2025-06-09T05:24:52.191Z",
   "movies": [
+    {
+      "title": "A Working Man",
+      "link": "https://letterboxd.com/peruvianidol/film/a-working-man/",
+      "watchedDate": "2025-06-09",
+      "filmYear": "2025",
+      "memberRating": "1.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/8/2/2/2/5/1082225-a-working-man-0-600-0-900-crop.jpg?v=a265a96ac7",
+      "reviewText": "A joyless, nonsensical slog. Besides that the movie is supposed to be set in Chicago but, aside from a few establishing shots, was clearly not shot anywhere near Illinois. If you want to enjoy this movie, take a drink anytime you see a giant-ass full moon on the horizon."
+    },
     {
       "title": "Novocaine",
       "link": "https://letterboxd.com/peruvianidol/film/novocaine-2025/",
