@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-10T01:59:05.419Z",
+  "lastUpdated": "2025-06-10T03:22:09.473Z",
   "movies": [
+    {
+      "title": "The Signal",
+      "link": "https://letterboxd.com/peruvianidol/film/the-signal-2014/",
+      "watchedDate": "2025-06-09",
+      "filmYear": "2014",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/s4/a6/vg/n6/aop90vZ5MBQLd1amdBkpqqfZgtP-0-600-0-900-crop.jpg?v=a853c36f45",
+      "reviewText": "Cool-looking movie on what I assume was a limited budget. Works more as a vibe than a coherent story. And what a waste of Olivia Cooke."
+    },
     {
       "title": "The Amateur",
       "link": "https://letterboxd.com/peruvianidol/film/the-amateur-2025/",
