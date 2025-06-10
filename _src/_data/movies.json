@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-10T03:22:09.473Z",
+  "lastUpdated": "2025-06-10T18:33:20.810Z",
   "movies": [
+    {
+      "title": "Evil Does Not Exist",
+      "link": "https://letterboxd.com/peruvianidol/film/evil-does-not-exist/",
+      "watchedDate": "2025-06-10",
+      "filmYear": "2023",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/4/2/2/7/7/1042277-evil-does-not-exist-0-600-0-900-crop.jpg?v=a76547ed16",
+      "reviewText": "Gorgeously shot but considerably more ponderous than Drive My Car. I was fully on board until the last act, which was a real head-scratcher. It turns out the real evil was the capitalism we made along the way."
+    },
     {
       "title": "The Signal",
       "link": "https://letterboxd.com/peruvianidol/film/the-signal-2014/",
