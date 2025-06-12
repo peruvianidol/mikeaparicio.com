@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-12T01:56:35.826Z",
+  "lastUpdated": "2025-06-12T04:30:07.656Z",
   "movies": [
+    {
+      "title": "On the Waterfront",
+      "link": "https://letterboxd.com/peruvianidol/film/on-the-waterfront/",
+      "watchedDate": "2025-06-11",
+      "filmYear": "1954",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/4/7/0/51470-on-the-waterfront-0-600-0-900-crop.jpg?v=ab41f427a0",
+      "reviewText": "Not sure what to say about this other than it's a good-looking picture and Brando is kind of overrated."
+    },
     {
       "title": "Drinking Buddies",
       "link": "https://letterboxd.com/peruvianidol/film/drinking-buddies/",
