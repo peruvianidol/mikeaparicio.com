@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-12T21:22:24.281Z",
+  "lastUpdated": "2025-06-13T04:31:11.866Z",
   "movies": [
+    {
+      "title": "Lone Star",
+      "link": "https://letterboxd.com/peruvianidol/film/lone-star-1996/",
+      "watchedDate": "2025-06-12",
+      "filmYear": "1996",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/0/8/1/35081-lone-star-0-600-0-900-crop.jpg?v=e5290241ec",
+      "reviewText": "Really interesting Western that starts like a murder mystery but unravels the complicated relationships in a small, Texas border town. Even though it's almost 30 years old it felt very modern, but like the setup for a TV series. Loved Chris Cooper and Elizabeth Peña (who I had a huge crush on as a kid). Young Matthew McConaughey has a few minutes of screen time as Cooper's dad in flashbacks, but his presence looms large over the whole film."
+    },
     {
       "title": "Materialists",
       "link": "https://letterboxd.com/peruvianidol/film/materialists/",
