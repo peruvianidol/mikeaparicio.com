@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-13T04:31:11.866Z",
+  "lastUpdated": "2025-06-14T04:28:19.793Z",
   "movies": [
+    {
+      "title": "Shutter Island",
+      "link": "https://letterboxd.com/peruvianidol/film/shutter-island/",
+      "watchedDate": "2025-06-13",
+      "filmYear": "2010",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/4/0/9/45409-shutter-island-0-600-0-900-crop.jpg?v=85dd4c38e3",
+      "reviewText": "This movie is fucking wild. Even with a vague recollection of the ending when I saw this in the theater 15 years ago(!) it fucked me up all over again. Great production design and cinematography. Could have been a little shorter, but wow. Better than I remembered."
+    },
     {
       "title": "Lone Star",
       "link": "https://letterboxd.com/peruvianidol/film/lone-star-1996/",
