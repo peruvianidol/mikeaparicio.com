@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-14T05:23:14.419Z",
+  "lastUpdated": "2025-06-16T04:35:15.461Z",
   "movies": [
+    {
+      "title": "Ronin",
+      "link": "https://letterboxd.com/peruvianidol/film/ronin/",
+      "watchedDate": "2025-06-15",
+      "filmYear": "1998",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/8/6/5/47865-ronin-0-600-0-900-crop.jpg?v=0470933060",
+      "reviewText": "I remember being disappointed by this when it first came out but it’s definitely aged well, aside from the laughable technology. Several thrilling car chases that rival some of the best we’ve seen since. Feels like a throwback to 70s movies. And a bromance for the ages between DeNiro and Reno. I couldn’t tell you why I didn’t like it all those years ago but as a dad movie on Father’s Day it’s pure cinema."
+    },
     {
       "title": "Deep Cover",
       "link": "https://letterboxd.com/peruvianidol/film/deep-cover-2025/",
