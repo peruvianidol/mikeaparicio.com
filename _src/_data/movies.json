@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-06-16T04:35:15.461Z",
+  "lastUpdated": "2025-06-18T01:57:32.822Z",
   "movies": [
+    {
+      "title": "Friendship",
+      "link": "https://letterboxd.com/peruvianidol/film/friendship-2024/1/",
+      "watchedDate": "2025-06-17",
+      "filmYear": "2024",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/2/6/9/1/1122691-friendship-2024-0-600-0-900-crop.jpg?v=9ea74152f4",
+      "reviewText": "Deeply unhinged. Love the way this movie is shot/graded. It almost feels like a horror movie. People are saying it’s actually nuts. It’s driving people crazy."
+    },
+    {
+      "title": "Broadcast News",
+      "link": "https://letterboxd.com/peruvianidol/film/broadcast-news/",
+      "watchedDate": "2025-06-16",
+      "filmYear": "1987",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/4/4/1/6/44416-broadcast-news-0-600-0-900-crop.jpg?v=d3dc914edb",
+      "reviewText": "I appreciate the effort here but I just could not relate to any of the three main characters, who were all just such self-absorbed assholes. I also found the ending to be pretty unsatisfying. William Hurt’s character probably went on to work at Fox News. As someone who majored in print and broadcast journalism but ended up making websites for a living, this movie reaffirmed I made the right move."
+    },
     {
       "title": "Ronin",
       "link": "https://letterboxd.com/peruvianidol/film/ronin/",
