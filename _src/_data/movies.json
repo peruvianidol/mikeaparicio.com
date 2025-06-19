@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-18T01:57:32.822Z",
+  "lastUpdated": "2025-06-19T20:27:14.332Z",
   "movies": [
+    {
+      "title": "28 Years Later",
+      "link": "https://letterboxd.com/peruvianidol/film/28-years-later/",
+      "watchedDate": "2025-06-19",
+      "filmYear": "2025",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/9/2/7/8/6/992786-28-years-later-0-600-0-900-crop.jpg?v=fc48e61af3",
+      "reviewText": "Woof. Even though two couples walked out of my screening I pressed on and was rewarded with a brief moment of transcendence, only for the ending to just completely ruin it. Here’s hoping 28 Decades Later gives us something better."
+    },
     {
       "title": "Friendship",
       "link": "https://letterboxd.com/peruvianidol/film/friendship-2024/1/",
