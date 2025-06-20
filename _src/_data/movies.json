@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-19T20:27:14.332Z",
+  "lastUpdated": "2025-06-20T05:24:05.140Z",
   "movies": [
+    {
+      "title": "Final Destination Bloodlines",
+      "link": "https://letterboxd.com/peruvianidol/film/final-destination-bloodlines/",
+      "watchedDate": "2025-06-19",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/2/6/2/2/502622-final-destination-bloodlines-0-600-0-900-crop.jpg?v=3c04d3a110",
+      "reviewText": "The opening set piece of this movie is a sight to behold. Unfortunately the rest of the movie has a hard time living up to it. Some really inventive kills and clever misdirects with visual cues. And hilariously on-the-nose needle drops. Everything between the kills is just mind-numbingly dumb."
+    },
     {
       "title": "28 Years Later",
       "link": "https://letterboxd.com/peruvianidol/film/28-years-later/",
