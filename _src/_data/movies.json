@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-06-20T05:24:05.140Z",
+  "lastUpdated": "2025-06-22T20:24:19.559Z",
   "movies": [
+    {
+      "title": "Elio",
+      "link": "https://letterboxd.com/peruvianidol/film/elio/",
+      "watchedDate": "2025-06-22",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/2/1/5/7/5/921575-elio-0-600-0-900-crop.jpg?v=d3f4e92f5e",
+      "reviewText": "Delightful to enjoy an original and heartwarming story with my kids rather than another rehash of something that was popular when I was a kid or some other shameless cash grab. My space-loving six-year-old especially loved it and the smile on his face was worth the price of admission alone. It’s a shame it did so poorly at the box office, reinforcing the idea that only existing IP is worth producing."
+    },
+    {
+      "title": "Deadwood: The Movie",
+      "link": "https://letterboxd.com/peruvianidol/film/deadwood-the-movie/1/",
+      "watchedDate": "2025-06-22",
+      "filmYear": "2019",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/xr/mo/gs/6t/fCQ13cqd02dop7Chkov0fPl4r3t-0-600-0-900-crop.jpg?v=51286c0adf",
+      "reviewText": "First time watching this immediately after rewatching the HBO show, which unceremoniously ended after its third season. The lack of closure was really the only knock on this incredible series. This is less a movie than a proper send-off for nearly all the characters that last appeared 13 years earlier. And to boot we finally get to see the comeuppance of a cocksucking murderous land baron turned shitheel politician (in the parlance of the show), even if we may never see it play out in real life."
+    },
     {
       "title": "Final Destination Bloodlines",
       "link": "https://letterboxd.com/peruvianidol/film/final-destination-bloodlines/",
