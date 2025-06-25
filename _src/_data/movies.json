@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-22T20:24:19.559Z",
+  "lastUpdated": "2025-06-25T14:24:35.047Z",
   "movies": [
+    {
+      "title": "A Simple Plan",
+      "link": "https://letterboxd.com/peruvianidol/film/a-simple-plan/",
+      "watchedDate": "2025-06-25",
+      "filmYear": "1998",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/4/2/8/46428-a-simple-plan-0-600-0-900-crop.jpg?v=ff2855b9bf",
+      "reviewText": "Stylistically this is maybe Raimi's most subtle film, forgoing a lot of the dutch angles and wild shots he's known for in his horror and super hero films. Seems like an obvious riff on Fargo but is doing something a little different. There's a little Twilight Zone mixed in for good measure. The performances feel a little too heightened, particularly Bridget Fonda, who becomes increasingly unhinged and diabolical as the movie goes on. Great ensemble cast though. Loved Chelcie Ross as the sheriff and Gary Cole as the mysterious and slightly menacing FBI agent."
+    },
     {
       "title": "Elio",
       "link": "https://letterboxd.com/peruvianidol/film/elio/",
