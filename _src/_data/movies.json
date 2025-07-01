@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-06-25T14:24:35.047Z",
+  "lastUpdated": "2025-07-01T15:25:53.104Z",
   "movies": [
+    {
+      "title": "Jennifer's Body",
+      "link": "https://letterboxd.com/peruvianidol/film/jennifers-body/",
+      "watchedDate": "2025-07-01",
+      "filmYear": "2009",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/9/3/0/5/39305-jennifer-s-body-0-600-0-900-crop.jpg?v=af7fb6bd86",
+      "reviewText": "Felt like an angsty millennial teen wrote a David Lynch movie. Some fun moments and sharp dialogue but didn’t quite come together. Also will make me forever suspicious of any beautiful woman who pays me the slightest bit of attention."
+    },
     {
       "title": "A Simple Plan",
       "link": "https://letterboxd.com/peruvianidol/film/a-simple-plan/",
