@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-01T15:25:53.104Z",
+  "lastUpdated": "2025-07-01T18:33:05.453Z",
   "movies": [
+    {
+      "title": "Cobra",
+      "link": "https://letterboxd.com/peruvianidol/film/cobra-1986/",
+      "watchedDate": "2025-07-01",
+      "filmYear": "1986",
+      "memberRating": "1.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/7/5/9/46759-cobra-0-600-0-900-crop.jpg?v=fbd949c36b",
+      "reviewText": "Antonio Banderas laptop meme but it’s Sylvester Stallone after typing “you’re the disease and I’m the cure” in Cobra’s script."
+    },
     {
       "title": "Jennifer's Body",
       "link": "https://letterboxd.com/peruvianidol/film/jennifers-body/",
