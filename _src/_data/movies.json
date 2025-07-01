@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-01T18:33:05.453Z",
+  "lastUpdated": "2025-07-01T21:22:32.133Z",
   "movies": [
+    {
+      "title": "Running Scared",
+      "link": "https://letterboxd.com/peruvianidol/film/running-scared/",
+      "watchedDate": "2025-07-01",
+      "filmYear": "1986",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/2/1/7/2/42172-running-scared-0-600-0-900-crop.jpg?v=1c703586d1",
+      "reviewText": "Not a great movie but it made quite an impression on 11-year-old me, who loved Crystal from SNL. I respect a movie that makes great use of Chicago locations and there’s some good ones here, culminating in a shootout at the Thompson Center (recently bought by Google). There’s also a fun chase scene that takes lots of liberties with geography, going from O’Hare to Skokie and onto the L tracks downtown in a matter of minutes. I’d love to know the logistics of how they got two cars up there. If you can suspend your disbelief that a tap dancer and a comedian can pass for Chicago cops, there’s some fun to be had here."
+    },
     {
       "title": "Cobra",
       "link": "https://letterboxd.com/peruvianidol/film/cobra-1986/",
