@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-01T21:22:32.133Z",
+  "lastUpdated": "2025-07-02T21:22:47.104Z",
   "movies": [
+    {
+      "title": "F1",
+      "link": "https://letterboxd.com/peruvianidol/film/f1/",
+      "watchedDate": "2025-07-02",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/1/7/9/7/7/817977-f1-the-movie-0-600-0-900-crop.jpg?v=f5ae2b99b9",
+      "reviewText": "F1 is like a summer blockbuster designed in a lab. Hits all the right notes, looks incredible, and delivers thrills, even if some of the beats are cliched and the character development is a bit shallow. Whatever this movie cost it is all on the screen. The racing scenes are plentiful and feel as immersive as the flying scenes in Kosinski’s Top Gun: Maverick. Pitt is great here, but the rest of the cast deserves credit for carving out distinct characters with very little screen time. By the end of the film you feel like part of the team, sharing the victory with them. Exhilarating."
+    },
     {
       "title": "Running Scared",
       "link": "https://letterboxd.com/peruvianidol/film/running-scared/",
