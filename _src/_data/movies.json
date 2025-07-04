@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-02T21:22:47.104Z",
+  "lastUpdated": "2025-07-04T04:33:32.260Z",
   "movies": [
+    {
+      "title": "Point Blank",
+      "link": "https://letterboxd.com/peruvianidol/film/point-blank/",
+      "watchedDate": "2025-07-03",
+      "filmYear": "1967",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/5/9/2/35592-point-blank-0-600-0-900-crop.jpg?v=82ba2b6ea3",
+      "reviewText": "This movie goes harder than it needed to for a pretty standard revenge flick. The pace is dizzying, so much happens in just 91 minutes, but it takes its time with some great shots along the way. Lee Marvin is a stoic badass. No doubt this influenced a ton of great modern crime films."
+    },
     {
       "title": "F1",
       "link": "https://letterboxd.com/peruvianidol/film/f1/",
