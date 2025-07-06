@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-05T05:23:09.621Z",
+  "lastUpdated": "2025-07-06T05:23:47.044Z",
   "movies": [
+    {
+      "title": "Sneakers",
+      "link": "https://letterboxd.com/peruvianidol/film/sneakers/",
+      "watchedDate": "2025-07-05",
+      "filmYear": "1992",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/3/3/1/50331-sneakers-0-600-0-900-crop.jpg?v=c14544e0f1",
+      "reviewText": "In hindsight, Cosmo was right."
+    },
     {
       "title": "Waves",
       "link": "https://letterboxd.com/peruvianidol/film/waves-2019/2/",
