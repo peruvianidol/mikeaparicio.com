@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-07T18:34:08.582Z",
+  "lastUpdated": "2025-07-08T04:33:42.437Z",
   "movies": [
+    {
+      "title": "I'm Still Here",
+      "link": "https://letterboxd.com/peruvianidol/film/im-still-here-2024/",
+      "watchedDate": "2025-07-07",
+      "filmYear": "2024",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/0/1/6/7/1/901671-im-still-here-2024-0-600-0-900-crop.jpg?v=62be7ea503",
+      "reviewText": "A remarkable film. As Americans we like to think something like this could never happen here, but it already is. This film serves as a necessary and dire warning. Brave performance from Fernanda Torres, whose character Eunice says to the press, “I think it’s necessary to compensate the families, and do the most important thing, clarify and judge all crimes committed during the dictatorship. If that doesn’t happen, they will continue to be committed with impunity.” Hoping I live to see this happen in the U.S."
+    },
     {
       "title": "Lethal Weapon",
       "link": "https://letterboxd.com/peruvianidol/film/lethal-weapon/",
