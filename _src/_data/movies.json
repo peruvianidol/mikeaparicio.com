@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-08T04:33:42.437Z",
+  "lastUpdated": "2025-07-09T16:30:21.829Z",
   "movies": [
+    {
+      "title": "Heads of State",
+      "link": "https://letterboxd.com/peruvianidol/film/heads-of-state/",
+      "watchedDate": "2025-07-09",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/7/0/9/6/2/670962-heads-of-state-0-600-0-900-crop.jpg?v=96d524e0ea",
+      "reviewText": "Fun cast, terrible script. Some fun action scenes but, as Idris Elba says, “I prefer real cinema.”"
+    },
     {
       "title": "I'm Still Here",
       "link": "https://letterboxd.com/peruvianidol/film/im-still-here-2024/",
