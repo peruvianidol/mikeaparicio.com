@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-11T02:03:42.092Z",
+  "lastUpdated": "2025-07-12T03:55:07.261Z",
   "movies": [
+    {
+      "title": "The Batman",
+      "link": "https://letterboxd.com/peruvianidol/film/the-batman/3/",
+      "watchedDate": "2025-07-11",
+      "filmYear": "2022",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/4/8/9/1/4/348914-the-batman-0-600-0-900-crop.jpg?v=ec12a8b7ce",
+      "reviewText": "I was compelled to watch this after Superman. The Batman is the antithesis of modern superhero movies. I don’t know how they will incorporate Batman into Gunn’s new DCU but it almost certainly won’t be this Batman. Where Snyder seemingly took Superman into the dark, Gunn seems certain to bring Batman into the light. I miss when things could just be a thing and didn’t have to spawn endless sequels or crossover with every other IP owned by a megacorp. That said, I’m looking forward to The Batman 2. lol"
+    },
     {
       "title": "Superman",
       "link": "https://letterboxd.com/peruvianidol/film/superman-2025/",
