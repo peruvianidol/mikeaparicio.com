@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-12T03:55:07.261Z",
+  "lastUpdated": "2025-07-13T04:02:09.578Z",
   "movies": [
+    {
+      "title": "Perfect Days",
+      "link": "https://letterboxd.com/peruvianidol/film/perfect-days-2023/2/",
+      "watchedDate": "2025-07-12",
+      "filmYear": "2023",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/7/9/2/2/9/879229-perfect-days-0-600-0-900-crop.jpg?v=4ea80661fd",
+      "reviewText": "More like Perfect Movie, amirite? I, too, just want to read books, listen to tapes and not worry about the rise of fascism while I clean a toilet for the hundredth time this week."
+    },
     {
       "title": "The Batman",
       "link": "https://letterboxd.com/peruvianidol/film/the-batman/3/",
