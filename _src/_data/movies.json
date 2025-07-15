@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-14T16:32:12.933Z",
+  "lastUpdated": "2025-07-15T05:28:17.364Z",
   "movies": [
+    {
+      "title": "Only Lovers Left Alive",
+      "link": "https://letterboxd.com/peruvianidol/film/only-lovers-left-alive/",
+      "watchedDate": "2025-07-14",
+      "filmYear": "2013",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/5/6/3/114563-only-lovers-left-alive-0-600-0-900-crop.jpg?v=d6151d5d18",
+      "reviewText": "Loved this slow-burn, kinda punk rock vampire film. Exceptionally cool hanging out with Hiddleston and Swinton as an old vampire couple. Great supporting cast as well. Feels like a fresh take on the vampire genre, which is saying a lot in a year where Sinners came out. Haven’t seen a ton of Jarmusch’s films but what I have seen are usually a good hang and this is no exception."
+    },
     {
       "title": "The Phoenician Scheme",
       "link": "https://letterboxd.com/peruvianidol/film/the-phoenician-scheme/",
