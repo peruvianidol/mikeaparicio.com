@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-15T05:28:17.364Z",
+  "lastUpdated": "2025-07-16T19:20:42.100Z",
   "movies": [
+    {
+      "title": "M3GAN 2.0",
+      "link": "https://letterboxd.com/peruvianidol/film/m3gan-20/",
+      "watchedDate": "2025-07-16",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/6/5/8/8/5/965885-m3gan-20-0-600-0-900-crop.jpg?v=d2ea19cd5c",
+      "reviewText": "I had a great time with this. Goes full T2 with hilarious results. I was straight up cackling at several points. Not sure how they’ll be able to one up this for the inevitable third movie."
+    },
     {
       "title": "Only Lovers Left Alive",
       "link": "https://letterboxd.com/peruvianidol/film/only-lovers-left-alive/",
