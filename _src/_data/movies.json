@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-16T19:20:42.100Z",
+  "lastUpdated": "2025-07-20T05:29:13.651Z",
   "movies": [
+    {
+      "title": "Bring Her Back",
+      "link": "https://letterboxd.com/peruvianidol/film/bring-her-back/",
+      "watchedDate": "2025-07-19",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/6/2/7/1037627-bring-her-back-0-600-0-900-crop.jpg?v=defe1dae77",
+      "reviewText": "Well that was deeply disturbing. I’ve seen some shit but this movie had me looking away at several points. Buncha fuckin’ sickos made this movie and I kinda loved it. Sally Hawkins is great, though I will never be able to watch her in anything else and not think of this movie. Sick fucks, I tell ya."
+    },
     {
       "title": "M3GAN 2.0",
       "link": "https://letterboxd.com/peruvianidol/film/m3gan-20/",
