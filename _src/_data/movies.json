@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-21T05:31:18.737Z",
+  "lastUpdated": "2025-07-21T16:32:39.505Z",
   "movies": [
+    {
+      "title": "Tremors",
+      "link": "https://letterboxd.com/peruvianidol/film/tremors/",
+      "watchedDate": "2025-07-21",
+      "filmYear": "1990",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/as/zy/qv/ft/aC2wOckYHkLi9usARIfqR51OFV9-0-600-0-900-crop.jpg?v=71c5d815d7",
+      "reviewText": "Haven’t seen this in ages but it’s fun as hell. Great chemistry between Kevin Bacon and Fred Ward, clever use of practical effects, and some delightful Raimi-esque shots. A perfect blend of comedy and creature horror. Sad that we’ll never see a movie where Fred Ward plays Jon Bernthal’s dad."
+    },
     {
       "title": "The Beach",
       "link": "https://letterboxd.com/peruvianidol/film/the-beach/",
