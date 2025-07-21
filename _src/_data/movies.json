@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-20T05:29:13.651Z",
+  "lastUpdated": "2025-07-21T05:31:18.737Z",
   "movies": [
+    {
+      "title": "The Beach",
+      "link": "https://letterboxd.com/peruvianidol/film/the-beach/",
+      "watchedDate": "2025-07-20",
+      "filmYear": "2000",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/6z/mc/fc/co/2FBMTpxVgsAQOFQRMDUkGRsfREC-0-600-0-900-crop.jpg?v=f05b133c0d",
+      "reviewText": "Imagine being so entitled to think you could just take up residence on the other side of a Thai island inhabited by armed weed farmers without consequences. Anyway, I missed this when it came out and only recently realized it was a Boyle/Garland joint. And much like Sunshine and, to a lesser extent, 28 Days/Years Later, it starts off with a strong premise before going completely off the rails. Leo and Tilda had not quite reached their primes but still made this highly watchable, even if it’s kind of a mess. Everything held up pretty well except the internet cafe filled with iMacs with their default homepage set to Excite."
+    },
     {
       "title": "Bring Her Back",
       "link": "https://letterboxd.com/peruvianidol/film/bring-her-back/",
