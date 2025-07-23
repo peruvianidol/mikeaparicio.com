@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-21T16:32:39.505Z",
+  "lastUpdated": "2025-07-23T06:38:06.132Z",
   "movies": [
+    {
+      "title": "Vanishing Point",
+      "link": "https://letterboxd.com/peruvianidol/film/vanishing-point/",
+      "watchedDate": "2025-07-23",
+      "filmYear": "1971",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/4/8/5/7/44857-vanishing-point-0-600-0-900-crop.jpg?v=3bb5b41b70",
+      "reviewText": "This movie is a real vibe. The first half is great — mostly driving with an occasional flashback to a time Kowalski saw a titty — but the more people talked, the less I enjoyed it. This movie feels like it had a lot to say but I’m not sure I got it. Great cinematography. Lots of wide angle shots of the desert and mountains. I imagine this was pretty influential, with shades of Blues Brothers, Mad Max, Drive, and even Do the Right Thing. Also, Charlotte Rampling. Wowsa."
+    },
     {
       "title": "Tremors",
       "link": "https://letterboxd.com/peruvianidol/film/tremors/",
