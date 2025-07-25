@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-25T16:32:01.528Z",
+  "lastUpdated": "2025-07-25T20:27:38.017Z",
   "movies": [
+    {
+      "title": "Happy Gilmore 2",
+      "link": "https://letterboxd.com/peruvianidol/film/happy-gilmore-2/",
+      "watchedDate": "2025-07-25",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/7/3/7/1/1147371-happy-gilmore-2-0-600-0-900-crop.jpg?v=43c978d784",
+      "reviewText": "There’s no reason for this sequel to exist besides the fact that Netflix dropped a boatload of money on Sandler. Despite that, this movie is a ton of fun. The plot is even thinner than the first but the sheer amount of jokes and cameos keep things interesting. Nearly all of the characters from 30 years ago make an appearance in some way (even the dead ones) and nearly all of them have offspring perfect for stunt casting. If, like me, you watched the original a bunch of times on VHS or cable TV in college, you’ll get a kick out of this."
+    },
     {
       "title": "Mississippi Burning",
       "link": "https://letterboxd.com/peruvianidol/film/mississippi-burning/",
