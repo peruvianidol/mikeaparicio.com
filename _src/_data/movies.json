@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-25T20:27:38.017Z",
+  "lastUpdated": "2025-07-27T05:29:43.363Z",
   "movies": [
+    {
+      "title": "Prince of Darkness",
+      "link": "https://letterboxd.com/peruvianidol/film/prince-of-darkness/",
+      "watchedDate": "2025-07-26",
+      "filmYear": "1987",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/5/6/9/47569-prince-of-darkness-0-600-0-900-crop.jpg?v=eb511413db",
+      "reviewText": "Sorry but I just don’t find a bunch of grad students in khaki pants all that scary. This is one of Carpenter’s 80s movies that I somehow missed. Feels like a mashup of some of his previous work. The first hour is dreadfully dull but once the juice is loose, so to speak, things get interesting with some fun body horror and practical effects. This movie could explain why evangelicals are so opposed to higher education."
+    },
     {
       "title": "Happy Gilmore 2",
       "link": "https://letterboxd.com/peruvianidol/film/happy-gilmore-2/",
