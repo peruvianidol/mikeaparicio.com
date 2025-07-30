@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-27T05:29:43.363Z",
+  "lastUpdated": "2025-07-30T21:24:49.003Z",
   "movies": [
+    {
+      "title": "The Counselor",
+      "link": "https://letterboxd.com/peruvianidol/film/the-counselor/",
+      "watchedDate": "2025-07-30",
+      "filmYear": "2013",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/7/6/8/5/87685-the-counselor-0-600-0-900-crop.jpg?v=676ccd66bd",
+      "reviewText": "Some things are greater than the sum of their parts. The Counselor is, well, the opposite of that. On paper, a Ridley Scott film written by Cormac McCarthy and starring this A-List cast seems like a sure fire hit. But what we get instead is a bunch of memorable scenes intercut with lots of talk about sex, and not in an interesting way. Half of the characters are like something out of a GTA game and the dialogue is so heavy-handed it doesn’t make sense coming out of these characters, even when it’s delivered by great actors. The whole thing adds up to very little because it seems the characters fall victim to their own actions which are only alluded to during the course of the movie, and their fates don’t really feel justified based on the plot of the movie. It’s just all so very random. But damn, Checkov’s Bolito."
+    },
     {
       "title": "Prince of Darkness",
       "link": "https://letterboxd.com/peruvianidol/film/prince-of-darkness/",
