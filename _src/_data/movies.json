@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-07-30T21:24:49.003Z",
+  "lastUpdated": "2025-08-02T05:27:33.300Z",
   "movies": [
+    {
+      "title": "The Naked Gun: From the Files of Police Squad!",
+      "link": "https://letterboxd.com/peruvianidol/film/the-naked-gun-from-the-files-of-police-squad/",
+      "watchedDate": "2025-08-02",
+      "filmYear": "1988",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/7/2/8/4/27284-the-naked-gun-0-600-0-900-crop.jpg?v=7f848fb394",
+      "reviewText": "One of my all-time favorite comedies. I’ve probably seen it dozens of times, though not for many years. It still holds up, with jokes and gags coming at such a dizzying pace it seems like you pick up something new each time you watch it. Nielsen is so great, delivering even the dumbest of lines with deadpan gravitas. Even though I haven’t seen this in forever I was still able to remember damn near every line."
+    },
     {
       "title": "The Counselor",
       "link": "https://letterboxd.com/peruvianidol/film/the-counselor/",
