@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-02T06:34:49.034Z",
+  "lastUpdated": "2025-08-03T06:35:29.206Z",
   "movies": [
+    {
+      "title": "Medium Cool",
+      "link": "https://letterboxd.com/peruvianidol/film/medium-cool/",
+      "watchedDate": "2025-08-02",
+      "filmYear": "1969",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/2/4/7/4/22474-medium-cool-0-600-0-900-crop.jpg?v=ed4aaaaae8",
+      "reviewText": "A fascinating time capsule of late 1960s Chicago, mixing documentary footage with actors and a narrative. I’m not sure the narrative part works, particularly the ending, but the idea is pretty bold. Highlights the city of Chicago with an authenticity few films have matched. Tracy Letts picked this in The Big Picture’s live Chicago movie draft, along with a few others I haven’t seen. Also stars Peter Bonerz. Great name."
+    },
     {
       "title": "The Naked Gun: From the Files of Police Squad!",
       "link": "https://letterboxd.com/peruvianidol/film/the-naked-gun-from-the-files-of-police-squad/",
