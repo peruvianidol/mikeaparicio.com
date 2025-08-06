@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-05T05:33:24.422Z",
+  "lastUpdated": "2025-08-06T04:07:38.011Z",
   "movies": [
+    {
+      "title": "Together",
+      "link": "https://letterboxd.com/peruvianidol/film/together-2025/",
+      "watchedDate": "2025-08-05",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/5/3/9/7/1125397-together-2025-0-600-0-900-crop.jpg?v=68e41bfaf3",
+      "reviewText": "Talk about the beast with two backs. Yikes."
+    },
     {
       "title": "House of Games",
       "link": "https://letterboxd.com/peruvianidol/film/house-of-games/",
