@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-06T04:07:38.011Z",
+  "lastUpdated": "2025-08-06T22:26:04.237Z",
   "movies": [
+    {
+      "title": "Tron",
+      "link": "https://letterboxd.com/peruvianidol/film/tron/",
+      "watchedDate": "2025-08-06",
+      "filmYear": "1982",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/x2/ki/kc/v5/cTF8lpXvAwT1SLH9kVFZZl0AO0D-0-600-0-900-crop.jpg?v=8ed1949fef",
+      "reviewText": "Haven’t seen this since I was a kid. The story is not that great but wow, it’s visually breathtaking even all these years later. Apparently this wasn’t nominated for any visual effects awards because they thought using computers was cheating? How quaint. Oddly prescient about the dangers of giving computers control and their applications for making ridiculous sums of money. Never saw the sequel but with the third coming I thought I’d revisit these."
+    },
     {
       "title": "Together",
       "link": "https://letterboxd.com/peruvianidol/film/together-2025/",
