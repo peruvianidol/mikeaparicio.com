@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-13T06:36:52.908Z",
+  "lastUpdated": "2025-08-13T23:22:56.163Z",
   "movies": [
+    {
+      "title": "TRON: Legacy",
+      "link": "https://letterboxd.com/peruvianidol/film/tron-legacy/",
+      "watchedDate": "2025-08-13",
+      "filmYear": "2010",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/8/9/5/7/38957-tron-legacy-0-600-0-900-crop.jpg?v=9452aea970",
+      "reviewText": "This sequel looks gorgeous but maybe a little too pristine. Part of the charm of the first Tron was that the effects were scrappy. The change makes sense thematically but is undercut by the jarring uncanny valley of Clu, a digitized and de-aged Jeff Bridges. They should have leaned more into the imperfection. The plot is pretty nonsensical, not that the first one was incredible either. Bridges seems like he’s in full Lebowski mode here minus the laughs. The music and the aesthetic really carry this, but also show the beginnings of a style that Kosinski would go on to hone in Oblivion, Top Gun: Maverick, and F1."
+    },
     {
       "title": "Weapons",
       "link": "https://letterboxd.com/peruvianidol/film/weapons-2025/",
