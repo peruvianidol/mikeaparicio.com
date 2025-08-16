@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-13T23:22:56.163Z",
+  "lastUpdated": "2025-08-16T22:22:12.319Z",
   "movies": [
+    {
+      "title": "Eddington",
+      "link": "https://letterboxd.com/peruvianidol/film/eddington/",
+      "watchedDate": "2025-08-16",
+      "filmYear": "2025",
+      "memberRating": "1.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/7/4/5/9/5/574595-eddington-0-600-0-900-crop.jpg?v=925abc6d9b",
+      "reviewText": "A frustratingly bad Coen Brothers ripoff. Tries to satirize the ridiculousness of conservatives and liberals alike during the height of the pandemic in such a ham-fisted way, it’s unclear what the movie is even trying to say. In the last 15 minutes things happen but it’s not entirely clear why or what any of it means. It’s wild that Pedro Pascal is in damn near everything this year but hardly in those things at the same time. Here again, like Materialists, he’s pretty much wasted."
+    },
     {
       "title": "TRON: Legacy",
       "link": "https://letterboxd.com/peruvianidol/film/tron-legacy/",
