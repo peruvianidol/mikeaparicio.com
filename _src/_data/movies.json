@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-16T22:22:12.319Z",
+  "lastUpdated": "2025-08-17T23:22:24.343Z",
   "movies": [
+    {
+      "title": "The Martian",
+      "link": "https://letterboxd.com/peruvianidol/film/the-martian/1/",
+      "watchedDate": "2025-08-17",
+      "filmYear": "2015",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/1/1/5/1/1/211511-the-martian-0-600-0-900-crop.jpg?v=71ca0c832e",
+      "reviewText": "Suggested this to my space-obsessed six-year-old and he loved it. He’s only ever seen Matt Damon as a stranded astronaut (Interstellar). Just a really solid story about human ingenuity which somehow feels quaint 10 years later. Incredibly deep cast and surprisingly funny. The climactic rescue is pretty thrilling!"
+    },
     {
       "title": "Eddington",
       "link": "https://letterboxd.com/peruvianidol/film/eddington/",
