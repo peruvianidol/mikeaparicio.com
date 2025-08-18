@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-17T23:22:24.343Z",
+  "lastUpdated": "2025-08-18T07:26:27.447Z",
   "movies": [
+    {
+      "title": "High and Low",
+      "link": "https://letterboxd.com/peruvianidol/film/high-and-low/",
+      "watchedDate": "2025-08-17",
+      "filmYear": "1963",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/do/zm/ur/ug/dgnyE40yWdI7gbaHmmB5yCCIVpI-0-600-0-900-crop.jpg?v=b0fd9f50fd",
+      "reviewText": "This movie surprised me at every turn. It starts as almost a stage play before turning into a full-on police procedural. It goes places both literally and figuratively that I wasn’t expecting. There are some extraordinary touches like a dash of color in an otherwise black and white movie, and the eerie reflection in the kidnapper’s sunglasses. The ending fell a little flat for me. I guess I’ve been conditioned by modern movies to expect big twist. It felt very Japanese. I can see why Spike’s remake is getting such tepid reviews. The bar is set pretty high here."
+    },
     {
       "title": "The Martian",
       "link": "https://letterboxd.com/peruvianidol/film/the-martian/1/",
