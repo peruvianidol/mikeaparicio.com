@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-18T07:26:27.447Z",
+  "lastUpdated": "2025-08-19T04:27:50.921Z",
   "movies": [
+    {
+      "title": "The Count of Monte Cristo",
+      "link": "https://letterboxd.com/peruvianidol/film/the-count-of-monte-cristo-2024/",
+      "watchedDate": "2025-08-18",
+      "filmYear": "2024",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/7/7/8/3/5/977835-the-count-of-monte-cristo-2024-0-600-0-900-crop.jpg?v=f72dd77674",
+      "reviewText": "I have to confess I’ve never read the book or seen any other adaptation — this movie slapped. Beautifully shot with amazing production design. Damn near three hours long though the pace is so brisk you just lose yourself in it. The machinations of the Count’s revenge are so diabolical I was giddy. The disguises require a bit of suspension of disbelief, but each one was great. Feels like it will reward rewatching. I’m curious now where this ranks among all the other versions. This one is great."
+    },
     {
       "title": "High and Low",
       "link": "https://letterboxd.com/peruvianidol/film/high-and-low/",
