@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-19T04:27:50.921Z",
+  "lastUpdated": "2025-08-20T05:23:03.072Z",
   "movies": [
+    {
+      "title": "The Count of Monte Cristo",
+      "link": "https://letterboxd.com/peruvianidol/film/the-count-of-monte-cristo-2002/",
+      "watchedDate": "2025-08-19",
+      "filmYear": "2002",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/3/7/2/45372-the-count-of-monte-cristo-0-600-0-900-crop.jpg?v=6b0dfe281a",
+      "reviewText": "Had I seen this version first I may have enjoyed the 2024 version a bit less. This version is considerably more streamlined and has a very Hollywood ending. However, I loved the relationship between Dantes and Luis Guzman’s Jacopo, who is present in the 2024 version but has no lines and the nature of their relationship is never mentioned. I also loved Richard Harris as Abbé Faria, much more playful in this version. Guy Pierce really chews up the scenery as the main target of Dante’s’ vengeance, while the other two are relegated to almost footnotes. Also 18-year-old Henry Cavill! This version is great in its own right. I’d say if you like this version and haven’t seen the 2024 one, they’re quite different in style and execution, you might enjoy it as well though."
+    },
     {
       "title": "The Count of Monte Cristo",
       "link": "https://letterboxd.com/peruvianidol/film/the-count-of-monte-cristo-2024/",
