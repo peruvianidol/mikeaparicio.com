@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-20T05:23:03.072Z",
+  "lastUpdated": "2025-08-21T04:27:52.861Z",
   "movies": [
+    {
+      "title": "The Fly",
+      "link": "https://letterboxd.com/peruvianidol/film/the-fly-1986/",
+      "watchedDate": "2025-08-20",
+      "filmYear": "1986",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/1/7/1/47171-the-fly-0-600-0-900-crop.jpg?v=30802b8573",
+      "reviewText": "Incredible body horror classic. Hadn’t seen it in ages. I forgot how utterly disturbing the last 10 minutes were. Goldblum is perfectly cast as a twitchy nerd fused with a fly, his subtle mannerisms getting more fly-like throughout. For a relatively short movie, it drags at times, particularly all of the 80s obsession dudes had with getting laid. Still, the practical effects are still pretty amazing. A remake these days would probably be all CG and lose all of the magic."
+    },
     {
       "title": "The Count of Monte Cristo",
       "link": "https://letterboxd.com/peruvianidol/film/the-count-of-monte-cristo-2002/",
