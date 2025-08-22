@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-21T04:27:52.861Z",
+  "lastUpdated": "2025-08-22T04:26:56.938Z",
   "movies": [
+    {
+      "title": "Barbarian",
+      "link": "https://letterboxd.com/peruvianidol/film/barbarian-2022/1/",
+      "watchedDate": "2025-08-21",
+      "filmYear": "2022",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/1/9/6/4/8/819648-barbarian-0-600-0-900-crop.jpg?v=75b067327a",
+      "reviewText": "How are you gonna set a film in Detroit and not put Tim Robinson in it? Revisited this after Weapons. It’s a solid debut and the first act is great but as it gets weirder it gets less interesting because it leaves less to your imagination."
+    },
     {
       "title": "The Fly",
       "link": "https://letterboxd.com/peruvianidol/film/the-fly-1986/",
