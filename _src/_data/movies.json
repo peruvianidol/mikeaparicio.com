@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-25T05:24:51.417Z",
+  "lastUpdated": "2025-08-27T04:27:37.645Z",
   "movies": [
+    {
+      "title": "The Naked Gun 2½: The Smell of Fear",
+      "link": "https://letterboxd.com/peruvianidol/film/the-naked-gun-2-the-smell-of-fear/",
+      "watchedDate": "2025-08-26",
+      "filmYear": "1991",
+      "memberRating": "1.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/7/2/8/3/27283-the-naked-gun-2-the-smell-of-fear-0-600-0-900-crop.jpg?v=678103403b",
+      "reviewText": "Even at 85 minutes this sequel is a slog to get through. I’m sure I’d seen this several times but almost none of it felt familiar. In fact, minutes after the credits rolled I’ve already forgotten most of it."
+    },
     {
       "title": "Eenie Meanie",
       "link": "https://letterboxd.com/peruvianidol/film/eenie-meanie/",
