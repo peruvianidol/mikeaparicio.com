@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-27T04:27:37.645Z",
+  "lastUpdated": "2025-08-29T01:48:07.034Z",
   "movies": [
+    {
+      "title": "Crimson Tide",
+      "link": "https://letterboxd.com/peruvianidol/film/crimson-tide/",
+      "watchedDate": "2025-08-28",
+      "filmYear": "1995",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/4/7/2/47472-crimson-tide-0-600-0-900-crop.jpg?v=07d0e0d0aa",
+      "reviewText": "Still holds up as one of the great submarine movies. Solid cast led by Denzel and Hackman, both doing their best work here, backed by a bunch of great character actors. Zimmer’s score is excellent, and Tony Scott’s flair for shooting action and tension is top notch. Even the lighting is awesome. This could have been released in 2025 and it would still be a banger."
+    },
     {
       "title": "The Naked Gun 2½: The Smell of Fear",
       "link": "https://letterboxd.com/peruvianidol/film/the-naked-gun-2-the-smell-of-fear/",
