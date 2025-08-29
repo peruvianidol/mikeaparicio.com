@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-29T01:48:07.034Z",
+  "lastUpdated": "2025-08-29T06:33:15.673Z",
   "movies": [
+    {
+      "title": "See No Evil, Hear No Evil",
+      "link": "https://letterboxd.com/peruvianidol/film/see-no-evil-hear-no-evil/",
+      "watchedDate": "2025-08-29",
+      "filmYear": "1989",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/5/2/4/45524-see-no-evil-hear-no-evil-0-600-0-900-crop.jpg?v=584bce1c6c",
+      "reviewText": "A cable staple when I was a teenager. Loved the chemistry between Wilder and Pryor. No one else could probably pull off this premise. Joan Severance was also formative to young Mike. 😅 Happy to say this movie still tickles me, even if some of the humor hasn’t aged well. This is like watching Magic and Larry Bird in their prime. But also, Kevin Spacey is in this?"
+    },
     {
       "title": "Crimson Tide",
       "link": "https://letterboxd.com/peruvianidol/film/crimson-tide/",
