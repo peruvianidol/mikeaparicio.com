@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-08-30T04:25:30.384Z",
+  "lastUpdated": "2025-08-31T06:31:05.673Z",
   "movies": [
+    {
+      "title": "Unknown Number: The High School Catfish",
+      "link": "https://letterboxd.com/peruvianidol/film/unknown-number-the-high-school-catfish/",
+      "watchedDate": "2025-08-31",
+      "filmYear": "2025",
+      "memberRating": "0.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/9/3/7/7/5/1393775-unknown-number-the-high-school-catfish-0-600-0-900-crop.jpg?v=2ca7cc0cd5",
+      "reviewText": "I hated every minute of this. It’s supposed to be a huge shock who the culprit is but it felt pretty obvious they wouldn’t make a documentary about it if it were anyone else. I felt bad for the kids involved and this makes me want to never get my kids a phone. Thanks for nothing to Dave who suggested we watch this."
+    },
     {
       "title": "Malice",
       "link": "https://letterboxd.com/peruvianidol/film/malice/",
