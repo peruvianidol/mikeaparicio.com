@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-09-01T17:18:20.611Z",
+  "lastUpdated": "2025-09-06T04:25:11.752Z",
   "movies": [
+    {
+      "title": "Duplicity",
+      "link": "https://letterboxd.com/peruvianidol/film/duplicity/",
+      "watchedDate": "2025-09-05",
+      "filmYear": "2009",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/1/4/9/9/41499-duplicity-0-600-0-900-crop.jpg?v=025797a93a",
+      "reviewText": "Tony Gilroy’s follow-up to Michael Clayton is a fun romp but feels like watered-down Soderbergh. As much as I love Clive Owen, I couldn’t help think while watching this that Clooney was Gilroy’s first choice to play opposite Julia Roberts but was otherwise busy. The premise is great and anytime Paul Giamatti or Tom Wilkinson are on screen they cooked. Didn’t love the ending but it did subvert my expectations."
+    },
     {
       "title": "We're No Angels",
       "link": "https://letterboxd.com/peruvianidol/film/were-no-angels-1989/",
