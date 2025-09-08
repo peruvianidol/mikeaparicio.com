@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-09-06T04:25:11.752Z",
+  "lastUpdated": "2025-09-08T01:50:55.851Z",
   "movies": [
+    {
+      "title": "K-19: The Widowmaker",
+      "link": "https://letterboxd.com/peruvianidol/film/k-19-the-widowmaker/",
+      "watchedDate": "2025-09-07",
+      "filmYear": "2002",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/1v/ap/w8/1z/5JxDeglx5aLaXgkutINmkeOujXa-0-600-0-900-crop.jpg?v=48779317b9",
+      "reviewText": "Of all the submarine movies, K-19 is one of them. A mix of Crimson Tide and Chernobyl, but never reaches the highs of either of those. Harrison Ford and Liam Neeson are so subdued in this, but maybe that’s just them emulating Russian culture with their rough Russian accents. When the two meet some 25 years after the events of the film, their makeup makes them look even older than they do in real life, where nearly the same amount of time has passed since this was filmed. You can definitely pick up on some of the themes Bigelow explored in movies like Point Break and The Hurt Locker, but overall this is a pretty forgettable exercise."
+    },
     {
       "title": "Duplicity",
       "link": "https://letterboxd.com/peruvianidol/film/duplicity/",
