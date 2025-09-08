@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-09-08T01:50:55.851Z",
+  "lastUpdated": "2025-09-08T12:49:38.110Z",
   "movies": [
+    {
+      "title": "Possession",
+      "link": "https://letterboxd.com/peruvianidol/film/possession/",
+      "watchedDate": "2025-09-08",
+      "filmYear": "1981",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/8c/pk/z8/4v/aIjO3kraeaD4MDBSef3rTO2vIuZ-0-600-0-900-crop.jpg?v=cb9f332628",
+      "reviewText": "This movie is completely unhinged with The Room-level acting and writing. Some interesting cinematography and a wild climax but ultimately not a very enjoyable watch."
+    },
     {
       "title": "K-19: The Widowmaker",
       "link": "https://letterboxd.com/peruvianidol/film/k-19-the-widowmaker/",
