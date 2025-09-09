@@ -1,6 +1,951 @@
 {
-  "lastUpdated": "2025-05-08T04:28:27.231Z",
+  "lastUpdated": "2025-09-08T12:49:38.110Z",
   "movies": [
+    {
+      "title": "Possession",
+      "link": "https://letterboxd.com/peruvianidol/film/possession/",
+      "watchedDate": "2025-09-08",
+      "filmYear": "1981",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/8c/pk/z8/4v/aIjO3kraeaD4MDBSef3rTO2vIuZ-0-600-0-900-crop.jpg?v=cb9f332628",
+      "reviewText": "This movie is completely unhinged with The Room-level acting and writing. Some interesting cinematography and a wild climax but ultimately not a very enjoyable watch."
+    },
+    {
+      "title": "K-19: The Widowmaker",
+      "link": "https://letterboxd.com/peruvianidol/film/k-19-the-widowmaker/",
+      "watchedDate": "2025-09-07",
+      "filmYear": "2002",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/1v/ap/w8/1z/5JxDeglx5aLaXgkutINmkeOujXa-0-600-0-900-crop.jpg?v=48779317b9",
+      "reviewText": "Of all the submarine movies, K-19 is one of them. A mix of Crimson Tide and Chernobyl, but never reaches the highs of either of those. Harrison Ford and Liam Neeson are so subdued in this, but maybe that’s just them emulating Russian culture with their rough Russian accents. When the two meet some 25 years after the events of the film, their makeup makes them look even older than they do in real life, where nearly the same amount of time has passed since this was filmed. You can definitely pick up on some of the themes Bigelow explored in movies like Point Break and The Hurt Locker, but overall this is a pretty forgettable exercise."
+    },
+    {
+      "title": "Duplicity",
+      "link": "https://letterboxd.com/peruvianidol/film/duplicity/",
+      "watchedDate": "2025-09-05",
+      "filmYear": "2009",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/1/4/9/9/41499-duplicity-0-600-0-900-crop.jpg?v=025797a93a",
+      "reviewText": "Tony Gilroy’s follow-up to Michael Clayton is a fun romp but feels like watered-down Soderbergh. As much as I love Clive Owen, I couldn’t help think while watching this that Clooney was Gilroy’s first choice to play opposite Julia Roberts but was otherwise busy. The premise is great and anytime Paul Giamatti or Tom Wilkinson are on screen they cooked. Didn’t love the ending but it did subvert my expectations."
+    },
+    {
+      "title": "We're No Angels",
+      "link": "https://letterboxd.com/peruvianidol/film/were-no-angels-1989/",
+      "watchedDate": "2025-09-01",
+      "filmYear": "1989",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/8/5/2/8/48528-we-re-no-angels-0-600-0-900-crop.jpg?v=d911e1322a",
+      "reviewText": "Around the time this came out on cable I used to watch it all the time. It’s a goofy premise (which I only now learned was written by David Mamet, of all people) but DeNiro and Penn really sell it. DeNiro with his entire range of facial expressions and Penn with his earnestness. There’s also a spunky young Demi Moore, John C Reilly doing his thing, and Wallace Shawn. It’s almost cartoonishly silly, but it still tickled me all these years later."
+    },
+    {
+      "title": "Unknown Number: The High School Catfish",
+      "link": "https://letterboxd.com/peruvianidol/film/unknown-number-the-high-school-catfish/",
+      "watchedDate": "2025-08-31",
+      "filmYear": "2025",
+      "memberRating": "0.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/9/3/7/7/5/1393775-unknown-number-the-high-school-catfish-0-600-0-900-crop.jpg?v=2ca7cc0cd5",
+      "reviewText": "I hated every minute of this. It’s supposed to be a huge shock who the culprit is but it felt pretty obvious they wouldn’t make a documentary about it if it were anyone else. I felt bad for the kids involved and this makes me want to never get my kids a phone. Thanks for nothing to Dave who suggested we watch this."
+    },
+    {
+      "title": "Malice",
+      "link": "https://letterboxd.com/peruvianidol/film/malice/",
+      "watchedDate": "2025-08-29",
+      "filmYear": "1993",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/q1/5c/hb/qp/gyWTdehNMfZmU7pUpuKamNE0YeW-0-600-0-900-crop.jpg?v=934b7adf22",
+      "reviewText": "I remember seeing this on opening night in a sold out theater, an impressionable 18-year-old, barely a month into my freshman year in college. I had never seen anything like it. Years later it’s obvious the movies that influenced it, but to mention them here would spoil the surprises. Suffice it to say, this movie still slaps. I love it unapologetically. The central cast is great, including an all-time monologue from Alec Baldwin about his “god complex.” Lots of great supporting actors pop up, including Anne Bancroft and a 21-year-old Gwenyth Paltrow. Also, I was shocked to learn it was co-written by Aaron Sorkin! When the final twist was revealed, I cackled out loud and it brought me back to that packed college theater where everyone was hooting and hollering."
+    },
+    {
+      "title": "Naked Gun 33⅓: The Final Insult",
+      "link": "https://letterboxd.com/peruvianidol/film/naked-gun-33-the-final-insult/",
+      "watchedDate": "2025-08-29",
+      "filmYear": "1994",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/7/7/7/5/27775-naked-gun-33-the-final-insult-0-600-0-900-crop.jpg?v=374b865724",
+      "reviewText": "Certainly the horniest Naked Gun, if not the funniest. The opening spoof of the train station scene in The Untouchables is funnier than anything in Naked Gun 2. Lots of funny bits around Frank and Jane’s relationship. Fred Ward is having a blast hamming it up as the villain. As with the rest of the series, some of the jokes didn’t age well, but this one had me laughing out loud quite a bit."
+    },
+    {
+      "title": "See No Evil, Hear No Evil",
+      "link": "https://letterboxd.com/peruvianidol/film/see-no-evil-hear-no-evil/",
+      "watchedDate": "2025-08-29",
+      "filmYear": "1989",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/5/2/4/45524-see-no-evil-hear-no-evil-0-600-0-900-crop.jpg?v=584bce1c6c",
+      "reviewText": "A cable staple when I was a teenager. Loved the chemistry between Wilder and Pryor. No one else could probably pull off this premise. Joan Severance was also formative to young Mike. 😅 Happy to say this movie still tickles me, even if some of the humor hasn’t aged well. This is like watching Magic and Larry Bird in their prime. But also, Kevin Spacey is in this?"
+    },
+    {
+      "title": "Crimson Tide",
+      "link": "https://letterboxd.com/peruvianidol/film/crimson-tide/",
+      "watchedDate": "2025-08-28",
+      "filmYear": "1995",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/4/7/2/47472-crimson-tide-0-600-0-900-crop.jpg?v=07d0e0d0aa",
+      "reviewText": "Still holds up as one of the great submarine movies. Solid cast led by Denzel and Hackman, both doing their best work here, backed by a bunch of great character actors. Zimmer’s score is excellent, and Tony Scott’s flair for shooting action and tension is top notch. Even the lighting is awesome. This could have been released in 2025 and it would still be a banger."
+    },
+    {
+      "title": "The Naked Gun 2½: The Smell of Fear",
+      "link": "https://letterboxd.com/peruvianidol/film/the-naked-gun-2-the-smell-of-fear/",
+      "watchedDate": "2025-08-26",
+      "filmYear": "1991",
+      "memberRating": "1.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/7/2/8/3/27283-the-naked-gun-2-the-smell-of-fear-0-600-0-900-crop.jpg?v=678103403b",
+      "reviewText": "Even at 85 minutes this sequel is a slog to get through. I’m sure I’d seen this several times but almost none of it felt familiar. In fact, minutes after the credits rolled I’ve already forgotten most of it."
+    },
+    {
+      "title": "Eenie Meanie",
+      "link": "https://letterboxd.com/peruvianidol/film/eenie-meanie/",
+      "watchedDate": "2025-08-25",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/5/8/0/1037580-eenie-meanie-0-600-0-900-crop.jpg?v=58370b6070",
+      "reviewText": "Great premise, some fun car chases, loved the Elmore Leonard-ness of the script but I just couldn’t buy the central relationship. I don’t know if the guy was just miscast or was poorly written but yikes. Samara Weaving is great and it’s always nice when Andy Garcia and Marshawn Lynch pop up. The way things played out just didn’t work for me."
+    },
+    {
+      "title": "F1",
+      "link": "https://letterboxd.com/peruvianidol/film/f1/1/",
+      "watchedDate": "2025-08-22",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/1/7/9/7/7/817977-f1-the-movie-0-600-0-900-crop.jpg?v=f5ae2b99b9",
+      "reviewText": "Still thrilling the second time around. The cinematography on and inside the cars is wild. They’re not just static either, they pan seamlessly from the road ahead to the driver’s face. Love Zimmer’s score too. There’s not a ton in this movie that’s not racing. Maybe that’s to the detriment of the characters but even if you’re not into racing you still get a thrill watching the characters try and win."
+    },
+    {
+      "title": "Barbarian",
+      "link": "https://letterboxd.com/peruvianidol/film/barbarian-2022/1/",
+      "watchedDate": "2025-08-21",
+      "filmYear": "2022",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/1/9/6/4/8/819648-barbarian-0-600-0-900-crop.jpg?v=75b067327a",
+      "reviewText": "How are you gonna set a film in Detroit and not put Tim Robinson in it? Revisited this after Weapons. It’s a solid debut and the first act is great but as it gets weirder it gets less interesting because it leaves less to your imagination."
+    },
+    {
+      "title": "The Fly",
+      "link": "https://letterboxd.com/peruvianidol/film/the-fly-1986/",
+      "watchedDate": "2025-08-20",
+      "filmYear": "1986",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/1/7/1/47171-the-fly-0-600-0-900-crop.jpg?v=30802b8573",
+      "reviewText": "Incredible body horror classic. Hadn’t seen it in ages. I forgot how utterly disturbing the last 10 minutes were. Goldblum is perfectly cast as a twitchy nerd fused with a fly, his subtle mannerisms getting more fly-like throughout. For a relatively short movie, it drags at times, particularly all of the 80s obsession dudes had with getting laid. Still, the practical effects are still pretty amazing. A remake these days would probably be all CG and lose all of the magic."
+    },
+    {
+      "title": "The Count of Monte Cristo",
+      "link": "https://letterboxd.com/peruvianidol/film/the-count-of-monte-cristo-2002/",
+      "watchedDate": "2025-08-19",
+      "filmYear": "2002",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/3/7/2/45372-the-count-of-monte-cristo-0-600-0-900-crop.jpg?v=6b0dfe281a",
+      "reviewText": "Had I seen this version first I may have enjoyed the 2024 version a bit less. This version is considerably more streamlined and has a very Hollywood ending. However, I loved the relationship between Dantes and Luis Guzman’s Jacopo, who is present in the 2024 version but has no lines and the nature of their relationship is never mentioned. I also loved Richard Harris as Abbé Faria, much more playful in this version. Guy Pierce really chews up the scenery as the main target of Dante’s’ vengeance, while the other two are relegated to almost footnotes. Also 18-year-old Henry Cavill! This version is great in its own right. I’d say if you like this version and haven’t seen the 2024 one, they’re quite different in style and execution, you might enjoy it as well though."
+    },
+    {
+      "title": "The Count of Monte Cristo",
+      "link": "https://letterboxd.com/peruvianidol/film/the-count-of-monte-cristo-2024/",
+      "watchedDate": "2025-08-18",
+      "filmYear": "2024",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/7/7/8/3/5/977835-the-count-of-monte-cristo-2024-0-600-0-900-crop.jpg?v=f72dd77674",
+      "reviewText": "I have to confess I’ve never read the book or seen any other adaptation — this movie slapped. Beautifully shot with amazing production design. Damn near three hours long though the pace is so brisk you just lose yourself in it. The machinations of the Count’s revenge are so diabolical I was giddy. The disguises require a bit of suspension of disbelief, but each one was great. Feels like it will reward rewatching. I’m curious now where this ranks among all the other versions. This one is great."
+    },
+    {
+      "title": "High and Low",
+      "link": "https://letterboxd.com/peruvianidol/film/high-and-low/",
+      "watchedDate": "2025-08-17",
+      "filmYear": "1963",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/do/zm/ur/ug/dgnyE40yWdI7gbaHmmB5yCCIVpI-0-600-0-900-crop.jpg?v=b0fd9f50fd",
+      "reviewText": "This movie surprised me at every turn. It starts as almost a stage play before turning into a full-on police procedural. It goes places both literally and figuratively that I wasn’t expecting. There are some extraordinary touches like a dash of color in an otherwise black and white movie, and the eerie reflection in the kidnapper’s sunglasses. The ending fell a little flat for me. I guess I’ve been conditioned by modern movies to expect big twist. It felt very Japanese. I can see why Spike’s remake is getting such tepid reviews. The bar is set pretty high here."
+    },
+    {
+      "title": "The Martian",
+      "link": "https://letterboxd.com/peruvianidol/film/the-martian/1/",
+      "watchedDate": "2025-08-17",
+      "filmYear": "2015",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/1/1/5/1/1/211511-the-martian-0-600-0-900-crop.jpg?v=71ca0c832e",
+      "reviewText": "Suggested this to my space-obsessed six-year-old and he loved it. He’s only ever seen Matt Damon as a stranded astronaut (Interstellar). Just a really solid story about human ingenuity which somehow feels quaint 10 years later. Incredibly deep cast and surprisingly funny. The climactic rescue is pretty thrilling!"
+    },
+    {
+      "title": "Eddington",
+      "link": "https://letterboxd.com/peruvianidol/film/eddington/",
+      "watchedDate": "2025-08-16",
+      "filmYear": "2025",
+      "memberRating": "1.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/7/4/5/9/5/574595-eddington-0-600-0-900-crop.jpg?v=925abc6d9b",
+      "reviewText": "A frustratingly bad Coen Brothers ripoff. Tries to satirize the ridiculousness of conservatives and liberals alike during the height of the pandemic in such a ham-fisted way, it’s unclear what the movie is even trying to say. In the last 15 minutes things happen but it’s not entirely clear why or what any of it means. It’s wild that Pedro Pascal is in damn near everything this year but hardly in those things at the same time. Here again, like Materialists, he’s pretty much wasted."
+    },
+    {
+      "title": "TRON: Legacy",
+      "link": "https://letterboxd.com/peruvianidol/film/tron-legacy/",
+      "watchedDate": "2025-08-13",
+      "filmYear": "2010",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/8/9/5/7/38957-tron-legacy-0-600-0-900-crop.jpg?v=9452aea970",
+      "reviewText": "This sequel looks gorgeous but maybe a little too pristine. Part of the charm of the first Tron was that the effects were scrappy. The change makes sense thematically but is undercut by the jarring uncanny valley of Clu, a digitized and de-aged Jeff Bridges. They should have leaned more into the imperfection. The plot is pretty nonsensical, not that the first one was incredible either. Bridges seems like he’s in full Lebowski mode here minus the laughs. The music and the aesthetic really carry this, but also show the beginnings of a style that Kosinski would go on to hone in Oblivion, Top Gun: Maverick, and F1."
+    },
+    {
+      "title": "Weapons",
+      "link": "https://letterboxd.com/peruvianidol/film/weapons-2025/",
+      "watchedDate": "2025-08-12",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-600-0-900-crop.jpg?v=8100270337",
+      "reviewText": "Went to a SOLD OUT screening on a Tuesday night. I can’t remember the last time I was at a sold out show, much less on a Tuesday. An incredible communal experience seldom had anymore. This movie is remarkable. Easily my favorite horror movie in ages. I can’t say much without spoiling it but suffice it to say, you should check this out in the theater while you can. Great cast, darkly funny and plays on so many of our current phobias in a really effective way. My jaw was on the floor as the credits rolled. If it wasn’t the last show I may have gotten right back in line for another ticket."
+    },
+    {
+      "title": "Tron",
+      "link": "https://letterboxd.com/peruvianidol/film/tron/",
+      "watchedDate": "2025-08-06",
+      "filmYear": "1982",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/x2/ki/kc/v5/cTF8lpXvAwT1SLH9kVFZZl0AO0D-0-600-0-900-crop.jpg?v=8ed1949fef",
+      "reviewText": "Haven’t seen this since I was a kid. The story is not that great but wow, it’s visually breathtaking even all these years later. Apparently this wasn’t nominated for any visual effects awards because they thought using computers was cheating? How quaint. Oddly prescient about the dangers of giving computers control and their applications for making ridiculous sums of money. Never saw the sequel but with the third coming I thought I’d revisit these."
+    },
+    {
+      "title": "Together",
+      "link": "https://letterboxd.com/peruvianidol/film/together-2025/",
+      "watchedDate": "2025-08-05",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/5/3/9/7/1125397-together-2025-0-600-0-900-crop.jpg?v=68e41bfaf3",
+      "reviewText": "Talk about the beast with two backs. Yikes."
+    },
+    {
+      "title": "House of Games",
+      "link": "https://letterboxd.com/peruvianidol/film/house-of-games/",
+      "watchedDate": "2025-08-04",
+      "filmYear": "1987",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/qc/1d/pf/nz/6JfcymnGizEerV0X3wfdOwO0gmA-0-600-0-900-crop.jpg?v=05aea89392",
+      "reviewText": "A slow burn with really stilted dialog but, boy, when this thing gets going it’s great. Kept me guessing until the end."
+    },
+    {
+      "title": "Medium Cool",
+      "link": "https://letterboxd.com/peruvianidol/film/medium-cool/",
+      "watchedDate": "2025-08-02",
+      "filmYear": "1969",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/2/4/7/4/22474-medium-cool-0-600-0-900-crop.jpg?v=ed4aaaaae8",
+      "reviewText": "A fascinating time capsule of late 1960s Chicago, mixing documentary footage with actors and a narrative. I’m not sure the narrative part works, particularly the ending, but the idea is pretty bold. Highlights the city of Chicago with an authenticity few films have matched. Tracy Letts picked this in The Big Picture’s live Chicago movie draft, along with a few others I haven’t seen. Also stars Peter Bonerz. Great name."
+    },
+    {
+      "title": "The Naked Gun: From the Files of Police Squad!",
+      "link": "https://letterboxd.com/peruvianidol/film/the-naked-gun-from-the-files-of-police-squad/",
+      "watchedDate": "2025-08-02",
+      "filmYear": "1988",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/7/2/8/4/27284-the-naked-gun-0-600-0-900-crop.jpg?v=7f848fb394",
+      "reviewText": "One of my all-time favorite comedies. I’ve probably seen it dozens of times, though not for many years. It still holds up, with jokes and gags coming at such a dizzying pace it seems like you pick up something new each time you watch it. Nielsen is so great, delivering even the dumbest of lines with deadpan gravitas. Even though I haven’t seen this in forever I was still able to remember damn near every line."
+    },
+    {
+      "title": "The Naked Gun",
+      "link": "https://letterboxd.com/peruvianidol/film/the-naked-gun/",
+      "watchedDate": "2025-08-01",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/3/3/3/8/1/933381-the-naked-gun-0-600-0-900-crop.jpg?v=6acd6cd210",
+      "reviewText": "Pales in comparison to the original. Even though it’s roughly the same runtime, it seems like it only lasted an hour. Neeson is inspired casting, especially if you’ve seen him on Life’s Too Short, but the script doesn’t give him much to work with. Pamela Anderson is also great, she really goes for it. I almost wish this were longer so we could get more Paul Walter Hauser as Drebin’s partner. There’s definitely some funny moments but I’d be hard pressed to recall any great lines, even less than an hour after getting out of the theater. This movie somehow made me reassess my rating of Happy Gilmore 2."
+    },
+    {
+      "title": "The Counselor",
+      "link": "https://letterboxd.com/peruvianidol/film/the-counselor/",
+      "watchedDate": "2025-07-30",
+      "filmYear": "2013",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/7/6/8/5/87685-the-counselor-0-600-0-900-crop.jpg?v=676ccd66bd",
+      "reviewText": "Some things are greater than the sum of their parts. The Counselor is, well, the opposite of that. On paper, a Ridley Scott film written by Cormac McCarthy and starring this A-List cast seems like a sure fire hit. But what we get instead is a bunch of memorable scenes intercut with lots of talk about sex, and not in an interesting way. Half of the characters are like something out of a GTA game and the dialogue is so heavy-handed it doesn’t make sense coming out of these characters, even when it’s delivered by great actors. The whole thing adds up to very little because it seems the characters fall victim to their own actions which are only alluded to during the course of the movie, and their fates don’t really feel justified based on the plot of the movie. It’s just all so very random. But damn, Checkov’s Bolito."
+    },
+    {
+      "title": "Prince of Darkness",
+      "link": "https://letterboxd.com/peruvianidol/film/prince-of-darkness/",
+      "watchedDate": "2025-07-26",
+      "filmYear": "1987",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/5/6/9/47569-prince-of-darkness-0-600-0-900-crop.jpg?v=eb511413db",
+      "reviewText": "Sorry but I just don’t find a bunch of grad students in khaki pants all that scary. This is one of Carpenter’s 80s movies that I somehow missed. Feels like a mashup of some of his previous work. The first hour is dreadfully dull but once the juice is loose, so to speak, things get interesting with some fun body horror and practical effects. This movie could explain why evangelicals are so opposed to higher education."
+    },
+    {
+      "title": "Happy Gilmore 2",
+      "link": "https://letterboxd.com/peruvianidol/film/happy-gilmore-2/",
+      "watchedDate": "2025-07-25",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/7/3/7/1/1147371-happy-gilmore-2-0-600-0-900-crop.jpg?v=43c978d784",
+      "reviewText": "There’s no reason for this sequel to exist besides the fact that Netflix dropped a boatload of money on Sandler. Despite that, this movie is a ton of fun. The plot is even thinner than the first but the sheer amount of jokes and cameos keep things interesting. Nearly all of the characters from 30 years ago make an appearance in some way (even the dead ones) and nearly all of them have offspring perfect for stunt casting. If, like me, you watched the original a bunch of times on VHS or cable TV in college, you’ll get a kick out of this."
+    },
+    {
+      "title": "Mississippi Burning",
+      "link": "https://letterboxd.com/peruvianidol/film/mississippi-burning/",
+      "watchedDate": "2025-07-25",
+      "filmYear": "1988",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/9/0/9/50909-mississippi-burning-0-600-0-900-crop.jpg?v=d5bd127e96",
+      "reviewText": "Near the end of Mississippi Burning, Willem Dafoe’s FBI Agent Ward says, “Anyone’s guilty who watches this happen and pretends it isn’t.” As tough as the movie is to watch, some degree of justice is served at the end. But sadly enough, the guilty are now in the highest offices, inflicting greater wounds on larger swaths of people that aren’t like them. This was made some thirty years after the events depicted and now, 60 years on we haven’t done much better. This might be up there for Hackman’s greatest roles. The antithesis of his character in Unforgiven. Dafoe is also great as his partner, and there’s a slew of “that guy” to be found on both sides of the law. This movie is near perfect if only it had given its black characters as much depth and dialogue as it does its white characters. It’s left up to a bunch of white FBI agents to save the day which, in retrospect, seems highly implausible."
+    },
+    {
+      "title": "The Fantastic Four: First Steps",
+      "link": "https://letterboxd.com/peruvianidol/film/the-fantastic-four-first-steps/",
+      "watchedDate": "2025-07-24",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/4/3/9/6/7/543967-the-fantastic-four-first-steps-0-600-0-900-crop.jpg?v=ab7c919b04",
+      "reviewText": "The bar for recent Marvel movies is pretty low, and even lower for Fantastic Four movies, so I was pleasantly surprised how much I enjoyed this. I loved the retro-future aesthetic (spotted one of Chicago’s iconic Marina Towers at one point) and the chemistry between all the members was great and believable. This is the first Marvel movie in forever where it didn’t feel like you needed to do homework to follow the story, and they weren’t adding a bunch of storylines to set up the next thing. There’s no glowing MacGuffin and the stakes are both high and personal. F4 definitely feels like a spiritual companion to this summer’s Superman, which is similarly colorful and hope-filled. But I’d feel more comfortable taking my 3- and 6-year-old to F4 than Superman, which has a few moments that are a little too mature for younger kids."
+    },
+    {
+      "title": "Vanishing Point",
+      "link": "https://letterboxd.com/peruvianidol/film/vanishing-point/",
+      "watchedDate": "2025-07-23",
+      "filmYear": "1971",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/4/8/5/7/44857-vanishing-point-0-600-0-900-crop.jpg?v=3bb5b41b70",
+      "reviewText": "This movie is a real vibe. The first half is great — mostly driving with an occasional flashback to a time Kowalski saw a titty — but the more people talked, the less I enjoyed it. This movie feels like it had a lot to say but I’m not sure I got it. Great cinematography. Lots of wide angle shots of the desert and mountains. I imagine this was pretty influential, with shades of Blues Brothers, Mad Max, Drive, and even Do the Right Thing. Also, Charlotte Rampling. Wowsa."
+    },
+    {
+      "title": "Tremors",
+      "link": "https://letterboxd.com/peruvianidol/film/tremors/",
+      "watchedDate": "2025-07-21",
+      "filmYear": "1990",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/as/zy/qv/ft/aC2wOckYHkLi9usARIfqR51OFV9-0-600-0-900-crop.jpg?v=71c5d815d7",
+      "reviewText": "Haven’t seen this in ages but it’s fun as hell. Great chemistry between Kevin Bacon and Fred Ward, clever use of practical effects, and some delightful Raimi-esque shots. A perfect blend of comedy and creature horror. Sad that we’ll never see a movie where Fred Ward plays Jon Bernthal’s dad."
+    },
+    {
+      "title": "The Beach",
+      "link": "https://letterboxd.com/peruvianidol/film/the-beach/",
+      "watchedDate": "2025-07-20",
+      "filmYear": "2000",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/6z/mc/fc/co/2FBMTpxVgsAQOFQRMDUkGRsfREC-0-600-0-900-crop.jpg?v=f05b133c0d",
+      "reviewText": "Imagine being so entitled to think you could just take up residence on the other side of a Thai island inhabited by armed weed farmers without consequences. Anyway, I missed this when it came out and only recently realized it was a Boyle/Garland joint. And much like Sunshine and, to a lesser extent, 28 Days/Years Later, it starts off with a strong premise before going completely off the rails. Leo and Tilda had not quite reached their primes but still made this highly watchable, even if it’s kind of a mess. Everything held up pretty well except the internet cafe filled with iMacs with their default homepage set to Excite."
+    },
+    {
+      "title": "Bring Her Back",
+      "link": "https://letterboxd.com/peruvianidol/film/bring-her-back/",
+      "watchedDate": "2025-07-19",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/6/2/7/1037627-bring-her-back-0-600-0-900-crop.jpg?v=defe1dae77",
+      "reviewText": "Well that was deeply disturbing. I’ve seen some shit but this movie had me looking away at several points. Buncha fuckin’ sickos made this movie and I kinda loved it. Sally Hawkins is great, though I will never be able to watch her in anything else and not think of this movie. Sick fucks, I tell ya."
+    },
+    {
+      "title": "M3GAN 2.0",
+      "link": "https://letterboxd.com/peruvianidol/film/m3gan-20/",
+      "watchedDate": "2025-07-16",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/6/5/8/8/5/965885-m3gan-20-0-600-0-900-crop.jpg?v=d2ea19cd5c",
+      "reviewText": "I had a great time with this. Goes full T2 with hilarious results. I was straight up cackling at several points. Not sure how they’ll be able to one up this for the inevitable third movie."
+    },
+    {
+      "title": "Only Lovers Left Alive",
+      "link": "https://letterboxd.com/peruvianidol/film/only-lovers-left-alive/",
+      "watchedDate": "2025-07-14",
+      "filmYear": "2013",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/5/6/3/114563-only-lovers-left-alive-0-600-0-900-crop.jpg?v=d6151d5d18",
+      "reviewText": "Loved this slow-burn, kinda punk rock vampire film. Exceptionally cool hanging out with Hiddleston and Swinton as an old vampire couple. Great supporting cast as well. Feels like a fresh take on the vampire genre, which is saying a lot in a year where Sinners came out. Haven’t seen a ton of Jarmusch’s films but what I have seen are usually a good hang and this is no exception."
+    },
+    {
+      "title": "The Phoenician Scheme",
+      "link": "https://letterboxd.com/peruvianidol/film/the-phoenician-scheme/",
+      "watchedDate": "2025-07-14",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/5/0/4/7/1025047-the-phoenician-scheme-0-600-0-900-crop.jpg?v=606059b69f",
+      "reviewText": "After Asteroid City I wasn’t sure I’d ever watch another Wes Anderson movie. His whole shtick of what I described in my review of that movie as “a bunch of (mostly) white famous people saying words in meticulously crafted shots” has worn pretty thin. But I found this to be pretty entertaining, largely thanks to the trio of actors in the lead roles, particularly Michael Cera, who steals every scene he’s in. There are several laugh out loud moments, even if the plot is completely nonsensical."
+    },
+    {
+      "title": "Perfect Days",
+      "link": "https://letterboxd.com/peruvianidol/film/perfect-days-2023/2/",
+      "watchedDate": "2025-07-12",
+      "filmYear": "2023",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/7/9/2/2/9/879229-perfect-days-0-600-0-900-crop.jpg?v=4ea80661fd",
+      "reviewText": "More like Perfect Movie, amirite? I, too, just want to read books, listen to tapes and not worry about the rise of fascism while I clean a toilet for the hundredth time this week."
+    },
+    {
+      "title": "The Batman",
+      "link": "https://letterboxd.com/peruvianidol/film/the-batman/3/",
+      "watchedDate": "2025-07-11",
+      "filmYear": "2022",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/4/8/9/1/4/348914-the-batman-0-600-0-900-crop.jpg?v=ec12a8b7ce",
+      "reviewText": "I was compelled to watch this after Superman. The Batman is the antithesis of modern superhero movies. I don’t know how they will incorporate Batman into Gunn’s new DCU but it almost certainly won’t be this Batman. Where Snyder seemingly took Superman into the dark, Gunn seems certain to bring Batman into the light. I miss when things could just be a thing and didn’t have to spawn endless sequels or crossover with every other IP owned by a megacorp. That said, I’m looking forward to The Batman 2. lol"
+    },
+    {
+      "title": "Superman",
+      "link": "https://letterboxd.com/peruvianidol/film/superman-2025/",
+      "watchedDate": "2025-07-10",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/5/7/0/5/0/957050-superman-2025-0-600-0-900-crop.jpg?v=54e41a55ff",
+      "reviewText": "I am admittedly not a DC comics guy. But Superman (1978) was one of the first movies I ever saw in the theater and it left a lasting impression on me. None of the Superman movies or shows since have come close to giving me that same sense of wonder. So my expectations going into James Gunn’s take were pretty low. And this is pretty much what I expected it to be. Lighter and more fun than the Snyder films, but overstuffed with characters and quips. There’s sooooo many characters here. From the room full of tech dweebs that work for Luthor to the staff of the Daily Planet, many of whom add little to the story outside of Lois (and Jimmy’s bizarre connection to Luthor). Corenswet strikes a great balance of earnestness and playfulness, and his chemistry with Brosnahan’s Lois worked well. But there was just so much other stuff going on. The nascent Justice League is shoehorned in to setup future DCU installments, only adding to the glut of characters. Not a bad movie by any stretch but it just felt like a missed opportunity to have a bigger take on what it means to be Superman in 2025, where having empathy is considered either “woke” or punk rock, depending on your perspective."
+    },
+    {
+      "title": "Heads of State",
+      "link": "https://letterboxd.com/peruvianidol/film/heads-of-state/",
+      "watchedDate": "2025-07-09",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/7/0/9/6/2/670962-heads-of-state-0-600-0-900-crop.jpg?v=96d524e0ea",
+      "reviewText": "Fun cast, terrible script. Some fun action scenes but, as Idris Elba says, “I prefer real cinema.”"
+    },
+    {
+      "title": "I'm Still Here",
+      "link": "https://letterboxd.com/peruvianidol/film/im-still-here-2024/",
+      "watchedDate": "2025-07-07",
+      "filmYear": "2024",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/0/1/6/7/1/901671-im-still-here-2024-0-600-0-900-crop.jpg?v=62be7ea503",
+      "reviewText": "A remarkable film. As Americans we like to think something like this could never happen here, but it already is. This film serves as a necessary and dire warning. Brave performance from Fernanda Torres, whose character Eunice says to the press, “I think it’s necessary to compensate the families, and do the most important thing, clarify and judge all crimes committed during the dictatorship. If that doesn’t happen, they will continue to be committed with impunity.” Hoping I live to see this happen in the U.S."
+    },
+    {
+      "title": "Lethal Weapon",
+      "link": "https://letterboxd.com/peruvianidol/film/lethal-weapon/",
+      "watchedDate": "2025-07-07",
+      "filmYear": "1987",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/zv/vc/5m/ax/mF2bTqJuxbZPeEJRIMrA2WeQVxu-0-600-0-900-crop.jpg?v=9b73046ce8",
+      "reviewText": "Not sure this 80s smash hit holds up very well. The action is ok but it’s really the chemistry between Glover (who was 10 years younger than I am now when he was “too old for this shit”) and Gibson that makes the movie. Gary Busey is woefully miscast as the lead henchman who dukes it out in a blurry mess of a hand-to-hand combat scene with Gibson in the climax. The plot is pretty incomprehensible, even by 80s standards. Some fun writing by Shane Black though not on the level of Kiss Kiss Bang Bang or The Nice Guys. Overall kind of a disappointing rewatch."
+    },
+    {
+      "title": "I'm Gonna Git You Sucka",
+      "link": "https://letterboxd.com/peruvianidol/film/im-gonna-git-you-sucka/",
+      "watchedDate": "2025-07-06",
+      "filmYear": "1988",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/1/2/6/6/41266-i-m-gonna-git-you-sucka-0-600-0-900-crop.jpg?v=e906d290bd",
+      "reviewText": "I’m Gonna Git You Sucka holds a special place in my heart. My best friend Eldridge, who passed away last year, introduced me to it in high school. My friends and I must have watched it dozens of times. Even all these years later I can practically recite the whole thing. Plus it paved the way for In Living Color, in which many of the cast here would go on to star. This is a brilliant spoof of blaxploitation films in the same vein as Airplane and The Naked Gun, and arguably as funny or funnier than either of those movies. Shoutout to legendary costume designer Ruth E. Carter, whose incredible work here adds so much to the humor."
+    },
+    {
+      "title": "Sneakers",
+      "link": "https://letterboxd.com/peruvianidol/film/sneakers/",
+      "watchedDate": "2025-07-05",
+      "filmYear": "1992",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/3/3/1/50331-sneakers-0-600-0-900-crop.jpg?v=c14544e0f1",
+      "reviewText": "In hindsight, Cosmo was right."
+    },
+    {
+      "title": "Waves",
+      "link": "https://letterboxd.com/peruvianidol/film/waves-2019/2/",
+      "watchedDate": "2025-07-04",
+      "filmYear": "2019",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/2/5/7/3/462573-waves-0-600-0-900-crop.jpg?v=5a8ec53acd",
+      "reviewText": "This movie still hits hard on my third watch several years after its release. I connected with it on so many levels — as a parent, a son, a husband. This is essentially two movies, one about a brother and the other about his sister, divided by a twist of fate. The two halves feel very different but vital to each other. The color in this film is so vibrant. The performances are exquisite and vulnerable, particularly the two young leads. I really wish this were available in 4K. This might be one of my all-time top 10 films."
+    },
+    {
+      "title": "Point Blank",
+      "link": "https://letterboxd.com/peruvianidol/film/point-blank/",
+      "watchedDate": "2025-07-03",
+      "filmYear": "1967",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/5/9/2/35592-point-blank-0-600-0-900-crop.jpg?v=82ba2b6ea3",
+      "reviewText": "This movie goes harder than it needed to for a pretty standard revenge flick. The pace is dizzying, so much happens in just 91 minutes, but it takes its time with some great shots along the way. Lee Marvin is a stoic badass. No doubt this influenced a ton of great modern crime films."
+    },
+    {
+      "title": "F1",
+      "link": "https://letterboxd.com/peruvianidol/film/f1/",
+      "watchedDate": "2025-07-02",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/1/7/9/7/7/817977-f1-the-movie-0-600-0-900-crop.jpg?v=f5ae2b99b9",
+      "reviewText": "F1 is like a summer blockbuster designed in a lab. Hits all the right notes, looks incredible, and delivers thrills, even if some of the beats are cliched and the character development is a bit shallow. Whatever this movie cost it is all on the screen. The racing scenes are plentiful and feel as immersive as the flying scenes in Kosinski’s Top Gun: Maverick. Pitt is great here, but the rest of the cast deserves credit for carving out distinct characters with very little screen time. By the end of the film you feel like part of the team, sharing the victory with them. Exhilarating."
+    },
+    {
+      "title": "Running Scared",
+      "link": "https://letterboxd.com/peruvianidol/film/running-scared/",
+      "watchedDate": "2025-07-01",
+      "filmYear": "1986",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/2/1/7/2/42172-running-scared-0-600-0-900-crop.jpg?v=1c703586d1",
+      "reviewText": "Not a great movie but it made quite an impression on 11-year-old me, who loved Crystal from SNL. I respect a movie that makes great use of Chicago locations and there’s some good ones here, culminating in a shootout at the Thompson Center (recently bought by Google). There’s also a fun chase scene that takes lots of liberties with geography, going from O’Hare to Skokie and onto the L tracks downtown in a matter of minutes. I’d love to know the logistics of how they got two cars up there. If you can suspend your disbelief that a tap dancer and a comedian can pass for Chicago cops, there’s some fun to be had here."
+    },
+    {
+      "title": "Cobra",
+      "link": "https://letterboxd.com/peruvianidol/film/cobra-1986/",
+      "watchedDate": "2025-07-01",
+      "filmYear": "1986",
+      "memberRating": "1.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/7/5/9/46759-cobra-0-600-0-900-crop.jpg?v=fbd949c36b",
+      "reviewText": "Antonio Banderas laptop meme but it’s Sylvester Stallone after typing “you’re the disease and I’m the cure” in Cobra’s script."
+    },
+    {
+      "title": "Jennifer's Body",
+      "link": "https://letterboxd.com/peruvianidol/film/jennifers-body/",
+      "watchedDate": "2025-07-01",
+      "filmYear": "2009",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/9/3/0/5/39305-jennifer-s-body-0-600-0-900-crop.jpg?v=af7fb6bd86",
+      "reviewText": "Felt like an angsty millennial teen wrote a David Lynch movie. Some fun moments and sharp dialogue but didn’t quite come together. Also will make me forever suspicious of any beautiful woman who pays me the slightest bit of attention."
+    },
+    {
+      "title": "A Simple Plan",
+      "link": "https://letterboxd.com/peruvianidol/film/a-simple-plan/",
+      "watchedDate": "2025-06-25",
+      "filmYear": "1998",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/4/2/8/46428-a-simple-plan-0-600-0-900-crop.jpg?v=ff2855b9bf",
+      "reviewText": "Stylistically this is maybe Raimi's most subtle film, forgoing a lot of the dutch angles and wild shots he's known for in his horror and super hero films. Seems like an obvious riff on Fargo but is doing something a little different. There's a little Twilight Zone mixed in for good measure. The performances feel a little too heightened, particularly Bridget Fonda, who becomes increasingly unhinged and diabolical as the movie goes on. Great ensemble cast though. Loved Chelcie Ross as the sheriff and Gary Cole as the mysterious and slightly menacing FBI agent."
+    },
+    {
+      "title": "Elio",
+      "link": "https://letterboxd.com/peruvianidol/film/elio/",
+      "watchedDate": "2025-06-22",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/2/1/5/7/5/921575-elio-0-600-0-900-crop.jpg?v=d3f4e92f5e",
+      "reviewText": "Delightful to enjoy an original and heartwarming story with my kids rather than another rehash of something that was popular when I was a kid or some other shameless cash grab. My space-loving six-year-old especially loved it and the smile on his face was worth the price of admission alone. It’s a shame it did so poorly at the box office, reinforcing the idea that only existing IP is worth producing."
+    },
+    {
+      "title": "Deadwood: The Movie",
+      "link": "https://letterboxd.com/peruvianidol/film/deadwood-the-movie/1/",
+      "watchedDate": "2025-06-22",
+      "filmYear": "2019",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/xr/mo/gs/6t/fCQ13cqd02dop7Chkov0fPl4r3t-0-600-0-900-crop.jpg?v=51286c0adf",
+      "reviewText": "First time watching this immediately after rewatching the HBO show, which unceremoniously ended after its third season. The lack of closure was really the only knock on this incredible series. This is less a movie than a proper send-off for nearly all the characters that last appeared 13 years earlier. And to boot we finally get to see the comeuppance of a cocksucking murderous land baron turned shitheel politician (in the parlance of the show), even if we may never see it play out in real life."
+    },
+    {
+      "title": "Final Destination Bloodlines",
+      "link": "https://letterboxd.com/peruvianidol/film/final-destination-bloodlines/",
+      "watchedDate": "2025-06-19",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/2/6/2/2/502622-final-destination-bloodlines-0-600-0-900-crop.jpg?v=3c04d3a110",
+      "reviewText": "The opening set piece of this movie is a sight to behold. Unfortunately the rest of the movie has a hard time living up to it. Some really inventive kills and clever misdirects with visual cues. And hilariously on-the-nose needle drops. Everything between the kills is just mind-numbingly dumb."
+    },
+    {
+      "title": "28 Years Later",
+      "link": "https://letterboxd.com/peruvianidol/film/28-years-later/",
+      "watchedDate": "2025-06-19",
+      "filmYear": "2025",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/9/2/7/8/6/992786-28-years-later-0-600-0-900-crop.jpg?v=fc48e61af3",
+      "reviewText": "Woof. Even though two couples walked out of my screening I pressed on and was rewarded with a brief moment of transcendence, only for the ending to just completely ruin it. Here’s hoping 28 Decades Later gives us something better."
+    },
+    {
+      "title": "Friendship",
+      "link": "https://letterboxd.com/peruvianidol/film/friendship-2024/1/",
+      "watchedDate": "2025-06-17",
+      "filmYear": "2024",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/2/6/9/1/1122691-friendship-2024-0-600-0-900-crop.jpg?v=9ea74152f4",
+      "reviewText": "Deeply unhinged. Love the way this movie is shot/graded. It almost feels like a horror movie. People are saying it’s actually nuts. It’s driving people crazy."
+    },
+    {
+      "title": "Broadcast News",
+      "link": "https://letterboxd.com/peruvianidol/film/broadcast-news/",
+      "watchedDate": "2025-06-16",
+      "filmYear": "1987",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/4/4/1/6/44416-broadcast-news-0-600-0-900-crop.jpg?v=d3dc914edb",
+      "reviewText": "I appreciate the effort here but I just could not relate to any of the three main characters, who were all just such self-absorbed assholes. I also found the ending to be pretty unsatisfying. William Hurt’s character probably went on to work at Fox News. As someone who majored in print and broadcast journalism but ended up making websites for a living, this movie reaffirmed I made the right move."
+    },
+    {
+      "title": "Ronin",
+      "link": "https://letterboxd.com/peruvianidol/film/ronin/",
+      "watchedDate": "2025-06-15",
+      "filmYear": "1998",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/8/6/5/47865-ronin-0-600-0-900-crop.jpg?v=0470933060",
+      "reviewText": "I remember being disappointed by this when it first came out but it’s definitely aged well, aside from the laughable technology. Several thrilling car chases that rival some of the best we’ve seen since. Feels like a throwback to 70s movies. And a bromance for the ages between DeNiro and Reno. I couldn’t tell you why I didn’t like it all those years ago but as a dad movie on Father’s Day it’s pure cinema."
+    },
+    {
+      "title": "Deep Cover",
+      "link": "https://letterboxd.com/peruvianidol/film/deep-cover-2025/",
+      "watchedDate": "2025-06-13",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/2/5/3/6/1122536-deep-cover-2025-0-600-0-900-crop.jpg?v=1c21327945",
+      "reviewText": "I don't think anyone involved in this movie has ever done or seen improv before."
+    },
+    {
+      "title": "Shutter Island",
+      "link": "https://letterboxd.com/peruvianidol/film/shutter-island/",
+      "watchedDate": "2025-06-13",
+      "filmYear": "2010",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/4/0/9/45409-shutter-island-0-600-0-900-crop.jpg?v=85dd4c38e3",
+      "reviewText": "This movie is fucking wild. Even with a vague recollection of the ending when I saw this in the theater 15 years ago(!) it fucked me up all over again. Great production design and cinematography. Could have been a little shorter, but wow. Better than I remembered."
+    },
+    {
+      "title": "Lone Star",
+      "link": "https://letterboxd.com/peruvianidol/film/lone-star-1996/",
+      "watchedDate": "2025-06-12",
+      "filmYear": "1996",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/0/8/1/35081-lone-star-0-600-0-900-crop.jpg?v=e5290241ec",
+      "reviewText": "Really interesting Western that starts like a murder mystery but unravels the complicated relationships in a small, Texas border town. Even though it's almost 30 years old it felt very modern, but like the setup for a TV series. Loved Chris Cooper and Elizabeth Peña (who I had a huge crush on as a kid). Young Matthew McConaughey has a few minutes of screen time as Cooper's dad in flashbacks, but his presence looms large over the whole film."
+    },
+    {
+      "title": "Materialists",
+      "link": "https://letterboxd.com/peruvianidol/film/materialists/",
+      "watchedDate": "2025-06-12",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/4/5/6/2/1024562-materialists-0-600-0-900-crop.jpg?v=ae3470f333",
+      "reviewText": "Thirty minutes into this, my wife leaned over to me and whispered, \"this movie is terrible.\" She wasn't entirely wrong. Dakota Johnson is so one-note, she comes across as terribly insincere in a job that requires a fair amount of empathy. But even in her romantic relationships, she gives off the same monotone vibe. Very Madame Web energy. Pedro is Pedro but largely wasted in a limited role. Chris Evans is fine but it's hard to sell him as a struggling actor. The movie also seems extremely cynical about marriage and relationships in general. A stark contrast with Past Lives, which had a lot more emotional weight than this follow-up from Celine Song."
+    },
+    {
+      "title": "On the Waterfront",
+      "link": "https://letterboxd.com/peruvianidol/film/on-the-waterfront/",
+      "watchedDate": "2025-06-11",
+      "filmYear": "1954",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/4/7/0/51470-on-the-waterfront-0-600-0-900-crop.jpg?v=ab41f427a0",
+      "reviewText": "Not sure what to say about this other than it's a good-looking picture and Brando is kind of overrated."
+    },
+    {
+      "title": "Drinking Buddies",
+      "link": "https://letterboxd.com/peruvianidol/film/drinking-buddies/",
+      "watchedDate": "2025-06-11",
+      "filmYear": "2013",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/bb/e4/ko/lc/6OwVYT6zTvx8YVmkMYBVydNfHEV-0-600-0-900-crop.jpg?v=2c23c9384b",
+      "reviewText": "Good hangs from the master of horny white millennial Chicago hipster mumblecore, Joe Swanberg. Love the cast and the sexual tension throughout gave me PTSD from my 20s. Feels like a prototype for Swanberg's show, Easy, which ran for three seasons and shared a lot of similar characters, locales and themes. I found the end to be pretty unsatisfying though."
+    },
+    {
+      "title": "The 39 Steps",
+      "link": "https://letterboxd.com/peruvianidol/film/the-39-steps/",
+      "watchedDate": "2025-06-11",
+      "filmYear": "1935",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/7/9/6/51796-the-39-steps-0-600-0-900-crop.jpg?v=1128460110",
+      "reviewText": "A fun, tight (86 mins!) thriller. I was impressed with what Hitchcock was able to pull off considering this film is 90 years old, not that I've seen much from that era to compare it to. Surprisingly horny for what I assumed was a heavily censored era."
+    },
+    {
+      "title": "25th Hour",
+      "link": "https://letterboxd.com/peruvianidol/film/25th-hour/",
+      "watchedDate": "2025-06-10",
+      "filmYear": "2002",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/u7/my/x3/r6/tQb3wOKzo3XxFSY6ApO7OfLHGUM-0-600-0-900-crop.jpg?v=038db726da",
+      "reviewText": "Spent the first 2/3s thinking \"this is not as good as I remember,\" but then that final sequence with Brian Cox just gutted me. It's so different watching this as a 27-year-old, roughly the same age as Monty, and then again at 50, closer to his dad's age. The early digital holds up better than Bamboozled, though the few night scenes are grainy as hell, but it works. Completely forgot PSH is in this and his uncomfortable attraction to young Anna Paquin. \"what are you trying to be, R Kelly?\" Way ahead of its time. Really captures America's post-9/11 love affair with NYC and even name drops Trump. How times have changed."
+    },
+    {
+      "title": "The Surfer",
+      "link": "https://letterboxd.com/peruvianidol/film/the-surfer-2024/",
+      "watchedDate": "2025-06-10",
+      "filmYear": "2024",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/1/6/9/9/0/1016990-the-surfer-2024-0-600-0-900-crop.jpg?v=9553d03257",
+      "reviewText": "Really digging late-stage unhinged Cage. Perfectly cast here as a bougie white guy brought low by a tribe of surfers. Maybe the best privledge spiral since Dan Ackroyd in Trading Places. Love the saturated color palette and the dream-like quality of everything. Julian McMahon delivers a great balance of charm and menace. Loved him since Nip/Tuck and wish he was in more stuff. I didn't even recognize him in the trailer. Auzzies are a fun bunch."
+    },
+    {
+      "title": "Evil Does Not Exist",
+      "link": "https://letterboxd.com/peruvianidol/film/evil-does-not-exist/",
+      "watchedDate": "2025-06-10",
+      "filmYear": "2023",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/4/2/2/7/7/1042277-evil-does-not-exist-0-600-0-900-crop.jpg?v=a76547ed16",
+      "reviewText": "Gorgeously shot but considerably more ponderous than Drive My Car. I was fully on board until the last act, which was a real head-scratcher. It turns out the real evil was the capitalism we made along the way."
+    },
+    {
+      "title": "The Signal",
+      "link": "https://letterboxd.com/peruvianidol/film/the-signal-2014/",
+      "watchedDate": "2025-06-09",
+      "filmYear": "2014",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/s4/a6/vg/n6/aop90vZ5MBQLd1amdBkpqqfZgtP-0-600-0-900-crop.jpg?v=a853c36f45",
+      "reviewText": "Cool-looking movie on what I assume was a limited budget. Works more as a vibe than a coherent story. And what a waste of Olivia Cooke."
+    },
+    {
+      "title": "The Amateur",
+      "link": "https://letterboxd.com/peruvianidol/film/the-amateur-2025/",
+      "watchedDate": "2025-06-09",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/8/0/9/1/4/980914-the-amateur-2025-0-600-0-900-crop.jpg?v=f9f2219f27",
+      "reviewText": "A fairly competent thriller with a unique premise: what if Jason Bourne was a nerd? Let's be clear, I found it very easy to relate to Rami Malek's character. Sadly, all the best scenes are shown almost in their entirety in the trailer. Really great supporting cast but they're spread thin and some play redundant roles."
+    },
+    {
+      "title": "A Working Man",
+      "link": "https://letterboxd.com/peruvianidol/film/a-working-man/",
+      "watchedDate": "2025-06-09",
+      "filmYear": "2025",
+      "memberRating": "1.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/8/2/2/2/5/1082225-a-working-man-0-600-0-900-crop.jpg?v=a265a96ac7",
+      "reviewText": "A joyless, nonsensical slog. Besides that the movie is supposed to be set in Chicago but, aside from a few establishing shots, was clearly not shot anywhere near Illinois. If you want to enjoy this movie, take a drink anytime you see a giant-ass full moon on the horizon."
+    },
+    {
+      "title": "Novocaine",
+      "link": "https://letterboxd.com/peruvianidol/film/novocaine-2025/",
+      "watchedDate": "2025-06-08",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/0/1/7/1081017-novocaine-2025-0-600-0-900-crop.jpg?v=bf4021de18",
+      "reviewText": "When the title card came up I thought, \"please don't let this guy's name be Caine,\" before they immediately cut to his name plate, Nathan Caine. Oh, FFS. This turned out to be fun though. They really stretched the premise in clever and often gruesome ways. This is maybe the first thing I've seen Jack Quaid in where I didn't want to immediately punch him in the face."
+    },
+    {
+      "title": "The Life of Chuck",
+      "link": "https://letterboxd.com/peruvianidol/film/the-life-of-chuck/",
+      "watchedDate": "2025-06-08",
+      "filmYear": "2024",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/5/7/6/1/2/757612-the-life-of-chuck-0-600-0-900-crop.jpg?v=7ac670c0be",
+      "reviewText": "The trailer really piqued my interest. Tom Hiddleston and Mike Flanagan? Sign me up! Ultimately it didn’t really resonate with me. There were some memorable scenes, but the structure of the movie was baffling and there was way less Hiddleston than I expected. Great to see Mia Sara again and Mark Hamill in full-on grandpa mode was great."
+    },
+    {
+      "title": "The Accountant²",
+      "link": "https://letterboxd.com/peruvianidol/film/the-accountant-2025/",
+      "watchedDate": "2025-06-06",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/8/2/0/0/6/782006-the-accountant-2-0-600-0-900-crop.jpg?v=11a051d3db",
+      "reviewText": "I found myself less interested in the central mystery of The Accountant 2 and more curious about what Ben Affleck’s Chris and his brother, John Bernthal’s Braxton, would get into next. Would Chris find love? Would Medina find a comfy chair? Would the Harbor kids release the Epstein files? Someone needs to show this movie to RFK Jr. Can someone please cast Bernthal in a remake/lega-sequel of Remo Williams already?"
+    },
+    {
+      "title": "Predator: Killer of Killers",
+      "link": "https://letterboxd.com/peruvianidol/film/predator-killer-of-killers/",
+      "watchedDate": "2025-06-06",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/6/2/5/6/7/1262567-predator-killer-of-killers-0-600-0-900-crop.jpg?v=937d8a8ccf",
+      "reviewText": "Another awesomely ambitious entry in the Predator franchise by Dan Trachtenberg. Love the art style and the creative assortment of Predator tech. The format of this reminds me of Sorcerer, where we see the backstories of the protagonists before they come together in the final act. My only beef with this movie is the low frame rate, which I found to be very distracting. I guess it’s cheaper to make an animated film when you only have to draw every other frame but it was extremely jarring! Even more stoked now for Predator: Badlands."
+    },
+    {
+      "title": "Ballerina",
+      "link": "https://letterboxd.com/peruvianidol/film/ballerina-2025/",
+      "watchedDate": "2025-06-05",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/0/6/7/1/470671-ballerina-2025-0-600-0-900-crop.jpg?v=20977cf74a",
+      "reviewText": "As much as the Wick series has gotten so up its own ass with its lore — the coins, the hotel, the bulletproof dinner jackets, the sheer assassin per capita of it all — they really have found new and more creative ways to stage action with each film. There’s way less unlimited ammo pistol shots point blank to the face. Ballerina doesn’t reach the heights of John Wick 4, but Ana de Armas acquits herself well in an extremely physically demanding role and the action scenes are wildly creative and varied. There’s one sequence near the end that had me absolutely giddy. I’ve never seen anything like it. It was worth the price of admission alone. But the whole movie is pretty well-paced, aside from all the lore drops and whatnot. There’s just enough reference to Wick himself without overshadowing Ana’s protagonist. A fun time at the movies, for sure."
+    },
+    {
+      "title": "Marathon Man",
+      "link": "https://letterboxd.com/peruvianidol/film/marathon-man/",
+      "watchedDate": "2025-06-04",
+      "filmYear": "1976",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/1/5/4/46154-marathon-man-0-600-0-900-crop.jpg?v=352ff0ffb7",
+      "reviewText": "What was going on in the 70s? Lots of paranoid conspiracy thrillers. This one is pretty solid, even if it's hard to keep up with what the actual conspiracy is and who's on what side. Hoffman is great as a guy completely out of his element who gets caught up in the whole thing. The last act is kinda bonkers."
+    },
+    {
+      "title": "MacGruber",
+      "link": "https://letterboxd.com/peruvianidol/film/macgruber/",
+      "watchedDate": "2025-06-03",
+      "filmYear": "2010",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/6/5/8/9/26589-macgruber-0-600-0-900-crop.jpg?v=306108a1c7",
+      "reviewText": "Not as riotously funny as I remembered but there's definitely enough hilarious moments that reward repeat viewing. Forte and Wiig are great and VAL KILMER. Great soundtrack for riding around in your Miata."
+    },
+    {
+      "title": "Her",
+      "link": "https://letterboxd.com/peruvianidol/film/her/2/",
+      "watchedDate": "2025-06-03",
+      "filmYear": "2013",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/au/nb/i6/lq/fsoTLnUXEUTNuVCBxAJMY0HPPd-0-600-0-900-crop.jpg?v=16789732be",
+      "reviewText": "One of Joaquin's most hinged performances. Love his vulnerability. It's interesting rewatching this now that AI is close to the capabilities depicted here. The epidemic of loneliness that we find ourselves in, exasperated by a global pandemic, has led people to form relationships with chat bots. But in real life the AI is just repeating patterns. Watching this again with that in mind, are Samantha's feelings genuine, or is she merely repeating patterns? The idea makes the movie feel darker and less hopeful. I wonder how this movie will feel in another 12 years."
+    },
+    {
+      "title": "Batman Begins",
+      "link": "https://letterboxd.com/peruvianidol/film/batman-begins/",
+      "watchedDate": "2025-06-03",
+      "filmYear": "2005",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/7/8/4/51784-batman-begins-0-600-0-900-crop.jpg?v=f090edc352",
+      "reviewText": "Looking back, Nolan's first foray into superhero movies is a little shaggy. So much happens in the first third, setting up a finale that doesn't quite pay off. The hand-to-hand combat is shot soooo close up and with so many edits that it's practically incomprehensible. Still, I love this version of Batman, and Bale has a great mix of physicality and humor. The supporting cast is filled with heavy hitters, and Katie Holmes. I can't believe this came out 20 years ago."
+    },
+    {
+      "title": "Public Enemies",
+      "link": "https://letterboxd.com/peruvianidol/film/public-enemies-2009/",
+      "watchedDate": "2025-06-02",
+      "filmYear": "2009",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/03/z6/f7/n6/zY7lvAF8yhUKwrrjMpJ023ggBrD-0-600-0-900-crop.jpg?v=7cc67e6729",
+      "reviewText": "Only my second time watching this, the first since it was in the theater. I don't remember it leaving much of an impression on me and, watching it again, it still didn't. The movie looks great, shot entirely on digital, and unlike earlier digital films like Bamboozled, it still holds up. All of the performances are pretty one-note and there's not much drama. It feels like it's just checking off boxes of Dillinger's exploits. His relationship with Billie felt so underdeveloped that the ending just doesn't hit as hard as it should. Probably my least favorite Mann film, unfortunately."
+    },
+    {
+      "title": "Captain America: Brave New World",
+      "link": "https://letterboxd.com/peruvianidol/film/captain-america-brave-new-world/",
+      "watchedDate": "2025-06-01",
+      "filmYear": "2025",
+      "memberRating": "1.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/3/8/2/9/2/738292-captain-america-brave-new-world-0-600-0-900-crop.jpg?v=97dff5b720",
+      "reviewText": "The absolute nadir of the MCU. Completely incomprehensible and devoid of any character development. Some stuff happens in this movie but you never care because it's all boring CG and the same choreography you've seen in every Marvel movie. This entry has absolutely nothing to say, which is a shame because there's so much potential having a black Captain America in 2025. The best part was when the credits finally rolled and I could get on with my life."
+    },
+    {
+      "title": "Michael Clayton",
+      "link": "https://letterboxd.com/peruvianidol/film/michael-clayton/3/",
+      "watchedDate": "2025-06-01",
+      "filmYear": "2007",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/9/2/4/1/49241-michael-clayton-0-600-0-900-crop.jpg?v=6a1d790e35",
+      "reviewText": "Watched this again with some first-timers and thankfully they agreed it's a masterpiece so we can remain friends."
+    },
+    {
+      "title": "Apostle",
+      "link": "https://letterboxd.com/peruvianidol/film/apostle-2018/1/",
+      "watchedDate": "2025-05-31",
+      "filmYear": "2018",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/7/6/6/8/357668-apostle-0-600-0-900-crop.jpg?v=5de87356f8",
+      "reviewText": "Couldn't remember anything about this movie other than I loved it. Had to rewatch to cleanse the palate after Havoc. I'm still baffled how Evans followed up this solid thriller with that dud. The big takeaway is Dan Stevens should be in more stuff. It's a crime he's not more famous."
+    },
+    {
+      "title": "Cutter's Way",
+      "link": "https://letterboxd.com/peruvianidol/film/cutters-way/",
+      "watchedDate": "2025-05-29",
+      "filmYear": "1981",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/1/0/4/3/31043-cutter-s-way-0-600-0-900-crop.jpg?v=f8f478a733",
+      "reviewText": "Checking out a Jeff Bridges deep cut I hadn't seen. What an odd movie. All the trappings of a neo-noir but at its center are three fucked up friends. John Heard chews up every scene as Alex Cutter, who's trying to help Bridges solve a murder he witnessed. Lisa Eichhorn gives a strong performance as Cutter's wife, Maureen. Bridges' character is named Richard Bone and he lives up to his name in this one, looking like an off-brand Robert Redford. Somehow at no point does anyone call him Dick. Not sure this fully clicked for me and the ending was very late 70s/early 80s. But I dug the three leads and their complicated relationship."
+    },
+    {
+      "title": "Popstar: Never Stop Never Stopping",
+      "link": "https://letterboxd.com/peruvianidol/film/popstar-never-stop-never-stopping/1/",
+      "watchedDate": "2025-05-29",
+      "filmYear": "2016",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/7/0/4/7/6/270476-popstar-never-stop-never-stopping-0-600-0-900-crop.jpg?v=c6e71d71e8",
+      "reviewText": "Lonely Island is really good at short form stuff and, even at 86 minutes long, this is painfully drawn out. There are some truly funny moments but if it weren't for the crazy amount of celebrity cameos, this would be a real slog."
+    },
+    {
+      "title": "Starman",
+      "link": "https://letterboxd.com/peruvianidol/film/starman/1/",
+      "watchedDate": "2025-05-27",
+      "filmYear": "1984",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/9/3/9/46939-starman-0-600-0-900-crop.jpg?v=c0046f1463",
+      "reviewText": "I loved this movie as a kid, though I probably couldn't tell you why. As an adult, the idea of experiencing grief over the loss of a loved one and then getting a second chance with them, in a sense, really hits different. I love Karen Allen's performance, and this might be my second favorite Jeff Bridges movie. I'd probably seen this a dozen times and only realized recently that it was a John Carpenter movie. What a run he had in the 80s. Just about every movie of his from that time is deeply embedded in my brain. This movie demands a lega-sequel."
+    },
+    {
+      "title": "All the Right Moves",
+      "link": "https://letterboxd.com/peruvianidol/film/all-the-right-moves/",
+      "watchedDate": "2025-05-26",
+      "filmYear": "1983",
+      "memberRating": "1.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/7o/oy/3f/gh/kSrtxWweaqce1zuzF2rw7uYFwRB-0-600-0-900-crop.jpg?v=493f56225a",
+      "reviewText": "Real 80s after school special vibes here. This movie did not age well if anyone ever enjoyed it to begin with. Wild to think the star of this would go on to become one of the world's biggest movie stars, the DP would one day direct Speed, and the coach would go on to, well, Coach. I would sooner believe that Tom Cruise could save the world from nuclear annihilation than I would believe he could get a full scholarship to college as a defensive back."
+    },
+    {
+      "title": "Pee-wee as Himself",
+      "link": "https://letterboxd.com/peruvianidol/film/pee-wee-as-himself-1/",
+      "watchedDate": "2025-05-26",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/2/3/0/7/1/1323071-pee-wee-as-himself-1-0-600-0-900-crop.jpg?v=2fb6fc81e8",
+      "reviewText": "Paul Reubens is so charming and dryly funny in this doc about his life. I was predisposed to loving this, as Pee-Wee was a big part of my childhood and likely had a big influence on my sense of humor. He's remarkably candid for someone who lived such a private life, even when the subject turns to his arrest and its devastating impact on his career. I'm happy that he got a second chance to share his gifts, and they truly were a gift, with the world. Paul passed away before the documentary was finished, and you get a sense that there's a tiny bit of his story that's unresolved. But what's there is touching and nostalgic and inspiring all at once and made me feel incredibly grateful that I was around at the height of Pee-Wee Herman and everything else Paul gave us after."
+    },
+    {
+      "title": "The Hurt Locker",
+      "link": "https://letterboxd.com/peruvianidol/film/the-hurt-locker/",
+      "watchedDate": "2025-05-22",
+      "filmYear": "2008",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/4/7/4/1/44741-the-hurt-locker-0-600-0-900-crop.jpg?v=ea165af0c3",
+      "reviewText": "I probably watched this a half dozen times when it first came out. Just a solid, rewatchable war flick. Great direction by Bigelow who really has a knack for adrenaline junkies. Love Renner and Mackie in this. This got a lot of acclaim at the time but you don't hear it talked about much anymore."
+    },
+    {
+      "title": "Mission: Impossible – The Final Reckoning",
+      "link": "https://letterboxd.com/peruvianidol/film/mission-impossible-the-final-reckoning/",
+      "watchedDate": "2025-05-22",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/3/4/0/3/503403-mission-impossible-the-final-reckoning-0-600-0-900-crop.jpg?v=00eae3744d",
+      "reviewText": "I really loved Dead Reckoning so I was disappointed to find most of its conclusion to be contrived and overstuffed. A ton of exposition up front in case you've never seen a Mission Impossible movie, followed by a whole lot of mechanations to acquire the MacGuffin. That said, the third act is absolutely thrilling. The plane sequence is up there with some of the best set pieces in the franchise and, unlike the much publicized motorcycle jump from the last movie, they left plenty of footage for the theater and the stunt actually makes sense in the context of the movie. Overall a fairly satisfying conclusion and some fun additions to the supporting cast. Also one of the most clever (and subtle) IMAX aspect ratio transitions I've ever seen."
+    },
+    {
+      "title": "A Few Good Men",
+      "link": "https://letterboxd.com/peruvianidol/film/a-few-good-men/",
+      "watchedDate": "2025-05-21",
+      "filmYear": "1992",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/dw/l7/qy/bb/WgWLwk55YaXFZdlMnPJTKlxGcz-0-600-0-900-crop.jpg?v=60ddf4aa47",
+      "reviewText": "A quaint throwback to a time when government officials could be held accountable for their actions. I haven't seen this since becoming aware of Aaron Sorkin but watching it again it makes perfect sense that he's responsible for the cracking dialogue in this. A Few Good Men is probably best known for Nicholson's explosive testimony but you gotta appreciate his seething disdain for Cruise's smug, young lawyer from their first scene together. And also Demi's hair, which is impeccable. I hope Cruise goes back to lawyer roles when he gets tired of risking his life for the sake of \"mass entertainment.\""
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "link": "https://letterboxd.com/peruvianidol/film/top-gun-maverick/2/",
+      "watchedDate": "2025-05-21",
+      "filmYear": "2022",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/9/3/4/6/5/293465-top-gun-maverick-0-600-0-900-crop.jpg?v=9f8af0f61b",
+      "reviewText": "Ok, yeah. This is an absolute banger."
+    },
+    {
+      "title": "The Taking of Pelham One Two Three",
+      "link": "https://letterboxd.com/peruvianidol/film/the-taking-of-pelham-one-two-three/",
+      "watchedDate": "2025-05-21",
+      "filmYear": "1974",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/8/0/0/47800-the-taking-of-pelham-one-two-three-0-600-0-900-crop.jpg?v=b04395e6e7",
+      "reviewText": "This is a fun crime thriller, basically Die Hard on a subway train. Just about the entire cast is a wise-cracking, ball-busting New Yorker. Matthau is great and the last shot is *chef's kiss*."
+    },
+    {
+      "title": "You Were Never Really Here",
+      "link": "https://letterboxd.com/peruvianidol/film/you-were-never-really-here/2/",
+      "watchedDate": "2025-05-20",
+      "filmYear": "2017",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/3/2/4/3/7/332437-you-were-never-really-here-0-600-0-900-crop.jpg?v=56e5177879",
+      "reviewText": "I've watched this three times now and I find it to be kind of inscrutable. For a 90 minute film it spends a lot of time luxuriating on moments. There's a lot of implied violence and a lot of actual violence. There's very little dialogue. There are several scenes and shots that still haunt me. Also his mother's house was shot in my uncle's house in Brooklyn, which is still wild to think about."
+    },
+    {
+      "title": "Mission: Impossible – Dead Reckoning",
+      "link": "https://letterboxd.com/peruvianidol/film/mission-impossible-dead-reckoning/2/",
+      "watchedDate": "2025-05-19",
+      "filmYear": "2023",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/3/4/0/2/503402-mission-impossible-dead-reckoning-part-one-0-600-0-900-crop.jpg?v=34b8b35ec9",
+      "reviewText": "Third watch got me hyped for the conclusion. I love this series and even though Cruise is getting long in the tooth I hope they can find a way to keep it going. The score in this one absolutely slaps. Trying to temper my expectations for Final Reckoning in three days!"
+    },
+    {
+      "title": "Moonlight",
+      "link": "https://letterboxd.com/peruvianidol/film/moonlight-2016/1/",
+      "watchedDate": "2025-05-19",
+      "filmYear": "2016",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/90/gn/c7/9k/qAwFbszz0kRyTuXmMeKQZCX3Q2O-0-600-0-900-crop.jpg?v=192bde15c6",
+      "reviewText": "This movie is just stunning. Watching it for the first time since it was released and I fell in love with it all over again. Just an amazing job by the actors that play Chiron and Kevin at different ages building on the performances that came before. When Black reunites with Kevin in the third act you can see his facade crumble become Little again. Ahhhh and the score is incredible."
+    },
+    {
+      "title": "Wick Is Pain",
+      "link": "https://letterboxd.com/peruvianidol/film/wick-is-pain/",
+      "watchedDate": "2025-05-17",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/4/9/8/0/7/1349807-wick-is-pain-0-600-0-900-crop.jpg?v=0e66b7bef7",
+      "reviewText": "Overly long and self-indulgent, this doc spends a lot of time on the challenges of getting the first John Wick made. (It’s honestly a miracle any movie gets made.) it kind of glosses over the sequels. There was some interesting details about the productions and the relationships between the directors and Keanu, but like the week they spent shooting Keanu moping around the house in the first Wick, it felt like a little too much."
+    },
+    {
+      "title": "Rogue One: A Star Wars Story",
+      "link": "https://letterboxd.com/peruvianidol/film/rogue-one-a-star-wars-story/2/",
+      "watchedDate": "2025-05-16",
+      "filmYear": "2016",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/5/8/1/2/8/258128-rogue-one-a-star-wars-story-0-600-0-900-crop.jpg?v=eff30d0282",
+      "reviewText": "Had to revisit this after wrapping up Andor S2, which I found to be a bit uneven but did a great job of setting the stage for Rogue One. Now, having seen all of Andor, there’s much more context and emotion behind the sacrifices made by the rebels to get the Death Star plans that leads to the opening of Episode IV. The effects here largely hold up, except for the CG humans, which didn’t look that great when this came out, and look even worse now. This remains one of the best Star Wars entries — a thrilling heist movie with a great cast. Hoping we get to see a Donnie Yen prequel series someday. It tickles me to think that Americans who only know Yen from this and John Wick 4 may think he’s actually blind. It also baffles me to think there are conservatives who watch Star Wars and somehow think they are like the rebels. Andor and Rogue One have become increasingly relevant as America and other parts of the world descend into fascism."
+    },
+    {
+      "title": "Friendship",
+      "link": "https://letterboxd.com/peruvianidol/film/friendship-2024/",
+      "watchedDate": "2025-05-12",
+      "filmYear": "2024",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/2/6/9/1/1122691-friendship-2024-0-600-0-900-crop.jpg?v=9ea74152f4",
+      "reviewText": "Not sure I could recommend this to just anyone, but I was right at home at a sold out early screening among a bunch of fellow I Think You Should Leave enthusiasts. Tim Robinson brings the same manic energy to this with hilarious results. Paul Rudd is perfectly cast as Tim’s new neighbor and would be friend. It’s not a home run but it could become a cult comedy that’s quoted often."
+    },
+    {
+      "title": "Last Bullet",
+      "link": "https://letterboxd.com/peruvianidol/film/last-bullet/",
+      "watchedDate": "2025-05-10",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/4/2/6/5/5/1042655-last-bullet-0-600-0-900-crop.jpg?v=8845e501bb",
+      "reviewText": "Nicely ties up the trilogy with a little backstory on the first two movies followed by nearly non-stop vehicular and hand-to-hand mayhem, with another A-Team welding montage thrown in for good measure. Another well-executed fun time."
+    },
+    {
+      "title": "Lost Bullet 2",
+      "link": "https://letterboxd.com/peruvianidol/film/lost-bullet-2/",
+      "watchedDate": "2025-05-08",
+      "filmYear": "2022",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/5/2/8/6/6/852866-lost-bullet-2-0-600-0-900-crop.jpg?v=791889869b",
+      "reviewText": "Weirdly retcons the last five minutes of the first movie and then proceeds to up the ante in every possible way. The hero inexplicably becomes a cop and the car he drove in the first film gets a major upgrade that elicited such a series of noises from me at one point that I thought for sure I was going to wake the kids. The end is fairly abrupt and ends like the season finale of a TV show that’s confident it’s going to be picked up for another season. It doesn’t feel like a complete movie, but what’s there is fun and breezy and competently made."
+    },
     {
       "title": "Lost Bullet",
       "link": "https://letterboxd.com/peruvianidol/film/lost-bullet/",
