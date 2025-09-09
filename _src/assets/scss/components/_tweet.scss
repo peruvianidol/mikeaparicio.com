@@ -1,7 +1,8 @@
 @use '../abstracts/tokens' as *;
 @use '../abstracts/icons' as *;
 
-.twitter-tweet {
+.twitter-tweet,
+.bluesky-skeet {
   padding: $spacing-24 $spacing-32 $spacing-24 $spacing-96;
   max-width: 80%;
   margin-inline: auto;
@@ -17,8 +18,17 @@
   }
 }
 
+.bluesky-skeet {
+  background-image: $icon-bluesky;
+  border-color: $color-social-bluesky;
+  > *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
 @media (max-width: 599px) {
-  .twitter-tweet {
+  .twitter-tweet,
+  .bluesky-skeet {
     max-width: 100%;
     background-position: top left;
     padding: $spacing-64 $spacing-16 $spacing-16 $spacing-16;
