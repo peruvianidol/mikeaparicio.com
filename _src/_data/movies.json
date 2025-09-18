@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-09-17T04:26:36.125Z",
+  "lastUpdated": "2025-09-18T05:20:42.268Z",
   "movies": [
+    {
+      "title": "Ordinary People",
+      "link": "https://letterboxd.com/peruvianidol/film/ordinary-people/",
+      "watchedDate": "2025-09-17",
+      "filmYear": "1980",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/f9/op/79/ii/fxXvhczta3Pqy04JoHRfyhXuyo6-0-600-0-900-crop.jpg?v=b49e40245a",
+      "reviewText": "I gotta say I wasn’t really feeling this for the first half. Having grown up in the northern burbs of Chicago (a gunshot from the border, as I used to say) I couldn’t care less about the problems of a rich, white family from Lake Forest. But as the characters started to examine themselves and work it out between each other, it became a showcase of great acting, particularly young Timothy Hutton, who has to carry a lot of the dramatic load here. I can see why this was so acclaimed."
+    },
     {
       "title": "A River Runs Through It",
       "link": "https://letterboxd.com/peruvianidol/film/a-river-runs-through-it/",
