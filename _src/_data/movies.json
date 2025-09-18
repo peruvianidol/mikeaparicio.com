@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-09-18T05:20:42.268Z",
+  "lastUpdated": "2025-09-18T17:19:07.866Z",
   "movies": [
+    {
+      "title": "The Conspirator",
+      "link": "https://letterboxd.com/peruvianidol/film/the-conspirator/",
+      "watchedDate": "2025-09-18",
+      "filmYear": "2010",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/p6/t1/b6/ed/CszqAxCoEBqXcKQQ63IXFCHEXT-0-600-0-900-crop.jpg?v=d5f7408258",
+      "reviewText": "I wasn’t even aware this movie existed until digging into Robert Redford’s filmography. It’s a pretty by-the-numbers courtroom drama absolutely stacked with recognizable character actors. The story is chillingly relevant. If the government wants to do something, it’s not hard for them to stack everything against you. Ostensibly the events depicted here were less likely to happen again once the Supreme Court guaranteed a right to civil trial even in times of war shortly after this trial happened. But if recent events haven’t made clear, laws don’t mean shit if the levers of power are held by unscrupulous men."
+    },
     {
       "title": "Ordinary People",
       "link": "https://letterboxd.com/peruvianidol/film/ordinary-people/",
