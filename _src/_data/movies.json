@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-09-18T17:19:07.866Z",
+  "lastUpdated": "2025-09-18T20:24:47.377Z",
   "movies": [
+    {
+      "title": "The Natural",
+      "link": "https://letterboxd.com/peruvianidol/film/the-natural/",
+      "watchedDate": "2025-09-18",
+      "filmYear": "1984",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/xa/u0/s6/45/f1iPiQoYbQ40XsJHPyMIiBmSrDB-0-600-0-900-crop.jpg?v=5422450fdd",
+      "reviewText": "Hadn’t seen this since I was a kid and I’m not sure I picked up on half the movie. It’s a little too long and kinda corny, but Redford is so effortlessly cool here. I’m not sure this movie works with any other actor playing Roy Hobbs. That final play and the score that accompanies it is so iconic it was seared into my memory all these years later even as the rest faded away."
+    },
     {
       "title": "The Conspirator",
       "link": "https://letterboxd.com/peruvianidol/film/the-conspirator/",
