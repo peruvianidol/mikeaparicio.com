@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-09-18T20:24:47.377Z",
+  "lastUpdated": "2025-09-23T05:21:14.300Z",
   "movies": [
+    {
+      "title": "M",
+      "link": "https://letterboxd.com/peruvianidol/film/m/",
+      "watchedDate": "2025-09-22",
+      "filmYear": "1931",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/3/2/0/51320-m-0-600-0-900-crop.jpg?v=8c52412b7a",
+      "reviewText": "This movie feels so ahead of its time. I'm surprised David Fincher or Bong Joon Ho hasn't remade this, it feels right in their wheelhouse. It meanders a bit but really picks up steam when an unlikely network of citizens catch the trail of the killer, played by Peter Lorre in an incredible performance. The ending is pretty abrupt but gets at the pathology of a serial killer like no film I've ever seen, and Lorre almost makes you sympathize with his character."
+    },
     {
       "title": "The Natural",
       "link": "https://letterboxd.com/peruvianidol/film/the-natural/",
