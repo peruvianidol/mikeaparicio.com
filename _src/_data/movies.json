@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-09-23T05:21:14.300Z",
+  "lastUpdated": "2025-09-26T05:21:19.208Z",
   "movies": [
+    {
+      "title": "The Big Heat",
+      "link": "https://letterboxd.com/peruvianidol/film/the-big-heat/",
+      "watchedDate": "2025-09-25",
+      "filmYear": "1953",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/2/9/7/7/42977-the-big-heat-0-600-0-900-crop.jpg?v=4c55ee55ff",
+      "reviewText": "Surprisingly lurid for a 1950s movie. Glenn Ford is great as a hard-boiled cop going up against a politically connected crime boss. Loved seeing Gloria Grahame (Violet from It’s a Wonderful Life) as a femme fatale and young Lee Marvin as the head goon. Packs a lot into its 90-minute run time. Only my second Fritz Lang movie and it’s another banger."
+    },
     {
       "title": "M",
       "link": "https://letterboxd.com/peruvianidol/film/m/",
