@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-01T04:26:30.608Z",
+  "lastUpdated": "2025-10-02T03:34:19.068Z",
   "movies": [
+    {
+      "title": "Caught Stealing",
+      "link": "https://letterboxd.com/peruvianidol/film/caught-stealing/",
+      "watchedDate": "2025-10-01",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/9/1/9/9/1129199-caught-stealing-0-600-0-900-crop.jpg?v=c64e11436b",
+      "reviewText": "Entertaining enough, though it’s weird to see Aronofsky dip into Guy Ritchie territory. Great ensemble cast. Dug Austin Butler seeming completely out of his league for a change. I was digging this until a particular death halfway through and despite some interesting twists it never fully won me back."
+    },
     {
       "title": "Tinker Tailor Soldier Spy",
       "link": "https://letterboxd.com/peruvianidol/film/tinker-tailor-soldier-spy/",
