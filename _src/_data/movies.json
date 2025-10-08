@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-02T03:34:19.068Z",
+  "lastUpdated": "2025-10-08T21:20:03.314Z",
   "movies": [
+    {
+      "title": "The Omen",
+      "link": "https://letterboxd.com/peruvianidol/film/the-omen/",
+      "watchedDate": "2025-10-08",
+      "filmYear": "1976",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/3/5/8/51358-the-omen-0-600-0-900-crop.jpg?v=2f669d4209",
+      "reviewText": "Finally got around to seeing this for the first time and found it to be pretty dull. Some fun deaths but the kid is basically a MacGuffin and has no character and barely any dialogue."
+    },
     {
       "title": "Caught Stealing",
       "link": "https://letterboxd.com/peruvianidol/film/caught-stealing/",
