@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-08T21:20:03.314Z",
+  "lastUpdated": "2025-10-12T21:18:34.223Z",
   "movies": [
+    {
+      "title": "John Candy: I Like Me",
+      "link": "https://letterboxd.com/peruvianidol/film/john-candy-i-like-me/",
+      "watchedDate": "2025-10-12",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/6/9/2/1/9/1369219-john-candy-i-like-me-0-600-0-900-crop.jpg?v=94b105eb6c",
+      "reviewText": "Fucking Johnny Toronto, man. Candy's was one of the first celebrity deaths that really gutted me as a teenager. Every character he played left an indelible mark on my brain. Watching the biggest names in comedy of that era speak effusively about him for two hours, it was almost impossible to get through with dry eyes. What a legend."
+    },
     {
       "title": "The Omen",
       "link": "https://letterboxd.com/peruvianidol/film/the-omen/",
