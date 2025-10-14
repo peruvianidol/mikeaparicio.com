@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-13T20:25:11.149Z",
+  "lastUpdated": "2025-10-14T04:27:19.638Z",
   "movies": [
+    {
+      "title": "Cure",
+      "link": "https://letterboxd.com/peruvianidol/film/cure/",
+      "watchedDate": "2025-10-13",
+      "filmYear": "1997",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/8/1/9/5/28195-cure-0-600-0-900-crop.jpg?v=74a48c4849",
+      "reviewText": "Holy shit. This movie takes its time setting up the central mystery, teasing a little more with each murder. When you finally start to piece it together, it's absolutely riveting. Halfway through I thought, where have I seen this detective before? Turns out it's my boy Hirayama from Perfect Days. I imagine it now as a sequel — having experienced the events of this film he quit the force and opted for a simple life cleaning toilets. Anyway, this movie has strong Seven vibes but is doing something completely different. I fucking loved it."
+    },
     {
       "title": "Play Dirty",
       "link": "https://letterboxd.com/peruvianidol/film/play-dirty-2025-1/",
