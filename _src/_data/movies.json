@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-14T04:27:19.638Z",
+  "lastUpdated": "2025-10-15T22:19:28.975Z",
   "movies": [
+    {
+      "title": "The Keep",
+      "link": "https://letterboxd.com/peruvianidol/film/the-keep/",
+      "watchedDate": "2025-10-15",
+      "filmYear": "1983",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/5/0/7/35507-the-keep-0-600-0-900-crop.jpg?v=a219116526",
+      "reviewText": "I had no idea Michael Mann made a horror movie. It feels like a riff on Carpenter, with the Tangerine Dream synth soundtrack and wild effects. It’s definitely a vibe, with some interesting actors including youngish Ian MacKellan and horny Scott Glenn. It didn’t add up to much but at least it doesn’t overstay its welcome."
+    },
     {
       "title": "Cure",
       "link": "https://letterboxd.com/peruvianidol/film/cure/",
