@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-15T22:19:28.975Z",
+  "lastUpdated": "2025-10-16T04:27:08.925Z",
   "movies": [
+    {
+      "title": "A Big Bold Beautiful Journey",
+      "link": "https://letterboxd.com/peruvianidol/film/a-big-bold-beautiful-journey/",
+      "watchedDate": "2025-10-15",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/4/8/8/6/1124886-a-big-bold-beautiful-journey-0-600-0-900-crop.jpg?v=23272418a3",
+      "reviewText": "Wow, people really did not like this movie. I completely get it. But for whatever reason this spoke to me like some of my favorite films like Eternal Sunshine and Once. This doesn’t come close to the highs of those films but I dug the cast, Kogonada’s direction, and just found a lot to relate to. But also, the Joker is going to really hate this."
+    },
     {
       "title": "The Keep",
       "link": "https://letterboxd.com/peruvianidol/film/the-keep/",
