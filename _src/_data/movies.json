@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-16T04:27:08.925Z",
+  "lastUpdated": "2025-10-19T01:59:04.498Z",
   "movies": [
+    {
+      "title": "Pulse",
+      "link": "https://letterboxd.com/peruvianidol/film/pulse-2001/",
+      "watchedDate": "2025-10-18",
+      "filmYear": "2001",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/4/6/1/8/34618-pulse-0-600-0-900-crop.jpg?v=9e927f3d94",
+      "reviewText": "Some chillingly weird visuals but this was a disappointing follow-up to Cure for me. None of the characters were particularly well-developed and there wasn’t so much of a plot as just weird shit happening."
+    },
     {
       "title": "A Big Bold Beautiful Journey",
       "link": "https://letterboxd.com/peruvianidol/film/a-big-bold-beautiful-journey/",
