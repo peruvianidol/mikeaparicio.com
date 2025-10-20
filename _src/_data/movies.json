@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-20T03:19:23.129Z",
+  "lastUpdated": "2025-10-20T05:23:39.954Z",
   "movies": [
+    {
+      "title": "House",
+      "link": "https://letterboxd.com/peruvianidol/film/house/",
+      "watchedDate": "2025-10-19",
+      "filmYear": "1977",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/7f/z3/ho/6j/6vblWscFAbIm9V5CwHC7IImgAq9-0-600-0-900-crop.jpg?v=b505ff45b0",
+      "reviewText": "This movie is doing a lot. Just a ton of uh, interesting, stylistic choices. If you go with the flow, it’s a fun and often funny haunted house tale."
+    },
     {
       "title": "A Nightmare on Elm Street",
       "link": "https://letterboxd.com/peruvianidol/film/a-nightmare-on-elm-street/",
