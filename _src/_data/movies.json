@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-21T20:26:57.806Z",
+  "lastUpdated": "2025-10-25T03:04:55.891Z",
   "movies": [
+    {
+      "title": "Stiller & Meara: Nothing Is Lost",
+      "link": "https://letterboxd.com/peruvianidol/film/stiller-meara-nothing-is-lost/",
+      "watchedDate": "2025-10-24",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/9/3/5/3/4/1393534-stiller-meara-nothing-is-lost-0-600-0-900-crop.jpg?v=2d26d6a23f",
+      "reviewText": "This doc is ostensibly about Ben Stiller’s parents, the comedy duo, Stiller and Meara. But it’s just as much about Ben reckoning with his relationship with his showbiz parents and how his own success affected his children in a similar way. It’s an intimate and honest portrait of marriage and parenthood that took me by surprise. There’s definitely no way I could work with my wife without us killing each other."
+    },
     {
       "title": "The Long Walk",
       "link": "https://letterboxd.com/peruvianidol/film/the-long-walk-2025/",
