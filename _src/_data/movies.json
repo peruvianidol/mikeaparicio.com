@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-25T03:04:55.891Z",
+  "lastUpdated": "2025-10-25T05:21:22.843Z",
   "movies": [
+    {
+      "title": "A House of Dynamite",
+      "link": "https://letterboxd.com/peruvianidol/film/a-house-of-dynamite/",
+      "watchedDate": "2025-10-24",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/7/2/7/8/7/1172787-a-house-of-dynamite-0-600-0-900-crop.jpg?v=9013364dac",
+      "reviewText": "Great direction, deep ensemble cast, gripping first act. But subsequent acts diffuse an otherwise tense setup and the ending is extremely unsatisfying. That said, the most chilling thing about this film is the idea that this could happen in real life, only the people in charge are a bunch of incompetent, sociopathic grifters who wouldn’t bat an eye at letting an American city be annihilated if it suited them."
+    },
     {
       "title": "Stiller & Meara: Nothing Is Lost",
       "link": "https://letterboxd.com/peruvianidol/film/stiller-meara-nothing-is-lost/",
