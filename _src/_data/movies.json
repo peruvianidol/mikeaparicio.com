@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-25T05:21:22.843Z",
+  "lastUpdated": "2025-10-27T05:25:08.059Z",
   "movies": [
+    {
+      "title": "Good Boy",
+      "link": "https://letterboxd.com/peruvianidol/film/good-boy-2025/",
+      "watchedDate": "2025-10-26",
+      "filmYear": "2025",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/0/1/5/8/1/1301581-good-boy-2025-0-600-0-900-crop.jpg?v=43c5363517",
+      "reviewText": "A great premise and a very good boy but it really didn’t click with me. That poor dog actor is going to need therapy after what they put him through."
+    },
     {
       "title": "A House of Dynamite",
       "link": "https://letterboxd.com/peruvianidol/film/a-house-of-dynamite/",
