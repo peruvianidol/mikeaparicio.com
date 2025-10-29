@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-27T22:21:12.145Z",
+  "lastUpdated": "2025-10-29T01:56:01.153Z",
   "movies": [
+    {
+      "title": "National Theatre Live: Frankenstein",
+      "link": "https://letterboxd.com/peruvianidol/film/national-theatre-live-frankenstein-2011/",
+      "watchedDate": "2025-10-28",
+      "filmYear": "2011",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/4/5/9/2/8/145928-national-theatre-live-frankenstein-0-600-0-900-crop.jpg?v=c1848d8e49",
+      "reviewText": "An interesting stage adaptation. Johnny Lee Miller is great as The Creature. I was under the impression he would switch roles with Benedict Cumberbatch’s Frankenstein midway through but the version I watched they played the same character all the way through. Really clever set design. It was remarkable what they were able to do in such a relatively small space."
+    },
     {
       "title": "Frankenstein",
       "link": "https://letterboxd.com/peruvianidol/film/frankenstein-2025/",
