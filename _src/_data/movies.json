@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-29T01:56:01.153Z",
+  "lastUpdated": "2025-10-29T03:19:18.521Z",
   "movies": [
+    {
+      "title": "Frankenstein",
+      "link": "https://letterboxd.com/peruvianidol/film/frankenstein-1931/",
+      "watchedDate": "2025-10-28",
+      "filmYear": "1931",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/0v/a7/ib/7t/wB58wlBAr6484Wm6VyFDqSD8VOJ-0-600-0-900-crop.jpg?v=70996dc2b3",
+      "reviewText": "Far from my favorite adaptation but man, the iconography in this film has endured for almost 100 years. The mad scientist’s lab, the angry mob, and the creature design have been repeated so many times in pop culture. What the hell was with that last scene though? lol"
+    },
     {
       "title": "National Theatre Live: Frankenstein",
       "link": "https://letterboxd.com/peruvianidol/film/national-theatre-live-frankenstein-2011/",
