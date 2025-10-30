@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-29T03:19:18.521Z",
+  "lastUpdated": "2025-10-30T06:34:43.345Z",
   "movies": [
+    {
+      "title": "Ballad of a Small Player",
+      "link": "https://letterboxd.com/peruvianidol/film/ballad-of-a-small-player/",
+      "watchedDate": "2025-10-29",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/5/5/8/8/5/1155885-ballad-of-a-small-player-0-600-0-900-crop.jpg?v=5de53d4a3c",
+      "reviewText": "Wow, people hated this! I loved it. This movie is dripping with color and Colin Farrell’s flop sweat. It has the manic energy of Uncut Gems with an unexpected twist that sets it apart from the typical degenerate gambler movie."
+    },
     {
       "title": "Frankenstein",
       "link": "https://letterboxd.com/peruvianidol/film/frankenstein-1931/",
