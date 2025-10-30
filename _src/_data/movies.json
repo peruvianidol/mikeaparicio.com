@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-10-30T06:34:43.345Z",
+  "lastUpdated": "2025-10-30T18:34:19.548Z",
   "movies": [
+    {
+      "title": "Mr. Scorsese",
+      "link": "https://letterboxd.com/peruvianidol/film/mr-scorsese/",
+      "watchedDate": "2025-10-30",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/4/2/2/3/2/8/1422328-mr-scorsese-0-600-0-900-crop.jpg?v=03e9017019",
+      "reviewText": "Came away from this with a greater understanding of Scorsese’s filmography and the man himself. Doesn’t shy away from some of the darker parts of his personality that are actually critical to his work. It was fascinating to see Marty’s contemporaries like De Palma and Spielberg, prolific directors in their own right, heaping praise and admiration on him, not to mention those whose work he influenced. My only quibble is that five episodes is somehow too short, glossing over his recent career and collaboration with Leonardo DiCaprio. Now I have to check out a half dozen Scorsese movies I haven’t seen and revisit another half dozen."
+    },
     {
       "title": "Ballad of a Small Player",
       "link": "https://letterboxd.com/peruvianidol/film/ballad-of-a-small-player/",
