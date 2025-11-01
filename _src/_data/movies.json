@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-01T19:15:54.801Z",
+  "lastUpdated": "2025-11-01T21:18:13.694Z",
   "movies": [
+    {
+      "title": "TRON: Ares",
+      "link": "https://letterboxd.com/peruvianidol/film/tron-ares/",
+      "watchedDate": "2025-11-01",
+      "filmYear": "2025",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/2/9/0/3/462903-tron-ares-0-600-0-900-crop.jpg?v=a7c7de2bbc",
+      "reviewText": "Killer soundtrack. Some interesting concepts but executed in the dullest way possible. Every single person in the cast made me think “why is this person in this?”"
+    },
     {
       "title": "After Hours",
       "link": "https://letterboxd.com/peruvianidol/film/after-hours/",
