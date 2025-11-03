@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-01T21:18:13.694Z",
+  "lastUpdated": "2025-11-03T05:24:18.655Z",
   "movies": [
+    {
+      "title": "Mean Streets",
+      "link": "https://letterboxd.com/peruvianidol/film/mean-streets/",
+      "watchedDate": "2025-11-02",
+      "filmYear": "1973",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/8/5/0/51850-mean-streets-0-600-0-900-crop.jpg?v=931fbfc6b7",
+      "reviewText": "This probably felt more groundbreaking at the time and you can see a lot of the seeds of Scorsese’s later filmography here, but it was kind of tedious to get through. These characters are not particularly fun to hang out with and that’s what most of the movie is."
+    },
     {
       "title": "TRON: Ares",
       "link": "https://letterboxd.com/peruvianidol/film/tron-ares/",
