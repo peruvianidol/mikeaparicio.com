@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-03T05:24:18.655Z",
+  "lastUpdated": "2025-11-06T04:30:24.211Z",
   "movies": [
+    {
+      "title": "Predator: Badlands",
+      "link": "https://letterboxd.com/peruvianidol/film/predator-badlands/",
+      "watchedDate": "2025-11-05",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/5/8/0/9/1125809-predator-badlands-0-600-0-900-crop.jpg?v=a0e5686bef",
+      "reviewText": "Gotta hand it to Dan Trachtenberg, who continues to expand on the Predator universe in new and interesting ways. This sprinkles in some Alien and even some Mandalorian. Unfortunately, like that show, this is just wall-to-wall CG that looks like very little of it was shot in a real location, even though the end credits swear it was shot in New Zealand and Australia. This may have been better served as an animated film like Killer of Killers. Still, some really inventive Predator tech and improvised weapons on display."
+    },
     {
       "title": "Mean Streets",
       "link": "https://letterboxd.com/peruvianidol/film/mean-streets/",
