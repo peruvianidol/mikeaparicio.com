@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-06T04:30:24.211Z",
+  "lastUpdated": "2025-11-09T23:20:57.610Z",
   "movies": [
+    {
+      "title": "Good Fortune",
+      "link": "https://letterboxd.com/peruvianidol/film/good-fortune-2025/",
+      "watchedDate": "2025-11-09",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/0/5/0/1/8/1005018-good-fortune-2025-0-600-0-900-crop.jpg?v=929b7de207",
+      "reviewText": "This is It’s a Wonderful Life for the post-capitalism age, except its characters (except Keke Palmer’s) seemingly have never done anything for anyone but themselves their whole lives. The movie’s only (heavy-handed) message seems to be “doesn’t it suck being poor?” Still, enjoyed hanging with Keanu’s fallen angel, living his best life eating tacos and dancing."
+    },
     {
       "title": "Predator: Badlands",
       "link": "https://letterboxd.com/peruvianidol/film/predator-badlands/",
