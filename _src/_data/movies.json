@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-10T05:24:57.547Z",
+  "lastUpdated": "2025-11-10T07:23:16.868Z",
   "movies": [
+    {
+      "title": "Splitsville",
+      "link": "https://letterboxd.com/peruvianidol/film/splitsville/",
+      "watchedDate": "2025-11-09",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/3/1/8/0/1/1231801-splitsville-0-600-0-900-crop.jpg?v=3852bd06f2",
+      "reviewText": "Surprisingly fun and unexpectedly has one of the best fight scenes of the year. Made me consider opening my marriage if for no other reason than to expand my circle of guy friends. Movie night? Free chiropractic adjustments? What’s not to like?"
+    },
     {
       "title": "The Smashing Machine",
       "link": "https://letterboxd.com/peruvianidol/film/the-smashing-machine-2025/",
