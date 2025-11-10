@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-09T23:20:57.610Z",
+  "lastUpdated": "2025-11-10T01:58:18.350Z",
   "movies": [
+    {
+      "title": "Black Phone 2",
+      "link": "https://letterboxd.com/peruvianidol/film/black-phone-2/",
+      "watchedDate": "2025-11-09",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/8/2/1/6/0/1082160-black-phone-2-0-600-0-900-crop.jpg?v=5ff6eeb27d",
+      "reviewText": "Watching this I couldn’t recall hardly anything about the first movie. It didn’t seem to matter much. This sequel takes Ethan Hawke’s Grabber (the dumbest horror villain name ever?) into the realm of Nightmare on Elm Street with some pretty cool scenes. None of it really makes any sense if you stop and think about it, but in the moment it’s fun. I’ll likely forget all about this one by the time the inevitable Black Phone 3 comes out."
+    },
     {
       "title": "Good Fortune",
       "link": "https://letterboxd.com/peruvianidol/film/good-fortune-2025/",
