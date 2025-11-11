@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-10T07:23:16.868Z",
+  "lastUpdated": "2025-11-11T05:23:55.751Z",
   "movies": [
+    {
+      "title": "Kundun",
+      "link": "https://letterboxd.com/peruvianidol/film/kundun/",
+      "watchedDate": "2025-11-10",
+      "filmYear": "1997",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/gl/8r/gx/jb/tQOMq9k0jEm4bUXR5CPJSju7Vky-0-600-0-900-crop.jpg?v=62042552a4",
+      "reviewText": "A gorgeous looking movie that feels quite authentic with its largely Tibetan cast. Hard not to compare this with Seven Years in Tibet, which is maybe less authentic but has more focus. This felt kind of aimless, hitting the main beats of the Dalai Lama’s life but left me unfulfilled. I’m fascinated by rituals and traditions and this film offers a lot in that regard."
+    },
     {
       "title": "Splitsville",
       "link": "https://letterboxd.com/peruvianidol/film/splitsville/",
