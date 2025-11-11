@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-11T18:33:45.259Z",
+  "lastUpdated": "2025-11-11T22:22:46.278Z",
   "movies": [
+    {
+      "title": "Bugonia",
+      "link": "https://letterboxd.com/peruvianidol/film/bugonia/",
+      "watchedDate": "2025-11-11",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/2/5/4/0/0/625400-bugonia-0-600-0-900-crop.jpg?v=4c6649150e",
+      "reviewText": "Delightfully unhinged, as you’d expect from Yorgos Lanthimos, but this felt more accessible than any of his prior films, including The Favourite. Took me awhile to get on board with it as it feels like so much time is spent setting up Jesse Plemons’ conspiracy theory before things really start getting interesting. Emma Stone is doing some of her best work here. This will probably grow on me with repeat viewings."
+    },
     {
       "title": "Roofman",
       "link": "https://letterboxd.com/peruvianidol/film/roofman/",
