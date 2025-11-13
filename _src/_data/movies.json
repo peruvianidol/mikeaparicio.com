@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-11T22:22:46.278Z",
+  "lastUpdated": "2025-11-13T21:21:50.012Z",
   "movies": [
+    {
+      "title": "Frankenstein",
+      "link": "https://letterboxd.com/peruvianidol/film/frankenstein-2025/1/",
+      "watchedDate": "2025-11-13",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/5/8/1/0/0/958100-frankenstein-2025-0-600-0-900-crop.jpg?v=49a1ca2305",
+      "reviewText": "In an interview, Del Toro said that his entire filmography is basically Frankenstein. His passion for the story is on full display here. Just an incredible achievement."
+    },
     {
       "title": "Bugonia",
       "link": "https://letterboxd.com/peruvianidol/film/bugonia/",
