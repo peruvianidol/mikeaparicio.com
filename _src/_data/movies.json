@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-14T04:28:35.724Z",
+  "lastUpdated": "2025-11-15T06:32:37.337Z",
   "movies": [
+    {
+      "title": "Cloud",
+      "link": "https://letterboxd.com/peruvianidol/film/cloud-2024/",
+      "watchedDate": "2025-11-14",
+      "filmYear": "2024",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/0/0/5/1127005-cloud-2024-0-600-0-900-crop.jpg?v=b5609fae8c",
+      "reviewText": "Maybe I just don’t understand how reselling (and assistants) work in Japan but I couldn’t help think, “why go through all the trouble?” The last act makes up for the dull setup but the whole thing seems like a drastic overreaction."
+    },
     {
       "title": "One Battle After Another",
       "link": "https://letterboxd.com/peruvianidol/film/one-battle-after-another/1/",
