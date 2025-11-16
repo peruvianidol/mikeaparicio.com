@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-15T06:32:37.337Z",
+  "lastUpdated": "2025-11-16T02:00:05.682Z",
   "movies": [
+    {
+      "title": "Klute",
+      "link": "https://letterboxd.com/peruvianidol/film/klute/",
+      "watchedDate": "2025-11-15",
+      "filmYear": "1971",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/6/3/6/51636-klute-0-600-0-900-crop.jpg?v=2be0335211",
+      "reviewText": "What an odd, horny, 70s noir. Jane Fonda is great in a really meaty role. Donald Sutherland, on the other hand, is surprisingly one-note. Some great shots and lighting. The mystery isn’t all that compelling but Fonda’s performance certainly is."
+    },
     {
       "title": "Cloud",
       "link": "https://letterboxd.com/peruvianidol/film/cloud-2024/",
