@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-16T02:00:05.682Z",
+  "lastUpdated": "2025-11-16T05:22:50.691Z",
   "movies": [
+    {
+      "title": "The Parallax View",
+      "link": "https://letterboxd.com/peruvianidol/film/the-parallax-view/",
+      "watchedDate": "2025-11-15",
+      "filmYear": "1974",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/4q/mz/oh/f1/parallax%20view-0-600-0-900-crop.jpg?v=d3b9a6c658",
+      "reviewText": "Pretty unsatisfying conspiracy thriller. Lots of long, drawn out sequences that are supposed to build suspense but they all lead to a pretty lame outcome. Beatty is pretty good though."
+    },
     {
       "title": "Klute",
       "link": "https://letterboxd.com/peruvianidol/film/klute/",
