@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-18T23:22:07.655Z",
+  "lastUpdated": "2025-11-19T05:24:36.692Z",
   "movies": [
+    {
+      "title": "The Color of Money",
+      "link": "https://letterboxd.com/peruvianidol/film/the-color-of-money/",
+      "watchedDate": "2025-11-18",
+      "filmYear": "1986",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/4/9/3/0/44930-the-color-of-money-0-600-0-900-crop.jpg?v=e9d86f8587",
+      "reviewText": "Paul Newman is perfect in this. Feels as though just as his character is taking Vincent under his wing as an up-and-coming pool shark, Newman is also taking Cruise under his wing as an actor. Cruise’s young, cocky charm is right at home here. For a brief moment I imagined this as a prequel to Collateral. Love Scorsese’s direction and, as usual, the soundtrack rips. Also fun seeing some recognizable Chicago spots in the beginning."
+    },
     {
       "title": "Being Eddie",
       "link": "https://letterboxd.com/peruvianidol/film/being-eddie/",
