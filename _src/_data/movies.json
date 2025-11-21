@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-19T22:22:51.103Z",
+  "lastUpdated": "2025-11-21T06:36:54.598Z",
   "movies": [
+    {
+      "title": "If I Had Legs I'd Kick You",
+      "link": "https://letterboxd.com/peruvianidol/film/if-i-had-legs-id-kick-you/",
+      "watchedDate": "2025-11-20",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/4/6/5/2/2/1046522-if-i-had-legs-id-kick-you-0-600-0-900-crop.jpg?v=831a0c76c9",
+      "reviewText": "A deeply unsettling watch. Felt almost Lynchian at some points. A tremendous performance by Rose Byrne. Hard to say much about this without spoiling it, but things I questioned for most of the movie eventually paid off. There's a lot to unpack here that almost demands repeat viewings. Not sure I can handle it though! I have to go hug my wife now."
+    },
     {
       "title": "The Hustler",
       "link": "https://letterboxd.com/peruvianidol/film/the-hustler/",
