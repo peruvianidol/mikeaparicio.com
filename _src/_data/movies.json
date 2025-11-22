@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-21T06:36:54.598Z",
+  "lastUpdated": "2025-11-22T06:32:25.289Z",
   "movies": [
+    {
+      "title": "Train Dreams",
+      "link": "https://letterboxd.com/peruvianidol/film/train-dreams/",
+      "watchedDate": "2025-11-21",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/2/5/3/8/3/1125383-train-dreams-0-600-0-900-crop.jpg?v=55740bb5b4",
+      "reviewText": "Holy shit, this movie wrecked me. Gorgeously shot, reminded me of a Terrence Malick film. Joel Edgerton gives such a restrained performance. You can't take your eyes off him when he's on screen. I'll be thinking of this movie for a long time."
+    },
     {
       "title": "If I Had Legs I'd Kick You",
       "link": "https://letterboxd.com/peruvianidol/film/if-i-had-legs-id-kick-you/",
