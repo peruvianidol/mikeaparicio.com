@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-22T06:32:25.289Z",
+  "lastUpdated": "2025-11-23T07:21:30.520Z",
   "movies": [
+    {
+      "title": "No Other Choice",
+      "link": "https://letterboxd.com/peruvianidol/film/no-other-choice-2025/",
+      "watchedDate": "2025-11-22",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/6/5/9/5/2/565952-no-other-choice-2025-0-600-0-900-crop.jpg?v=87ef42b9f5",
+      "reviewText": "A lot wackier than Decision to Leave but takes that film's incredible cinematography and editing up a notch. Lee Byung-hun is surprisingly adept at comedy. I had fun but it felt like it was trying to cram in a few too many ideas."
+    },
     {
       "title": "Train Dreams",
       "link": "https://letterboxd.com/peruvianidol/film/train-dreams/",
