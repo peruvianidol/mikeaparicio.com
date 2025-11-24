@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-24T08:35:03.878Z",
+  "lastUpdated": "2025-11-24T22:22:40.217Z",
   "movies": [
+    {
+      "title": "After the Hunt",
+      "link": "https://letterboxd.com/peruvianidol/film/after-the-hunt-2025/",
+      "watchedDate": "2025-11-24",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/9/1/4/0/1149140-after-the-hunt-2025-0-600-0-900-crop.jpg?v=8a38a79f2c",
+      "reviewText": "I generally enjoy Luca's work but this was a miss for me. Everyone in this is painfully unsympathetic. Julia Roberts is particularly good at it — Oscar-worthy, even. Not sure what I was supposed to take away from this as I didn't go to Yale. This film asks and answers the question: what if Wonder Boys was not funny and painfully long?"
+    },
     {
       "title": "The Andromeda Strain",
       "link": "https://letterboxd.com/peruvianidol/film/the-andromeda-strain/",
