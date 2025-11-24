@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-23T07:21:30.520Z",
+  "lastUpdated": "2025-11-24T08:35:03.878Z",
   "movies": [
+    {
+      "title": "The Andromeda Strain",
+      "link": "https://letterboxd.com/peruvianidol/film/the-andromeda-strain/",
+      "watchedDate": "2025-11-23",
+      "filmYear": "1971",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/1/5/8/46158-the-andromeda-strain-0-600-0-900-crop.jpg?v=eb73983242",
+      "reviewText": "Some cool vibes but this felt like the first 10 minutes of a science fiction movie drawn out to a full-length movie. If you're into amino acids and alkalis and shit you'll probably love this movie."
+    },
     {
       "title": "No Other Choice",
       "link": "https://letterboxd.com/peruvianidol/film/no-other-choice-2025/",
