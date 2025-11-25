@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-24T22:22:40.217Z",
+  "lastUpdated": "2025-11-25T06:37:54.467Z",
   "movies": [
+    {
+      "title": "The Roses",
+      "link": "https://letterboxd.com/peruvianidol/film/the-roses-2025/",
+      "watchedDate": "2025-11-24",
+      "filmYear": "2025",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/5/1/4/2/5/1151425-the-roses-2025-0-600-0-900-crop.jpg?v=50088985de",
+      "reviewText": "Was this written by AI? It's ostensibly a comedy, with a cast of people who are usually funny. If I lost three of my fingers in a horrible accident I'd still be able to count how many times I chuckled watching this movie on one hand. Deeply unfunny."
+    },
     {
       "title": "After the Hunt",
       "link": "https://letterboxd.com/peruvianidol/film/after-the-hunt-2025/",
