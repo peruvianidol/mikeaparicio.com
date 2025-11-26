@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-25T06:37:54.467Z",
+  "lastUpdated": "2025-11-26T06:37:09.240Z",
   "movies": [
+    {
+      "title": "GoodFellas",
+      "link": "https://letterboxd.com/peruvianidol/film/goodfellas/",
+      "watchedDate": "2025-11-25",
+      "filmYear": "1990",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/3/8/3/51383-goodfellas-0-600-0-900-crop.jpg?v=c6c265f228",
+      "reviewText": "First time seeing this since marrying an Italian woman and now everything makes sense."
+    },
     {
       "title": "The Roses",
       "link": "https://letterboxd.com/peruvianidol/film/the-roses-2025/",
