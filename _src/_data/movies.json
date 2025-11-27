@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-27T05:25:27.969Z",
+  "lastUpdated": "2025-11-27T06:37:47.186Z",
   "movies": [
+    {
+      "title": "Planes, Trains and Automobiles",
+      "link": "https://letterboxd.com/peruvianidol/film/planes-trains-and-automobiles/1/",
+      "watchedDate": "2025-11-26",
+      "filmYear": "1987",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/1/9/3/50193-planes-trains-and-automobiles-0-600-0-900-crop.jpg?v=f36141cb58",
+      "reviewText": "Realizing I stayed in Chicago almost my entire life to avoid this exact situation."
+    },
     {
       "title": "Are We Good?",
       "link": "https://letterboxd.com/peruvianidol/film/are-we-good-2025/",
