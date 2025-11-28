@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-28T03:14:41.206Z",
+  "lastUpdated": "2025-11-28T06:37:08.961Z",
   "movies": [
+    {
+      "title": "The Last Picture Show",
+      "link": "https://letterboxd.com/peruvianidol/film/the-last-picture-show/",
+      "watchedDate": "2025-11-27",
+      "filmYear": "1971",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/6/2/2/2/36222-the-last-picture-show-0-600-0-900-crop.jpg?v=b81c133f71",
+      "reviewText": "This feels so ahead of its time. It should've been called The Horniest Little Town in Texas or something. Lots of great characters in this really just longing for companionship in the middle of nowhere. Young Jeff Bridges and Cybill Shepherd! Though Timothy Bottoms kind of steals the show. Great movie."
+    },
     {
       "title": "Blue Moon",
       "link": "https://letterboxd.com/peruvianidol/film/blue-moon-2025/",
