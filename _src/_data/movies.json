@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-27T06:37:47.186Z",
+  "lastUpdated": "2025-11-28T03:14:41.206Z",
   "movies": [
+    {
+      "title": "Blue Moon",
+      "link": "https://letterboxd.com/peruvianidol/film/blue-moon-2025/",
+      "watchedDate": "2025-11-27",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/8/1/4/6/3/1181463-blue-moon-2025-0-600-0-900-crop.jpg?v=e7b58cae0d",
+      "reviewText": "\"No one ever loved me that much.\" Ethan Hawke is doing some of his best work here as Lorenz Hart, in full Dorf on Golf mode. His character is simultaneously amusing, endearing and exhausting. Margaret Qualley is radiant, as usual, as the young object of Hart's unrequited affection. I only wish she was in more scenes."
+    },
     {
       "title": "Planes, Trains and Automobiles",
       "link": "https://letterboxd.com/peruvianidol/film/planes-trains-and-automobiles/1/",
