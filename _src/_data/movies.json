@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-28T06:37:08.961Z",
+  "lastUpdated": "2025-11-29T05:23:37.696Z",
   "movies": [
+    {
+      "title": "Texasville",
+      "link": "https://letterboxd.com/peruvianidol/film/texasville/",
+      "watchedDate": "2025-11-28",
+      "filmYear": "1990",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/9/0/0/6/69006-texasville-0-600-0-900-crop.jpg?v=340a6cf991",
+      "reviewText": "Is this the original lega-sequel? This takes place 33 years after The Last Picture Show and gets nearly the whole cast back together, for better or worse. Tonally it takes a sharp turn into slapstick and feels like a made-for-TV movie. They pretty much sideline Sonny, who was the heart of the original, in favor of setting up a will-they-or-won’t-they reunion between Jeff Bridges and Cybill Shepherd. Still, it’s fun revisiting these characters later in life. The town is still horny as ever."
+    },
     {
       "title": "The Last Picture Show",
       "link": "https://letterboxd.com/peruvianidol/film/the-last-picture-show/",
