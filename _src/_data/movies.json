@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-30T02:06:25.806Z",
+  "lastUpdated": "2025-11-30T06:35:44.688Z",
   "movies": [
+    {
+      "title": "Eyes Wide Shut",
+      "link": "https://letterboxd.com/peruvianidol/film/eyes-wide-shut/",
+      "watchedDate": "2025-11-29",
+      "filmYear": "1999",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/7/1/7/51717-eyes-wide-shut-0-600-0-900-crop.jpg?v=7010402aeb",
+      "reviewText": "This movie hits different as a married man. Not at all what I remembered it to be when it first came out. This felt like Fincher’s The Game but with a lot more naked women. If there’s a lesson here it’s that you don’t take a taxi to an orgy."
+    },
     {
       "title": "Police Story",
       "link": "https://letterboxd.com/peruvianidol/film/police-story/",
