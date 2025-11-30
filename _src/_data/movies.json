@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-29T05:23:37.696Z",
+  "lastUpdated": "2025-11-30T02:06:25.806Z",
   "movies": [
+    {
+      "title": "Police Story",
+      "link": "https://letterboxd.com/peruvianidol/film/police-story/",
+      "watchedDate": "2025-11-29",
+      "filmYear": "1985",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/3/8/8/47388-police-story-0-600-0-900-crop.jpg?v=a82a2d381f",
+      "reviewText": "The sheer amount of broken glass in this movie is impressive. A pretty solid sampling of Jackie’s signature blend of action and comedy with some dangerously over-the-top stunt work. The plot is pretty thin and there’s lots of Three’s Company-style innuendo misunderstandings in between the action beats. I have no doubt Jackie was a John Ritter fan and/or vice versa. When this is clicking it’s an absolute joy."
+    },
     {
       "title": "Texasville",
       "link": "https://letterboxd.com/peruvianidol/film/texasville/",
