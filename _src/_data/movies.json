@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-02T22:21:07.019Z",
+  "lastUpdated": "2025-12-03T06:39:10.585Z",
   "movies": [
+    {
+      "title": "Casino",
+      "link": "https://letterboxd.com/peruvianidol/film/casino/",
+      "watchedDate": "2025-12-02",
+      "filmYear": "1995",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/6p/om/dp/mc/casino-original-0-600-0-900-crop.jpg?v=4bb9a2596f",
+      "reviewText": "Not quite on the same level as Goodfellas but looks great in 4k. Pesci is excellent and Sharon Stone is delightfully unhinged."
+    },
     {
       "title": "Rental Family",
       "link": "https://letterboxd.com/peruvianidol/film/rental-family-2025/",
