@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-03T06:39:10.585Z",
+  "lastUpdated": "2025-12-04T06:37:57.178Z",
   "movies": [
+    {
+      "title": "Lurker",
+      "link": "https://letterboxd.com/peruvianidol/film/lurker-2025/",
+      "watchedDate": "2025-12-03",
+      "filmYear": "2025",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/8/8/5/8/1148858-lurker-2025-0-600-0-900-crop.jpg?v=0b2a289e78",
+      "reviewText": "What if Nightcrawler but boring and annoying? I found just about every character in this deeply unpleasant. They had a chance to bring me around at the end but decided to double down instead. Ugh."
+    },
     {
       "title": "Casino",
       "link": "https://letterboxd.com/peruvianidol/film/casino/",
