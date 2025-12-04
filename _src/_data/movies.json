@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-04T06:37:57.178Z",
+  "lastUpdated": "2025-12-04T17:26:59.399Z",
   "movies": [
+    {
+      "title": "Tango & Cash",
+      "link": "https://letterboxd.com/peruvianidol/film/tango-cash/",
+      "watchedDate": "2025-12-04",
+      "filmYear": "1989",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/gk/7y/9t/q6/iR2lVzGXYsJpksqUswsnZ7LPTfx-0-600-0-900-crop.jpg?v=fdba59ed53",
+      "reviewText": "If you asked ChatGPT to write a script for an 80s buddy cop action movie, you’d get Tango &amp; Cash. Chock full of tropes and 80s character actors (and young Teri Hatcher!) I vaguely remember this being fun when it came out, and it still has its moments, but it’s pretty cringe by today’s standards."
+    },
     {
       "title": "Lurker",
       "link": "https://letterboxd.com/peruvianidol/film/lurker-2025/",
