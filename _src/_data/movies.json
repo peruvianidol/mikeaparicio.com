@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-05T03:23:56.780Z",
+  "lastUpdated": "2025-12-05T23:23:06.770Z",
   "movies": [
+    {
+      "title": "Nuremberg",
+      "link": "https://letterboxd.com/peruvianidol/film/nuremberg-2025/",
+      "watchedDate": "2025-12-05",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/9/8/7/8/2/1098782-nuremberg-2025-0-600-0-900-crop.jpg?v=954f98ffb4",
+      "reviewText": "Ostensibly a courtroom drama with very little courtroom and not much drama. Half of the dialogue sounds like a Wikipedia entry being read to other characters to provide context and exposition. The whole affair feels like a thinly-veiled warning that OMG THIS COULD HAPPEN AGAIN, which might be prescient if it weren’t already happening. I’ll tell you what though, looking forward to Nuremberg 2!"
+    },
     {
       "title": "The International",
       "link": "https://letterboxd.com/peruvianidol/film/the-international/",
