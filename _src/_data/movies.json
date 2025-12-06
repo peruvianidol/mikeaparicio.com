@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-05T23:23:06.770Z",
+  "lastUpdated": "2025-12-06T05:23:22.006Z",
   "movies": [
+    {
+      "title": "Jay Kelly",
+      "link": "https://letterboxd.com/peruvianidol/film/jay-kelly/",
+      "watchedDate": "2025-12-05",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/6/4/4/3/8/964438-jay-kelly-0-600-0-900-crop.jpg?v=173fd0d7da",
+      "reviewText": "I’m a big Clooney fan but this felt so self-indulgent. Beautifully shot, great cast. Has its moments but ultimately I just didn’t care much about Kelly and all his regrets."
+    },
     {
       "title": "Nuremberg",
       "link": "https://letterboxd.com/peruvianidol/film/nuremberg-2025/",
