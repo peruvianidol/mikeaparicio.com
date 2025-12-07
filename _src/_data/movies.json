@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-06T05:23:22.006Z",
+  "lastUpdated": "2025-12-07T03:58:01.392Z",
   "movies": [
+    {
+      "title": "Star Wars",
+      "link": "https://letterboxd.com/peruvianidol/film/star-wars/1/",
+      "watchedDate": "2025-12-06",
+      "filmYear": "1977",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/7/0/6/2706-star-wars-0-600-0-900-crop.jpg?v=f1f1271bf5",
+      "reviewText": "You knew the kid was special when he raw-dogged the trench run with no targeting computer. Finally got all the way through this with my boys (6 and 3) on the third attempt and, as much as I loved it as a kid, it’s really just like three good scenes held together with great sound and a whole lot of nostalgia. From my kids’ perspective, the opening is great, and then it’s just people talking in the desert for like 30 minutes until anything remotely interesting happens. There’s some fun stuff on the Death Star and then the final assault, which this was the first time my kids made it that far. In the end they thought it was bullshit that Luke and Han got medals and they just left Chewbacca standing there like a goon.My oldest was shocked to learn they made more than one Star Wars movie."
+    },
+    {
+      "title": "Never Let Me Go",
+      "link": "https://letterboxd.com/peruvianidol/film/never-let-me-go-2010/1/",
+      "watchedDate": "2025-12-06",
+      "filmYear": "2010",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/k8/3o/rn/jw/i5sE6EINofvT7Xq0rpZz9jRbRMS-0-600-0-900-crop.jpg?v=39edfb5e19",
+      "reviewText": "Looking back at my original review I was quite surprised I still feel the same. I don’t remember the nature of the characters’ purpose being as clearly telegraphed from the beginning, so while the ending is still a gut punch, it didn’t feel as revelatory. Being 15 years older though, the ending hit different."
+    },
     {
       "title": "Jay Kelly",
       "link": "https://letterboxd.com/peruvianidol/film/jay-kelly/",
