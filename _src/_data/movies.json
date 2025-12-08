@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-07T03:58:01.392Z",
+  "lastUpdated": "2025-12-08T01:59:03.050Z",
   "movies": [
+    {
+      "title": "It Was Just an Accident",
+      "link": "https://letterboxd.com/peruvianidol/film/it-was-just-an-accident/",
+      "watchedDate": "2025-12-07",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/3/3/4/9/8/1333498-it-was-just-an-accident-0-600-0-900-crop.jpg?v=d1e92cf746",
+      "reviewText": "Thought this was fine but the Blair Witch-ass ending elevated it. Looking forward to the American remake with an ICE agent in a few years."
+    },
     {
       "title": "Star Wars",
       "link": "https://letterboxd.com/peruvianidol/film/star-wars/1/",
