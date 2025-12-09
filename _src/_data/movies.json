@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-08T01:59:03.050Z",
+  "lastUpdated": "2025-12-09T05:25:22.920Z",
   "movies": [
+    {
+      "title": "Sirāt",
+      "link": "https://letterboxd.com/peruvianidol/film/sirat-2025/",
+      "watchedDate": "2025-12-08",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/7/7/7/1037777-sirat-2025-0-600-0-900-crop.jpg?v=1660cb1f29",
+      "reviewText": "The Mad Max of rave movies. This movie lost me at a certain point but I stuck with it anyway and it only got more stressful from there. Fucking hell."
+    },
     {
       "title": "It Was Just an Accident",
       "link": "https://letterboxd.com/peruvianidol/film/it-was-just-an-accident/",
