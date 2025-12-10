@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-09T22:23:42.221Z",
+  "lastUpdated": "2025-12-10T04:36:42.675Z",
   "movies": [
+    {
+      "title": "Irreversible",
+      "link": "https://letterboxd.com/peruvianidol/film/irreversible/",
+      "watchedDate": "2025-12-09",
+      "filmYear": "2002",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/1/9/0/51190-irreversible-0-600-0-900-crop.jpg?v=65767926de",
+      "reviewText": "That the guy in Sentimental Value gave a DVD of this to his nine-year-old grandson is killing me now. This is maybe one of the most disturbing movies I’ve ever seen. Appreciated the series of long takes and incredibly vulnerable performance by Monica Bellucci. If you go to a place called The Rectum, you shouldn’t be surprised by anything that happens there."
+    },
     {
       "title": "Sentimental Value",
       "link": "https://letterboxd.com/peruvianidol/film/sentimental-value-2025/",
