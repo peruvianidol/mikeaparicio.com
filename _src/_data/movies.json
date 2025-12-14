@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-11T21:26:52.516Z",
+  "lastUpdated": "2025-12-14T02:07:40.964Z",
   "movies": [
+    {
+      "title": "Wake Up Dead Man",
+      "link": "https://letterboxd.com/peruvianidol/film/wake-up-dead-man/",
+      "watchedDate": "2025-12-13",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/2/9/1/1/3/729113-wake-up-dead-man-0-600-0-900-crop.jpg?v=85f3366617",
+      "reviewText": "Another fun mystery with a deep cast. Josh O’Connor and Glenn Close really shine. I’ve seen all the Knives Out films exactly one time and, while I enjoyed them, would be hard-pressed to tell you a single detail about them. Part of that is Blanc is not a particularly interesting character. Aside from being good at solving mysteries he doesn’t seem to have any other apparent skills or interests and instead seems to just serve as a way to provide exposition to the mystery.  This one has several memorable scenes and felt like the most personal of the three. Time will tell if this one remains memorable."
+    },
     {
       "title": "Getting LOST",
       "link": "https://letterboxd.com/peruvianidol/film/getting-lost/",
