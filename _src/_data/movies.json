@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-19T07:26:00.523Z",
+  "lastUpdated": "2025-12-19T20:28:35.816Z",
   "movies": [
+    {
+      "title": "Breakdown: 1975",
+      "link": "https://letterboxd.com/peruvianidol/film/breakdown-1975/",
+      "watchedDate": "2025-12-19",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/4/5/4/7/8/3/1454783-breakdown-1975-0-600-0-900-crop.jpg?v=18642f2345",
+      "reviewText": "Piqued my interest because I was born in ‘75. Spends seemingly more time talking about the events of the 70s that led to the movies than the movies themselves. Throws in movies from 74 and 76 to have more to work with. It was mildly interesting but I would have rather learned more about the movies than the historical context and political climate around them."
+    },
     {
       "title": "The Mastermind",
       "link": "https://letterboxd.com/peruvianidol/film/the-mastermind-2025/",
