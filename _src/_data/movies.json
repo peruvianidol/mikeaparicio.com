@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-19T05:27:02.985Z",
+  "lastUpdated": "2025-12-19T07:26:00.523Z",
   "movies": [
+    {
+      "title": "The Mastermind",
+      "link": "https://letterboxd.com/peruvianidol/film/the-mastermind-2025/",
+      "watchedDate": "2025-12-18",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/4/2/0/9/7/1242097-the-mastermind-2025-0-600-0-900-crop.jpg?v=7294314d40",
+      "reviewText": "Oh, I get it. “Mastermind” is ironic."
+    },
     {
       "title": "Stand by Me",
       "link": "https://letterboxd.com/peruvianidol/film/stand-by-me/",
