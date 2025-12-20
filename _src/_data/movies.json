@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-19T20:28:35.816Z",
+  "lastUpdated": "2025-12-20T20:25:41.625Z",
   "movies": [
+    {
+      "title": "Sinners",
+      "link": "https://letterboxd.com/peruvianidol/film/sinners-2025/1/",
+      "watchedDate": "2025-12-20",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-600-0-900-crop.jpg?v=5996b7d555",
+      "reviewText": "Still have the same issues with this the second time around but what a cool fucking movie."
+    },
     {
       "title": "Breakdown: 1975",
       "link": "https://letterboxd.com/peruvianidol/film/breakdown-1975/",
