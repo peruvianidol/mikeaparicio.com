@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-20T20:25:41.625Z",
+  "lastUpdated": "2025-12-20T23:22:31.420Z",
   "movies": [
+    {
+      "title": "Eephus",
+      "link": "https://letterboxd.com/peruvianidol/film/eephus/",
+      "watchedDate": "2025-12-20",
+      "filmYear": "2024",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/1/0/0/6/0/1110060-eephus-0-600-0-900-crop.jpg?v=0d7e50d7ca",
+      "reviewText": "Charming existential baseball movie. If you don’t care about baseball you might find it to be a bit of a slog. It’s just about the lowest stakes game imaginable with a bunch of locals of all ages playing for the love of it, if nothing else."
+    },
     {
       "title": "Sinners",
       "link": "https://letterboxd.com/peruvianidol/film/sinners-2025/1/",
