@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-21T05:25:57.184Z",
+  "lastUpdated": "2025-12-21T07:23:18.849Z",
   "movies": [
+    {
+      "title": "The Driver",
+      "link": "https://letterboxd.com/peruvianidol/film/the-driver/",
+      "watchedDate": "2025-12-20",
+      "filmYear": "1978",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/4/8/0/50480-the-driver-0-600-0-900-crop.jpg?v=8c1b07e157",
+      "reviewText": "A serviceable dad movie, light on plot/dialogue with some fun, if drawn-out, car chases."
+    },
     {
       "title": "The Lives of Others",
       "link": "https://letterboxd.com/peruvianidol/film/the-lives-of-others/",
