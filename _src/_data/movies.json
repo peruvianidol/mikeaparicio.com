@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-20T23:22:31.420Z",
+  "lastUpdated": "2025-12-21T05:25:57.184Z",
   "movies": [
+    {
+      "title": "The Lives of Others",
+      "link": "https://letterboxd.com/peruvianidol/film/the-lives-of-others/",
+      "watchedDate": "2025-12-20",
+      "filmYear": "2006",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/8b/y5/ap/l6/bzzDAg3fkztvfQB08VBprhs9tVE-0-600-0-900-crop.jpg?v=803117c2ab",
+      "reviewText": "Wow, that was great. Felt very relevant to everything going on in the US right now. This is ultimately the degree of control (or lack thereof) we can expect if things continue to spiral here. The last 15 minutes sealed this as an all-timer."
+    },
     {
       "title": "Eephus",
       "link": "https://letterboxd.com/peruvianidol/film/eephus/",
