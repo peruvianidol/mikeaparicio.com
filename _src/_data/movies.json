@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-24T05:28:23.916Z",
+  "lastUpdated": "2025-12-24T07:27:49.809Z",
   "movies": [
+    {
+      "title": "The Holdovers",
+      "link": "https://letterboxd.com/peruvianidol/film/the-holdovers/1/",
+      "watchedDate": "2025-12-23",
+      "filmYear": "2023",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/5/5/5/6/4/755564-the-holdovers-0-600-0-900-crop.jpg?v=99bbdd8955",
+      "reviewText": "Could see this being an annual holidays watch. It’s so good. Really enjoyed hanging out with these characters again."
+    },
     {
       "title": "Minority Report",
       "link": "https://letterboxd.com/peruvianidol/film/minority-report/1/",
