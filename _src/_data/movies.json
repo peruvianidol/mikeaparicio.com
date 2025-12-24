@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-22T08:36:43.705Z",
+  "lastUpdated": "2025-12-24T05:28:23.916Z",
   "movies": [
+    {
+      "title": "Minority Report",
+      "link": "https://letterboxd.com/peruvianidol/film/minority-report/1/",
+      "watchedDate": "2025-12-23",
+      "filmYear": "2002",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/1o/qh/5e/ur/dS5AHLt4DhZpisxryIxKJU6Urxb-0-600-0-900-crop.jpg?v=921863cb0d",
+      "reviewText": "Watching this for the first time on 4K Blu-Ray and it didn’t add much since the movie is kind of purposefully grungy to begin with. The effects, pretty impressive at the time, don’t hold up great and the stunts seem tame by modern Cruise standards. Still, this remains a great sci-fi movie with Spielberg’s signature flair. It feels like a straight noir movie with a futuristic sheen. Its only mistake is that it presupposes that the people operating our dystopian, techno-fascist police state would be remotely competent."
+    },
     {
       "title": "Die My Love",
       "link": "https://letterboxd.com/peruvianidol/film/die-my-love/",
