@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-24T07:27:49.809Z",
+  "lastUpdated": "2025-12-25T05:28:47.648Z",
   "movies": [
+    {
+      "title": "It's a Wonderful Life",
+      "link": "https://letterboxd.com/peruvianidol/film/its-a-wonderful-life/10/",
+      "watchedDate": "2025-12-24",
+      "filmYear": "1946",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/9/4/9/50949-it-s-a-wonderful-life-0-600-0-900-crop.jpg?v=64b72dd083",
+      "reviewText": "Get me, I'm giving out stars!"
+    },
     {
       "title": "The Holdovers",
       "link": "https://letterboxd.com/peruvianidol/film/the-holdovers/1/",
