@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-27T04:36:06.966Z",
+  "lastUpdated": "2025-12-27T07:22:33.358Z",
   "movies": [
+    {
+      "title": "The Shrouds",
+      "link": "https://letterboxd.com/peruvianidol/film/the-shrouds/",
+      "watchedDate": "2025-12-26",
+      "filmYear": "2024",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/8/7/3/7/3/6/873736-the-shrouds-0-600-0-900-crop.jpg?v=6df7c5eb8e",
+      "reviewText": "Frustratingly bad. The script is so clunky that even this cast struggled to sell it."
+    },
     {
       "title": "Eternity",
       "link": "https://letterboxd.com/peruvianidol/film/eternity-2025-1/",
