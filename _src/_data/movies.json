@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-25T05:28:47.648Z",
+  "lastUpdated": "2025-12-27T04:36:06.966Z",
   "movies": [
+    {
+      "title": "Eternity",
+      "link": "https://letterboxd.com/peruvianidol/film/eternity-2025-1/",
+      "watchedDate": "2025-12-26",
+      "filmYear": "2025",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/3/3/9/0/1143390-eternity-2025-1-0-600-0-900-crop.jpg?v=adc98f0553",
+      "reviewText": "Omg, just go to Polyamory World and be done with it."
+    },
     {
       "title": "It's a Wonderful Life",
       "link": "https://letterboxd.com/peruvianidol/film/its-a-wonderful-life/10/",
