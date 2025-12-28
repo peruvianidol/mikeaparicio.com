@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-28T02:19:10.701Z",
+  "lastUpdated": "2025-12-28T19:19:29.825Z",
   "movies": [
+    {
+      "title": "When Harry Met Sally...",
+      "link": "https://letterboxd.com/peruvianidol/film/when-harry-met-sally/",
+      "watchedDate": "2025-12-28",
+      "filmYear": "1989",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/4/8/5/51485-when-harry-met-sally--0-600-0-900-crop.jpg?v=2f277e2fe7",
+      "reviewText": "Hadn’t seen this probably since high school but as an adult this movie is a banger. Incredible writing and great performances by Billy Crystal and Meg Ryan. This thing is so tight it just whizzes by."
+    },
     {
       "title": "The Running Man",
       "link": "https://letterboxd.com/peruvianidol/film/the-running-man-2025/",
