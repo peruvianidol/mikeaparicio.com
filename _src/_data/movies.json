@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-27T07:22:33.358Z",
+  "lastUpdated": "2025-12-28T02:19:10.701Z",
   "movies": [
+    {
+      "title": "The Running Man",
+      "link": "https://letterboxd.com/peruvianidol/film/the-running-man-2025/",
+      "watchedDate": "2025-12-27",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/1/6/1/7/8/716178-the-running-man-2025-0-600-0-900-crop.jpg?v=51fba45d13",
+      "reviewText": "Not that the original is a masterpiece but this remake adds very little to the premise except an extra half hour of runtime. The original feels prescient in it's depiction of reality TV, deepfakes and authoritarian dystopia. This just feels like a fun house mirror of our current reality."
+    },
     {
       "title": "The Shrouds",
       "link": "https://letterboxd.com/peruvianidol/film/the-shrouds/",
