@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-28T19:19:29.825Z",
+  "lastUpdated": "2025-12-29T04:12:33.267Z",
   "movies": [
+    {
+      "title": "Sorry, Baby",
+      "link": "https://letterboxd.com/peruvianidol/film/sorry-baby-2025/",
+      "watchedDate": "2025-12-28",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/9/0/4/6/4/1090464-sorry-baby-2025-0-600-0-900-crop.jpg?v=c011d7fe20",
+      "reviewText": "Impressive debut from writer/director and star Eva Victor. Some truly sublime moments but ultimately I found it to be a little slow. Loved seeing Lucas Hedges and John Carroll Lynch pop up in this."
+    },
     {
       "title": "When Harry Met Sally...",
       "link": "https://letterboxd.com/peruvianidol/film/when-harry-met-sally/",
