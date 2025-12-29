@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-29T04:12:33.267Z",
+  "lastUpdated": "2025-12-29T18:36:59.728Z",
   "movies": [
+    {
+      "title": "The Last Boy Scout",
+      "link": "https://letterboxd.com/peruvianidol/film/the-last-boy-scout/",
+      "watchedDate": "2025-12-29",
+      "filmYear": "1991",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/jt/pl/ye/k0/cTl2WqsERuZ5vYmAmtfsPIJBLr0-0-600-0-900-crop.jpg?v=34f52bbd53",
+      "reviewText": "I remember digging this when it came out, when both Willis and Wayans were at the peak of their fame. On paper, a Tony Scott movie written by Shane Black with this cast seems like a sure-fire hit. But this is not a particularly good movie. The dialogue has aged poorly (if it was ever good to begin with) and almost everyone involved just seems bored. That the villain’s goal is to legalize sports gambling at any cost is pretty laughable today."
+    },
     {
       "title": "Sorry, Baby",
       "link": "https://letterboxd.com/peruvianidol/film/sorry-baby-2025/",
