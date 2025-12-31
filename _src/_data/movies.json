@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-31T05:29:25.900Z",
+  "lastUpdated": "2025-12-31T07:27:33.124Z",
   "movies": [
+    {
+      "title": "Jarhead",
+      "link": "https://letterboxd.com/peruvianidol/film/jarhead/1/",
+      "watchedDate": "2025-12-30",
+      "filmYear": "2005",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/6/9/3/2693-jarhead-0-600-0-900-crop.jpg?v=f56d3e6907",
+      "reviewText": "This movie always resonated with me because I spent most of high school terrified that I was going to get drafted to fight in the first Gulf War. Really like the cast and Deakins’ gorgeous cinematography. Not a lot happens but that’s kind of the point."
+    },
     {
       "title": "Die Hard With a Vengeance",
       "link": "https://letterboxd.com/peruvianidol/film/die-hard-with-a-vengeance/",
