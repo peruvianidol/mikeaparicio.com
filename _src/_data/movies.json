@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-29T18:36:59.728Z",
+  "lastUpdated": "2025-12-31T02:03:10.534Z",
   "movies": [
+    {
+      "title": "Innerspace",
+      "link": "https://letterboxd.com/peruvianidol/film/innerspace/",
+      "watchedDate": "2025-12-30",
+      "filmYear": "1987",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/lr/yd/i8/fj/krRl7QKdIYsVUPYmOwElA1sqQE7-0-600-0-900-crop.jpg?v=80a5cd8239",
+      "reviewText": "Still a delight all these years later, thanks to Martin Short’s physical comedy and a fun mix of practical and special effects. Totally forgot Meg Ryan was in this. And Robert Picardo as Cowboy!"
+    },
     {
       "title": "The Last Boy Scout",
       "link": "https://letterboxd.com/peruvianidol/film/the-last-boy-scout/",
