@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-31T02:03:10.534Z",
+  "lastUpdated": "2025-12-31T05:29:25.900Z",
   "movies": [
+    {
+      "title": "Die Hard With a Vengeance",
+      "link": "https://letterboxd.com/peruvianidol/film/die-hard-with-a-vengeance/",
+      "watchedDate": "2025-12-30",
+      "filmYear": "1995",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/9/6/2/50962-die-hard-with-a-vengeance-0-600-0-900-crop.jpg?v=d9f53f4d7c",
+      "reviewText": "Starts strong, love the chemistry between Willis and Jackson. A little overstuffed with the bomb plot and the heist plot. Seems to just keep going and going. Still a fun ride and one of the most New York crime capers since Taking of Pelham One Two Three. The last Die Hard movie, as far as I’m concerned."
+    },
     {
       "title": "Innerspace",
       "link": "https://letterboxd.com/peruvianidol/film/innerspace/",
