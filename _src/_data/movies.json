@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-31T07:27:33.124Z",
+  "lastUpdated": "2025-12-31T22:25:10.092Z",
   "movies": [
+    {
+      "title": "Nobody's Fool",
+      "link": "https://letterboxd.com/peruvianidol/film/nobodys-fool/",
+      "watchedDate": "2025-12-31",
+      "filmYear": "1994",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/1/5/7/45157-nobody-s-fool-0-600-0-900-crop.jpg?v=9a3384005d",
+      "reviewText": "Newman really elevates this whole picture with his effortless charm. Not sure it works nearly as well without him. Loved PSH here in a minor but very PSH role."
+    },
     {
       "title": "Jarhead",
       "link": "https://letterboxd.com/peruvianidol/film/jarhead/1/",
