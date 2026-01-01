@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-31T22:25:10.092Z",
+  "lastUpdated": "2026-01-01T05:32:25.491Z",
   "movies": [
+    {
+      "title": "Trading Places",
+      "link": "https://letterboxd.com/peruvianidol/film/trading-places/",
+      "watchedDate": "2025-12-31",
+      "filmYear": "1983",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/qa/o0/ac/wd/jaYll3wckw6HrvTq6s2Q0a4WTGV-0-600-0-900-crop.jpg?v=5eeb418746",
+      "reviewText": "Still a classic. Can’t believe Eddie was only 22 here. The whole premise is wildly implausible but that’s part of its charm. Love the callback to Randolph and Mortimer in Coming to America."
+    },
     {
       "title": "Nobody's Fool",
       "link": "https://letterboxd.com/peruvianidol/film/nobodys-fool/",
