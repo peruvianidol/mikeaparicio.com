@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-01T06:40:08.437Z",
+  "lastUpdated": "2026-01-01T08:34:54.097Z",
   "movies": [
+    {
+      "title": "Electric Dreams",
+      "link": "https://letterboxd.com/peruvianidol/film/electric-dreams/",
+      "watchedDate": "2026-01-01",
+      "filmYear": "1984",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/9/5/4/0/39540-electric-dreams-0-600-0-900-crop.jpg?v=fb9b88f9e6",
+      "reviewText": "Extremely 80s but despite the archaic technology it feels very relevant to the current age of LLMs and generative AI. Virginia Madsen is just radiant here. Easy to see why everyone in the movie, including the computer, are immediately smitten with her. Ah, to be young and in love in San Francisco."
+    },
     {
       "title": "Kumail Nanjiani: Night Thoughts",
       "link": "https://letterboxd.com/peruvianidol/film/kumail-nanjiani-night-thoughts/",
