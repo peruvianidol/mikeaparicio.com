@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-02T08:35:11.902Z",
+  "lastUpdated": "2026-01-02T23:23:52.313Z",
   "movies": [
+    {
+      "title": "Marty Supreme",
+      "link": "https://letterboxd.com/peruvianidol/film/marty-supreme/",
+      "watchedDate": "2026-01-02",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/4/9/9/1197499-marty-supreme-0-600-0-900-crop.jpg?v=b14a26bb43",
+      "reviewText": "Loved every minute of this. Safdie bringing that manic Uncut Gems/Good Time energy. Timothée just having a great time. A lot more excitement (and gunplay) than I expected from a movie about table tennis. Loved the anachronistic soundtrack. Loved the eclectic supporting cast. (George Gervin? Abel Ferrara? Fran Drescher?) A great time at the movies."
+    },
     {
       "title": "Outland",
       "link": "https://letterboxd.com/peruvianidol/film/outland/",
