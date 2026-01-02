@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-02T05:30:01.370Z",
+  "lastUpdated": "2026-01-02T08:35:11.902Z",
   "movies": [
+    {
+      "title": "Outland",
+      "link": "https://letterboxd.com/peruvianidol/film/outland/",
+      "watchedDate": "2026-01-01",
+      "filmYear": "1981",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/i2/0h/7p/6e/8mTMVl3jZfKfFO7uVGtshnh9bl8-0-600-0-900-crop.jpg?v=2dfc5a1e42",
+      "reviewText": "Pretty standard cop movie set in space for no apparent reason, other than to capitalize on the popularity of sci-fi movies of the time and maybe to kill people off in the most horrific ways possible. Connery looks bored here, surrounded by a bunch of familiar character actors like Young Frankenstein’s monster, Doogie Howser’s dad, Noah Wylie’s mom from ER and Lester Freemon from The Wire. Entertaining enough though."
+    },
     {
       "title": "The Apartment",
       "link": "https://letterboxd.com/peruvianidol/film/the-apartment/",
