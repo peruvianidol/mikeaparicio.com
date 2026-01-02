@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-01T08:34:54.097Z",
+  "lastUpdated": "2026-01-02T05:30:01.370Z",
   "movies": [
+    {
+      "title": "The Apartment",
+      "link": "https://letterboxd.com/peruvianidol/film/the-apartment/",
+      "watchedDate": "2026-01-01",
+      "filmYear": "1960",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/7/7/4/51774-the-apartment-0-600-0-900-crop.jpg?v=7df6fac704",
+      "reviewText": "An all-time helluva script with great performances by Lemon and particularly MacLaine. Seems pretty edgy for the time, though I’m often surprised watching old movies that deal with pretty serious issues without a lot of innuendo. A great new years movie, if not the best."
+    },
     {
       "title": "Electric Dreams",
       "link": "https://letterboxd.com/peruvianidol/film/electric-dreams/",
