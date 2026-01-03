@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-03T07:22:56.853Z",
+  "lastUpdated": "2026-01-03T23:23:43.859Z",
   "movies": [
+    {
+      "title": "The Net",
+      "link": "https://letterboxd.com/peruvianidol/film/the-net/",
+      "watchedDate": "2026-01-03",
+      "filmYear": "1995",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/9/0/0/50900-the-net-0-600-0-900-crop.jpg?v=eaa2d594a7",
+      "reviewText": "First time watching since it came out and wow, this feels like it was written by a guy whose only experience with computers was AOL. All of the dudes in this are so gross. Bless Sandra Bullock who’s trying her damndest with just a terrible script. Apparently Carl Reiner LOVED this movie."
+    },
     {
       "title": "Heist",
       "link": "https://letterboxd.com/peruvianidol/film/heist/",
