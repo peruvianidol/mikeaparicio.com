@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-02T23:23:52.313Z",
+  "lastUpdated": "2026-01-03T07:22:56.853Z",
   "movies": [
+    {
+      "title": "Heist",
+      "link": "https://letterboxd.com/peruvianidol/film/heist/",
+      "watchedDate": "2026-01-02",
+      "filmYear": "2001",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/3a/4n/hb/9j/pxn4PMxyNatJhliQEGGhssnvEEW-0-600-0-900-crop.jpg?v=d7ce66d6ea",
+      "reviewText": "Hadn’t seen this since the theater and remembered next to nothing about it but thoroughly enjoyed it this go around. Hackman is great here, still banging out hits at 71. Loved Delroy Lindo and Ricky Jay as his trusty crew. Rockwell is such a slime ball here, it’s almost like he’s in another movie."
+    },
     {
       "title": "Marty Supreme",
       "link": "https://letterboxd.com/peruvianidol/film/marty-supreme/",
