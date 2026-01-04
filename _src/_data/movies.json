@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-04T05:29:58.107Z",
+  "lastUpdated": "2026-01-04T07:25:08.386Z",
   "movies": [
+    {
+      "title": "F/X",
+      "link": "https://letterboxd.com/peruvianidol/film/f-x/",
+      "watchedDate": "2026-01-03",
+      "filmYear": "1986",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/7/6/0/46760-f-x-0-600-0-900-crop.jpg?v=f23ca40c6b",
+      "reviewText": "Loved this movie as a kid and happy to learn that it still holds up pretty well! Clever use of practical effects. Great supporting cast, including Brian Dennehy and Gordon from Sesame Street!"
+    },
     {
       "title": "Ms .45",
       "link": "https://letterboxd.com/peruvianidol/film/ms-45/",
