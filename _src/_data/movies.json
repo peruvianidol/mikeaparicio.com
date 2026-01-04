@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-03T23:23:43.859Z",
+  "lastUpdated": "2026-01-04T05:29:58.107Z",
   "movies": [
+    {
+      "title": "Ms .45",
+      "link": "https://letterboxd.com/peruvianidol/film/ms-45/",
+      "watchedDate": "2026-01-03",
+      "filmYear": "1981",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/8/0/3/5/38035-ms-45-0-600-0-900-crop.jpg?v=504fc1a0db",
+      "reviewText": "A really deranged super hero origin story. The world needs more Ms 45s right now."
+    },
     {
       "title": "The Net",
       "link": "https://letterboxd.com/peruvianidol/film/the-net/",
