@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-04T07:25:08.386Z",
+  "lastUpdated": "2026-01-05T04:18:45.846Z",
   "movies": [
+    {
+      "title": "Left-Handed Girl",
+      "link": "https://letterboxd.com/peruvianidol/film/left-handed-girl/",
+      "watchedDate": "2026-01-04",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/0/0/1/2/8/900128-left-handed-girl-0-600-0-900-crop.jpg?v=b8832bf1ce",
+      "reviewText": "Heard great things about this and only learned from the opening credits that Sean Baker worked on this with his long-time collaborator, director Shih-Ching Tsou. The production feels similar in style to Baker’s films, colorful, vibrant and intimate (and shot on an iPhone), but with the unique perspective of Tsou. This film is delightful. The little girl is adorable and steals every scene she’s in. But the generational dynamic between the mother and her older daughter, as well as the grandmother is really complex and compelling. I hope more people see this!"
+    },
     {
       "title": "F/X",
       "link": "https://letterboxd.com/peruvianidol/film/f-x/",
