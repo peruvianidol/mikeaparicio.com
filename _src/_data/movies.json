@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-05T04:18:45.846Z",
+  "lastUpdated": "2026-01-05T06:46:41.692Z",
   "movies": [
+    {
+      "title": "Cocktail",
+      "link": "https://letterboxd.com/peruvianidol/film/cocktail/",
+      "watchedDate": "2026-01-04",
+      "filmYear": "1988",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/9/9/2/47992-cocktail-0-600-0-900-crop.jpg?v=db5013b937",
+      "reviewText": "I’ve got a soft spot for this corny-ass movie. The years I spent bartending were the hardest I ever worked in my life but also some of the most fun, and I had nothing on Cruise’s Brian Flanagan. Back to back nights with a Bryan Brown movie. Shame that guy didn’t become a bigger star."
+    },
     {
       "title": "Left-Handed Girl",
       "link": "https://letterboxd.com/peruvianidol/film/left-handed-girl/",
