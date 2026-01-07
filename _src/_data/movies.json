@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-05T06:46:41.692Z",
+  "lastUpdated": "2026-01-07T05:30:05.614Z",
   "movies": [
+    {
+      "title": "The Friends of Eddie Coyle",
+      "link": "https://letterboxd.com/peruvianidol/film/the-friends-of-eddie-coyle/",
+      "watchedDate": "2026-01-06",
+      "filmYear": "1973",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/8/7/5/35875-the-friends-of-eddie-coyle-0-600-0-900-crop.jpg?v=a999e59b6c",
+      "reviewText": "I found this to be pretty tedious, focusing on the lowest of low-level crooks. Mitchum and Boyle are great but this was a rough movie with an extremely unsatisfying ending."
+    },
     {
       "title": "Cocktail",
       "link": "https://letterboxd.com/peruvianidol/film/cocktail/",
