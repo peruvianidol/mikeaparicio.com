@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-07T05:30:05.614Z",
+  "lastUpdated": "2026-01-08T04:03:29.694Z",
   "movies": [
+    {
+      "title": "The Secret Agent",
+      "link": "https://letterboxd.com/peruvianidol/film/the-secret-agent-2025/",
+      "watchedDate": "2026-01-07",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/0/4/3/4/8/1104348-the-secret-agent-2025-0-600-0-900-crop.jpg?v=3bcd2a3e02",
+      "reviewText": "I found this to be a bit inscrutable, but loved the 70s aesthetic and Wagner Moura’s performance. Things started getting interesting near the end but then it kind of drops the ball. RIP Udo Kier, who has a brief but memorable scene."
+    },
     {
       "title": "The Friends of Eddie Coyle",
       "link": "https://letterboxd.com/peruvianidol/film/the-friends-of-eddie-coyle/",
