@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-08T04:03:29.694Z",
+  "lastUpdated": "2026-01-09T05:30:14.862Z",
   "movies": [
+    {
+      "title": "Jaws",
+      "link": "https://letterboxd.com/peruvianidol/film/jaws/",
+      "watchedDate": "2026-01-08",
+      "filmYear": "1975",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/5/4/2/51542-jaws-0-600-0-900-crop.jpg?v=03299455f6",
+      "reviewText": "As I was watching this for the first time in forever I realized I had only ever seen the edited for network TV version as a kid. I imagined how wild it would have been to see this when it came out, in a giant movie house, of which if there are any left have been chopped up into much smaller screening rooms. It’s kind of a small miracle this movie got made at all. It still holds up 50 years later. Robert Shaw is especially great. Love Spielberg’s ambition, which he’s used to crank out banger after banger consistently over five decades."
+    },
     {
       "title": "The Secret Agent",
       "link": "https://letterboxd.com/peruvianidol/film/the-secret-agent-2025/",
