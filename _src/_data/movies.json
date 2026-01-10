@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-09T05:30:14.862Z",
+  "lastUpdated": "2026-01-10T20:27:24.874Z",
   "movies": [
+    {
+      "title": "Joint Security Area",
+      "link": "https://letterboxd.com/peruvianidol/film/joint-security-area/",
+      "watchedDate": "2026-01-10",
+      "filmYear": "2000",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/2/5/2/50252-joint-security-area-0-600-0-900-crop.jpg?v=c7b3a65cad",
+      "reviewText": "Wasn’t really into the framing device of the investigation and all the time jumps, but watching these guys raised to believe they were enemies hanging out was sublime. Knowing that tragedy was just around the corner made it bittersweet. Lee Byung-hun and Song Kang-ho are so great."
+    },
     {
       "title": "Jaws",
       "link": "https://letterboxd.com/peruvianidol/film/jaws/",
