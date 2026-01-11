@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-10T23:23:42.354Z",
+  "lastUpdated": "2026-01-11T17:21:49.682Z",
   "movies": [
+    {
+      "title": "The Jacket",
+      "link": "https://letterboxd.com/peruvianidol/film/the-jacket/",
+      "watchedDate": "2026-01-11",
+      "filmYear": "2005",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/74/n3/1x/h1/UZuT4o5rrDSZhkX7wPNfkmRDQD-0-600-0-900-crop.jpg?v=ddc0af4d37",
+      "reviewText": "Hadn’t seen this in forever but it still holds up as a great genre movie whose genre isn’t immediately apparent. The setup is pretty economical and the cast is solid (including a pre-Bond Daniel Craig) for what’s basically a B-movie. The central relationship is a bit weird/creepy but Brody and Knightley do a decent job of selling it anyway."
+    },
     {
       "title": "Zootopia 2",
       "link": "https://letterboxd.com/peruvianidol/film/zootopia-2/",
