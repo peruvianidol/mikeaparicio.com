@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-12T02:10:36.305Z",
+  "lastUpdated": "2026-01-12T06:43:59.319Z",
   "movies": [
+    {
+      "title": "A Midnight Clear",
+      "link": "https://letterboxd.com/peruvianidol/film/a-midnight-clear/",
+      "watchedDate": "2026-01-11",
+      "filmYear": "1992",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/7/1/6/2/37162-a-midnight-clear-0-600-0-900-crop.jpg?v=ffdd8a19b5",
+      "reviewText": "An interesting follow-up watch with Joint Security Area. Similar situations but we get much less time with the two sides hanging out before the inevitable tragedy strikes. Great young cast of guys that would go on to have solid careers."
+    },
     {
       "title": "A Taxi Driver",
       "link": "https://letterboxd.com/peruvianidol/film/a-taxi-driver/",
