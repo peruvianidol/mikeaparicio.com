@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-12T18:39:34.078Z",
+  "lastUpdated": "2026-01-12T22:23:21.216Z",
   "movies": [
+    {
+      "title": "Pillion",
+      "link": "https://letterboxd.com/peruvianidol/film/pillion-2025/",
+      "watchedDate": "2026-01-12",
+      "filmYear": "2025",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/7/0/4/3/3/1170433-pillion-2025-0-600-0-900-crop.jpg?v=680a4585fe",
+      "reviewText": "An interesting movie, to say the least. Like Secretary with motorcycles. Maybe not. Melling and Skarsgard are both great. I don’t get the appeal of being a sub personally, but Pillion certainly explores it in depth."
+    },
     {
       "title": "Cocoon",
       "link": "https://letterboxd.com/peruvianidol/film/cocoon/",
