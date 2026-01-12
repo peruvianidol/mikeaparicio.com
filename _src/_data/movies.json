@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-11T17:21:49.682Z",
+  "lastUpdated": "2026-01-12T02:10:36.305Z",
   "movies": [
+    {
+      "title": "A Taxi Driver",
+      "link": "https://letterboxd.com/peruvianidol/film/a-taxi-driver/",
+      "watchedDate": "2026-01-11",
+      "filmYear": "2017",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/6/9/8/5/6/369856-a-taxi-driver-0-600-0-900-crop.jpg?v=8787b2effd",
+      "reviewText": "A remarkable film even more relevant now than when it was released. It feels like we’re not far in America from what was happening in South Korea in 1980. The third act is thrilling and moving, seeing all the people who sacrificed to get the true story of what was happening out to the world. Song Kang-ho is terrific as always."
+    },
     {
       "title": "The Jacket",
       "link": "https://letterboxd.com/peruvianidol/film/the-jacket/",
