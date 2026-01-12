@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-12T06:43:59.319Z",
+  "lastUpdated": "2026-01-12T18:39:34.078Z",
   "movies": [
+    {
+      "title": "Cocoon",
+      "link": "https://letterboxd.com/peruvianidol/film/cocoon/",
+      "watchedDate": "2026-01-12",
+      "filmYear": "1985",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/3/3/3/46333-cocoon-0-600-0-900-crop.jpg?v=1c2792ee7e",
+      "reviewText": "I was 10 when this came out and today I passed the Brimley/Cocoon Line. That is, I’m the same age as Wilfred Brimley was the day Cocoon was released. This such a fun and wholesome movie. Steve Guttenberg is so charismatic. “Favorite actor Dennehy.” Surprisingly athletic performances from the three main leads. I hope I can make it to the Ameche/Cocoon Line."
+    },
     {
       "title": "A Midnight Clear",
       "link": "https://letterboxd.com/peruvianidol/film/a-midnight-clear/",
