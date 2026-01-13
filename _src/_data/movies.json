@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-13T17:30:49.101Z",
+  "lastUpdated": "2026-01-13T20:31:08.487Z",
   "movies": [
+    {
+      "title": "Southern Comfort",
+      "link": "https://letterboxd.com/peruvianidol/film/southern-comfort/",
+      "watchedDate": "2026-01-13",
+      "filmYear": "1981",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/ks/kb/hm/ne/m6DvrQndASYnc6b7eqTuF26g3OZ-0-600-0-900-crop.jpg?v=effc3c90eb",
+      "reviewText": "Basically Predator but with more inept soldiers and a bunch of Cajun hunters instead of an alien. If there’s a lesson to be learned here it’s that we should lure a bunch of ICE agents into a swamp and laissez es bon temps rouler."
+    },
     {
       "title": "Rental Family",
       "link": "https://letterboxd.com/peruvianidol/film/rental-family-2025/1/",
