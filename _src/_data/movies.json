@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-13T20:31:08.487Z",
+  "lastUpdated": "2026-01-14T04:11:08.370Z",
   "movies": [
+    {
+      "title": "The Getaway",
+      "link": "https://letterboxd.com/peruvianidol/film/the-getaway/",
+      "watchedDate": "2026-01-13",
+      "filmYear": "1972",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/8/5/7/0/48570-the-getaway-0-600-0-900-crop.jpg?v=2ef4ed0667",
+      "reviewText": "A couple good scenes but this otherwise feels needlessly long. I really don’t get what the big deal was with Steve McQueen. I guess you had to be there."
+    },
     {
       "title": "Southern Comfort",
       "link": "https://letterboxd.com/peruvianidol/film/southern-comfort/",
