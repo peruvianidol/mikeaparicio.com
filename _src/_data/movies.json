@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-17T18:34:35.795Z",
+  "lastUpdated": "2026-01-18T06:37:54.315Z",
   "movies": [
+    {
+      "title": "Sympathy for Mr. Vengeance",
+      "link": "https://letterboxd.com/peruvianidol/film/sympathy-for-mr-vengeance/1/",
+      "watchedDate": "2026-01-17",
+      "filmYear": "2002",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/v7/7s/nw/vo/sympathy-for-mr-vengeance-0-600-0-900-crop.jpg?v=5823d56685",
+      "reviewText": "Apparently I logged this before but watching it again I didn’t remember anything about it. And a lot of memorable shit happens in this movie. It’s pretty bleak! The ending is just wild. This is probably the most serious I’ve seen Song Kang-ho, who normally injects his roles with humor. Here he’s just a man on a mission up until the very end."
+    },
     {
       "title": "The Rip",
       "link": "https://letterboxd.com/peruvianidol/film/the-rip-2026/",
