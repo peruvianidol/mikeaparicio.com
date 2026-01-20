@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-18T06:37:54.315Z",
+  "lastUpdated": "2026-01-20T17:34:35.872Z",
   "movies": [
+    {
+      "title": "The Shadow's Edge",
+      "link": "https://letterboxd.com/peruvianidol/film/the-shadows-edge-2025/",
+      "watchedDate": "2026-01-20",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/9/9/9/5/8/1299958-the-shadows-edge-2025-0-600-0-900-crop.jpg?v=ebfe9e9274",
+      "reviewText": "Wasn’t expecting Jackie Chan, now in his 70s, to feature so prominently in this, but he’s here doing Jackie Chan shit. The direction and editing don’t do him any favors, with tight close-ups and quick cuts diminishing the action somewhat. There’s a fair amount of good action though and Macau is a pretty interesting setting. The movie is brought down by a ton of added melodrama around the aging villain and his Gen Z orphan gang, and the daughter of Jackie’s old partner, now also a cop, who Jackie has been secretly keeping an eye on since his partner was killed. The credits seem to hint at a sequel, though I’m not sure how much longer Jackie can keep banging these out."
+    },
     {
       "title": "Sympathy for Mr. Vengeance",
       "link": "https://letterboxd.com/peruvianidol/film/sympathy-for-mr-vengeance/1/",
