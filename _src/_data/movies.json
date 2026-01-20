@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-20T17:34:35.872Z",
+  "lastUpdated": "2026-01-20T21:26:25.655Z",
   "movies": [
+    {
+      "title": "I'm Chevy Chase and You're Not",
+      "link": "https://letterboxd.com/peruvianidol/film/im-chevy-chase-and-youre-not/",
+      "watchedDate": "2026-01-20",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/4/5/5/9/6/4/1455964-im-chevy-chase-and-youre-not-0-600-0-900-crop.jpg?v=851ee94db7",
+      "reviewText": "There’s no denying Chase’s early body of work is as prolific and indelible as any comedian of the last 50 years, but as this doc painfully illustrates, his narcissism, complete lack of self-awareness and a steady stream of coke and alcohol completely derailed a promising career. As others have pointed out, what’s most telling about this doc is the people who weren’t interviewed."
+    },
     {
       "title": "The Shadow's Edge",
       "link": "https://letterboxd.com/peruvianidol/film/the-shadows-edge-2025/",
