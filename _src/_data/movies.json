@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-20T21:26:25.655Z",
+  "lastUpdated": "2026-01-20T23:28:01.320Z",
   "movies": [
+    {
+      "title": "The Choral",
+      "link": "https://letterboxd.com/peruvianidol/film/the-choral/",
+      "watchedDate": "2026-01-20",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/6/9/9/6/1146996-the-choral-0-600-0-900-crop.jpg?v=fbbec4daac",
+      "reviewText": "Mostly enjoyed this in all its earnestness but it felt kind of slight and the ending was not particularly satisfying. I can’t imagine how numerous towns like this had to sacrifice their youth for the sake of war."
+    },
     {
       "title": "I'm Chevy Chase and You're Not",
       "link": "https://letterboxd.com/peruvianidol/film/im-chevy-chase-and-youre-not/",
