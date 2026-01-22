@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-20T23:28:01.320Z",
+  "lastUpdated": "2026-01-22T05:33:16.997Z",
   "movies": [
+    {
+      "title": "Bodies at Rest",
+      "link": "https://letterboxd.com/peruvianidol/film/bodies-at-rest/",
+      "watchedDate": "2026-01-21",
+      "filmYear": "2019",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/6/0/5/9/8/460598-bodies-at-rest-0-600-0-900-crop.jpg?v=dab34be66d",
+      "reviewText": "This thing really drags for only being 90ish minutes. Competently made by Renny Harlin, of all people. It’s like Die Hard in a morgue but the hero is a nerdy widowed coroner who prevails with the help of science and Checkov’s wedding ring."
+    },
     {
       "title": "The Choral",
       "link": "https://letterboxd.com/peruvianidol/film/the-choral/",
