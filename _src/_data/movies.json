@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-22T05:33:16.997Z",
+  "lastUpdated": "2026-01-24T07:24:24.146Z",
   "movies": [
+    {
+      "title": "Mel Brooks: The 99 Year Old Man!",
+      "link": "https://letterboxd.com/peruvianidol/film/mel-brooks-the-99-year-old-man/",
+      "watchedDate": "2026-01-23",
+      "filmYear": "2026",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/4/8/6/1/0/7/1486107-mel-brooks-the-99-year-old-man-0-600-0-900-crop.jpg?v=f2fec29fbe",
+      "reviewText": "A delightful doc about one of the funniest to ever do it, who inspired countless others to follow in his footsteps. It was a gut punch seeing Rob Reiner and David Lynch pop up, both talking lovingly about Mel. As much as this sheds a light on his career, the most touching thing was to see how much he loved his late wife, Anne Bancroft, and his best friend, Carl Reiner."
+    },
     {
       "title": "Bodies at Rest",
       "link": "https://letterboxd.com/peruvianidol/film/bodies-at-rest/",
