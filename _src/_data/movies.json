@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-28T08:39:00.086Z",
+  "lastUpdated": "2026-02-03T16:59:36.820Z",
   "movies": [
+    {
+      "title": "Red Dawn",
+      "link": "https://letterboxd.com/peruvianidol/film/red-dawn/",
+      "watchedDate": "2026-02-03",
+      "filmYear": "1984",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/7/2/3/50723-red-dawn-0-600-0-900-crop.jpg?v=79eaf3da95",
+      "reviewText": "I loved the premise of this movie, growing up at the height of the Cold War. As far-fetched as the idea of a bunch of teens fighting a rebellion against communist invaders in the middle of Bumblefuck, Colorado seemed, who could have imagined we’d eventually be invaded by our own government? Watching this now, with that in mind, this movie is really dumb. The characters are so thin that you feel almost nothing when they die. The ending yadda yadda yaddas the entire war but urges us to remember these kids who fought for our country. This movie really is a second amendment nut’s wet dream. But where are those people now?"
+    },
     {
       "title": "28 Years Later: The Bone Temple",
       "link": "https://letterboxd.com/peruvianidol/film/28-years-later-the-bone-temple/",
