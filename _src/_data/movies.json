@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-03T16:59:36.820Z",
+  "lastUpdated": "2026-02-03T20:42:51.936Z",
   "movies": [
+    {
+      "title": "Hamnet",
+      "link": "https://letterboxd.com/peruvianidol/film/hamnet/",
+      "watchedDate": "2026-02-03",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/7/7/2/2/3/2/772232-hamnet-0-600-0-900-crop.jpg?v=631489314d",
+      "reviewText": "At one point in Hamnet, Emily Watson’s character articulates something that I’ve thought about every day since losing my daughter. “What is given may be taken away at any time. We must never let our guard down. Never take for granted that our children’s hearts beat, that they draw breath, that they walk and speak, smile, argue, play. Never forget for a moment that they may be gone.” This movie was engineered to destroy me. The whole time I’m thinking, okay but what the fuck does this have to do with Shakespeare? And then it hit me and the fucking Max Richter kicks in and I’m left sitting in a puddle of my own tears as the credits roll. Damn."
+    },
     {
       "title": "Red Dawn",
       "link": "https://letterboxd.com/peruvianidol/film/red-dawn/",
