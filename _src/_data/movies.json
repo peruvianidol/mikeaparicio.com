@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-03T20:42:51.936Z",
+  "lastUpdated": "2026-02-04T22:34:25.703Z",
   "movies": [
+    {
+      "title": "The Muppet Show",
+      "link": "https://letterboxd.com/peruvianidol/film/the-muppet-show/",
+      "watchedDate": "2026-02-04",
+      "filmYear": "2026",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/4/2/2/4/2/5/1422425-the-muppet-show-0-600-0-900-crop.jpg?v=7024792b64",
+      "reviewText": "Hard for me to objectively say this was good since I was so caught up in the nostalgia of it all. I used to watch this show as a kid and have no doubt it was influential to my sense of humor. Didn’t quite hit the same highs as what I built up in my head but in its brief runtime it crammed in a lot of old favorites. Selfishly hoping this gets picked up for a full season. I’d love to watch it with my kids."
+    },
     {
       "title": "Hamnet",
       "link": "https://letterboxd.com/peruvianidol/film/hamnet/",
