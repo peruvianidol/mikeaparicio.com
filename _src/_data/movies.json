@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-04T22:34:25.703Z",
+  "lastUpdated": "2026-02-05T17:53:14.064Z",
   "movies": [
+    {
+      "title": "Moonstruck",
+      "link": "https://letterboxd.com/peruvianidol/film/moonstruck/",
+      "watchedDate": "2026-02-05",
+      "filmYear": "1987",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/0/5/7/5/50575-moonstruck-0-600-0-900-crop.jpg?v=ec942da30b",
+      "reviewText": "Can’t believe I slept on this all these years. Brilliant screenplay, delightful cast. I was howling with laughter. My wife is Italian-American and this might be the most Italian-American movie ever made."
+    },
     {
       "title": "The Muppet Show",
       "link": "https://letterboxd.com/peruvianidol/film/the-muppet-show/",
