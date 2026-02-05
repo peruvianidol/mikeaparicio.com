@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-05T17:53:14.064Z",
+  "lastUpdated": "2026-02-05T23:28:39.499Z",
   "movies": [
+    {
+      "title": "Mr. Nobody Against Putin",
+      "link": "https://letterboxd.com/peruvianidol/film/mr-nobody-against-putin/",
+      "watchedDate": "2026-02-05",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/7/7/5/4/5/1277545-mr-nobody-against-putin-0-600-0-900-crop.jpg?v=e15d911787",
+      "reviewText": "Some great footage of a community in a small Russian industrial town and the indoctrination they’re subjected to, but the director centers it as much on himself as anyone else, and he’s probably the least interesting thing about this doc. Kudos to him for getting this footage out, I just wish the finished product focused more on the stories of the kids."
+    },
     {
       "title": "Moonstruck",
       "link": "https://letterboxd.com/peruvianidol/film/moonstruck/",
