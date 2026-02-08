@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-05T23:28:39.499Z",
+  "lastUpdated": "2026-02-08T05:08:22.921Z",
   "movies": [
+    {
+      "title": "The Housemaid",
+      "link": "https://letterboxd.com/peruvianidol/film/the-housemaid-2025/",
+      "watchedDate": "2026-02-07",
+      "filmYear": "2025",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/1/9/1255319-the-housemaid-2025-0-600-0-900-crop.jpg?v=b054fee6ec",
+      "reviewText": "Delightfully trashy. Amanda Seyfried is really going for it. Sydney Sweeney, however, continues to be pretty one-note in everything I’ve seen her in. Also, that was Elizabeth Perkins?!? The movie’s theme of actions having consequences is partly why it feels so cathartic in a world where it increasingly seems like that’s not the case."
+    },
     {
       "title": "Mr. Nobody Against Putin",
       "link": "https://letterboxd.com/peruvianidol/film/mr-nobody-against-putin/",
