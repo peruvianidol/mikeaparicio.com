@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-08T05:08:22.921Z",
+  "lastUpdated": "2026-02-08T17:31:28.214Z",
   "movies": [
+    {
+      "title": "Exit 8",
+      "link": "https://letterboxd.com/peruvianidol/film/exit-8/",
+      "watchedDate": "2026-02-08",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/9/0/7/1/8/1290718-exit-8-0-600-0-900-crop.jpg?v=e819544254",
+      "reviewText": "Cool premise, interesting visuals but the result was pretty disappointing. This movie is so repetitive that I fell asleep at one point and had a really hard time figuring out where I left off."
+    },
     {
       "title": "The Housemaid",
       "link": "https://letterboxd.com/peruvianidol/film/the-housemaid-2025/",
