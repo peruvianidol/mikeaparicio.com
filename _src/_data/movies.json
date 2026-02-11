@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-08T17:31:28.214Z",
+  "lastUpdated": "2026-02-11T07:08:27.701Z",
   "movies": [
+    {
+      "title": "Is This Thing On?",
+      "link": "https://letterboxd.com/peruvianidol/film/is-this-thing-on-2025/",
+      "watchedDate": "2026-02-10",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/cu/cp/cr/2m/o0uOCDLZEwlForZ5Bf3IeBwlPLd-0-600-0-900-crop.jpg?v=371b64c948",
+      "reviewText": "For a movie that features stand-up comedy as a big element, this movie is terribly unfunny. Dern and Arnett are compelling to watch but most of their relationship is told after the fact through exposition. Not to mention their whole friend group is incredibly boring. There are seeds of a great movie here, it just doesn’t seem to find its way."
+    },
     {
       "title": "Exit 8",
       "link": "https://letterboxd.com/peruvianidol/film/exit-8/",
