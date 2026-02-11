@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-11T19:16:11.242Z",
+  "lastUpdated": "2026-02-11T22:34:49.809Z",
   "movies": [
+    {
+      "title": "Good Will Hunting",
+      "link": "https://letterboxd.com/peruvianidol/film/good-will-hunting/",
+      "watchedDate": "2026-02-11",
+      "filmYear": "1997",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/6/2/1/51621-good-will-hunting-0-600-0-900-crop.jpg?v=acb4766abd",
+      "reviewText": "Such a great script and all-time performance from Robin Williams. Surprised Damon and Affleck went onto movie stardom rather than banging out more great screenplays but it seems to have worked out ok for them."
+    },
     {
       "title": "Insomnia",
       "link": "https://letterboxd.com/peruvianidol/film/insomnia/",
