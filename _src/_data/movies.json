@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-11T07:08:27.701Z",
+  "lastUpdated": "2026-02-11T19:16:11.242Z",
   "movies": [
+    {
+      "title": "Insomnia",
+      "link": "https://letterboxd.com/peruvianidol/film/insomnia/",
+      "watchedDate": "2026-02-11",
+      "filmYear": "1997",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/1/8/7/35187-insomnia-0-600-0-900-crop.jpg?v=a1e1ce645b",
+      "reviewText": "I saw Nolan’s remake when it came out but only learned recently about the original. It’s been long enough that I couldn’t remember much but the vibe and the original certainly has a vibe of its own. Watching Skarsgard unravel as his case gets more and more complicated, largely by his own doing, is great. Aside from that the pacing felt slow, even for such a short film."
+    },
     {
       "title": "Is This Thing On?",
       "link": "https://letterboxd.com/peruvianidol/film/is-this-thing-on-2025/",
