@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-11T22:34:49.809Z",
+  "lastUpdated": "2026-02-12T21:38:50.264Z",
   "movies": [
+    {
+      "title": "M*A*S*H",
+      "link": "https://letterboxd.com/peruvianidol/film/mash/",
+      "watchedDate": "2026-02-12",
+      "filmYear": "1970",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/4/7/3/51473-m-a-s-h-0-600-0-900-crop.jpg?v=058a166ea1",
+      "reviewText": "The M stands for misogyny I guess? This movie has its moments but it hasn’t aged well at all. The climax comes out of nowhere and features more slide whistles than you would expect from a war movie. Still, I guess because I grew up in the 80s where casual racism and sexism was still rampant, I didn’t find it as upsetting as younger generations might. I enjoyed the dark humor and the cast, and the breaking of the fourth wall at the end. An odd movie and a relic of its time."
+    },
     {
       "title": "Good Will Hunting",
       "link": "https://letterboxd.com/peruvianidol/film/good-will-hunting/",
