@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-12T21:38:50.264Z",
+  "lastUpdated": "2026-02-14T22:29:36.883Z",
   "movies": [
+    {
+      "title": "Harold and Maude",
+      "link": "https://letterboxd.com/peruvianidol/film/harold-and-maude/",
+      "watchedDate": "2026-02-14",
+      "filmYear": "1971",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/7/1/9/51719-harold-and-maude-0-600-0-900-crop.jpg?v=6a2f175ab5",
+      "reviewText": "Delightfully charming. Had a lot of fun with this and particularly laughed my ass off at Harold’s third date. Felt like Wes Anderson owes his whole schtick to this movie."
+    },
     {
       "title": "M*A*S*H",
       "link": "https://letterboxd.com/peruvianidol/film/mash/",
