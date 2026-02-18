@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-14T22:29:36.883Z",
+  "lastUpdated": "2026-02-18T06:07:14.889Z",
   "movies": [
+    {
+      "title": "Invasion of the Body Snatchers",
+      "link": "https://letterboxd.com/peruvianidol/film/invasion-of-the-body-snatchers-1978/",
+      "watchedDate": "2026-02-17",
+      "filmYear": "1978",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/6u/bl/vb/cd/5oNHdVo0vTsaC47Jv2Wb4eeo4V4-0-600-0-900-crop.jpg?v=b2619cea7f",
+      "reviewText": "RIP to Robert Duvall who is in this for a hot second. This was one of his most popular movies that I hadn’t seen and, well, ok. Not sure what everyone was so paranoid about in the 70s but this is a pretty solid thriller with a fun cast. It runs a little long but that last shot is amazing."
+    },
     {
       "title": "Harold and Maude",
       "link": "https://letterboxd.com/peruvianidol/film/harold-and-maude/",
