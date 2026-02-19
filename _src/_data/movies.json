@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-18T06:07:14.889Z",
+  "lastUpdated": "2026-02-19T15:54:25.289Z",
   "movies": [
+    {
+      "title": "The Outfit",
+      "link": "https://letterboxd.com/peruvianidol/film/the-outfit/",
+      "watchedDate": "2026-02-19",
+      "filmYear": "1973",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/0/7/2/35072-the-outfit-0-600-0-900-crop.jpg?v=600d598deb",
+      "reviewText": "Pretty run-of-the-mill crime/revenge movie but Duvall is fun to watch as Macklin. Great name. MACKLIN."
+    },
     {
       "title": "Invasion of the Body Snatchers",
       "link": "https://letterboxd.com/peruvianidol/film/invasion-of-the-body-snatchers-1978/",
