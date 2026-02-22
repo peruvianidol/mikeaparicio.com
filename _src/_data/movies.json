@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-19T20:37:51.411Z",
+  "lastUpdated": "2026-02-22T06:55:49.717Z",
   "movies": [
+    {
+      "title": "Rosencrantz & Guildenstern Are Dead",
+      "link": "https://letterboxd.com/peruvianidol/film/rosencrantz-guildenstern-are-dead/",
+      "watchedDate": "2026-02-21",
+      "filmYear": "1990",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/dk/l0/74/1n/85W0AoRbaLUsZIrnfN68PP9UcTD-0-600-0-900-crop.jpg?v=2fcf93e893",
+      "reviewText": "I found this to be kind of a bore even though I enjoyed Tim Roth, Gary Oldman and Richard Dreyfuss. There are some funny bits but overall it’s a little dry and at the end of the day I’m just not well versed enough in Shakespeare to appreciate the finer points. Though having just watched Hamnet recently I did do a Leo pointing at the TV when they acted out the climax of Hamlet. Fun seeing two Game of Thrones actors from their younger days, too."
+    },
     {
       "title": "Send Help",
       "link": "https://letterboxd.com/peruvianidol/film/send-help/",
