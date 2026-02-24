@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-22T06:55:49.717Z",
+  "lastUpdated": "2026-02-24T20:41:58.400Z",
   "movies": [
+    {
+      "title": "Nirvanna the Band the Show the Movie",
+      "link": "https://letterboxd.com/peruvianidol/film/nirvanna-the-band-the-show-the-movie/",
+      "watchedDate": "2026-02-24",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/4/1/0/1/2/1041012-nirvanna-the-band-the-show-the-movie-0-600-0-900-crop.jpg?v=4d80f82f8a",
+      "reviewText": "A wildly fun and inventive adventure about the power of friendship. Guaranteed to leave you with a grin and wondering how the hell they pulled it off. Truly a work of mad genius."
+    },
     {
       "title": "Rosencrantz & Guildenstern Are Dead",
       "link": "https://letterboxd.com/peruvianidol/film/rosencrantz-guildenstern-are-dead/",
