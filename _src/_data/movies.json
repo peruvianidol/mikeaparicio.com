@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-26T17:09:36.478Z",
+  "lastUpdated": "2026-03-02T07:07:15.013Z",
   "movies": [
+    {
+      "title": "Stand Up Solutions",
+      "link": "https://letterboxd.com/peruvianidol/film/stand-up-solutions/",
+      "watchedDate": "2026-03-01",
+      "filmYear": "2024",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/cg/1c/ge/rq/Untitled-1-0-600-0-900-crop.jpg?v=c628790143",
+      "reviewText": "Exactly the kind of unhinged performance art/stand up you'd expect from Conner O'Malley if you've seen him in literally anything else. Some great material spoofing the AI craze ahead of its time."
+    },
     {
       "title": "BlackBerry",
       "link": "https://letterboxd.com/peruvianidol/film/blackberry-2023/1/",
