@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-02T07:07:15.013Z",
+  "lastUpdated": "2026-03-07T05:40:16.143Z",
   "movies": [
+    {
+      "title": "War Machine",
+      "link": "https://letterboxd.com/peruvianidol/film/war-machine-2026/",
+      "watchedDate": "2026-03-06",
+      "filmYear": "2026",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/4/9/6/7/6/1149676-war-machine-2026-0-600-0-900-crop.jpg?v=75d5b01b26",
+      "reviewText": "Elements of several great sci-fi movies mashed up into a fairly bland, CG-heavy mess. Ritchson has great 80s action hero energy but even his broad shoulders can't carry this thing."
+    },
     {
       "title": "Stand Up Solutions",
       "link": "https://letterboxd.com/peruvianidol/film/stand-up-solutions/",
