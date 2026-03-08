@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-08T04:46:51.299Z",
+  "lastUpdated": "2026-03-08T22:29:33.608Z",
   "movies": [
+    {
+      "title": "Hoppers",
+      "link": "https://letterboxd.com/peruvianidol/film/hoppers/",
+      "watchedDate": "2026-03-08",
+      "filmYear": "2026",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/0/7/5/5/7/1207557-hoppers-0-600-0-900-crop.jpg?v=7711e7b5a7",
+      "reviewText": "This was surprisingly delightful! A step up from recent kids fare, it didn't feel condescending or packed with quips. A lot of fun and a lot of heart and, best of all, my kids loved it. 🦫🦫🦫🪵🪵🥔"
+    },
     {
       "title": "THX 1138",
       "link": "https://letterboxd.com/peruvianidol/film/thx-1138/",
