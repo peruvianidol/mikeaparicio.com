@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-07T05:40:16.143Z",
+  "lastUpdated": "2026-03-08T04:46:51.299Z",
   "movies": [
+    {
+      "title": "THX 1138",
+      "link": "https://letterboxd.com/peruvianidol/film/thx-1138/",
+      "watchedDate": "2026-03-07",
+      "filmYear": "1971",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/4/8/8/51488-thx-1138-0-600-0-900-crop.jpg?v=965f4b2f99",
+      "reviewText": "Visually interesting but otherwise tedious to sit through, even with its short run time. Fully expected a tie fighter to appear in the last shot."
+    },
     {
       "title": "War Machine",
       "link": "https://letterboxd.com/peruvianidol/film/war-machine-2026/",
