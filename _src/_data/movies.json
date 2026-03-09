@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-08T22:29:33.608Z",
+  "lastUpdated": "2026-03-09T04:56:10.943Z",
   "movies": [
+    {
+      "title": "The Dirties",
+      "link": "https://letterboxd.com/peruvianidol/film/the-dirties/",
+      "watchedDate": "2026-03-08",
+      "filmYear": "2013",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/9/0/4/1/119041-the-dirties-0-600-0-900-crop.jpg?v=aba807d712",
+      "reviewText": "You can see the DNA here of Nivanna the Band the Show the Movie but the material is way darker. Like uncomfortably dark. We're so inundated with school shootings that watching something depicting even the idea of one is deeply unsettling. If you're used to laughing at Matt Johnson you're in for an awkward ride. Fantastic closing credits though."
+    },
     {
       "title": "Hoppers",
       "link": "https://letterboxd.com/peruvianidol/film/hoppers/",
