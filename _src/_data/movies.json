@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-16T05:20:46.909Z",
+  "lastUpdated": "2026-03-16T07:25:32.218Z",
   "movies": [
+    {
+      "title": "Redux Redux",
+      "link": "https://letterboxd.com/peruvianidol/film/redux-redux/",
+      "watchedDate": "2026-03-15",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/3/4/8/3/8/1234838-redux-redux-0-600-0-900-crop.jpg?v=d6afd2b1e4",
+      "reviewText": "Great setup. Went in blind and wasn’t sure exactly what was going on. Once it becomes clear, if you can buy into the mechanics, it’s a decent low-budget revenge pic with some interesting little twists. Needed more Jim Cummings though."
+    },
     {
       "title": "Operation Avalanche",
       "link": "https://letterboxd.com/peruvianidol/film/operation-avalanche/",
