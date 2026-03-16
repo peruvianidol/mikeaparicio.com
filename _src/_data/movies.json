@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-09T04:56:10.943Z",
+  "lastUpdated": "2026-03-16T05:20:46.909Z",
   "movies": [
+    {
+      "title": "Operation Avalanche",
+      "link": "https://letterboxd.com/peruvianidol/film/operation-avalanche/",
+      "watchedDate": "2026-03-15",
+      "filmYear": "2016",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/sm/upload/1i/vc/76/ll/fhASK3sWpe85FW44VMs7YBVaG5Z-0-600-0-900-crop.jpg?v=5a22076c2e",
+      "reviewText": "Great premise and a convincing aesthetic. Feels a lot more thought out than The Dirties. Aside from a pretty great chase sequence, it struggles to stretch its premise out to a feature length film. You gotta love the ambition though and Johnson has upped his game since then. Excited to see what he does with bigger budgets."
+    },
     {
       "title": "The Dirties",
       "link": "https://letterboxd.com/peruvianidol/film/the-dirties/",
