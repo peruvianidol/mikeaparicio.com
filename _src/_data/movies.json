@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-16T07:25:32.218Z",
+  "lastUpdated": "2026-03-17T06:03:46.418Z",
   "movies": [
+    {
+      "title": "Good Luck, Have Fun, Don't Die",
+      "link": "https://letterboxd.com/peruvianidol/film/good-luck-have-fun-dont-die/",
+      "watchedDate": "2026-03-16",
+      "filmYear": "2025",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/0/9/2/3/7/1009237-good-luck-have-fun-dont-die-0-600-0-900-crop.jpg?v=be79007f48",
+      "reviewText": "Started strong but quickly gets sidetracked with Black Mirror-like side stories before continuing the very unsubtle main(?) story. Loved Sam Rockwell’s deranged performance but the rest of the cast felt wasted. 20 years from now this movie will either feel incredibly prescient or terribly dated."
+    },
     {
       "title": "Redux Redux",
       "link": "https://letterboxd.com/peruvianidol/film/redux-redux/",
