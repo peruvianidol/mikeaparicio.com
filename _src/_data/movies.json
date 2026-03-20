@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-17T06:03:46.418Z",
+  "lastUpdated": "2026-03-20T19:39:54.836Z",
   "movies": [
+    {
+      "title": "Badlands",
+      "link": "https://letterboxd.com/peruvianidol/film/badlands/",
+      "watchedDate": "2026-03-20",
+      "filmYear": "1973",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/9/8/4/4/49844-badlands-0-600-0-900-crop.jpg?v=d57e83e76f",
+      "reviewText": "Some stunning shots you only get with a Malick movie. You can see the DNA of True Romance here, from the music to the narration and the couple on the run. I found the couple to be pretty vapid. Mercifully short, at least."
+    },
     {
       "title": "Good Luck, Have Fun, Don't Die",
       "link": "https://letterboxd.com/peruvianidol/film/good-luck-have-fun-dont-die/",
