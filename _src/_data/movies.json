@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-22T02:43:36.620Z",
+  "lastUpdated": "2026-03-22T04:56:32.491Z",
   "movies": [
+    {
+      "title": "Highlander",
+      "link": "https://letterboxd.com/peruvianidol/film/highlander/",
+      "watchedDate": "2026-03-21",
+      "filmYear": "1986",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/9/3/0/47930-highlander-0-600-0-900-crop.jpg?v=5a26ce8c31",
+      "reviewText": "I’m surprised I never saw this before. It’s way more ambitious than it has any right to be. Some truly inspired shots, epic locations, and a soundtrack by Queen? The fight choreography, by today’s standards, is like watching white guys play basketball in the 1950s. But Clancy Brown is absolutely going for it as the unhinged villain and Christopher Lambert has a particular charm that overcomes his lack of athleticism. This is a movie where the most Scottish guy plays a Spaniard named Ramirez. Just a batshit nutty fun time."
+    },
     {
       "title": "Project Hail Mary",
       "link": "https://letterboxd.com/peruvianidol/film/project-hail-mary/",
