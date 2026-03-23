@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-22T04:56:32.491Z",
+  "lastUpdated": "2026-03-23T02:43:55.279Z",
   "movies": [
+    {
+      "title": "Excalibur",
+      "link": "https://letterboxd.com/peruvianidol/film/excalibur/",
+      "watchedDate": "2026-03-22",
+      "filmYear": "1981",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/2/2/1/45221-excalibur-0-600-0-900-crop.jpg?v=4e5ee4111d",
+      "reviewText": "More like John Bore, Man. I found this to be pretty tedious. It tries to cover A LOT and in doing so its characters feel pretty thin. It could have been a lot shorter if these knights could just keep it in their pants. Some cool shots though and it was fun seeing a bunch of famous people back when they were terrible actors."
+    },
     {
       "title": "Highlander",
       "link": "https://letterboxd.com/peruvianidol/film/highlander/",
