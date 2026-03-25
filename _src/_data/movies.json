@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-23T02:43:55.279Z",
+  "lastUpdated": "2026-03-25T04:58:29.548Z",
   "movies": [
+    {
+      "title": "Nirvanna the Band the Show the Movie",
+      "link": "https://letterboxd.com/peruvianidol/film/nirvanna-the-band-the-show-the-movie/1/",
+      "watchedDate": "2026-03-24",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/4/1/0/1/2/1041012-nirvanna-the-band-the-show-the-movie-0-600-0-900-crop.jpg?v=4d80f82f8a",
+      "reviewText": "The first time I saw this in the theater a few weeks ago, I knew nothing about it, other than the director of BlackBerry made and starred in it. Since being blown away by it I’ve been telling everyone who would listen to see it, revisited BlackBerry, and checked out Johnson’s first two features, The Dirties and Operation Avalanche. Still holds up as delightful on rewatch, and I’m still scratching my head at how they pulled it off. Just a masterclass in guerilla filmmaking."
+    },
     {
       "title": "Excalibur",
       "link": "https://letterboxd.com/peruvianidol/film/excalibur/",
