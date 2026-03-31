@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-25T07:56:00.901Z",
+  "lastUpdated": "2026-03-31T20:49:48.082Z",
   "movies": [
+    {
+      "title": "Weapons",
+      "link": "https://letterboxd.com/peruvianidol/film/weapons-2025/2/",
+      "watchedDate": "2026-03-28",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-600-0-900-crop.jpg?v=8100270337",
+      "reviewText": "Finally got my wife to watch this and she had the same what the fuck reaction as Josh Brolin."
+    },
     {
       "title": "How to Make a Killing",
       "link": "https://letterboxd.com/peruvianidol/film/how-to-make-a-killing-2026/",
