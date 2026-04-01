@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-31T20:49:48.082Z",
+  "lastUpdated": "2026-04-01T21:48:57.209Z",
   "movies": [
+    {
+      "title": "Project Hail Mary",
+      "link": "https://letterboxd.com/peruvianidol/film/project-hail-mary/1/",
+      "watchedDate": "2026-04-01",
+      "filmYear": "2026",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03",
+      "reviewText": "Caught this in IMAX before Super Mario Galaxy takes over all the screens. Our second time seeing it. My son insisted on seeing it in IMAX but when I asked him about it afterwards he said he couldn’t really tell the difference. 😂Loved it just as much this time around. Truly an all-timer for me, up there with recent sci-fi like Arrival, Dune, and Mad Max: Fury Road. Just an incredible sense of wonder. Ryan Gosling is so great, and props to the costume designer for all his cozy outfits. His sweater game is immaculate."
+    },
     {
       "title": "Weapons",
       "link": "https://letterboxd.com/peruvianidol/film/weapons-2025/2/",
