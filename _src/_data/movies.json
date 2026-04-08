@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-07T07:25:45.948Z",
+  "lastUpdated": "2026-04-08T20:51:43.128Z",
   "movies": [
+    {
+      "title": "The Drama",
+      "link": "https://letterboxd.com/peruvianidol/film/the-drama/",
+      "watchedDate": "2026-04-08",
+      "filmYear": "2026",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/0/5/4/9/4/1205494-the-drama-0-600-0-900-crop.jpg?v=2320acafd5",
+      "reviewText": "I quite enjoyed how uncomfortable and dark this movie was. I didn’t think “the thing” warranted as much drama as it did, but I love how it sends Pattinson crashing out. Maybe Zendaya’s best work yet. She and Pattinson make a great pair. The only thing that took me out of the movie was how outrageously nice their apartment was. What are they paying museum curators these days?"
+    },
     {
       "title": "Crime 101",
       "link": "https://letterboxd.com/peruvianidol/film/crime-101/",
