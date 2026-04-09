@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-08T20:51:43.128Z",
+  "lastUpdated": "2026-04-09T05:15:24.831Z",
   "movies": [
+    {
+      "title": "The 40 Year Old Virgin",
+      "link": "https://letterboxd.com/peruvianidol/film/the-40-year-old-virgin/",
+      "watchedDate": "2026-04-08",
+      "filmYear": "2005",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/8/1/6/0/48160-the-40-year-old-virgin-0-600-0-900-crop.jpg?v=3f5be0e907",
+      "reviewText": "Some of the humor hasn’t aged well but this is maybe the most wholesome raunchy movie ever made. Steve Carell is its heart and soul. The supporting cast is a who’s who of comedic stars in their own right."
+    },
     {
       "title": "The Drama",
       "link": "https://letterboxd.com/peruvianidol/film/the-drama/",
