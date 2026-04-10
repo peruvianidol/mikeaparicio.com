@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-09T05:15:24.831Z",
+  "lastUpdated": "2026-04-10T06:00:32.244Z",
   "movies": [
+    {
+      "title": "Ace Ventura: Pet Detective",
+      "link": "https://letterboxd.com/peruvianidol/film/ace-ventura-pet-detective/",
+      "watchedDate": "2026-04-09",
+      "filmYear": "1994",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/9/9/2/2/49922-ace-ventura-pet-detective-0-600-0-900-crop.jpg?v=b11241d826",
+      "reviewText": "This came out when I was in college and being Jim Carrey fans from his In Living Color days, my roommates and I watched this so many times we could practically recite it. Needless to say, it’s not a good movie! And hoo boy, that ending has not aged well. Still, I couldn’t help but laugh at parts where Carrey is so batshit over-the-top when no one is even watching him. This was the personality all the guys adopted who later went on to imitate Borat ad nauseam in the 2000s."
+    },
     {
       "title": "The 40 Year Old Virgin",
       "link": "https://letterboxd.com/peruvianidol/film/the-40-year-old-virgin/",
