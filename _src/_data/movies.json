@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-10T06:00:32.244Z",
+  "lastUpdated": "2026-04-12T22:39:50.432Z",
   "movies": [
+    {
+      "title": "The Super Mario Galaxy Movie",
+      "link": "https://letterboxd.com/peruvianidol/film/the-super-mario-galaxy-movie/",
+      "watchedDate": "2026-04-12",
+      "filmYear": "2026",
+      "memberRating": "0.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/1/0/0/8/0/1110080-the-super-mario-galaxy-movie-0-600-0-900-crop.jpg?v=fefcfca134",
+      "reviewText": "An exhausting series of images that barely constitutes a movie. The first one is fine but it’s hard not to loathe this sequel when recent kids fare like Hoppers and even Zootopia 2 actually had a story and characters and humor. If you told me this was made by Sora right before they shut it down, I’d believe you. You know a movie sucks when Glen Powell is the BEST thing about it. My kids loved it."
+    },
     {
       "title": "Ace Ventura: Pet Detective",
       "link": "https://letterboxd.com/peruvianidol/film/ace-ventura-pet-detective/",
