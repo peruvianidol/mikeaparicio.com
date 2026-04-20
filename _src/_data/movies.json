@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-12T22:39:50.432Z",
+  "lastUpdated": "2026-04-20T22:51:15.670Z",
   "movies": [
+    {
+      "title": "Blade Runner 2049",
+      "link": "https://letterboxd.com/peruvianidol/film/blade-runner-2049/4/",
+      "watchedDate": "2026-04-20",
+      "filmYear": "2017",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/6/5/4/3/9/265439-blade-runner-2049-0-600-0-900-crop.jpg?v=86735e0bb8",
+      "reviewText": "This has to be the greatest sequel of all time. And it just looks so good. From the production design to Deakins’ immaculate cinematography. The world feels so rich. It pays homage to the original without feeling too reverent. Was really struck by Sylvia Hoeks performance this time around as Luv, Wallace’s right hand. She’s formidable but she also brings real depth to her character that’s not on the page. It’s interesting watching this again as AI has become so prevalent even since the last time I watched. I wonder how prescient this movie will be thirty years from now."
+    },
     {
       "title": "The Super Mario Galaxy Movie",
       "link": "https://letterboxd.com/peruvianidol/film/the-super-mario-galaxy-movie/",
