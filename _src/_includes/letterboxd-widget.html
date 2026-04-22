@@ -1,0 +1,265 @@
+<!-- _includes/letterboxd-widget.html -->
+<!-- To show more films, change the limit variable in the script below -->
+
+<section class="lw" aria-label="Recently watched">
+  <h2 class="lw__heading">
+    <span class="lw__pulse" aria-hidden="true"></span>
+    Recently Watched
+  </h2>
+  <ul class="lw__list" id="lw-list">
+    <li class="lw__item lw__item--skeleton" aria-hidden="true">
+      <div class="lw__skeleton-cover"></div>
+      <div class="lw__skeleton-text">
+        <div class="lw__skeleton-line" style="width:55%"></div>
+        <div class="lw__skeleton-line" style="width:35%"></div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<style>
+  .lw {
+    --lw-text: currentColor;
+    --lw-muted: oklch(55% 0 0);
+    --lw-border: oklch(25% 0 0 / 0.15);
+    --lw-accent: #00c030; /* Letterboxd green */
+    --lw-pulse: #00c030;
+    --lw-font-mono: 'DM Mono', 'Fira Mono', ui-monospace, monospace;
+
+    font-family: inherit;
+  }
+
+  .lw__heading {
+    font-family: var(--lw-font-mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--lw-muted);
+    margin: 0 0 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .lw__pulse {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--lw-pulse);
+    animation: lw-pulse 2.2s ease-in-out infinite;
+  }
+
+  @keyframes lw-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--lw-pulse) 50%, transparent); }
+    50%       { box-shadow: 0 0 0 5px transparent; }
+  }
+
+  .lw__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .lw__item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 8px;
+    padding: 0.35rem 0.5rem 0.35rem 0.35rem;
+    transition: background 0.15s;
+  }
+
+  a.lw__item:hover {
+    background: var(--lw-border);
+  }
+
+  .lw__cover {
+    width: 36px;
+    height: 48px;
+    border-radius: 4px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: var(--lw-border);
+    display: block;
+  }
+
+  /* .lw__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    min-width: 0;
+  } */
+
+  .lw__name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--lw-text);
+    line-height: 1.2;
+  }
+
+  .lw__sub {
+    font-family: var(--lw-font-mono);
+    font-size: 0.68rem;
+    color: var(--lw-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .lw__rating {
+    color: var(--lw-accent);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .lw__skeleton-cover,
+  .lw__skeleton-line {
+    background: linear-gradient(
+      90deg,
+      var(--lw-border) 25%,
+      color-mix(in srgb, var(--lw-border) 40%, transparent) 50%,
+      var(--lw-border) 75%
+    );
+    background-size: 200% 100%;
+    animation: lw-shimmer 1.4s infinite;
+    border-radius: 4px;
+  }
+
+  .lw__skeleton-cover {
+    width: 36px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  .lw__skeleton-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    flex: 1;
+  }
+
+  .lw__skeleton-line { height: 10px; }
+
+  @keyframes lw-shimmer {
+    from { background-position:  200% 0; }
+    to   { background-position: -200% 0; }
+  }
+
+  .lw__error {
+    font-family: var(--lw-font-mono);
+    font-size: 0.72rem;
+    color: var(--lw-muted);
+  }
+  .lw__rewatch {
+    color: var(--lw-muted);
+    font-size: 0.8rem;
+  }
+  .rating {
+    --background-color:rgb(114, 114, 115);
+    --icon-color: #00e054;
+    --height: 16px;
+    --aspect-ratio: 84/16;
+    aspect-ratio: var(--aspect-ratio);
+    height: var(--height);
+    position: relative;
+    margin-block: .5rem;
+  }
+  .rating ::-moz-meter-bar {
+    background: none;
+    background-color: var(--icon-color);
+  }
+  .rating ::-webkit-meter-bar {
+    background: var(--background-color);
+    border: 0;
+    border-radius: 0;
+    height: var(--height);
+  }
+  .rating ::-webkit-meter-optimum-value {
+    background: var(--icon-color);
+  }
+  .rating meter {
+    position: absolute;
+    inset: 0;
+    background: none;
+    background-color: var(--background-color);
+    height: var(--height);
+    width: auto;
+  }
+  .rating:after {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 16'%3E%3Cpath d='M17 0v16H0V0h17ZM8.87.788a.97.97 0 0 0-1.745 0L5.177 4.796l-4.351.643a.967.967 0 0 0-.779.657.974.974 0 0 0 .24.991l3.157 3.124-.746 4.415a.974.974 0 0 0 1.415 1.018l3.888-2.076 3.887 2.076a.971.971 0 0 0 1.415-1.018l-.748-4.415 3.157-3.124a.968.968 0 0 0-.539-1.648l-4.354-.643L8.87.788Z' fill='%231f1f1f'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: 17px 16px;
+  }
+</style>
+
+<script>
+(function () {
+  const list = document.getElementById('lw-list');
+  const limit = 3; // change to show more films
+
+  function renderFilm(film) {
+    const li = document.createElement('a');
+    li.className = 'lw__item';
+    li.href = film.reviewUrl;
+    li.target = '_blank';
+    li.rel = 'noopener';
+    li.setAttribute('aria-label', `${film.title} (${film.year})${film.rating ? ', rated ' + film.rating : ''}`);
+
+    li.innerHTML = `
+      <img class="lw__cover"
+           src="${film.posterUrl}"
+           alt=""
+           loading="lazy"
+           onerror="this.style.visibility='hidden'">
+      <div class="lw__meta">
+        <span class="lw__name">${film.title} <span style="font-weight:400;opacity:0.6">(${film.year})</span> 
+          ${film.rewatch ? '<span class="lw__rewatch" title="Rewatch">↺</span>' : ''}</span>
+        <div class="rating">
+          ${film.ratingValue ? `<meter min="0" max="5" value="${film.ratingValue}">${film.ratingValue} out of 5 stars</meter>` : '<span>No rating</span>'}
+        </div>
+      </div>`;
+
+    return li;
+  }
+
+  function renderError(msg) {
+    const li = document.createElement('li');
+    li.className = 'lw__item';
+    li.innerHTML = `<span class="lw__error">${msg}</span>`;
+    return li;
+  }
+
+  fetch(`/api/letterboxd-status?limit=${limit}`)
+    .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(({ films }) => {
+      list.innerHTML = '';
+
+      if (!films.length) {
+        list.appendChild(renderError('No recent films found.'));
+        return;
+      }
+
+      films.forEach((f) => list.appendChild(renderFilm(f)));
+    })
+    .catch((err) => {
+      list.innerHTML = '';
+      list.appendChild(renderError('Could not load film status.'));
+      console.error('[letterboxd-widget]', err);
+    });
+}());
+</script>

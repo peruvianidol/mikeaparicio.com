@@ -1,0 +1,237 @@
+<!-- _includes/gaming-widget.html -->
+<!-- Usage: set data-limit on the section element, or just edit the DEFAULT_LIMIT below -->
+
+<section class="gw" aria-label="Recently played">
+  <h2 class="gw__heading">
+    <span class="gw__pulse" aria-hidden="true"></span>
+    Now Playing
+  </h2>
+  <ul class="gw__list" id="gw-list">
+    <li class="gw__item gw__item--skeleton" aria-hidden="true">
+      <div class="gw__skeleton-cover"></div>
+      <div class="gw__skeleton-text">
+        <div class="gw__skeleton-line" style="width:55%"></div>
+        <div class="gw__skeleton-line" style="width:35%"></div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<style>
+  .gw {
+    --gw-bg: transparent;
+    --gw-text: currentColor;
+    --gw-muted: oklch(55% 0 0);
+    --gw-border: oklch(25% 0 0 / 0.15);
+    --gw-steam: #1b9af7;
+    --gw-psn: #0070d1;
+    --gw-pulse: #22ff88;
+    --gw-font-mono: 'DM Mono', 'Fira Mono', ui-monospace, monospace;
+
+    font-family: inherit;
+  }
+
+  .gw__heading {
+    font-family: var(--gw-font-mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gw-muted);
+    margin: 0 0 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .gw__pulse {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--gw-pulse);
+    animation: gw-pulse 2.2s ease-in-out infinite;
+  }
+
+  @keyframes gw-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--gw-pulse) 50%, transparent); }
+    50%       { box-shadow: 0 0 0 5px transparent; }
+  }
+
+  .gw__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* ── Each row ───────────────────────────────────────────────── */
+  .gw__item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 8px;
+    padding: 0.35rem 0.5rem 0.35rem 0.35rem;
+    transition: background 0.15s;
+  }
+
+  a.gw__item:hover {
+    background: var(--gw-border);
+  }
+
+  /* ── Cover thumbnail ────────────────────────────────────────── */
+  .gw__cover {
+    width: 36px;
+    height: 48px;
+    border-radius: 4px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: var(--gw-border);
+    display: block;
+  }
+
+  /* ── Text block ─────────────────────────────────────────────── */
+  .gw__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    min-width: 0;
+  }
+
+  .gw__name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--gw-text);
+    line-height: 1.2;
+  }
+
+  .gw__sub {
+    font-family: var(--gw-font-mono);
+    font-size: 0.68rem;
+    color: var(--gw-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .gw__platform {
+    color: var(--gw-platform-color, var(--gw-muted));
+    font-weight: 600;
+  }
+
+  [data-platform="steam"] { --gw-platform-color: var(--gw-steam); }
+  [data-platform="psn"]   { --gw-platform-color: var(--gw-psn); }
+
+  /* ── Skeleton ───────────────────────────────────────────────── */
+  .gw__skeleton-cover,
+  .gw__skeleton-line {
+    background: linear-gradient(
+      90deg,
+      var(--gw-border) 25%,
+      color-mix(in srgb, var(--gw-border) 40%, transparent) 50%,
+      var(--gw-border) 75%
+    );
+    background-size: 200% 100%;
+    animation: gw-shimmer 1.4s infinite;
+    border-radius: 4px;
+  }
+
+  .gw__skeleton-cover {
+    width: 36px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  .gw__skeleton-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    flex: 1;
+  }
+
+  .gw__skeleton-line { height: 10px; }
+
+  @keyframes gw-shimmer {
+    from { background-position:  200% 0; }
+    to   { background-position: -200% 0; }
+  }
+
+  .gw__error {
+    font-family: var(--gw-font-mono);
+    font-size: 0.72rem;
+    color: var(--gw-muted);
+  }
+</style>
+
+<script>
+(function () {
+  const list = document.getElementById('gw-list');
+  const limit = 3;
+
+  const platformLabel = { steam: 'Steam', psn: 'PS5' };
+
+  function renderGame(game) {
+    const label = platformLabel[game.platform] ?? game.platform;
+
+    const li = document.createElement('a');
+    li.className = 'gw__item';
+    li.href = game.storeUrl;
+    li.target = '_blank';
+    li.rel = 'noopener';
+    li.dataset.platform = game.platform;
+    li.setAttribute('aria-label', `${game.name} on ${label}`);
+
+    li.innerHTML = `
+      <img class="gw__cover"
+           src="${game.coverUrl}"
+           alt=""
+           loading="lazy"
+           onerror="this.style.visibility='hidden'">
+      <div class="gw__meta">
+        <span class="gw__name">${game.name}</span>
+        <span class="gw__sub">
+          <span class="gw__platform">${label}</span>
+        </span>
+      </div>`;
+
+    return li;
+  }
+
+  function renderError(msg) {
+    const li = document.createElement('li');
+    li.className = 'gw__item';
+    li.innerHTML = `<span class="gw__error">${msg}</span>`;
+    return li;
+  }
+
+  fetch(`/api/gaming-status?limit=${limit}`)
+    .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(({ games, errors }) => {
+      list.innerHTML = '';
+
+      if (!games.length) {
+        list.appendChild(renderError('No recent games found.'));
+        return;
+      }
+
+      games.forEach((g) => list.appendChild(renderGame(g)));
+
+      if (errors && Object.keys(errors).length) {
+        console.warn('[gaming-widget] partial errors:', errors);
+      }
+    })
+    .catch((err) => {
+      list.innerHTML = '';
+      list.appendChild(renderError('Could not load gaming status.'));
+      console.error('[gaming-widget]', err);
+    });
+}());
+</script>

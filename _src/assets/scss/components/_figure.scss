@@ -3,3 +3,17 @@
 .ma-figure:not([class*="ma-float"]) {
     margin-block: var(--gutter);
 }
+
+.ma-old-timey {
+  position: relative;
+  img {
+    filter: sepia(.85);
+  }
+}
+
+.ma-old-timey::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 150px rgb(0 0 0 / 1);
+}

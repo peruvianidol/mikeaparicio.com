@@ -17,10 +17,11 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "dotenv": "^16.4.7",
+    "fast-xml-parser": "^5.6.0",
     "he": "^1.2.0",
     "linkedom": "^0.18.7",
     "node-fetch": "^3.3.2",
-    "psn-api": "^2.11.0"
+    "psn-api": "^2.11.2"
   },
   "devDependencies": {
     "@11ty/eleventy-img": "^5.0.0",

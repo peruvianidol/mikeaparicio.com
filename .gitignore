@@ -6,3 +6,5 @@ _src/_data/ideas.json
 .vscode
 .nvmrc
 .env
+# Local Netlify folder
+.netlify
