@@ -1,6 +1,159 @@
 {
-  "lastUpdated": "2026-03-17T06:03:46.418Z",
+  "lastUpdated": "2026-04-22T06:02:48.531Z",
   "movies": [
+    {
+      "title": "All You Need Is Kill",
+      "link": "https://letterboxd.com/peruvianidol/film/all-you-need-is-kill-2025/",
+      "watchedDate": "2026-04-21",
+      "filmYear": "2025",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/3/1/1/2/1/9/1311219-all-you-need-is-kill-2025-0-600-0-900-crop.jpg?v=897bb9681b",
+      "reviewText": "As much as I love the source material and the live-action adaptation, Edge of Tomorrow, I had a hard time staying awake for this. I must have rewound it a dozen times. The color and art style is great. For whatever reason everything just combined to give me chronic narcolepsy."
+    },
+    {
+      "title": "Blade Runner 2049",
+      "link": "https://letterboxd.com/peruvianidol/film/blade-runner-2049/4/",
+      "watchedDate": "2026-04-20",
+      "filmYear": "2017",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/2/6/5/4/3/9/265439-blade-runner-2049-0-600-0-900-crop.jpg?v=86735e0bb8",
+      "reviewText": "This has to be the greatest sequel of all time. And it just looks so good. From the production design to Deakins’ immaculate cinematography. The world feels so rich. It pays homage to the original without feeling too reverent. Was really struck by Sylvia Hoeks performance this time around as Luv, Wallace’s right hand. She’s formidable but she also brings real depth to her character that’s not on the page. It’s interesting watching this again as AI has become so prevalent even since the last time I watched. I wonder how prescient this movie will be thirty years from now."
+    },
+    {
+      "title": "The Super Mario Galaxy Movie",
+      "link": "https://letterboxd.com/peruvianidol/film/the-super-mario-galaxy-movie/",
+      "watchedDate": "2026-04-12",
+      "filmYear": "2026",
+      "memberRating": "0.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/1/0/0/8/0/1110080-the-super-mario-galaxy-movie-0-600-0-900-crop.jpg?v=fefcfca134",
+      "reviewText": "An exhausting series of images that barely constitutes a movie. The first one is fine but it’s hard not to loathe this sequel when recent kids fare like Hoppers and even Zootopia 2 actually had a story and characters and humor. If you told me this was made by Sora right before they shut it down, I’d believe you. You know a movie sucks when Glen Powell is the BEST thing about it. My kids loved it."
+    },
+    {
+      "title": "Ace Ventura: Pet Detective",
+      "link": "https://letterboxd.com/peruvianidol/film/ace-ventura-pet-detective/",
+      "watchedDate": "2026-04-09",
+      "filmYear": "1994",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/9/9/2/2/49922-ace-ventura-pet-detective-0-600-0-900-crop.jpg?v=b11241d826",
+      "reviewText": "This came out when I was in college and being Jim Carrey fans from his In Living Color days, my roommates and I watched this so many times we could practically recite it. Needless to say, it’s not a good movie! And hoo boy, that ending has not aged well. Still, I couldn’t help but laugh at parts where Carrey is so batshit over-the-top when no one is even watching him. This was the personality all the guys adopted who later went on to imitate Borat ad nauseam in the 2000s."
+    },
+    {
+      "title": "The 40 Year Old Virgin",
+      "link": "https://letterboxd.com/peruvianidol/film/the-40-year-old-virgin/",
+      "watchedDate": "2026-04-08",
+      "filmYear": "2005",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/8/1/6/0/48160-the-40-year-old-virgin-0-600-0-900-crop.jpg?v=3f5be0e907",
+      "reviewText": "Some of the humor hasn’t aged well but this is maybe the most wholesome raunchy movie ever made. Steve Carell is its heart and soul. The supporting cast is a who’s who of comedic stars in their own right."
+    },
+    {
+      "title": "The Drama",
+      "link": "https://letterboxd.com/peruvianidol/film/the-drama/",
+      "watchedDate": "2026-04-08",
+      "filmYear": "2026",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/0/5/4/9/4/1205494-the-drama-0-600-0-900-crop.jpg?v=2320acafd5",
+      "reviewText": "I quite enjoyed how uncomfortable and dark this movie was. I didn’t think “the thing” warranted as much drama as it did, but I love how it sends Pattinson crashing out. Maybe Zendaya’s best work yet. She and Pattinson make a great pair. The only thing that took me out of the movie was how outrageously nice their apartment was. What are they paying museum curators these days?"
+    },
+    {
+      "title": "Crime 101",
+      "link": "https://letterboxd.com/peruvianidol/film/crime-101/",
+      "watchedDate": "2026-04-06",
+      "filmYear": "2026",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/5/8/1/3/2/1058132-crime-101-0-600-0-900-crop.jpg?v=eaba4b3224",
+      "reviewText": "This has all the trappings of an all-time crime flick: great cast, great cinematography, some good action… but it feels overstuffed and never really comes together. It spends a lot of time trying to add depth to thin characters. Loved Ruffalo as a grizzled LA cop. Hemsworth is doing his best stoic criminal but it really diminishes his natural charm. Barry Keoghan just can’t help but be a little too weird in everything."
+    },
+    {
+      "title": "Sinners",
+      "link": "https://letterboxd.com/peruvianidol/film/sinners-2025/2/",
+      "watchedDate": "2026-04-05",
+      "filmYear": "2025",
+      "memberRating": "4.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-600-0-900-crop.jpg?v=5996b7d555",
+      "reviewText": "The Old Sammie casting gets me every time."
+    },
+    {
+      "title": "Untold: The Death & Life of Lamar Odom",
+      "link": "https://letterboxd.com/peruvianidol/film/untold-the-death-life-of-lamar-odom/",
+      "watchedDate": "2026-04-05",
+      "filmYear": "2026",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/5/0/6/7/7/4/1506774-untold-the-death-life-of-lamar-odom-0-600-0-900-crop.jpg?v=382fde9512",
+      "reviewText": "When I heard about this I had to Google if Lamar Odom died. Turns out he’s alive! But I had forgotten about all the tragedy he endured and didn’t know much about his addiction. This really it’s a tragic doc because Lamar seemingly had it all and threw it away. It’s not entirely clear by the end of the doc whether he learned anything from his experience. This doc has kind of a sleazy, exploitative feel to it, befitting of a guy who was married to and had a TV show with a Kardashian."
+    },
+    {
+      "title": "Project Hail Mary",
+      "link": "https://letterboxd.com/peruvianidol/film/project-hail-mary/1/",
+      "watchedDate": "2026-04-01",
+      "filmYear": "2026",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03",
+      "reviewText": "Caught this in IMAX before Super Mario Galaxy takes over all the screens. Our second time seeing it. My son insisted on seeing it in IMAX but when I asked him about it afterwards he said he couldn’t really tell the difference. 😂Loved it just as much this time around. Truly an all-timer for me, up there with recent sci-fi like Arrival, Dune, and Mad Max: Fury Road. Just an incredible sense of wonder. Ryan Gosling is so great, and props to the costume designer for all his cozy outfits. His sweater game is immaculate."
+    },
+    {
+      "title": "Weapons",
+      "link": "https://letterboxd.com/peruvianidol/film/weapons-2025/2/",
+      "watchedDate": "2026-03-28",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-600-0-900-crop.jpg?v=8100270337",
+      "reviewText": "Finally got my wife to watch this and she had the same what the fuck reaction as Josh Brolin."
+    },
+    {
+      "title": "How to Make a Killing",
+      "link": "https://letterboxd.com/peruvianidol/film/how-to-make-a-killing-2026/",
+      "watchedDate": "2026-03-24",
+      "filmYear": "2026",
+      "memberRating": "2.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/9/9/5/0/4/399504-how-to-make-a-killing-2026-0-600-0-900-crop.jpg?v=be2948f44a",
+      "reviewText": "I love a good eat the rich story as much as the next guy but if your main character aspires to be the wealthy pricks he’s eating, you’d better bring the goods. This movie doesn’t, Margaret Qualley’s legs aside. Everything feels so obvious, down to casting Jude Law’s kid as Temu Dickie Greenleaf. Great supporting cast, largely wasted in lieu of Glen Powell’s incessant narration. Can we just stop trying to make him a thing?"
+    },
+    {
+      "title": "Nirvanna the Band the Show the Movie",
+      "link": "https://letterboxd.com/peruvianidol/film/nirvanna-the-band-the-show-the-movie/1/",
+      "watchedDate": "2026-03-24",
+      "filmYear": "2025",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/4/1/0/1/2/1041012-nirvanna-the-band-the-show-the-movie-0-600-0-900-crop.jpg?v=4d80f82f8a",
+      "reviewText": "The first time I saw this in the theater a few weeks ago, I knew nothing about it, other than the director of BlackBerry made and starred in it. Since being blown away by it I’ve been telling everyone who would listen to see it, revisited BlackBerry, and checked out Johnson’s first two features, The Dirties and Operation Avalanche. Still holds up as delightful on rewatch, and I’m still scratching my head at how they pulled it off. Just a masterclass in guerilla filmmaking."
+    },
+    {
+      "title": "Excalibur",
+      "link": "https://letterboxd.com/peruvianidol/film/excalibur/",
+      "watchedDate": "2026-03-22",
+      "filmYear": "1981",
+      "memberRating": "2.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/5/2/2/1/45221-excalibur-0-600-0-900-crop.jpg?v=4e5ee4111d",
+      "reviewText": "More like John Bore, Man. I found this to be pretty tedious. It tries to cover A LOT and in doing so its characters feel pretty thin. It could have been a lot shorter if these knights could just keep it in their pants. Some cool shots though and it was fun seeing a bunch of famous people back when they were terrible actors."
+    },
+    {
+      "title": "Highlander",
+      "link": "https://letterboxd.com/peruvianidol/film/highlander/",
+      "watchedDate": "2026-03-21",
+      "filmYear": "1986",
+      "memberRating": "3.5",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/7/9/3/0/47930-highlander-0-600-0-900-crop.jpg?v=5a26ce8c31",
+      "reviewText": "I’m surprised I never saw this before. It’s way more ambitious than it has any right to be. Some truly inspired shots, epic locations, and a soundtrack by Queen? The fight choreography, by today’s standards, is like watching white guys play basketball in the 1950s. But Clancy Brown is absolutely going for it as the unhinged villain and Christopher Lambert has a particular charm that overcomes his lack of athleticism. This is a movie where the most Scottish guy plays a Spaniard named Ramirez. Just a batshit nutty fun time."
+    },
+    {
+      "title": "Project Hail Mary",
+      "link": "https://letterboxd.com/peruvianidol/film/project-hail-mary/",
+      "watchedDate": "2026-03-21",
+      "filmYear": "2026",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03",
+      "reviewText": "Magical! Evoked the same feelings as some of my favorite sci-fi movies of all time. Heart, humor and hope that we might overcome the most dire of circumstances if we work together. My space-obsessed 7-year-old loved it and I will always remember seeing this with him for the first time."
+    },
+    {
+      "title": "Badlands",
+      "link": "https://letterboxd.com/peruvianidol/film/badlands/",
+      "watchedDate": "2026-03-20",
+      "filmYear": "1973",
+      "memberRating": "3.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/4/9/8/4/4/49844-badlands-0-600-0-900-crop.jpg?v=d57e83e76f",
+      "reviewText": "Some stunning shots you only get with a Malick movie. You can see the DNA of True Romance here, from the music to the narration and the couple on the run. I found the couple to be pretty vapid. Mercifully short, at least."
+    },
     {
       "title": "Good Luck, Have Fun, Don't Die",
       "link": "https://letterboxd.com/peruvianidol/film/good-luck-have-fun-dont-die/",
