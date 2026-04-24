@@ -13,3 +13,8 @@
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
+
+[[redirects]]
+  from = "/posts/2026-01-05-2025/"
+  to = "/posts/2026-04-22-2025/"
+  status = 301
