@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-25T02:52:24.596Z",
+  "lastUpdated": "2026-04-26T03:30:58.883Z",
   "movies": [
+    {
+      "title": "Project Hail Mary",
+      "link": "https://letterboxd.com/peruvianidol/film/project-hail-mary/2/",
+      "watchedDate": "2026-04-25",
+      "filmYear": "2026",
+      "memberRating": "5.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03",
+      "reviewText": "Amaze. Amaze. Amaze."
+    },
     {
       "title": "To Kill a Mockingbird",
       "link": "https://letterboxd.com/peruvianidol/film/to-kill-a-mockingbird/",
