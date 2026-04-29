@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-27T06:32:05.704Z",
+  "lastUpdated": "2026-04-29T03:55:10.920Z",
   "movies": [
+    {
+      "title": "Ad Astra",
+      "link": "https://letterboxd.com/peruvianidol/film/ad-astra-2019/1/",
+      "watchedDate": "2026-04-28",
+      "filmYear": "2019",
+      "memberRating": "4.0",
+      "posterUrl": "https://a.ltrbxd.com/resized/film-poster/3/5/3/4/8/5/353485-ad-astra-0-600-0-900-crop.jpg?v=a4302e46ef",
+      "reviewText": "A bunch of amazing set pieces. This felt like Mission:Impossible in space. The movie looks and sounds great, too. But ultimately it felt kind of soulless. Everyone delivers their lines almost in monotone. Some real hand-wavey physics in the last act. Maybe it will connect with me more if ever I have to follow my own dad to Neptune."
+    },
     {
       "title": "Arrival",
       "link": "https://letterboxd.com/peruvianidol/film/arrival-2016/4/",
