@@ -6,12 +6,10 @@
 //
 // To update games, edit _data/games.json in your repo.
 
-import { readFile } from "fs/promises";
+import games from "../../_src/_data/games.json" with { type: "json" };
 
 const IGDB_CLIENT_ID = process.env.IGDB_CLIENT_ID;
 const IGDB_CLIENT_SECRET = process.env.IGDB_CLIENT_SECRET;
-
-import { join } from "path";
 
 // ─── IGDB Auth ────────────────────────────────────────────────────────────────
 
@@ -62,11 +60,6 @@ async function getCover(token, title) {
 
 export const handler = async () => {
   try {
-    const gamesPath = join(process.cwd(), "_src/_data/games.json");
-    console.log('cwd:', process.cwd());
-    console.log('gamesPath:', gamesPath);
-    const games = JSON.parse(await readFile(gamesPath, "utf-8"));
-
     const token = await getIgdbToken();
 
     const results = await Promise.all(
@@ -86,8 +79,7 @@ export const handler = async () => {
       body: JSON.stringify({ games: results, fetchedAt: new Date().toISOString() }),
     };
   } catch (err) {
-    console.error('Full error:', err);
-    console.log('IGDB_CLIENT_ID:', IGDB_CLIENT_ID);
+    console.error('[gaming-status]', err);
     return {
       statusCode: 500,
       body: JSON.stringify({ error: err.message }),
