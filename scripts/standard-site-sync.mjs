@@ -95,15 +95,36 @@ function parseFrontmatter(content) {
 
 // --- Commands ---
 
+async function uploadBlob(jwt, filePath, mimeType) {
+  const data = await readFile(filePath);
+  const res = await fetch(`${PDS}/xrpc/com.atproto.repo.uploadBlob`, {
+    method: 'POST',
+    headers: { 'Content-Type': mimeType, 'Authorization': `Bearer ${jwt}` },
+    body: data,
+  });
+  if (!res.ok) throw new Error(`uploadBlob failed: ${await res.text()}`);
+  return (await res.json()).blob;
+}
+
 async function cmdSite() {
   console.log('Creating/updating publication record...');
   const { accessJwt, did } = await createSession();
+
+  console.log('Uploading icon...');
+  const icon = await uploadBlob(accessJwt, '_src/assets/images/favicon-512.png', 'image/png');
 
   const result = await putRecord(accessJwt, did, 'site.standard.publication', PUBLICATION_RKEY, {
     $type: 'site.standard.publication',
     url: SITE_URL,
     name: 'Mike Aparicio',
-    description: 'Mike Aparicio is a design systems engineer and writer based in Chicago.',
+    description: 'Mike Aparicio is a design systems engineer based in Chicago.',
+    icon,
+    basicTheme: {
+      background:       { r: 247, g: 245, b: 240 },
+      foreground:       { r:  22, g:  22, b:  26  },
+      accent:           { r: 218, g:  16, b:  37  },
+      accentForeground: { r: 255, g: 255, b: 255  },
+    },
   });
 
   const standardSite = JSON.parse(await readFile(STANDARD_SITE_FILE, 'utf8').catch(() => '{}'));
