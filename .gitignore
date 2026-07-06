@@ -4,3 +4,4 @@ node_modules
 .cache
 .netlify
 /_src/notes
+_site
