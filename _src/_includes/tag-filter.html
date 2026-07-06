@@ -1,0 +1,8 @@
+{% set tagList = collections.posts | getAllTags %}
+<section class="ma-flow ma-stack-32">
+  <p class="ma-eyebrow-sm">Filter by tag</p>
+  <ul role="list" class="ma-flex" style="--flex-wrap: wrap">
+    <li><a href="/blog/" class="ma-tag"{% if not currentTag %} aria-current="page"{% endif %}>All ({{ collections.posts.length }})</a></li>
+    {% for t in tagList %}<li><a href="/tag/{{ t.name | slugify }}/" class="ma-tag"{% if t.name == currentTag %} aria-current="page"{% endif %}>{{ t.name }} ({{ t.count }})</a></li>{% endfor %}
+  </ul>
+</section>

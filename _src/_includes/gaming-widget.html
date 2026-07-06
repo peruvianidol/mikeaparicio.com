@@ -1,0 +1,61 @@
+<!-- _includes/gaming-widget.html -->
+<!-- Usage: set data-limit on the section element, or just edit the DEFAULT_LIMIT below -->
+
+<section data-grid-area="playing">
+  <h2 class="ma-eyebrow-sm ma-stack ma-flex" style="--flex-gap: 4px; --flex-align: start">
+    {% icon "gamepad", "ma-icon" %}
+    <span>Playing</span>
+  </h2>
+  <ul id="gw-list" role="list"></ul>
+</section>
+
+<script>
+(function () {
+  const list = document.getElementById('gw-list');
+  const limit = 3;
+
+  const platformLabel = { steam: 'Steam', psn: 'PS5' };
+
+  function renderGame(game) {
+    const label = platformLabel[game.platform] ?? game.platform;
+    const li = document.createElement('li');
+    li.className = "ma-flex",
+    li.innerHTML = `
+      <img src="${game.coverUrl}" alt="${game.name} cover art" loading="lazy" width="64" height="90">
+      <div>
+        <p class="ma-text-sm">${game.name}</p>
+        <p class="ma-text-subdued ma-text-xs">${label}</p>
+      </div>`;
+
+    return li;
+  }
+
+  function renderError(msg) {
+    const li = document.createElement('li');
+    li.innerHTML = `${msg}`;
+    return li;
+  }
+
+  fetch(`/api/gaming-status?limit=${limit}`)
+    .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(({ games, errors }) => {
+      list.innerHTML = '';
+
+      if (!games.length) {
+        list.appendChild(renderError('No recent games found.'));
+        return;
+      }
+
+      games.forEach((g) => list.appendChild(renderGame(g)));
+
+      if (errors && Object.keys(errors).length) {
+        console.warn('[gaming-widget] partial errors:', errors);
+      }
+    })
+    .catch((err) => {
+      list.innerHTML = '';
+      list.appendChild(renderError('Could not load gaming status.'));
+      console.error('[gaming-widget]', err);
+    });
+}());
+</script>

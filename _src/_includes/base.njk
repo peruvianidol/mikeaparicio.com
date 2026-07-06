@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Mike Aparicio">
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="{% if layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/{% if thumbnail %}{{ thumbnail }}{% else %}{{ site.ogImage }}{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="/assets/fonts/ReallySansLarge-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/FunnelSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preconnect" href="https://i.ytimg.com">
+  <link rel="preconnect" href="https://www.youtube-nocookie.com">
+  <link rel="preconnect" href="https://images.igdb.com">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Mike Aparicio">
+  {% if standardSite.publicationUri %}<link rel="site.standard.publication" href="{{ standardSite.publicationUri }}">{% endif %}
+  {% if standardSiteDocuments[page.url] %}<link rel="site.standard.document" href="{{ standardSiteDocuments[page.url] }}">{% endif %}
+</head>
+<body class="ma-layout-primary">
+  <header data-grid-area="header">
+    <div class="ma-space-between-responsive" style="--flex-gap: 1rem">
+      <div>
+        <h2 class="ma-wordmark"><a href="/" class="ma-text-inherit">Mike Aparicio</a></h2>
+        <svg viewBox="0 0 400 20" preserveAspectRatio="none" class="ma-text-accent">
+          <text textLength="400" lengthAdjust="spacing" x="0"
+              y="16" style="fill: currentColor; font-size: 1rem; text-transform: uppercase">Peruvian Idol</text>
+        </svg>
+      </div>
+      <nav>
+        <ul role="list" class="ma-nav-list">
+          <li><a href="/about"{% if page.url.startsWith('/about/') %} aria-current="page"{% endif %}>About</a></li>
+          <li><a href="/blog"{% if page.url.startsWith('/blog/') %} aria-current="page"{% endif %}>Writing</a></li>
+          <li><a href="/speaking"{% if page.url.startsWith('/speaking/') %} aria-current="page"{% endif %}>Speaking</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main data-grid-area="main">
+    <div class="ma-flow" style="--flow-size: 2rem">
+      {{ content | safe }}
+    </div>
+  </main>
+
+  <footer data-grid-area="footer">
+    <div class="ma-space-between-responsive ma-flex-align-end-on-large" style="--flex-gap: 1rem">
+      <div class="ma-flow">
+        <ul role="list" class="ma-text-sm ma-flex" style="--flex-wrap: wrap; --flex-gap: 1rem">
+          <li class="ma-text-subdued"><a href="/blogroll" class="ma-text-inherit">/blogroll</a></li>
+          <!--<li class="ma-text-subdued"><a href="/favorites" class="ma-text-inherit">/favorites</a></li>-->
+          <li class="ma-text-subdued"><a href="/comedy" class="ma-text-inherit">/comedy</a></li>
+          <li class="ma-text-subdued"><a href="/extra-life" class="ma-text-inherit">/extra-life</a></li>
+          <!--<li class="ma-text-subdued"><a href="/projects" class="ma-text-inherit">/projects</a></li>-->
+        </ul>
+        <ul role="list" class="ma-text-sm ma-flex" style="--flex-wrap: wrap; --flex-gap: 1rem">
+          <li class="ma-text-subdued">
+            <a href="mailto:peruvianidol@gmail.com" class="ma-text-inherit ma-flex" style="--flex-gap: 4px">
+              {% icon "mail", "ma-icon-12" %}
+              <span>Email</span>
+            </a>
+          </li>
+          <li class="ma-text-subdued">
+            <a href="https://bsky.app/profile/peruvianidol.com" class="ma-text-inherit ma-flex" style="--flex-gap: 4px">
+              {% icon "bluesky", "ma-icon-12" %}
+              <span>Bluesky</span>
+            </a>
+          </li>
+          <li class="ma-text-subdued">
+            <a href="https://letterboxd.com/peruvianidol" class="ma-text-inherit ma-flex" style="--flex-gap: 4px">
+              {% icon "letterboxd", "ma-icon-12" %}
+              <span>Letterboxd</span>
+            </a>
+          </li>
+          <li class="ma-text-subdued">
+            <a href="https://twitch.tv/peruvianidol" class="ma-text-inherit ma-flex" style="--flex-gap: 4px">
+              {% icon "twitch", "ma-icon-12" %}
+              <span>Twitch</span>
+            </a>
+          </li>
+          <li class="ma-text-subdued">
+            <a href="/feed.xml" class="ma-text-inherit ma-flex" style="--flex-gap: 4px">
+              {% icon "rss", "ma-icon-12" %}
+              <span>RSS</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="ma-text-sm ma-text-subdued ma-text-right">&copy; 2014-2026 Mike Aparicio</p>
+    </div>
+  </footer>
+  <script src="/assets/js/lite-yt-embed.js" defer></script>
+  <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+</body>
+</html>

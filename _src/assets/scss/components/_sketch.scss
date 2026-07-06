@@ -1,0 +1,14 @@
+.ma-sketch {
+    font-family: monospace;
+    font-size: 1.125rem;
+}
+.ma-sketch .ma-text-center + p {
+    margin-block-end: 1.5rem;
+}
+.ma-dir {
+    margin-inline-start: 25%;
+    margin-block-end: 1.5rem;
+}
+.ma-sketch strong {
+    font-weight: normal;
+}

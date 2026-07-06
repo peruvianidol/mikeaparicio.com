@@ -1,0 +1,21 @@
+.ma-tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  color: var(--color-text-body, #{$color-text-body});
+  text-decoration: none;
+  font-size: $font-size-sm;
+  padding: $space-4 $space-8;
+  border-radius: $radius-sm;
+  border: 1px solid var(--color-border, #{$color-border});
+  cursor: pointer;
+  line-height: 1;
+
+  &:hover,
+  &[aria-current="page"],
+  &[aria-pressed="true"] {
+    background-color: var(--color-surface-brand, #{$color-surface-brand});
+    border-color: var(--color-surface-brand, #{$color-surface-brand});
+    color: #fff;
+  }
+}

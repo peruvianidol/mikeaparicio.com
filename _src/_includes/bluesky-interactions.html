@@ -1,0 +1,126 @@
+<!-- _includes/bluesky-interactions.html -->
+
+<section class="ma-inset-block ma-flow" id="bsky-interactions" data-post-url="{{ bskyPostUrl }}" style="--inset-size: 2rem">
+  <p class="ma-eyebrow-sm ma-flex" style="--flex-gap: 4px; --flex-align: start">
+    {% icon "bluesky", "ma-icon" %}
+    <span>Bluesky</span>
+  </p>
+  <div class="ma-flow" style="--flow-size: 2rem" data-bsky-body>
+    <p class="ma-text-xs ma-text-subdued">Loading…</p>
+  </div>
+</section>
+
+<script>
+(function () {
+  const section = document.getElementById('bsky-interactions');
+  const body = section.querySelector('[data-bsky-body]');
+  const postUrl = section.dataset.postUrl;
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function formatDate(iso) {
+    return new Date(iso).toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric', year: 'numeric'
+    });
+  }
+
+  function renderAvatar(person, size = 32) {
+    const label = escapeHtml(person.displayName);
+    const href = `https://bsky.app/profile/${escapeHtml(person.handle)}`;
+    const style = size !== 32 ? ` style="--avatar-size: ${size}px"` : '';
+    const inner = person.avatar
+      ? `<img src="${escapeHtml(person.avatar)}" alt="${label}" loading="lazy">`
+      : `<span aria-hidden="true">${escapeHtml(person.displayName.charAt(0))}</span>`;
+    return `<a href="${href}" title="${label}" target="_blank" rel="noopener" class="ma-avatar"${style}>${inner}</a>`;
+  }
+
+  function renderLikes(likes, postUrl) {
+    if (!likes.length) return '';
+    const avatars = likes.slice(0, 20).map((p) => renderAvatar(p)).join('');
+    const extra = likes.length > 20 ? `<span class="ma-text-xs ma-text-subdued" style="padding-inline: .5rem">${likes.length - 20}+</span>` : '';
+    const names = likes.slice(0, 2).map((p) => escapeHtml(p.displayName)).join(', ');
+    const moreText = likes.length > 2 ? ` and ${likes.length - 2} other${likes.length - 2 === 1 ? '' : 's'}` : '';
+    return `
+      <div class="ma-flow ma-stack-24" style="--flow-size: .5rem">
+        <div class="ma-flex" style="--flex-gap: 2px; --flex-wrap: wrap">
+          ${avatars}${extra}
+        </div>
+        <p class="ma-text-xs ma-text-subdued">
+          Liked by ${names}${moreText} —
+          <a href="${escapeHtml(postUrl)}" target="_blank" rel="noopener">view on Bluesky</a>
+        </p>
+      </div>`;
+  }
+
+  function renderEmbed(embed) {
+    if (!embed) return '';
+    const images = embed.images ?? (embed.type === 'images' ? embed.images : null);
+    const quote = embed.quote;
+    let html = '';
+    if (embed.type === 'images' || embed.type === 'recordWithMedia') {
+      (embed.images || []).forEach(img => {
+        html += `<img src="${escapeHtml(img.thumb)}" alt="${escapeHtml(img.alt)}" style="max-width:100%;border-radius:4px" loading="lazy">`;
+      });
+    }
+    if (quote) {
+      const avatarInner = quote.avatar
+        ? `<img src="${escapeHtml(quote.avatar)}" alt="${escapeHtml(quote.displayName)}" loading="lazy">`
+        : `<span aria-hidden="true">${escapeHtml(quote.displayName.charAt(0))}</span>`;
+      html += `<blockquote class="ma-flow" style="--flow-size: .25rem">
+        <p class="ma-text-xs ma-flex" style="--flex-gap: .35rem">
+          <a href="https://bsky.app/profile/${escapeHtml(quote.handle)}" class="ma-avatar" style="--avatar-size:20px" target="_blank" rel="noopener">${avatarInner}</a>
+          <strong>${escapeHtml(quote.displayName)}</strong>
+          <span class="ma-text-subdued">@${escapeHtml(quote.handle)}</span>
+        </p>
+        <p class="ma-text-sm" style="white-space: pre-wrap">${escapeHtml(quote.text).replace(/\n/g, '<br>')}</p>
+      </blockquote>`;
+    }
+    return html;
+  }
+
+  function renderReplies(replies) {
+    if (!replies.length) return '';
+    const items = replies.map((r) => `
+      <li class="ma-bsky-post ma-flow" style="--flow-size: .5rem">
+        <div class="ma-flex ma-text-xs" style="--flex-gap: .5rem">
+          ${renderAvatar(r, 36)}
+          <div class="ma-flow" style="--flow-size: 2px">
+            <p class="ma-text-xs"><strong>${escapeHtml(r.displayName)}</strong><br>
+            <a href="https://bsky.app/profile/${escapeHtml(r.handle)}" target="_blank" rel="noopener">@${escapeHtml(r.handle)}</a></p>
+          </div>
+        </div>
+        ${r.text ? `<p class="ma-text-sm" style="white-space: pre-wrap">${escapeHtml(r.text).replace(/\n/g, '<br>')}</p>` : ''}
+        ${renderEmbed(r.embed)}
+        <div class="ma-flex ma-text-xs" style="--flex-gap: .75rem">
+          <a href="${escapeHtml(r.url)}" target="_blank" rel="noopener">${formatDate(r.createdAt)}</a>
+          ${r.likeCount > 0 ? `<span class="ma-flex ma-text-subdued" style="--flex-gap: 2px">{% icon "heart", "ma-icon-12" %} ${r.likeCount}</span>` : ''}
+        </div>
+      </li>`).join('');
+    return `
+      <div class="ma-flow" style="--flow-size: .75rem">
+        <p class="ma-heading-3">Replies</p>
+        <ul role="list" class="ma-flow" style="--flow-size: .75rem">${items}</ul>
+      </div>`;
+  }
+
+  fetch(`/api/bluesky-interactions?postUrl=${encodeURIComponent(postUrl)}`)
+    .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(({ likes, replies }) => {
+      if (!likes.length && !replies.length) {
+        body.innerHTML = '<p class="ma-text-xs ma-text-subdued">No interactions yet. <a href="' + escapeHtml(postUrl) + '" target="_blank" rel="noopener">Be the first on Bluesky!</a></p>';
+        return;
+      }
+      body.innerHTML = renderLikes(likes, postUrl) + renderReplies(replies);
+    })
+    .catch((err) => {
+      section.hidden = true;
+      console.error('[bluesky-interactions]', err);
+    });
+}());
+</script>

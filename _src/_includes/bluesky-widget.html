@@ -1,0 +1,157 @@
+<!-- _includes/bluesky-widget.html -->
+
+<section data-grid-area="posting">
+  <h2 class="ma-eyebrow-sm ma-stack ma-flex" style="--flex-gap: 4px; --flex-align: start">
+    {% icon "message", "ma-icon" %}
+    <span>Posting</span>
+  </h2>
+  <ul id="bsky-list" class="ma-flow ma-stack" role="list"></ul>
+  <div class="ma-text-right ma-text-xs ma-text-subdued">
+    <a href="https://bsky.app/profile/peruvianidol.com" class="ma-text-inherit">Bluesky</a>
+  </div>
+</section>
+
+<script>
+(function () {
+  const list = document.getElementById('bsky-list');
+  const limit = 5;
+
+  function formatDate(iso) {
+    return new Date(iso).toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric', year: 'numeric'
+    });
+  }
+
+  function escapeAttr(str) {
+    return str ? str.replace(/&/g, '&amp;').replace(/"/g, '&quot;') : '';
+  }
+
+  function linkifyPost(text, facets) {
+    if (!facets || !facets.length) return text;
+
+    const encoder = new TextEncoder();
+    const decoder = new TextDecoder();
+    const bytes = encoder.encode(text);
+    let result = '';
+    let cursor = 0;
+
+    const segments = facets
+      .filter((f) => f.features.some((feat) =>
+        feat.$type === 'app.bsky.richtext.facet#link' ||
+        feat.$type === 'app.bsky.richtext.facet#mention'
+      ))
+      .sort((a, b) => a.index.byteStart - b.index.byteStart);
+
+    for (const facet of segments) {
+      const { byteStart, byteEnd } = facet.index;
+      const segmentText = decoder.decode(bytes.slice(byteStart, byteEnd));
+      const link = facet.features.find((f) => f.$type === 'app.bsky.richtext.facet#link');
+      const mention = facet.features.find((f) => f.$type === 'app.bsky.richtext.facet#mention');
+
+      result += decoder.decode(bytes.slice(cursor, byteStart));
+      if (link) {
+        result += `<a href="${link.uri}" target="_blank" rel="noopener">${segmentText}</a>`;
+      } else if (mention) {
+        result += `<a href="https://bsky.app/profile/${mention.did}" target="_blank" rel="noopener">${segmentText}</a>`;
+      }
+      cursor = byteEnd;
+    }
+
+    result += decoder.decode(bytes.slice(cursor));
+    return result;
+  }
+
+  function renderPost(post) {
+    const quoteHtml = post.quote ? `
+      <blockquote class="ma-flow">
+        ${post.quote.text ? `<p>${linkifyPost(post.quote.text, post.quote.facets).replace(/\n/g, '<br>')}</p>` : ''}
+        ${post.quote.images && post.quote.images.length
+              ? `<div class="bsky-images">${post.quote.images.map((img) => `<img src="${img.thumb}" alt="${escapeAttr(img.alt)}" loading="lazy" class="ma-margin-auto">`).join('')}</div>`
+              : ''}
+        ${post.quote.linkCard?.thumb
+              ? `<p><a href="${post.quote.linkCard.uri}" target="_blank" rel="noopener"><img src="${post.quote.linkCard.thumb}" alt="${escapeAttr(post.quote.linkCard.title)}" loading="lazy"></a></p>`
+              : post.quote.linkCard?.uri
+              ? `<p><a href="${post.quote.linkCard.uri}" target="_blank" rel="noopener">${post.quote.linkCard.title || post.quote.linkCard.uri}</a></p>`
+              : ''}
+        <p>
+          — <a href="${post.quote.url}" target="_blank" rel="noopener">${post.quote.author}</a>
+        </p>
+      </blockquote>` : '';
+
+    const youtubeHtml = post.youtubeId
+      ? `<lite-youtube videoid="${post.youtubeId}"></lite-youtube>`
+      : '';
+
+    const imagesHtml = post.images && post.images.length
+      ? `<div class="bsky-images">
+          ${post.images.map((img) => {
+            const dims = img.width && img.height ? ` width="${img.width}" height="${img.height}"` : '';
+            return `<img src="${img.thumb}" alt="${escapeAttr(img.alt)}" loading="lazy"${dims}>`;
+          }).join('')}
+        </div>`
+      : '';
+
+    const videoHtml = post.video?.thumbnail
+      ? `<a href="${post.url}" target="_blank" rel="noopener"><img src="${post.video.thumbnail}" alt="${escapeAttr(post.video.alt)}" loading="lazy"${post.video.width && post.video.height ? ` width="${post.video.width}" height="${post.video.height}"` : ''}></a>`
+      : '';
+
+    const linkCardHtml = post.linkCard?.thumb
+      ? `<a href="${post.linkCard.uri}" target="_blank" rel="noopener"><img src="${post.linkCard.thumb}" alt="${escapeAttr(post.linkCard.title)}" loading="lazy"></a>`
+      : '';
+
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <div class="ma-bsky-post ma-flow ma-text-xs" style="--flow-size: .5rem">
+        <p>${linkifyPost(post.text, post.facets).replace(/\n/g, '<br>')}</p>
+        ${youtubeHtml}
+        ${imagesHtml}
+        ${videoHtml}
+        ${linkCardHtml}
+        ${quoteHtml}
+        <div class="ma-text-subdued ma-space-between">
+          <p><a href="${post.url}">@peruvianidol.com</a><br><span class="ma-text-subdued">${formatDate(post.createdAt)}</span></p>
+          <div class="ma-flex">
+            <div class="ma-flex" style="--flex-gap: 2px">
+              {% icon "heart", "ma-icon-12" %}
+              ${post.likes}
+            </div>
+            <div class="ma-flex" style="--flex-gap: 2px">
+              {% icon "repeat", "ma-icon-12" %}
+              ${post.reposts}
+            </div>
+            <div class="ma-flex" style="--flex-gap: 2px">
+              {% icon "message-circle-more", "ma-icon-12" %}
+              ${post.replies}
+            </div>
+          </div>
+        </div>
+      </div>`;
+    return li;
+  }
+
+  function renderError(msg) {
+    const li = document.createElement('li');
+    li.innerHTML = msg;
+    return li;
+  }
+
+  fetch(`/api/bluesky-status?limit=${limit}`)
+    .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(({ posts }) => {
+      list.innerHTML = '';
+
+      if (!posts.length) {
+        list.appendChild(renderError('No recent posts found.'));
+        return;
+      }
+
+      posts.forEach((p) => list.appendChild(renderPost(p)));
+
+    })
+    .catch((err) => {
+      list.innerHTML = '';
+      list.appendChild(renderError('Could not load Bluesky posts.'));
+      console.error('[bluesky-widget]', err);
+    });
+}());
+</script>

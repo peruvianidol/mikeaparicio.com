@@ -1,0 +1,13 @@
+---
+title: Writing
+---
+
+{% include "tag-filter.html" %}
+
+<ul role="list" class="ma-flow">
+  {% for post in collections.posts %}
+  <li>
+    {% include "post-card.html" %}
+  </li>
+  {% endfor %}
+</ul>

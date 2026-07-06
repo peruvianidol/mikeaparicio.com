@@ -1,0 +1,5 @@
+{
+  "layout": "favorite.njk",
+  "permalink": "/favorites/{{ page.fileSlug }}/",
+  "isFavorite": true
+}

@@ -1,0 +1,30 @@
+.ma-layout-primary {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-size: $font-size-md;
+  > * > * {
+    padding: $space-16;
+  }
+  [data-grid-area="header"] {
+    background-color: var(--color-surface-card, #{$color-surface-card});
+    border-block-end: 1px solid var(--color-border-accent, #{$color-border-accent});
+  }
+  [data-grid-area="main"] > * {
+    padding-block: 3rem;
+  }
+  [data-grid-area="footer"] {
+    background-color: var(--color-surface-elevated, #{$color-surface-elevated});
+    border-block-start: 1px solid var(--color-border-accent, #{$color-border-accent});
+  }
+}
+
+@media (width > 700px) {
+  .ma-layout-primary {
+    > * > * {
+      padding: $space-24;
+      width: 100%;
+      max-width: $page-max-width;
+      margin-inline: auto;
+    }
+  }
+}

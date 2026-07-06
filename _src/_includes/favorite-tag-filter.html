@@ -1,0 +1,34 @@
+{% set tagList = collections.favorites | getAllFavoriteTags %}
+
+<section class="ma-flow">
+  <p class="ma-eyebrow-sm">Filter by tag</p>
+  <ul role="list" class="ma-flex" style="--flex-wrap: wrap" id="favorite-tag-filter">
+    <li><button class="ma-tag" data-tag="" aria-pressed="true">All ({{ collections.favorites.length }})</button></li>
+    {% for t in tagList %}
+    <li><button class="ma-tag" data-tag="{{ t.name }}">{{ t.name }} ({{ t.count }})</button></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<script>
+(function () {
+  const filter = document.getElementById('favorite-tag-filter');
+  if (!filter) return;
+
+  filter.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-tag]');
+    if (!btn) return;
+
+    const tag = btn.dataset.tag;
+    const list = document.getElementById('favorites-list');
+
+    filter.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', 'false'));
+    btn.setAttribute('aria-pressed', 'true');
+
+    list.querySelectorAll(':scope > li').forEach((li) => {
+      const tags = li.dataset.tags ? li.dataset.tags.split(',') : [];
+      li.hidden = tag !== '' && !tags.includes(tag);
+    });
+  });
+}());
+</script>

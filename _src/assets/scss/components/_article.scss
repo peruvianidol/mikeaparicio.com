@@ -1,0 +1,25 @@
+.ma-article {
+  :where(h2, h3) {
+    @extend [class*="ma-heading"];
+  }
+  h2 {
+    @extend .ma-heading-2;
+  }
+  h3 {
+    @extend .ma-heading-3;
+  }
+  figure img,
+  figure video {
+    width: 100%;
+  }
+  figcaption {
+    @extend .ma-text-sm, .ma-text-subdued;
+    margin-block-start: $space-4;
+  }
+}
+
+@media (width > 700px) {
+  .ma-article {
+    font-size: $font-size-md;
+  }
+}

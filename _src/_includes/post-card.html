@@ -1,0 +1,14 @@
+<figure class="ma-flex-responsive" style="--flex-align: start; --flex-gap: 1rem">
+  <img
+    src="/.netlify/images?url=/assets/images/{{ post.data.thumbnail }}&w=200&h=113&fit=cover&fm=webp"
+    srcset="/.netlify/images?url=/assets/images/{{ post.data.thumbnail }}&w=200&h=113&fit=cover&fm=webp 200w,
+            /.netlify/images?url=/assets/images/{{ post.data.thumbnail }}&w=400&h=225&fit=cover&fm=webp 400w,
+            /.netlify/images?url=/assets/images/{{ post.data.thumbnail }}&w=800&h=450&fit=cover&fm=webp 800w"
+    sizes="(max-width: 700px) calc(100vw - 2rem), 200px"
+    alt="{{ post.data.thumbnailAlt }}" class="ma-thumbnail" width="200" height="113"{% if prioritizeImage %} fetchpriority="high"{% endif %}>
+  <figcaption class="ma-flow ma-trim-start" style="--flow-size: 4px">
+    <time datetime="{{ post.date | htmlDateString }}" class="ma-text-subdued ma-text-xs">{{ post.date | readableDate }}</time>
+    <{{ postHeadingLevel or "h2" }} class="ma-heading-3"><a href="{{ post.url }}">{{ post.data.title }}</a></{{ postHeadingLevel or "h2" }}>
+    <p class="ma-leading-tight ma-text-sm ma-text-subdued">{{ post.data.description }}</p>
+  </figcaption>
+</figure>

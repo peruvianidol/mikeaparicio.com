@@ -1,0 +1,12 @@
+.ma-bsky-post {
+  padding: $space-16;
+  background-color: var(--color-surface-card, #{$color-surface-card});
+  border-radius: $radius-sm;
+  border: 1px solid var(--color-border, #{$color-border});
+  box-shadow: var(--shadow, #{$shadow});
+  blockquote {
+    margin-block: $space-8;
+    padding: $space-16;
+    background-color: var(--color-surface-elevated, #{$color-surface-elevated});
+  }
+}

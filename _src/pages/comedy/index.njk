@@ -1,0 +1,33 @@
+---
+title: Comedy
+permalink: "/comedy/"
+---
+
+<p>At Second City I had the opportunity to write, perform and film a bunch of sketches. I was able to also apply those skills to several hackathon projects at Groupon. I picked up some video production skills as a print and broadcast journalism major at Columbia College in Chicago.</p>
+
+<div class="ma-grid" style="--grid-col-min: 400px; --gap: 2rem">
+{% for video in comedy %}
+<figure class="ma-flow">
+  {% if "vimeo.com" in video.url %}
+  <div class="ma-vimeo-embed">
+    <iframe src="https://player.vimeo.com/video/{{ video.url | vimeoId }}" title="{{ video.name }}" allow="fullscreen" loading="lazy"></iframe>
+  </div>
+  {% else %}
+  <lite-youtube videoid="{{ video.url | youtubeId }}"></lite-youtube>
+  {% endif %}
+  <figcaption class="ma-flow" style="--flow-size: 2px">
+    <h2 class="ma-heading-3"><a href="{{ video.url }}">{{ video.name }}</a></h2>
+    {% if video.description %}<p class="ma-text-sm">{{ video.description }}</p>{% endif %}
+  </figcaption>
+</figure>
+{% endfor %}
+</div>
+
+<h2 class="ma-heading-2">Writing</h2>
+
+<p>Some of my favorite sketches I wrote at Second City.</p>
+
+<ul>
+  <li><a href="/cash-confessional">Cash Confessional</a></li>
+  <li><a href="/color-me-badd">Color Me Badd</a></li>
+</ul>

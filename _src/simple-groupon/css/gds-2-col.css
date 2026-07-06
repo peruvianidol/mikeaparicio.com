@@ -1,0 +1,29 @@
+.gds-2-col {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-gap: 16px;
+  min-height: 100vh;
+  padding: 0 16px;
+  grid-template-areas: "header" "nav" "main" "footer"; }
+
+.gds-2-col > * {
+  position: relative; }
+
+.gds-2-col > [data-area="header"] {
+  grid-area: header; }
+
+.gds-2-col > [data-area="nav"] {
+  grid-area: nav; }
+
+.gds-2-col > [data-area="main"] {
+  grid-area: main; }
+
+.gds-2-col > [data-area="footer"] {
+  grid-area: footer; }
+
+@media (min-width: 600px) {
+  .gds-2-col {
+    grid-template-columns: 1fr 200px minmax(0, 75ch) 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: ". header  main  ." ". nav     main ." ". footer  footer  .";
+    padding: 0; } }

@@ -1,0 +1,22 @@
+.ma-layout-hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: $space-32 $space-16;
+  div {
+    flex: 1;
+  }
+  img {
+    max-width: 300px;
+    order: -1;
+  }
+}
+
+@media (width >= 700px) {
+  .ma-layout-hero {
+    flex-direction: row;
+    img {
+      order: 0;
+    }
+  }
+}

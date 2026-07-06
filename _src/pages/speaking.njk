@@ -1,0 +1,16 @@
+---
+title: Speaking
+---
+
+<p>I love chatting about all things design systems and CSS. I'm available to speak on your podcast, stream or at your conference. <a href="mailto:peruvianidol@gmail.com">Get in touch!</a></p>
+
+{% for talk in talks %}
+<figure class="ma-flex-responsive" style="--flex-align: start; --flex-gap: 1rem">
+  <lite-youtube videoid="{{ talk.url | youtubeId }}"></lite-youtube>
+  <figcaption class="ma-flow" style="--flow-size: 2px">
+    <h2 class="ma-heading-3"><a href="{{ talk.url }}">{{ talk.name }}</a></h2>
+    <p class="ma-text-sm ma-text-subdued">{{ talk.show }} | {{ talk.date }}</p>
+    {% if talk.description %}<p class="ma-text-sm">{{ talk.description }}</p>{% endif %}
+  </figcaption>
+</figure>
+{% endfor %}

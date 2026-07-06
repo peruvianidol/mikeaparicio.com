@@ -1,0 +1,94 @@
+$paper:     #F7F5F0;
+$paper-2:   #ECEAE3;
+$paper-3:   #DCDAD2;
+$stone-300: #C4C2BA;
+$stone-400: #999791;
+$stone-500: #6B6964;
+$stone-600: #3E3D3A;
+$stone-700: #232220;
+$stone-800: #141413;
+$stone-900: #0A0A09;
+$ink:       #16161A;
+
+/* Brand: Peruvian red, hot and saturated */
+$red-400:   #FF5A5C;
+$red-500:   #E93538;
+$red-600:   #DA1025;
+$red-700:   #B0091B;
+$red-800:   #7A0612;
+$red-850:   #221111;
+$red-900:   #150a0a;
+
+$gold-100: #FEFBF5;
+$gold-200: #efe2ba;
+$gold-400: #FFD35C;
+$gold-600: #DDC45F;
+$gold-800: #D6A829;
+$gold-900: #92721C;
+
+/* Supporting, all used sparingly */
+$yellow-300: #FFE066;
+$blue-500:  #2C5BCC;
+$green-500: #2D7F4F;
+
+$black: #000;
+$white: #FFF;
+
+$color-bluesky: rgb(15, 115, 255);
+$color-twitch: rgb(145, 71, 255);
+$color-letterboxd-green: #00C030;
+$color-letterboxd-orange: #FF9933;
+$color-letterboxd-blue: #209CE4;
+$color-rss: #F87900;
+$color-mail: $red-800;
+
+$font-weight-heading: 800;
+$font-weight-body: 400;
+$font-weight-strong: 600;
+$line-height-heading: 1.2;
+
+$font-size-xl: clamp(2rem, 2.5vw + 1.5rem, 3rem);
+$font-size-lg: clamp(1.25rem, 1.875vw + .875rem, 2rem);
+$font-size-md: clamp(1rem, 0.625vw + .875rem, 1.25rem);
+$font-size-sm: clamp(.875rem, 0.3125vw + .8125rem, 1rem);
+$font-size-xs: clamp(.75rem, 0.3125vw + .6875rem, .875rem);
+
+$font-family-body: 'Funnel Sans', sans-serif;
+$font-family-heading: 'Really Sans Large', sans-serif;
+$font-family-monospace: 'DM Mono', monospace;
+
+$space-4: .25rem;
+$space-8: .5rem;
+$space-12: .75rem;
+$space-16: 1rem;
+$space-24: 1.5rem;
+$space-32: 2rem;
+$space-48: 3rem;
+
+$radius-sm: 2px;
+$radius-lg: 8px;
+
+$page-max-width: 960px;
+$shadow: 2px 2px 0px 1px light-dark(rgb(0 0 0 / .1), rgb(255 255 255 / .1));
+
+$color-text-body: light-dark(#{$ink}, #{$paper});
+$color-text-strong: light-dark(#{$black}, #{$white});
+$color-text-subdued: light-dark(#{$stone-500}, #{$stone-300});
+$color-text-inverse: $paper;
+$color-text-brand: light-dark(#{$red-800}, #{$red-600});
+$color-text-accent: light-dark(#{$gold-900}, #{$gold-200});
+$color-text-interactive: light-dark(#{$red-600}, #{$red-400});
+$color-text-interactive-hover: $ink;
+
+$color-surface-body: light-dark(#{$paper}, #{$red-900});
+$color-surface-brand: light-dark(#{$red-800}, #{$red-600});
+$color-surface-elevated: light-dark(#{$paper-2}, #{$stone-700});
+$color-surface-card: light-dark(#{$white}, #{$stone-900});
+$color-surface-interactive: $red-600;
+$color-surface-interactive-hover: $red-700;
+
+$color-border: light-dark(#{$paper-3}, #{$stone-600});
+$color-border-brand: light-dark(#{$red-600}, #{$red-400});
+$color-border-accent: light-dark(#{$gold-900}, #{$gold-200});
+
+$color-star-rating: $gold-400;

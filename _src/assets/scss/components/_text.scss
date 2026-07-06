@@ -1,0 +1,106 @@
+[class*="ma-heading"] {
+  font-family: var(--font-family-heading, #{$font-family-heading});
+  font-weight: $font-weight-heading;
+  line-height: $line-height-heading;
+  text-wrap: pretty;
+}
+
+.ma-heading-1 {
+  font-size: $font-size-xl;
+}
+
+.ma-heading-2 {
+  font-size: $font-size-lg;
+}
+
+.ma-heading-3 {
+  font-size: $font-size-md;
+}
+
+[class*="ma-eyebrow"] {
+  font-family: var(--font-family-heading, #{$font-family-heading});
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: $font-weight-body;
+  color: var(--color-text-subdued, #{$color-text-subdued});
+}
+.ma-eyebrow-lg {
+  font-size: $font-size-xl;
+}
+.ma-eyebrow-sm {
+  font-size: $font-size-xs;
+}
+
+.ma-text-subdued {
+  color: var(--color-text-subdued, #{$color-text-subdued});
+  a {
+    text-decoration-color: currentColor;
+  };
+  &:has(a:hover) a,
+  &:has(a:focus-visible) a {
+    color: var(--color-text-interactive, #{$color-text-interactive});
+  }
+}
+.ma-text-brand {
+  color: var(--color-text-brand, #{$color-text-brand});
+  a {
+    text-decoration-color: transparent;
+  };
+  &:has(a):hover,
+  &:has(a):focus-visible {
+    color: var(--color-text-interactive, #{$color-text-interactive});
+  }
+}
+.ma-text-accent {
+  color: var(--color-text-accent, #{$color-text-accent});
+}
+.ma-text-xl {
+  font-size: $font-size-xl;
+  line-height: $line-height-heading;
+}
+.ma-text-lg {
+  font-size: $font-size-lg;
+  line-height: $line-height-heading;
+}
+.ma-text-sm {
+  font-size: $font-size-sm;
+}
+.ma-text-xs {
+  font-size: $font-size-xs;
+}
+.ma-text-inherit {
+  color: inherit;
+}
+.ma-text-uppercase {
+  text-transform: uppercase;
+}
+.ma-leading-tight {
+  line-height: 1.2;
+}
+.ma-text-right {
+  text-align: right;
+}
+.ma-text-thicc {
+  font-weight: $font-weight-heading;
+}
+.ma-blockquote {
+  padding: $space-32 $space-48;
+  font-family: var(--font-family-heading, #{$font-family-heading});
+  font-size: $font-size-xl;
+  font-weight: $font-weight-heading;
+  line-height: 1.4;
+  border-block: 1px solid var(--color-border-accent, #{$color-border-accent});
+  margin-block-start: $space-32;
+  margin-block-end: $space-16;
+}
+.ma-text-center {
+  text-align: center;
+}
+.ma-wordmark {
+  @extend .ma-text-brand;
+  font-family: var(--font-family-heading, #{$font-family-heading});
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 800;
+}

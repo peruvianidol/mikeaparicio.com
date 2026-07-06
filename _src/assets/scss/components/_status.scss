@@ -1,0 +1,19 @@
+#gw-list,
+#lw-list {
+  li {
+    align-items: start;
+  }
+  li:not(:last-child) {
+    margin-block-end: $space-8;
+  }
+  img {
+    object-fit: cover;
+    border-radius: 2px;
+    height: 90px;
+  }
+}
+#gw-list {
+  img {
+    height: 90px;
+  }
+}

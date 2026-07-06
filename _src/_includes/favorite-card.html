@@ -1,0 +1,6 @@
+<a href="{{ item.url }}"><img title="{{ item.data.title }}"
+  src="/.netlify/images?url=/assets/images/{{ item.data.thumbnail }}&w=120&h=120&fit=cover&fm=webp"
+  srcset="/.netlify/images?url=/assets/images/{{ item.data.thumbnail }}&w=120&h=120&fit=cover&fm=webp 200w,
+          /.netlify/images?url=/assets/images/{{ item.data.thumbnail }}&w=400&h=400&fit=cover&fm=webp 400w"
+  sizes="(max-width: 700px) calc(100vw - 2rem), 200px"
+  alt="{{ item.data.thumbnailAlt or item.data.title }}" width="120" height="120"></a>

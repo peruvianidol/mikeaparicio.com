@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Never Style Again",
+    "show": "Wireframe Live",
+    "date": "May 15, 2026",
+    "url": "https://www.youtube.com/live/8L6uoTaW9kU?si=CfgAfK4C02VtEn04",
+    "description": "Donnie D'Amato and I talked about CSS in design systems and how we contend with AI as design system practitioners."
+  },
+  {
+    "name": "Scaling CSS in Design Systems",
+    "show": "Code & Pixels",
+    "date": "August 6, 2024",
+    "url": "https://youtu.be/GZhoH0NEjys?si=sQA-4qQTFRUGocBN",
+    "description": "I chatted with Kelly and Adekunle about CSS and design systems."
+  },
+  {
+    "name": "Build a Design System with CSS",
+    "show": "Learn with Jason",
+    "date": "June 6, 2024",
+    "url": "https://www.youtube.com/live/0NPlQsYf-d0?si=2c9x_iZ9kSf2Jdr0",
+    "description": "I joined Jason Lengstorf to talk about CSS in design systems. We imagined what my first week of a design systems engineer at LWJ might look like, building a CSS framework and documentation site to support a redesigned show page on Jason's website."
+  },
+  {
+    "name": "Easy Site Theming with Design Tokens",
+    "show": "Frontend Horse",
+    "date": "November 10, 2021",
+    "url": "https://youtu.be/P8x-_ns2vWw?si=7LrPmRNLvX-Okh55",
+    "description": "I returned to Frontend Horse for the Halloween Spooktacular, where Alex Trost and I made a Halloween theme for the Frontend Horse website in 15 minutes using only design tokens."
+  },
+  {
+    "name": "Build Your Own Design System",
+    "show": "Some Antics",
+    "date": "October 28, 2021",
+    "url": "https://youtu.be/wX3z42LbfbI?si=MPyMElnfqnJl9RQl",
+    "description": "Ben Myers and I talked about using Hacktober as an opportunity to get into design systems while building a small system ourselves."
+  },
+  {
+    "name": "Let's Make a Design System",
+    "show": "Frontend Horse",
+    "date": "August 18, 2021",
+    "url": "https://youtu.be/69rQrjMt2go?si=eQFSLDDgh6vrEd65",
+    "description": "I built a design system for Frontend Horse and talked to Alex Trost about the process."
+  },
+  {
+    "name": "Templating: Eleventy's Superpower",
+    "show": "THE Eleventy Meetup",
+    "date": "July 17, 2021",
+    "url": "https://youtu.be/rZyNBd1WgVM?si=xg0PsegTMsLXy9oV",
+    "description": "I gave a talk at the inaugural Eleventy Meetup where I demonstrated how to create an Eleventy site in ~10 minutes."
+  }
+]

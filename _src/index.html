@@ -1,0 +1,39 @@
+---
+layout: base.njk
+---
+
+<section class="ma-layout-hero">
+  <div>
+    <h1 class="ma-heading-1">Hi, I'm <strong>Mike</strong>!</h1>
+    <p class="ma-text-lg" id="greeting">This is my website. There are many like it, but this one is mine.</p>
+  </div>
+  <script>
+    const greetings = {{ greetings | dump | safe }};
+    document.getElementById('greeting').innerHTML = greetings[Math.floor(Math.random() * greetings.length)];
+  </script>
+  {% image "mike-headshot.png", "Mike" %}
+</section>
+
+<section>
+  <h2 class="ma-eyebrow-sm ma-stack ma-flex" style="--flex-gap: 4px; --flex-align: start">
+    {% icon "notebook-pen", "ma-icon" %}
+    <span>Writing</span>
+  </h2>
+  <div class="ma-grid ma-flow" style="--grid-col-min: 400px">
+    {% set postHeadingLevel = "h3" %}
+    {% asyncEach post in collections.posts.slice(0, 4) %}
+      {% set prioritizeImage = loop.first %}
+      {% include "post-card.html" %}
+    {% endeach %}
+  </div>
+  <p class="ma-text-sm ma-flex ma-stack ma-text-subdued" style="justify-content: end; --flex-gap: 2px"><a href="/blog" class="ma-text-inherit">Archives</a>
+    {% icon "chevron-right", "ma-icon" %}
+  </p>
+</section>
+
+<div class="ma-layout-widgets">
+  {% include "bluesky-widget.html" %}
+  {% include "insta-idol-widget.html" %}
+  {% include "letterboxd-widget.html" %}
+  {% include "gaming-widget.html" %}
+</div>

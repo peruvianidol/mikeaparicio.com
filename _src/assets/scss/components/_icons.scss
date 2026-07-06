@@ -1,0 +1,25 @@
+[class*="ma-icon"] {
+  --icon-size: 1rem;
+  width: var(--icon-size);
+  aspect-ratio: 1;
+}
+.ma-icon-12 {
+  width: $space-12;
+}
+a:has(use[href*="bluesky"]):hover svg {
+  fill: $color-bluesky;
+}
+a:has(use[href*="twitch"]):hover svg {
+  fill: $color-twitch;
+}
+a:has(use[href*="letterboxd"]):hover svg {
+  --color-letterboxd-orange: #{$color-letterboxd-orange};
+  --color-letterboxd-green: #{$color-letterboxd-green};
+  --color-letterboxd-blue: #{$color-letterboxd-blue};
+}
+a:has(use[href*="rss"]):hover svg {
+  fill: $color-rss;
+}
+a:has(use[href*="mail"]):hover svg {
+  fill: var(--color-text-body, #{$color-text-body});
+}

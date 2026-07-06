@@ -1,0 +1,47 @@
+.ma-layout-widgets {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-16;
+  margin-block-start: $space-32;
+}
+
+@media (width > 700px) {
+  .ma-layout-widgets {
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "posting snapping snapping"
+      "posting watching playing";
+    [data-grid-area="posting"] {
+      grid-area: posting;
+      padding-inline-end: $space-16;
+      overflow-y: auto;
+      scrollbar-color: var(--color-surface-elevated, #{$color-surface-elevated}) var(--color-surface-body, #{$color-surface-body});
+      scrollbar-width: thin;
+      max-height: var(--posting-max-height, 867px);
+    }
+    &::-webkit-scrollbar {
+      width: $space-8;
+    }
+    &::webkit-scrollbar-track {
+      background: var(--color-surface-body, #{$color-surface-body});
+      padding: $space-4;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: rgb(255 255 255 / .25);
+      border-radius: $radius-sm;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: rgb(255 255 255 / .5);
+    }
+    [data-grid-area="snapping"] {
+      grid-area: snapping;
+    }
+    [data-grid-area="watching"] {
+      grid-area: watching;
+    }
+    [data-grid-area="playing"] {
+      grid-area: playing;
+    }
+  }
+}

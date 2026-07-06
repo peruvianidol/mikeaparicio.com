@@ -1,0 +1,11 @@
+---
+title: Blogroll
+---
+
+<p>Cool people and cool websites.</p>
+
+<ul style="columns: 3">
+{% for site in blogroll %}
+  <li><a href="{{ site.url }}">{{ site.name }}</a></li>
+{% endfor %}
+</ul>

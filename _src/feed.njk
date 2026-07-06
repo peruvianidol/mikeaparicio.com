@@ -1,0 +1,22 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mike Aparicio</title>
+  <link href="https://mikeaparicio.com/feed.xml" rel="self"/>
+  <link href="https://mikeaparicio.com/"/>
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>https://mikeaparicio.com/</id>
+  <author><name>Mike Aparicio</name></author>
+  {% for post in collections.posts %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="https://mikeaparicio.com{{ post.url }}"/>
+    <id>https://mikeaparicio.com{{ post.url }}</id>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls("https://mikeaparicio.com") }}</content>
+  </entry>
+  {% endfor %}
+</feed>

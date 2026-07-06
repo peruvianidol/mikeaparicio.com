@@ -1,0 +1,18 @@
+---
+title: Favorites
+layout: page.njk
+permalink: /favorites/
+isFavorite: false
+---
+
+<p>Inspired by <a href="https://chrisglass.com/favorites/">Chris Glass</a>, some of my favorite things of all time.</p>
+
+{% include "favorite-tag-filter.html" %}
+
+<ul role="list" class="ma-flex" style="--flex-wrap: wrap" id="favorites-list">
+  {% for item in collections.favorites %}
+  <li data-tags="{{ item.data.tags | join(',') }}">
+    {% include "favorite-card.html" %}
+  </li>
+  {% endfor %}
+</ul>

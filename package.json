@@ -1,0 +1,33 @@
+{
+  "name": "mikeaparicio.com",
+  "version": "3.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass --watch --poll _src/assets/scss:_site/assets/css --style=compressed --no-source-map -q --silence-deprecation=import",
+    "build:sass": "sass _src/assets/scss:_site/assets/css --no-source-map -q --silence-deprecation=import",
+    "watch:netlify": "netlify dev --functions ./netlify/functions",
+    "build:eleventy": "npx @11ty/eleventy",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*",
+    "standard-site": "node scripts/standard-site-sync.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "fast-xml-parser": "^5.6.0",
+    "lite-youtube-embed": "^0.3.4",
+    "psn-api": "^2.11.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@mdit/plugin-figure": "^0.23.2",
+    "markdown-it-attrs": "^4.3.1",
+    "npm-run-all2": "^8.0.4",
+    "sass": "^1.99.0"
+  }
+}

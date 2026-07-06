@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light dark;
+}
+
+:where(body) {
+  font-family: var(--font-family-body, #{$font-family-body});
+  background-color: var(--color-surface-body, #{$color-surface-body});
+  color: var(--color-text-body, #{$color-text-body});
+}
+
+:where(a) {
+  color: var(--color-text-body, #{$color-text-body});
+  text-decoration-thickness: 1px;
+  text-underline-offset: .125em;
+  text-decoration-color: var(--color-text-interactive, #{$color-text-interactive});
+  &:hover,
+  &:focus-visible {
+    color: var(--color-text-interactive, #{$color-text-interactive});
+  }
+}
+
+a {
+  transition: color .1s linear;
+}
+
+:where(iframe[src*="youtube"]),
+:where(iframe[src*="vimeo"]) {
+  aspect-ratio: 16/9;
+}
+
+:where(code):not([class*="language-"]) {
+  font-family: $font-family-monospace;
+  font-size: $font-size-sm;
+  background-color: rgb(from currentColor r g b / .1);
+  padding: 0.1em 0.3em;
+  border-radius: $radius-sm;
+}
+:where(strong) {
+  font-weight: $font-weight-strong;
+  color: var(--color-text-accent, #{$color-text-accent});
+}
+:where(blockquote:not(.ma-bsky-post blockquote, .ma-blockquote)) {
+  border-inline-start: 4px solid var(--color-border-accent, #{$color-border-accent});
+  padding-inline-start: $space-24;
+  margin-inline: $space-24;
+}
+:where(table) {
+  border: 3px double $color-border;
+  border-spacing: 0;
+  th, td {
+    text-align: left;
+    vertical-align: top;
+    padding: $space-8;
+    font-size: $font-size-sm;
+    line-height: $line-height-heading;
+    &:not(:last-child) {
+      border-inline-end: 1px solid $color-border;
+    }
+  }
+  tr:not(:last-child) td, th {
+    border-block-end: 1px solid $color-border;
+  }
+}

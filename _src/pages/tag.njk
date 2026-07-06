@@ -1,0 +1,23 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter: ['all', 'posts', 'favorites']
+permalink: '/tag/{{ tag | slugify }}/'
+eleventyComputed:
+  title: 'Posts tagged "{{ tag }}"'
+---
+
+{% set currentTag = tag %}
+{% include "tag-filter.html" %}
+
+<ul role="list" class="ma-flow">
+  {% for post in collections[tag] | reverse %}
+    {% if not post.data.isFavorite %}
+    <li>
+      {% include "post-card.html" %}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

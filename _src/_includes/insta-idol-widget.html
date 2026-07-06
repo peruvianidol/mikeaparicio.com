@@ -1,0 +1,59 @@
+<!-- _includes/insta-idol-widget.html -->
+
+<section data-grid-area="snapping">
+  <h2 class="ma-eyebrow-sm ma-stack ma-flex" style="--flex-gap: 4px; --flex-align: start">
+    {% icon "camera", "ma-icon" %}
+    <span>Snapping</span>
+  </h2>
+  <div id="ii-content"></div>
+</section>
+
+<script>
+(function () {
+  const container = document.getElementById('ii-content');
+
+  function formatDate(iso) {
+    return new Date(iso).toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric', year: 'numeric'
+    });
+  }
+
+  const mq = window.matchMedia('(width > 700px)');
+  const widgets = document.querySelector('.ma-layout-widgets');
+  const snapping = document.querySelector('[data-grid-area="snapping"]');
+
+  function syncPostingHeight() {
+    if (!mq.matches || !widgets) return;
+    widgets.style.setProperty('--posting-max-height', `${widgets.offsetHeight}px`);
+  }
+
+  if (snapping) new ResizeObserver(syncPostingHeight).observe(snapping);
+  mq.addEventListener('change', syncPostingHeight);
+
+  fetch('/api/insta-idol-status')
+    .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(({ photo }) => {
+      container.innerHTML = `
+        <figure class="ma-stack">
+          <div class="ma-photo">
+            <a href="${photo.url}" target="_blank" rel="noopener">
+              <img src="${photo.thumbnail}" alt="${photo.title}" fetchpriority="high">
+            </a>
+          </div>
+          <figcaption class="ma-text-sm ma-surface ma-inset-square-8">
+            <p>${photo.title}</p>
+            <div class="ma-space-between">
+              <span class="ma-text-subdued">${formatDate(photo.date)}</span>
+              <div class="ma-text-xs ma-text-subdued">
+                <a href="https://insta-idol.mikeaparicio.com" class="ma-text-inherit">Insta-Idol</a>
+              </div>
+            </div>
+          </figcaption>
+        </figure>`;
+    })
+    .catch((err) => {
+      container.innerHTML = 'Could not load photo.';
+      console.error('[insta-idol-widget]', err);
+    });
+}());
+</script>

@@ -1,0 +1,35 @@
+.ma-nav-list {
+  @extend .ma-flex;
+  justify-content: center;
+  align-items: end;
+  a {
+    --padding-inline: #{$space-8};
+    font-family: var(--font-family-heading, #{$font-family-heading});
+    font-size: $font-size-sm;
+    font-weight: $font-weight-body;
+    color: var(--color-text-subdued, #{$color-text-subdued});
+    text-decoration: none;
+    padding: var(--padding-inline);
+    position: relative;
+    &[aria-current="page"]::after {
+      content: "";
+      position: absolute;
+      inset-inline: var(--padding-inline);
+      bottom: 2px;
+      height: 2px;
+      background-color: var(--color-text-interactive, #{$color-text-interactive});
+    }
+    &:not([aria-current="page"]):hover {
+      color: var(--color-text-interactive, #{$color-text-interactive});
+    }
+  }
+}
+@media (width > 700px) {
+  .ma-nav-list {
+    justify-content: end;
+    a {
+      --padding-inline: #{$space-16};
+      padding: $space-8 var(--padding-inline);
+    }
+  }
+}

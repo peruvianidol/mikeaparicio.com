@@ -1,0 +1,40 @@
+:where(.ma-flow) {
+  --flow-size: #{$space-16};
+  > :not(:last-child) {
+    margin-block-end: var(--flow-size);
+  }
+}
+
+.ma-stack {
+  margin-block-end: $space-16;
+}
+
+.ma-stack-4 {
+  margin-block-end: $space-4;
+}
+
+.ma-stack-8 {
+  margin-block-end: $space-8;
+}
+
+.ma-stack-24 {
+  margin-block-end: $space-24;
+}
+
+.ma-stack-32 {
+  margin-block-end: $space-32;
+}
+
+.ma-inset-square {
+  --inset-size: #{$space-16};
+  padding: var(--inset-size);
+}
+
+.ma-inset-square-8 {
+  padding: $space-8;
+}
+
+.ma-inset-block {
+  --inset-size: #{$space-16};
+  padding-block: var(--inset-size);
+}

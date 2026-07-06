@@ -1,0 +1,13 @@
+.ma-button {
+  background-color: $color-surface-interactive;
+  color: $color-text-inverse;
+  font-weight: $font-weight-strong;
+  padding: $space-8 $space-16;
+  border: 1px solid transparent;
+  border-radius: $radius-sm;
+  text-decoration: none;
+  &:hover,
+  &:focus-visible {
+    background-color: $color-surface-interactive-hover;
+  }
+}
