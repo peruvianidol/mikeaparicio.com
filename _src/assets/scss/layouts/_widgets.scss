@@ -19,6 +19,9 @@
       scrollbar-color: var(--color-surface-elevated, #{$color-surface-elevated}) var(--color-surface-body, #{$color-surface-body});
       scrollbar-width: thin;
       max-height: var(--posting-max-height, 867px);
+      img {
+        width: 100%;
+      }
     }
     &::-webkit-scrollbar {
       width: $space-8;
