@@ -17,12 +17,12 @@ function videoShortcode(url, caption = null) {
   return `<figure><video preload="auto" aria-label="Embedded video" src="${url}" type="video/mp4" playsinline disablePictureInPicture controls></video>${figcaption}</figure>`;
 }
 
-async function imageShortcode(src, alt, caption = null, figureClass = null, figureStyle = null, sizes = "(min-width: 700px) 700px, 100vw") {
+async function imageShortcode(src, alt, caption = null, figureClass = null, figureStyle = null, sizes = "(min-width: 700px) 700px, 100vw", imgClass = null, imgStyle = null) {
   const classAttr = figureClass ? ` class="${figureClass}"` : "";
   const styleAttr = figureStyle ? ` style="${figureStyle}"` : "";
 
   if (src.toLowerCase().endsWith(".gif")) {
-    const imgHTML = `<img src="/assets/images/${src}" alt="${alt}" loading="lazy" decoding="async">`;
+    const imgHTML = `<img src="/assets/images/${src}" alt="${alt}" loading="lazy" decoding="async"${imgClass ? ` class="${imgClass}"` : ""}${imgStyle ? ` style="${imgStyle}"` : ""}>`;
     if (!caption) return imgHTML;
     return `<figure${classAttr}${styleAttr}>${imgHTML}<figcaption>${caption}</figcaption></figure>`;
   }
@@ -50,6 +50,8 @@ async function imageShortcode(src, alt, caption = null, figureClass = null, figu
     loading: "lazy",
     decoding: "async",
   };
+  if (imgClass) imageAttributes.class = imgClass;
+  if (imgStyle) imageAttributes.style = imgStyle;
 
   const imgHTML = Image.generateHTML(metadata, imageAttributes);
   if (!caption) return imgHTML;
