@@ -20,15 +20,35 @@
 
   const mq = window.matchMedia('(width > 700px)');
   const widgets = document.querySelector('.ma-layout-widgets');
-  const snapping = document.querySelector('[data-grid-area="snapping"]');
 
-  function syncPostingHeight() {
-    if (!mq.matches || !widgets) return;
-    widgets.style.setProperty('--posting-max-height', `${widgets.offsetHeight}px`);
+  // Deferred to DOMContentLoaded: this script runs before the later
+  // watching/playing/listening widgets (included further down the page)
+  // have been parsed, so querying for them here would return null.
+  function setupPostingHeightSync() {
+    const snapping = document.querySelector('[data-grid-area="snapping"]');
+    const watching = document.querySelector('[data-grid-area="watching"]');
+    const playing = document.querySelector('[data-grid-area="playing"]');
+    const listening = document.querySelector('[data-grid-area="listening"]');
+
+    function syncPostingHeight() {
+      if (!mq.matches || !widgets) return;
+      const gap = parseFloat(getComputedStyle(widgets).rowGap) || 0;
+      const rowTwoHeight = Math.max(watching?.offsetHeight ?? 0, playing?.offsetHeight ?? 0);
+      const total = (snapping?.offsetHeight ?? 0) + rowTwoHeight + (listening?.offsetHeight ?? 0) + gap * 2;
+      widgets.style.setProperty('--posting-max-height', `${total}px`);
+    }
+
+    [snapping, watching, playing, listening].forEach((el) => {
+      if (el) new ResizeObserver(syncPostingHeight).observe(el);
+    });
+    mq.addEventListener('change', syncPostingHeight);
   }
 
-  if (snapping) new ResizeObserver(syncPostingHeight).observe(snapping);
-  mq.addEventListener('change', syncPostingHeight);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupPostingHeightSync);
+  } else {
+    setupPostingHeightSync();
+  }
 
   fetch('/api/insta-idol-status')
     .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
