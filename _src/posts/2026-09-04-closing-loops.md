@@ -6,7 +6,7 @@ thumbnail: loops-kitchen.jpg
 thumbnailAlt: My clean kitchen after closing all the loops.
 tags:
   - Life
-bskyPostUrl: 
+bskyPostUrl: https://bsky.app/profile/peruvianidol.com/post/3mupititljc22
 ---
 
 Three months ago, for reasons I won’t get into, I found myself suddenly taking care of my two sons by myself. More recently I became unemployed. You’ve heard of Dual Income, No Kids? I’m doing Dual Kids, No Income. 
